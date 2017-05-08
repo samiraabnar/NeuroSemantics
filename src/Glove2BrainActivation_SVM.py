@@ -1,8 +1,9 @@
 from sklearn.svm import SVR
 from scipy.spatial import *
 import csv
-from src.functions import *
-from src.WordEmbeddingLayer import  *
+from functions import *
+from WordEmbeddingLayer import  *
+import numpy as np
 
 if __name__ == '__main__':
 
@@ -40,10 +41,9 @@ if __name__ == '__main__':
     all_selected = np.load("../models/all_selected_simple.npy")
     """
 
-    #selected = np.load("general_selected_100.npy")
-    #selected = select_stable_voxels(brain_activations,word_set,words)
-    #np.save("general_selected_500.npy",selected)
-    selected = np.load("general_selected_500.npy")
+    selected = select_stable_voxels(brain_activations,word_set,words)
+    np.save("../models/general_selected_500.npy",selected)
+    selected = np.load("../models/general_selected_500.npy")
 
     the_pairs = np.load("../models/the_pairs_simple.npy")
 
@@ -109,9 +109,9 @@ if __name__ == '__main__':
             predicted_1.append(model[h].predict(np.asarray([np.asarray(word_representations)[i]])))
             predicted_2.append(model[h].predict(np.asarray([np.asarray(word_representations)[j]])))
 
-        result_1 = avereaged_match_prediction(predicted_1[0], predicted_2[0], (i, j), avg_all_activations_dic,
+        result_1 = avereaged_match_prediction(predicted_1, predicted_2, (i, j), avg_all_activations_dic,
                                               word_set)
-        result_2 = avereaged_match_prediction(predicted_1[0], predicted_2[0], (i, j), all_activations,
+        result_2 = avereaged_match_prediction(predicted_1, predicted_2, (i, j), all_activations,
                                               word_set)
         results_average.append(result_1)
         results_all.append(result_2)

@@ -7,8 +7,8 @@ from matplotlib import offsetbox
 from scipy.spatial import *
 from sklearn import manifold
 
-from src.functions import *
-from src.WordEmbeddingLayer import  *
+from functions import *
+from WordEmbeddingLayer import  *
 
 if __name__ == '__main__':
 

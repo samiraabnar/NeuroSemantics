@@ -6,53 +6,10 @@ from keras.models import Sequential
 from matplotlib import offsetbox
 from scipy.spatial import *
 from sklearn import manifold
+import numpy as np
 
-from src.functions import *
-from src.WordEmbeddingLayer import  *
-
-def plot_embedding(features, classes, labels, title=None):
-    x_min, x_max = np.min(features, 0), np.max(features, 0)
-    features = (features - x_min) / (x_max - x_min)
-
-    plt.figure()
-    ax = plt.subplot(111)
-    for i in range(features.shape[0]):
-        plt.text(features[i, 0], features[i, 1], str(labels[i]),
-                 color=plt.cm.Set1(float(classes[i] / 60)),
-                 fontdict={'weight': 'bold', 'size': 9})
-
-    if hasattr(offsetbox, 'AnnotationBbox'):
-        # only print thumbnails with matplotlib > 1.0
-        shown_images = np.array([[1., 1.]])  # just something big
-        for i in range(features.shape[0]):
-            dist = np.sum((features[i] - shown_images) ** 2, 1)
-            # if np.min(dist) < 4e-3:
-            # don't show points that are too close
-            #    continue
-            shown_images = np.r_[shown_images, [features[i]]]
-            """imagebox = offsetbox.AnnotationBbox(
-                offsetbox.OffsetImage(digits.images[i], cmap=plt.cm.gray_r),
-                X[i])
-            ax.add_artist(imagebox)"""
-    plt.xticks([]), plt.yticks([])
-    if title is not None:
-        plt.title(title)
-
-
-def plot_distribution_t_sne(activations, words, labels):
-    print("Computing t-SNE embedding")
-
-    x = np.asarray(activations)
-    # x = preprocessing.normalize(x, norm='l2')
-
-    tsne = manifold.TSNE(n_components=2, init='pca', perplexity=2, n_iter=20000, early_exaggeration=10,
-                         learning_rate=300, method="exact")
-    x_tsne = tsne.fit_transform(x)
-
-    plot_embedding(x_tsne, np.asarray(words), labels,
-                   "t-SNE embedding of the brain activations")
-
-    plt.show()
+from functions import *
+from WordEmbeddingLayer import  *
 
 
 if __name__ == '__main__':

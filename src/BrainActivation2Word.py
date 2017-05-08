@@ -69,13 +69,11 @@ for k in np.arange(len(the_pairs)):
 
     model = Sequential()
     model.add(Dense(input_dim=activations.shape[1],
-                    output_dim=500))
-    model.add(Dense(input_dim=500,
-                    output_dim=word_vectors.shape[1], activation='sigmoid'))
+                    output_dim=word_vectors.shape[1], activation='linear'))
 
-    rmsprop = keras.optimizers.RMSprop(lr=0.001)
+    rmsprop = keras.optimizers.RMSprop(lr=0.01)
     model.compile(rmsprop, "mse", metrics=['mse'])
-    model.fit(activations, word_vectors, batch_size=58, nb_epoch=100)
+    model.fit(activations, word_vectors, batch_size=29, nb_epoch=100)
 
     """w = model.layers[0].weights[0].eval()
 
