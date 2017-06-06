@@ -22,21 +22,25 @@ words.extend([w[0] for w in words_1])
 word_set = list(set(words))
 print("number of words: %d " % len(word_set))
 
-wem = WordEmbeddingLayer()
+"""wem = WordEmbeddingLayer()
 wem.load_filtered_embedding("../data/neuro_words")
+"""
 
-embedded_words = wem.embed_words(word_set)
-word_representations = embedded_words
+#embedded_words = wem.embed_words(word_set)
+#word_representations = embedded_words
 
-# dic,word_representations = get_word_representation("F25",words)
-# number_of_features = len(word_representations[0])
+dic,word_representations = get_word_representation("F25",words)
+number_of_features = len(word_representations[0])
 
 word_tree = cKDTree(word_representations)
 
 all_features = np.load("../models/all_features_simple.npy")
 the_pairs = np.load("../models/the_pairs_simple.npy")
 all_words = np.load("../models/all_words_simple.npy")
-all_selected = np.load("../models/all_selected_simple.npy")
+all_selected = select_stable_voxels(brain_activations_1,word_set,words,number_of_trials=6,
+                         size_of_selection=500)
+
+#np.load("../models/all_selected_simple.npy")
 
 results = []
 for k in np.arange(len(the_pairs)):
@@ -53,8 +57,8 @@ for k in np.arange(len(the_pairs)):
             if the_word not in activations.keys():
                 activations[the_word] = []
                 word_reps_index[the_word] = []
-            activations[the_word].append(brain_activations[x][all_selected[k]])
-            all_activations.append(brain_activations[x][all_selected[k]])
+            activations[the_word].append(brain_activations[x][all_selected])
+            all_activations.append(brain_activations[x][all_selected])
             word_reps_index[the_word].append(x)
         #word_vectors.append(word_representations[word_set.index(the_word)])
 
@@ -69,11 +73,13 @@ for k in np.arange(len(the_pairs)):
 
     model = Sequential()
     model.add(Dense(input_dim=activations.shape[1],
-                    output_dim=word_vectors.shape[1], activation='linear'))
+#                    output_dim=100))
+#    model.add(Dense(input_dim=100,
+                    output_dim=word_vectors.shape[1], activation='sigmoid'))
 
-    rmsprop = keras.optimizers.RMSprop(lr=0.01)
+    rmsprop = keras.optimizers.RMSprop(lr=0.001)
     model.compile(rmsprop, "mse", metrics=['mse'])
-    model.fit(activations, word_vectors, batch_size=29, nb_epoch=100)
+    model.fit(activations, word_vectors, batch_size=10, nb_epoch=200)
 
     """w = model.layers[0].weights[0].eval()
 
@@ -82,9 +88,9 @@ for k in np.arange(len(the_pairs)):
                cmap='gray')
     plt.show()"""
 
-    dd, ii = word_tree.query(model.predict(np.asarray([brain_activations[i][all_selected[k]]])))
-    print(str(ii[0]) + " " + str(i) + " " + word_set[i] + " " + word_set[ii[0]])
-    results.append(word_set[ii[0]] == word_set[i])
-    dd, ii = word_tree.query(model.predict(np.asarray([brain_activations[j][all_selected[k]]])))
-    results.append(word_set[ii[0]] == word_set[j])
+    dd, ii = word_tree.query(model.predict(np.asarray([brain_activations[i][all_selected]])))
+    print(str(ii[0]) + " " + str(i) + " " + words[i] + " " + words[ii[0]])
+    results.append(words[ii[0]] == words[i])
+    dd, ii = word_tree.query(model.predict(np.asarray([brain_activations[j][all_selected]])))
+    results.append(words[ii[0]] == words[j])
     print("Accuracy: " + str(sum(results) / len(results)))
