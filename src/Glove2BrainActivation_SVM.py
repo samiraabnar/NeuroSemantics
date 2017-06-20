@@ -7,7 +7,7 @@ import numpy as np
 
 if __name__ == '__main__':
 
-    brain_activations_1 = genfromtxt('../data/data.csv', delimiter=',')
+    brain_activations_1 = genfromtxt('../data/data_6.csv', delimiter=',')
     brain_activations = brain_activations_1
 
     words = []
@@ -41,9 +41,11 @@ if __name__ == '__main__':
     all_selected = np.load("../models/all_selected_simple.npy")
     """
 
-    selected = select_stable_voxels(brain_activations,word_set,words)
-    np.save("../models/general_selected_500.npy",selected)
-    selected = np.load("../models/general_selected_500.npy")
+    selected = select_stable_voxels(brain_activations,word_set,words,
+                         number_of_trials=6,
+                         size_of_selection=1000)
+    np.save("../models/general_selected_1000_6.npy",selected)
+    selected = np.load("../models/general_selected_1000_6.npy")
 
     the_pairs = np.load("../models/the_pairs_simple.npy")
 

@@ -114,10 +114,10 @@ def avereaged_match_prediction(predicted_1,predicted_2, pair,b_activations_dic,w
     mismached_score = []
     for i1 in i1s:
         for i2 in i2s:
-            cosin_1_1, cosin_1_2, cosin_2_1, cosin_2_2 = scipy.spatial.distance.cosine(predicted_1,i1), \
-                                                         scipy.spatial.distance.cosine(predicted_1,i2), \
-                                                         scipy.spatial.distance.cosine(predicted_2,i1), \
-                                                         scipy.spatial.distance.cosine(predicted_2,i2)
+            cosin_1_1, cosin_1_2, cosin_2_1, cosin_2_2 = scipy.spatial.distance.euclidean(predicted_1,i1), \
+                                                         scipy.spatial.distance.euclidean(predicted_1,i2), \
+                                                         scipy.spatial.distance.euclidean(predicted_2,i1), \
+                                                         scipy.spatial.distance.euclidean(predicted_2,i2)
 
             matched_score.append(cosin_1_1 + cosin_2_2)
             mismached_score.append(cosin_1_2 + cosin_2_1)

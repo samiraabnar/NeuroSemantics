@@ -22,14 +22,14 @@ words.extend([w[0] for w in words_1])
 word_set = list(set(words))
 print("number of words: %d " % len(word_set))
 
-"""wem = WordEmbeddingLayer()
+wem = WordEmbeddingLayer()
 wem.load_filtered_embedding("../data/neuro_words")
-"""
 
-#embedded_words = wem.embed_words(word_set)
-#word_representations = embedded_words
 
-dic,word_representations = get_word_representation("F25",words)
+embedded_words = wem.embed_words(word_set)
+word_representations = embedded_words
+
+#dic,word_representations = get_word_representation("F25",words)
 number_of_features = len(word_representations[0])
 
 word_tree = cKDTree(word_representations)
@@ -38,7 +38,7 @@ all_features = np.load("../models/all_features_simple.npy")
 the_pairs = np.load("../models/the_pairs_simple.npy")
 all_words = np.load("../models/all_words_simple.npy")
 all_selected = select_stable_voxels(brain_activations_1,word_set,words,number_of_trials=6,
-                         size_of_selection=500)
+                         size_of_selection=3000)
 
 #np.load("../models/all_selected_simple.npy")
 
@@ -75,9 +75,9 @@ for k in np.arange(len(the_pairs)):
     model.add(Dense(input_dim=activations.shape[1],
 #                    output_dim=100))
 #    model.add(Dense(input_dim=100,
-                    output_dim=word_vectors.shape[1], activation='sigmoid'))
+                    output_dim=word_vectors.shape[1], activation='linear'))
 
-    rmsprop = keras.optimizers.RMSprop(lr=0.001)
+    rmsprop = keras.optimizers.RMSprop(lr=0.0001)
     model.compile(rmsprop, "mse", metrics=['mse'])
     model.fit(activations, word_vectors, batch_size=10, nb_epoch=200)
 
