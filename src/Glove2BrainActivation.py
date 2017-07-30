@@ -6,6 +6,7 @@ from keras.models import Sequential
 from matplotlib import offsetbox
 from scipy.spatial import *
 from sklearn import manifold
+import numpy as np
 
 from functions import *
 from WordEmbeddingLayer import  *
@@ -75,7 +76,7 @@ if __name__ == '__main__':
     results_average = []
     results_all = []
 
-
+    voxel_accuracies = np.zeros(len(selected))
     # for each pair of words as the test test
     for k in np.arange(len(the_pairs)):
         (i, j) = the_pairs[k]
@@ -126,6 +127,20 @@ if __name__ == '__main__':
         print("Accuracy on average: " + str(sum(results_average) / len(results_average)))
         print("Accuracy on all: " + str(sum(results_all) / len(results_all)))
 
+        diff_1_1 = np.asarray(predicted_1)[:, 0] - np.asarray(avg_all_activations_dic[word_set[i]][0])
+        diff_1_2 = np.asarray(predicted_1)[:, 0] - np.asarray(avg_all_activations_dic[word_set[j]][0])
+        diff_2_2 = np.asarray(predicted_2)[:, 0] - np.asarray(avg_all_activations_dic[word_set[j]][0])
+        diff_2_1 = np.asarray(predicted_2)[:, 0] - np.asarray(avg_all_activations_dic[word_set[i]][0])
+
+        voxel_accuracies += (diff_1_1 + diff_2_2) < (diff_1_2 + diff_2_1)
+
+        if len(results_all) % 20 == 0:
+
+            from pylab import *
+
+            plot(np.arange(voxel_accuracies.shape[0]),np.sort(voxel_accuracies) / len(results_all))
+            grid(True)
+            show()
 
     # binary_crossentropy_loss: one layer average - Learning Rate - 0.001: 0.791525423729
     # binary_crossentropy_loss: one layer average - Learning Rate - 0.01:

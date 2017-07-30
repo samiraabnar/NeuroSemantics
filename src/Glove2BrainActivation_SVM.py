@@ -7,8 +7,9 @@ import numpy as np
 
 if __name__ == '__main__':
 
-    brain_activations_1 = genfromtxt('../data/data_6.csv', delimiter=',')
+    brain_activations_1 = genfromtxt('../data/data_2.csv', delimiter=',')
     brain_activations = brain_activations_1
+    brain_activations = np.tanh(brain_activations - np.mean(brain_activations,axis=0))
 
     words = []
     with open('../data/words', 'r') as f:
@@ -41,11 +42,12 @@ if __name__ == '__main__':
     all_selected = np.load("../models/all_selected_simple.npy")
     """
 
-    selected = select_stable_voxels(brain_activations,word_set,words,
+    """selected = select_stable_voxels(brain_activations,word_set,words,
                          number_of_trials=6,
-                         size_of_selection=1000)
-    np.save("../models/general_selected_1000_6.npy",selected)
-    selected = np.load("../models/general_selected_1000_6.npy")
+                        size_of_selection=100)
+    np.save("../models/general_selected_100_2.npy",selected)
+    """
+    selected = np.load("../models/general_selected_100_2.npy")
 
     the_pairs = np.load("../models/the_pairs_simple.npy")
 
@@ -72,6 +74,7 @@ if __name__ == '__main__':
     results_all = []
 
 
+    voxel_accuracies = np.zeros(len(selected))
     # for each pair of words as the test test
     for k in np.arange(len(the_pairs)):
         (i, j) = the_pairs[k]
@@ -108,11 +111,21 @@ if __name__ == '__main__':
             model[h] = SVR(C=1.0, epsilon=0.2)
             model[h].fit(training_words_all,training_activations_all[:,h])
 
-            predicted_1.append(model[h].predict(np.asarray([np.asarray(word_representations)[i]])))
-            predicted_2.append(model[h].predict(np.asarray([np.asarray(word_representations)[j]])))
+            predicted_1.append(np.tanh(model[h].predict(np.asarray([np.asarray(word_representations)[i]]))))
+            predicted_2.append(np.tanh(model[h].predict(np.asarray([np.asarray(word_representations)[j]]))))
+
+        diff_1_1 = np.asarray(predicted_1)[:,0] - np.asarray(avg_all_activations_dic[word_set[i]][0])
+        diff_1_2 = np.asarray(predicted_1)[:,0] - np.asarray(avg_all_activations_dic[word_set[j]][0])
+        diff_2_2 = np.asarray(predicted_2)[:,0] - np.asarray(avg_all_activations_dic[word_set[j]][0])
+        diff_2_1 = np.asarray(predicted_2)[:,0] - np.asarray(avg_all_activations_dic[word_set[i]][0])
+
+        voxel_accuracies += (diff_1_1 + diff_2_2) < (diff_1_2+diff_2_1)
+
+
 
         result_1 = avereaged_match_prediction(predicted_1, predicted_2, (i, j), avg_all_activations_dic,
                                               word_set)
+
         result_2 = avereaged_match_prediction(predicted_1, predicted_2, (i, j), all_activations,
                                               word_set)
         results_average.append(result_1)
@@ -120,7 +133,15 @@ if __name__ == '__main__':
         print("Accuracy on average: " + str(sum(results_average) / len(results_average)))
         print("Accuracy on all: " + str(sum(results_all) / len(results_all)))
 
+        """
+        if len(results_all) % 20 == 0:
 
+            from pylab import *
+
+            plot(np.arange(len(voxel_accuracies)),voxel_accuracies / len(results_all))
+            grid(True)
+            show()
+        """
     # sigmoid: train on average - Accuracy on all: 0.736723163842
     # sigmoid: train on all - Accuracy on all: 0.800564971751
     # not sigmoid - train on all - accuracy on all: 0.79604519774
