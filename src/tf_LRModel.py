@@ -15,11 +15,11 @@ from sklearn.model_selection import KFold, cross_val_score
 class LRModel(object):
     LOGDIR = './LRModel_graphs'
 
-    def __init__(self, input_dim, output_dim, hidden_dim=50, training_steps=300):
+    def __init__(self, input_dim, output_dim, hidden_dim=50, training_steps=400):
         self.input_dim = input_dim
         self.output_dim = output_dim
         self.hidden_dim = hidden_dim
-        self.learning_rate = 0.09
+        self.learning_rate = 0.03
         self.training_steps = training_steps
 
         tf.reset_default_graph()
@@ -40,9 +40,9 @@ class LRModel(object):
             #self.W_2 = tf.Variable(tf.random_uniform([self.hidden_dim, self.output_dim], minval=-.1, maxval=.1),
             #                       name='W_2')
             #self.bias_2 = tf.Variable(tf.zeros([self.output_dim]), name='bias_2')
-            dropped_input = tf.nn.dropout(self.word_representation, .8)
+            dropped_input = tf.nn.dropout(self.word_representation, .75)
             # This is the same as y = tf.add(tf.mul(m, x_placeholder), b), but looks nicer
-            self.h = tf.nn.dropout(tf.matmul(dropped_input, self.W_1) + self.bias_1, 1)
+            self.h = tf.nn.dropout(tf.matmul(dropped_input, self.W_1) + self.bias_1, 0.9)
             self.y = tf.tanh(self.h)
 
             self.h_test = tf.matmul(self.word_representation, self.W_1) + self.bias_1
@@ -65,7 +65,7 @@ class LRModel(object):
                 self.optimizer = tf.train.MomentumOptimizer(self.learning_rate, momentum=0.9)
                 self.train_op = self.optimizer.minimize(self.loss)
 
-        with tf.name_scope("evaluation"):
+        """with tf.name_scope("evaluation"):
             with tf.name_scope("test_accuracy"):
                 p1 = tf.matmul(
                     tf.expand_dims(tf.reduce_sum(tf.square(self.y_test), 1), 1),
@@ -84,7 +84,7 @@ class LRModel(object):
                 min_indices = tf.argmin(dists_matrix, dimension=1)
                 correct_max_indices = 1 - tf.minimum(tf.abs(min_indices - np.arange(2)), 1)
                 self.accuracy_test = tf.reduce_min(correct_max_indices)
-
+            """
 
 
                 # Attach summaries to Tensors (for TensorBoard visualization)
@@ -123,7 +123,7 @@ class LRModel(object):
                 # self.writer.add_summary(summary_result, step)
 
             # Uncomment the following two lines to watch training happen real time.
-            if step % 50 == 0:
+            if step % 100 == 0:
                 print(step, self.sess.run([self.loss], feed_dict={self.word_representation: x_train,
                                                                   self.brain_representation: y_train}))
                 # self.test(x_test,y_test)
@@ -133,7 +133,7 @@ class LRModel(object):
 
     def test(self, x_test, y_test):
 
-        y,loss, acc = self.sess.run([self.y,self.loss_test, self.accuracy_test], feed_dict={self.word_representation: x_test,
+        y,loss = self.sess.run([self.y,self.loss_test], feed_dict={self.word_representation: x_test,
 
                                                                                  self.brain_representation: y_test})
 
@@ -144,9 +144,9 @@ class LRModel(object):
 
         acc2 =  (dist_1_1 + dist_2_2) < (dist_1_2+dist_2_1)
 
-        print("test loss, accuracy: ", loss, acc,acc2)
+        print("test loss, accuracy: ", loss,acc2)
 
-        return loss, acc, acc2
+        return loss, acc2
 
     @staticmethod
     def make_noisy_data(w=0.1, b=0.3, shape=(100, 2)):
@@ -222,7 +222,7 @@ if __name__ == '__main__':
         print("y_test shape: " + str(y_test.shape))
         lrm = LRModel(x_train.shape[1], y_train.shape[1],hidden_dim=y_train.shape[1])
         lrm.train(x_train=x_train, y_train=y_train, x_test=x_test, y_test=y_test)
-        loss, acc, acc2 = lrm.test(x_test=x_test, y_test=y_test)
+        loss, acc2 = lrm.test(x_test=x_test, y_test=y_test)
         lrm.sess.close()
         accuracies.append(acc2)
 
