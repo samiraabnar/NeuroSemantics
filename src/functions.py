@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib import offsetbox
 from sklearn import manifold
 import numpy as np
+import csv
 
 def select_stable_voxels(the_brain_activations, words, allwords,
                          number_of_trials=6,
@@ -45,7 +46,7 @@ def get_pairs(num):
 def get_word_representation(type,words):
     word_features = {}
     features = []
-    if type == "F25":
+    if type == 'F25':
         with open("../data/F25/word_features.txt") as f:
             content = f.readlines()
             for line in content:
@@ -56,6 +57,21 @@ def get_word_representation(type,words):
                 features.append(word_features[words[i]])
             else:
                 features.append(np.zeros(len(list(word_features.values())[0])))
+    elif type == 'experimental':
+        with open("../data/experimental_wordFeatures.csv") as f:
+            read_features= list(csv.reader(f))
+            features = np.asarray([np.asarray(fit) for fit in read_features])
+        for i in np.arange(len(words)):
+            word_features[words[i]] = features[i]
+    elif type == 'deps':
+        feature_words = np.load("../data/filtered_deps_words.npy")
+        the_features = np.load("../data/filtered_deps_vecs.npy")
+        for i in np.arange(len(words)):
+            index = np.where(feature_words == words[i])[0]
+            word_features[words[i]] = the_features[index]
+            features.append(the_features[index])
+
+        features = np.asarray(features).reshape(len(features),the_features[0].shape[0])
 
     return word_features, features
 

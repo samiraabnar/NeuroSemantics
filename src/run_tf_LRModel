@@ -1,0 +1,6 @@
+#!/bin/bash
+
+start "" 
+python3 tf_main.py --subject 1
+python3 tf_main.py --subject 2
+python3 tf_main.py --subject 3

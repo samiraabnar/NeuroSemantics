@@ -1,0 +1,12 @@
+python3 tf_main_expeerimental.py --subject 1 > experiential_sub1 &
+python3 tf_main_expeerimental.py --subject 2 > experiential_sub2 &
+wait
+python3 tf_main_expeerimental.py --subject 3 > experiential_sub3 &
+python3 tf_main_expeerimental.py --subject 4 > experiential_sub4 &
+python3 tf_main_expeerimental.py --subject 5 > experiential_sub5 &
+wait
+python3 tf_main_expeerimental.py --subject 6 > experiential_sub6 &
+python3 tf_main_expeerimental.py --subject 7 > experiential_sub7 &
+wait
+python3 tf_main_expeerimental.py --subject 8 > experiential_sub8 &
+python3 tf_main_expeerimental.py --subject 9 > experiential_sub9 &
