@@ -71,7 +71,7 @@ def get_word_representation(type,words):
             word_features[words[i]] = the_features[index]
             features.append(the_features[index])
 
-        features = np.asarray(features).reshape(len(features),the_features[0].shape[0])
+        features = np.asarray(features,dtype="float32").reshape(len(features),the_features[0].shape[0])
 
     return word_features, features
 

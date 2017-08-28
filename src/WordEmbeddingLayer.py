@@ -46,7 +46,11 @@ class WordEmbeddingLayer(object):
         self.vec2word = {}
 
         with open(filename,'r') as gfile:
+            firstLine = True
             for line in gfile:
+                if firstLine:
+                    firstLine = False
+                    continue
                 parts = line.split()
                 i = 0
                 word = ''
@@ -141,13 +145,24 @@ if __name__ == '__main__':
     import csv
 
     wem = WordEmbeddingLayer()
+
     words = []
     with open('../data/words', 'r') as f:
         reader = csv.reader(f)
         words = list(reader)
 
+    """
     print(words[0][0])
     wem.load_embeddings_from_glove_file(filename="../data/glove.840B.300d.txt",filter = [word[0] for word in words])
 
+    wem.save_embedding("../data/neuro_words")
+    """
 
-    wem.save_embedding("../data/neuro_words");
+    wem.load_embeddings_from_fasttext_file("../data/wiki.en/wiki.en.vec",filter = [word[0] for word in words])
+    wem.save_embedding("../data/neuro_words_fasttext")
+
+
+
+
+
+

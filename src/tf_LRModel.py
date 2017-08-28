@@ -95,6 +95,7 @@ class LRModel(object):
 
                 # This op will calculate our summary data when run
                 # self.summary_op = tf.summary.merge_all()
+        self.saver = tf.train.Saver()
 
     def train(self, x_train, y_train, x_test, y_test):
 
@@ -202,6 +203,10 @@ class LRModel(object):
             wem = WordEmbeddingLayer()
             wem.load_filtered_embedding("../data/neuro_words")
             embedded_words = wem.embed_words(words)
+        elif type == 'fasttext':
+            wem = WordEmbeddingLayer()
+            wem.load_filtered_embedding("../data/neuro_words_fasttext")
+            embedded_words = wem.embed_words(words)
         elif type == 'experimental':
             embedding_dic, embedded_words = get_word_representation(type='experimental',words=word_set)
         elif type == 'deps':
@@ -213,5 +218,14 @@ class LRModel(object):
         word_representations = np.asarray(embedded_words)
 
         return words, np.asarray(word_representations), np.asarray(mean_Activations)[:, selected]
+
+
+    def save_model(self,name):
+        save_path = self.saver.save(self.sess, name)
+        print("Model saved in file: %s" % save_path)
+
+    def load_model(self,name):
+        self.saver.restore(self.sess, name)
+        print("Model restored.")
 
 
