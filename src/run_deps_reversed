@@ -1,0 +1,13 @@
+python3 tf_main_reversed_deps.py --subject 1 > res_deps_reversed_sub1 &
+python3 tf_main_reversed_deps.py --subject 1 > res_deps_reversed_sub2 &
+wait
+python3 tf_main_reversed_deps.py --subject 1 > res_deps_reversed_sub3 &
+python3 tf_main_reversed_deps.py --subject 1 > res_deps_reversed_sub4 &
+wait
+python3 tf_main_reversed_deps.py --subject 1 > res_deps_reversed_sub5 &
+python3 tf_main_reversed_deps.py --subject 1 > res_deps_reversed_sub6 &
+wait
+python3 tf_main_reversed_deps.py --subject 1 > res_deps_reversed_sub7 &
+python3 tf_main_reversed_deps.py --subject 1 > res_deps_reversed_sub8 &
+python3 tf_main_reversed_deps.py --subject 1 > res_deps_reversed_sub9 &
+wait
