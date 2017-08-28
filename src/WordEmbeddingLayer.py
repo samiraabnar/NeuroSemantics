@@ -41,6 +41,30 @@ class WordEmbeddingLayer(object):
 
 
 
+    def load_embeddings_from_fasttext_file(self,filename,filter):
+        self.word2vec = {}
+        self.vec2word = {}
+
+        with open(filename,'r') as gfile:
+            for line in gfile:
+                parts = line.split()
+                i = 0
+                word = ''
+                while not MathUtil.is_float(parts[i]):
+                    word += " "+parts[i]
+                    i += 1
+                word = word.strip().lower()
+                if (len(filter) == 0) or (word in filter):
+                    vector = [float(p) for p in parts[i:]]
+                    vector = np.asarray(vector)
+                    self.word2vec[word] = vector
+                    self.vec2word[vector.tostring()] = word
+        print(self.word2vec.keys())
+        print(list(self.word2vec.keys())[0])
+        self.word2vec['UNK'] = np.zeros(self.word2vec[list(self.word2vec.keys())[0]].shape)
+        self.vec2word[self.word2vec['UNK'].tostring()] = "UNK"
+
+
     def save_embedding(self,filename):
         with open(filename+"_word2vec.pkl","wb") as f:
             pickle.dump(self.word2vec,f)
