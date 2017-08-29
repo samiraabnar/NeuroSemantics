@@ -41,6 +41,29 @@ class WordEmbeddingLayer(object):
 
 
 
+    def load_embeddings_from_word2vex(self,filename,filter):
+        self.word2vec = {}
+        self.vec2word = {}
+
+        with open(filename,'r') as gfile:
+            for line in gfile:
+                parts = line.split()
+                i = 0
+                word = ''
+                while not MathUtil.is_float(parts[i]):
+                    word += " "+parts[i]
+                    i += 1
+                word = word.strip().lower()
+                if (len(filter) == 0) or (word in filter):
+                    vector = [float(p) for p in parts[i:]]
+                    vector = np.asarray(vector)
+                    self.word2vec[word] = vector
+                    self.vec2word[vector.tostring()] = word
+        print(self.word2vec.keys())
+        print(list(self.word2vec.keys())[0])
+        self.word2vec['UNK'] = np.zeros(self.word2vec[list(self.word2vec.keys())[0]].shape)
+        self.vec2word[self.word2vec['UNK'].tostring()] = "UNK"
+
     def load_embeddings_from_fasttext_file(self,filename,filter):
         self.word2vec = {}
         self.vec2word = {}
@@ -68,6 +91,33 @@ class WordEmbeddingLayer(object):
         self.word2vec['UNK'] = np.zeros(self.word2vec[list(self.word2vec.keys())[0]].shape)
         self.vec2word[self.word2vec['UNK'].tostring()] = "UNK"
 
+
+    def load_embeddings_from_lexvec_file(self,filename,filter):
+        self.word2vec = {}
+        self.vec2word = {}
+
+        with open(filename,'r') as gfile:
+            firstLine = True
+            for line in gfile:
+                if firstLine:
+                    firstLine = False
+                    continue
+                parts = line.split()
+                i = 0
+                word = ''
+                while not MathUtil.is_float(parts[i]):
+                    word += " "+parts[i]
+                    i += 1
+                word = word.strip().lower()
+                if (len(filter) == 0) or (word in filter):
+                    vector = [float(p) for p in parts[i:]]
+                    vector = np.asarray(vector)
+                    self.word2vec[word] = vector
+                    self.vec2word[vector.tostring()] = word
+        print(self.word2vec.keys())
+        print(list(self.word2vec.keys())[0])
+        self.word2vec['UNK'] = np.zeros(self.word2vec[list(self.word2vec.keys())[0]].shape)
+        self.vec2word[self.word2vec['UNK'].tostring()] = "UNK"
 
     def save_embedding(self,filename):
         with open(filename+"_word2vec.pkl","wb") as f:
@@ -158,9 +208,43 @@ if __name__ == '__main__':
     wem.save_embedding("../data/neuro_words")
     """
 
+    """
     wem.load_embeddings_from_fasttext_file("../data/wiki.en/wiki.en.vec",filter = [word[0] for word in words])
     wem.save_embedding("../data/neuro_words_fasttext")
+    """
 
+    """
+    wem.load_embeddings_from_fasttext_file("../data/lexvec.enwiki+newscrawl.300d.W.pos.vectors", filter=[word[0] for word in words])
+    wem.save_embedding("../data/neuro_words_lexvec")"""
+
+    word2vec = {}
+    vec2word = {}
+    
+    filter = [word[0] for word in words]
+    with open("", 'r') as gfile:
+        for line in gfile:
+            parts = line.split()
+            i = 0
+            word = ''
+            while not MathUtil.is_float(parts[i]):
+                word += " " + parts[i]
+                i += 1
+            word = word.strip().lower()
+            if (len(filter) == 0) or (word in filter):
+                vector = [float(p) for p in parts[i:]]
+                vector = np.asarray(vector)
+                word2vec[word] = vector
+                vec2word[vector.tostring()] = word
+    print(word2vec.keys())
+    print(list(word2vec.keys())[0])
+    word2vec['UNK'] = np.zeros(word2vec[list(word2vec.keys())[0]].shape)
+    vec2word[word2vec['UNK'].tostring()] = "UNK"
+
+    with open("../data/neuro_words_nd" + "_word2vec.pkl", "wb") as f:
+        pickle.dump(word2vec, f)
+
+    with open("../data/neuro_words_nd" + "_vec2word.pkl", "wb") as f:
+        pickle.dump(vec2word, f)
 
 
 

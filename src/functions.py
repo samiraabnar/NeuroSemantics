@@ -72,6 +72,18 @@ def get_word_representation(type,words):
             features.append(the_features[index])
 
         features = np.asarray(features,dtype="float32").reshape(len(features),the_features[0].shape[0])
+    elif type == 'non-distributional':
+        with open("../data/non-dist.bin") as f:
+            content = f.readlines()
+            for line in content:
+                parts = line.split(" ")
+                word_features[parts[0]] = [ float(p) for p in parts[1:]]
+        for i in np.arange(len(words)):
+            if words[i] in word_features.keys():
+                features.append(word_features[words[i]])
+            else:
+                features.append(np.zeros(len(list(word_features.values())[0])))
+
 
     return word_features, features
 
