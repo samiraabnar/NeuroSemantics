@@ -219,7 +219,7 @@ if __name__ == '__main__':
 
     word2vec = {}
     vec2word = {}
-    
+
     filter = [word[0] for word in words]
     with open("", 'r') as gfile:
         for line in gfile:
