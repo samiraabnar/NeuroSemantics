@@ -1,0 +1,13 @@
+python3 tf_main_reversed_F25.py --subject 1 > res_F25_reversed_sub1 &
+python3 tf_main_reversed_F25.py --subject 2 > res_F25_reversed_sub2 &
+wait
+python3 tf_main_reversed_F25.py --subject 3 > res_F25_reversed_sub3 &
+python3 tf_main_reversed_F25.py --subject 4 > res_F25_reversed_sub4 &
+wait
+python3 tf_main_reversed_F25.py --subject 5 > res_F25_reversed_sub5 &
+python3 tf_main_reversed_F25.py --subject 6 > res_F25_reversed_sub6 &
+wait
+python3 tf_main_reversed_F25.py --subject 7 > res_F25_reversed_sub7 &
+python3 tf_main_reversed_F25.py --subject 8 > res_F25_reversed_sub8 &
+python3 tf_main_reversed_F25.py --subject 9 > res_F25_reversed_sub9 &
+wait
