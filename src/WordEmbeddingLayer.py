@@ -217,11 +217,14 @@ if __name__ == '__main__':
     wem.load_embeddings_from_fasttext_file("../data/lexvec.enwiki+newscrawl.300d.W.pos.vectors", filter=[word[0] for word in words])
     wem.save_embedding("../data/neuro_words_lexvec")"""
 
+
+    import gzip
+
     word2vec = {}
     vec2word = {}
 
     filter = [word[0] for word in words]
-    with open("", 'r') as gfile:
+    with gzip.open("../data/binary-vectors.txt.gz", 'rt') as gfile:
         for line in gfile:
             parts = line.split()
             i = 0
