@@ -1,0 +1,12 @@
+python3 tf_main_lexvec.py --subject 1 > res_lexvec_sub1 &
+python3 tf_main_lexvec.py --subject 2 > res_lexvec_sub2 &
+wait
+python3 tf_main_lexvec.py --subject 3 > res_lexvec_sub3 &
+python3 tf_main_lexvec.py --subject 4 > res_lexvec_sub4 &
+wait
+python3 tf_main_lexvec.py --subject 5 > res_lexvec_sub5 &
+python3 tf_main_lexvec.py --subject 6 > res_lexvec_sub6 &
+wait
+python3 tf_main_lexvec.py --subject 7 > res_lexvec_sub7 &
+python3 tf_main_lexvec.py --subject 8 > res_lexvec_sub8 &
+python3 tf_main_lexvec.py --subject 9 > res_lexvec_sub9 &
