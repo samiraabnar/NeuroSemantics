@@ -218,7 +218,9 @@ class LRModel(object):
         elif type == 'F25':
             embedding_dic, embedded_words = get_word_representation(type='F25', words=word_set)
         elif type == 'non-distributional':
-            embedding_dic, embedded_words = get_word_representation(type='non-distributional', words=word_set)
+            wem = WordEmbeddingLayer()
+            wem.load_filtered_embedding("../data/neuro_words_cnd")
+            embedded_words = wem.embed_words(words)
 
 
         word_representations = np.asarray(embedded_words)
