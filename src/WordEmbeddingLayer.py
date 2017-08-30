@@ -223,6 +223,7 @@ if __name__ == '__main__':
     word2vec = {}
     vec2word = {}
 
+    """
     filter = [word[0] for word in words]
     with gzip.open("../data/binary-vectors.txt.gz", 'rt') as gfile:
         for line in gfile:
@@ -243,13 +244,31 @@ if __name__ == '__main__':
     word2vec['UNK'] = np.zeros(word2vec[list(word2vec.keys())[0]].shape)
     vec2word[word2vec['UNK'].tostring()] = "UNK"
 
+    
     with open("../data/neuro_words_nd" + "_word2vec.pkl", "wb") as f:
         pickle.dump(word2vec, f)
 
     with open("../data/neuro_words_nd" + "_vec2word.pkl", "wb") as f:
         pickle.dump(vec2word, f)
+    """
+
+    with open("../data/neuro_words_nd" + "_word2vec.pkl", "rb") as f:
+        word2vec = pickle.load(f)
 
 
+    selected_feature_index = np.where(np.sum(list(word2vec.values()),axis=1) > 0)
+
+    print(selected_feature_index)
+
+    for word in word2vec:
+        word2vec[word] = np.asarray(word2vec[word])[selected_feature_index]
+        vec2word[word2vec[word].tostring()] = word
+
+    with open("../data/neuro_words_cnd" + "_word2vec.pkl", "wb") as f:
+        pickle.dump(word2vec, f)
+
+    with open("../data/neuro_words_cnd" + "_vec2word.pkl", "wb") as f:
+        pickle.dump(vec2word, f)
 
 
 
