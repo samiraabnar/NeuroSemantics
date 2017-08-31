@@ -255,8 +255,8 @@ if __name__ == '__main__':
     with open("../data/neuro_words_nd" + "_word2vec.pkl", "rb") as f:
         word2vec = pickle.load(f)
 
-
-    selected_feature_index = np.where(np.sum(list(word2vec.values()),axis=1) > 0)
+    del word2vec["UNK"]
+    selected_feature_index = np.where(np.sum(list(word2vec.values()),axis=0) > 1)
 
     print(selected_feature_index)
 
