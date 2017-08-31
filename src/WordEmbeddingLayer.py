@@ -283,11 +283,12 @@ if __name__ == '__main__':
 
     """
     wem.load_embeddings_from_fasttext_file("../data/lexvec.enwiki+newscrawl.300d.W.pos.vectors", filter=[word[0] for word in words])
-    wem.save_embedding("../data/neuro_words_lexvec")"""
+    wem.save_embedding("../data/neuro_words_lexvec")
+    """
 
 
 
-    #convert_nnd()
+
 
 
     wem.load_embeddings_from_word2vec_file("../data/GoogleNews-vectors-negative300.bin",filter=[word[0] for word in words])
