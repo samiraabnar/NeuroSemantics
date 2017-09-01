@@ -124,10 +124,10 @@ class WordEmbeddingLayer(object):
         self.word2vec = {}
         self.vec2word = {}
 
-        with open(filename,'rt') as gfile:
+        with open(filename,'r') as gfile:
             firstLine = True
             for l in gfile:
-                line = l.decode('utf-8')
+                line = l
                 if firstLine:
                     firstLine = False
                     continue
@@ -291,7 +291,12 @@ if __name__ == '__main__':
 
 
 
-    wem.load_embeddings_from_word2vec_file("../data/GoogleNews-vectors-negative300.bin",filter=[word[0] for word in words])
-    wem.save_embedding("../data/neuro_words_word2vec")
+    """wem.load_embeddings_from_word2vec_file("../data/GoogleNews-vectors-negative300.txt",filter=[word[0] for word in words])
+    wem.save_embedding("../data/neuro_words_word2vec")"""
+
+    #2nd glove
+    wem.load_embeddings_from_glove_file(filename="../data/glove.6B.100d.txt", filter=[word[0] for word in words])
+
+    wem.save_embedding("../data/neuro_words_glove_6B_100d")
 
 

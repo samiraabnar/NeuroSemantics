@@ -1,0 +1,12 @@
+python3 tf_main_nondist_limited.py --subject 1 > res_nondist_limited_sub1 &
+python3 tf_main_nondist_limited.py --subject 2 > res_nondist_limited_sub2 &
+wait
+python3 tf_main_nondist_limited.py --subject 3 > res_nondist_limited_sub3 &
+python3 tf_main_nondist_limited.py --subject 4 > res_nondist_limited_sub4 &
+wait
+python3 tf_main_nondist_limited.py --subject 5 > res_nondist_limited_sub5 &
+python3 tf_main_nondist_limited.py --subject 6 > res_nondist_limited_sub6 &
+wait
+python3 tf_main_nondist_limited.py --subject 7 > res_nondist_limited_sub7 &
+python3 tf_main_nondist_limited.py --subject 8 > res_nondist_limited_sub8 &
+python3 tf_main_nondist_limited.py --subject 9 > res_nondist_limited_sub9 &
