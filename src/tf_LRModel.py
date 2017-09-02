@@ -201,7 +201,7 @@ class LRModel(object):
 
         if type == 'glove':
             wem = WordEmbeddingLayer()
-            wem.load_filtered_embedding("../data/neuro_words_glove_6B_100d") #neuro_words
+            wem.load_filtered_embedding("../data/neuro_words_glove_6B_300d") #neuro_words
             embedded_words = wem.embed_words(words)
         elif type == 'word2vec':
             wem = WordEmbeddingLayer()
