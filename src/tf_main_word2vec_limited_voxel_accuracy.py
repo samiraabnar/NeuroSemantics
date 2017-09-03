@@ -27,7 +27,7 @@ class ExpSetup(object):
 
 if __name__ == '__main__':
 
-    expSetup = ExpSetup(learning_rate=0.001,batch_size=29,number_of_epochs=10,mode="train")
+    expSetup = ExpSetup(learning_rate=0.001,batch_size=29,number_of_epochs=700,mode="train")
 
     fMRI_data_path = "../data/"
     fMRI_data_filename = "data_"
