@@ -1,5 +1,5 @@
 import argparse
-from tf_LRModel_reversed import *
+from tf_LRModel_reversed_GPU import *
 
 
 class ExpSetup(object):

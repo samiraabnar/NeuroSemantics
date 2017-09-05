@@ -1,0 +1,14 @@
+python3 tf_main_word2vec_gpu.py --subject 1 > res_word2vec_gpu_sub1 &
+python3 tf_main_word2vec_gpu.py --subject 2 > res_word2vec_gpu_sub2 &
+wait
+python3 tf_main_word2vec_gpu.py --subject 3 > res_word2vec_gpu_sub3 &
+python3 tf_main_word2vec_gpu.py --subject 4 > res_word2vec_gpu_sub4 &
+wait
+python3 tf_main_word2vec_gpu.py --subject 5 > res_word2vec_gpu_sub5 &
+python3 tf_main_word2vec_gpu.py --subject 6 > res_word2vec_gpu_sub6 &
+wait
+python3 tf_main_word2vec_gpu.py --subject 7 > res_word2vec_gpu_sub7 &
+python3 tf_main_word2vec_gpu.py --subject 8 > res_word2vec_gpu_sub8 &
+wait
+python3 tf_main_word2vec_gpu.py --subject 9 > res_word2vec_gpu_sub9 &
+wait

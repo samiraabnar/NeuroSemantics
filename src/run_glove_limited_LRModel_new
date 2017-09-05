@@ -1,0 +1,12 @@
+python3 tf_main_glove_limited.py --subject 1 > res_glove_limited_new_sub1 &
+python3 tf_main_glove_limited.py --subject 2 > res_glove_limited_new_sub2 &
+wait
+python3 tf_main_glove_limited.py --subject 3 > res_glove_limited_new_sub3 &
+python3 tf_main_glove_limited.py --subject 4 > res_glove_limited_new_sub4 &
+wait
+python3 tf_main_glove_limited.py --subject 5 > res_glove_limited_new_sub5 &
+python3 tf_main_glove_limited.py --subject 6 > res_glove_limited_new_sub6 &
+wait
+python3 tf_main_glove_limited.py --subject 7 > res_glove_limited_new_sub7 &
+python3 tf_main_glove_limited.py --subject 8 > res_glove_limited_new_sub8 &
+python3 tf_main_glove_limited.py --subject 9 > res_glove_limited_new_sub9 &
