@@ -138,8 +138,8 @@ def plot_heatmap(mat,model_name, cmap=plt.get_cmap('gray_r', 11)):
     ax.set_xticks(np.arange(mat.shape[1]) + 0.5, minor=False)
     # want a more natural, table-like display
     ax.invert_yaxis()
-    ax.set_xticklabels(sorted_words, minor=False, family='sans-serif', size='3')
-    ax.set_yticklabels(sorted_words, minor=False, family='sans-serif', size='3')
+    ax.set_xticklabels(sorted_words, minor=False, family='sans-serif', size='5')
+    ax.set_yticklabels(sorted_words, minor=False, family='sans-serif', size='5')
     # rotate
     plt.xticks(rotation=90)
     # remove gridlines
@@ -200,7 +200,7 @@ if __name__ == '__main__':
     #model_name = "res_deps_limited_sub"
     #model_name = "experiential_2_sub"
 
-    """
+
     res, ccm, mean_mat_F25 = get_res_mat(model_name="res_F25_limited_sub",
                                          model_prefix="../results/", words=sorted_words, mode="limited")
 
@@ -236,8 +236,9 @@ if __name__ == '__main__':
 
     plot_heatmap(np.abs(mean_mat_deps - mean_mat_F25),model_name="diff_F25-deps")
 
-    """
 
+
+    """
     res, ccm_experiential, mean_mat_experiential = get_res_mat(model_name="res_F25_reversed_sub",
                                                                model_prefix="../results/", words=sorted_words,
                                                                mode="none")
@@ -263,4 +264,6 @@ if __name__ == '__main__':
     res, ccm_deps_limited, mean_mat_deps_limited = get_res_mat(model_name="res_nondist_reversed_sub",
                                                                model_prefix="../results_gpu/", words=sorted_words,
                                                                mode="none")
-    #one_subject_diff_plot()
+    one_subject_diff_plot()
+
+    """
