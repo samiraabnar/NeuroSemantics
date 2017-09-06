@@ -38,7 +38,7 @@ if __name__ == '__main__':
     print("subject id %s" % args.subject)
 
     words, x_all, y_all = LRModel.prepare_data(fMRI_file=fMRI_data_path+fMRI_data_filename+args.subject+fMRI_data_postfix,
-                                               subject=args.subject,type="deps",mode="limited")
+                                               subject=args.subject,type="deps-exp",mode="limited")
 
 
     word_set = list(set(words))
