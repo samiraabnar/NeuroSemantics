@@ -225,6 +225,10 @@ class LRModel(object):
             wem = WordEmbeddingLayer()
             wem.load_filtered_embedding("../data/neuro_words_cnd")
             embedded_words = wem.embed_words(words)
+        elif type == 'deps-exp':
+            embedding_dic_deps , embedded_words_deps = get_word_representation(type='deps',words=word_set)
+            embedding_dic_exp, embedded_words_exp = get_word_representation(type='experimental', words=word_set)
+            embedded_words = np.concatenate((embedded_words_deps,embedded_words_exp),axis=1)
 
 
         word_representations = np.asarray(embedded_words)

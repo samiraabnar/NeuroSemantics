@@ -22,7 +22,7 @@ class ExpSetup(object):
 
 if __name__ == '__main__':
 
-    expSetup = ExpSetup(learning_rate=0.001,batch_size=29,number_of_epochs=400)
+    expSetup = ExpSetup(learning_rate=0.001,batch_size=29,number_of_epochs=700)
 
     fMRI_data_path = "../data/"
     fMRI_data_filename = "data_"
@@ -38,7 +38,7 @@ if __name__ == '__main__':
     print("subject id %s" % args.subject)
 
     words, x_all, y_all = LRModel.prepare_data(fMRI_file=fMRI_data_path+fMRI_data_filename+args.subject+fMRI_data_postfix,
-                                               subject=args.subject,type="deps",mode="limited")
+                                               subject=args.subject,type="deps-exp",mode="limited")
 
 
     word_set = list(set(words))
