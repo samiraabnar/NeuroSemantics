@@ -71,12 +71,12 @@ if __name__ == '__main__':
         lrm = LRModel(x_train.shape[1], y_train.shape[1], learning_rate= expSetup.learning_rate,hidden_dim=y_train.shape[1],training_steps=expSetup.number_of_epochs, batch_size=expSetup.batch_size)
         if expSetup.mode == "train":
             lrm.train(x_train=x_train, y_train=y_train, x_test=x_test, y_test=y_test)
-            lrm.save_model("../models/model_deps_" + word_set[test_word_indices[0]] + "-" + word_set[test_word_indices[1]])
+            lrm.save_model("../models/model_fasttext_limited_" + word_set[test_word_indices[0]] + "-" + word_set[test_word_indices[1]])
         else:
-            if os.path.isfile("../models/model_deps_"+word_set[test_word_indices[0]]+"-"+word_set[test_word_indices[1]]+".meta"):
-                lrm.load_model("../models/model_deps_"+word_set[test_word_indices[0]]+"-"+word_set[test_word_indices[1]])
+            if os.path.isfile("../models/model_fasttext_limited_"+word_set[test_word_indices[0]]+"-"+word_set[test_word_indices[1]]+".meta"):
+                lrm.load_model("../models/model_fasttext_limited_"+word_set[test_word_indices[0]]+"-"+word_set[test_word_indices[1]])
             else:
-                lrm.load_model("../models/model_deps_"+word_set[test_word_indices[1]]+"-"+word_set[test_word_indices[0]])
+                lrm.load_model("../models/model_fasttext_limited_"+word_set[test_word_indices[1]]+"-"+word_set[test_word_indices[0]])
 
         print("pair: %s" % word_set[test_word_indices[0]]+","+word_set[test_word_indices[1]])
         loss, acc2 = lrm.test(x_test=x_test, y_test=y_test)

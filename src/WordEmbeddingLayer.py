@@ -295,8 +295,8 @@ if __name__ == '__main__':
     wem.save_embedding("../data/neuro_words_word2vec")"""
 
     #2nd glove
-    wem.load_embeddings_from_glove_file(filename="../data/glove.6B/glove.6B.300d.txt", filter=[word[0] for word in words])
+    wem.load_embeddings_from_glove_file(filename="../data/glove.6B/glove.6B.100d.txt", filter=[word[0] for word in words])
 
-    wem.save_embedding("../data/neuro_words_glove_6B_300d")
+    wem.save_embedding("../data/neuro_words_glove_6B_100d")
 
 
