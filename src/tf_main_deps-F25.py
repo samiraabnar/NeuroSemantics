@@ -1,21 +1,16 @@
 import argparse
-import os
-from tf_LRModel import *
+from tf_LRModel_combined import *
 
-import pickle
-import numpy as np
 
 class ExpSetup(object):
     def __init__(self,
                  learning_rate,
                  batch_size,
-                 number_of_epochs,
-                 mode = 'train'
+                 number_of_epochs
                  ):
         self.learning_rate = learning_rate
         self.batch_size = batch_size
         self.number_of_epochs = number_of_epochs
-        self.mode = mode
 
 
     def __str__(self):
@@ -27,7 +22,7 @@ class ExpSetup(object):
 
 if __name__ == '__main__':
 
-    expSetup = ExpSetup(learning_rate=0.001,batch_size=29,number_of_epochs=700,mode="load")
+    expSetup = ExpSetup(learning_rate=0.001,batch_size=29,number_of_epochs=1000)
 
     fMRI_data_path = "../data/"
     fMRI_data_filename = "data_"
@@ -43,7 +38,7 @@ if __name__ == '__main__':
     print("subject id %s" % args.subject)
 
     words, x_all, y_all = LRModel.prepare_data(fMRI_file=fMRI_data_path+fMRI_data_filename+args.subject+fMRI_data_postfix,
-                                               subject=args.subject,type="deps", mode="limited")
+                                               subject=args.subject,type="deps-F25",mode="none")
 
 
     word_set = list(set(words))
@@ -69,24 +64,11 @@ if __name__ == '__main__':
         #print("x_test shape: " + str(x_test.shape))
         #print("y_test shape: " + str(y_test.shape))
         lrm = LRModel(x_train.shape[1], y_train.shape[1], learning_rate= expSetup.learning_rate,hidden_dim=y_train.shape[1],training_steps=expSetup.number_of_epochs, batch_size=expSetup.batch_size)
-        if expSetup.mode == "train":
-            lrm.train(x_train=x_train, y_train=y_train, x_test=x_test, y_test=y_test)
-            lrm.save_model("../models/model_depen_limited_" + word_set[test_word_indices[0]] + "-" + word_set[test_word_indices[1]])
-        else:
-            if os.path.isfile("../models/model_depen_limited_"+word_set[test_word_indices[0]]+"-"+word_set[test_word_indices[1]]+".meta"):
-                lrm.load_model("../models/model_depen_limited_"+word_set[test_word_indices[0]]+"-"+word_set[test_word_indices[1]])
-            else:
-                lrm.load_model("../models/model_depen_limited_"+word_set[test_word_indices[1]]+"-"+word_set[test_word_indices[0]])
-
+        lrm.train(x_train=x_train, y_train=y_train, x_test=x_test, y_test=y_test)
         print("pair: %s" % word_set[test_word_indices[0]]+","+word_set[test_word_indices[1]])
-        loss, v_acc = lrm.test_voxelwise(x_test=x_test, y_test=y_test)
+        loss, acc2 = lrm.test(x_test=x_test, y_test=y_test)
         lrm.sess.close()
+        accuracies.append(acc2)
 
-        accuracies.append(v_acc)
-
-    accuracies = np.asarray(accuracies)
-    v_mean_acc = np.mean(accuracies,axis=0)
-    print("v accuracy shape: ", v_mean_acc.shape)
-    np.save("v_acc_dep_limited",v_mean_acc)
-
+    print("accuracy: ", np.mean(accuracies))
     print(str(expSetup))

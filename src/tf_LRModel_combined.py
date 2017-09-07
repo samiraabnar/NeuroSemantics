@@ -229,6 +229,10 @@ class LRModel(object):
             embedding_dic_deps , embedded_words_deps = get_word_representation(type='deps',words=word_set)
             embedding_dic_exp, embedded_words_exp = get_word_representation(type='experimental', words=word_set)
             embedded_words = np.concatenate((embedded_words_deps,embedded_words_exp),axis=1)
+        elif type == 'deps-F25':
+            embedding_dic_deps , embedded_words_deps = get_word_representation(type='deps',words=word_set)
+            embedding_dic_exp, embedded_words_exp = get_word_representation(type='F25', words=word_set)
+            embedded_words = np.concatenate((embedded_words_deps,embedded_words_exp),axis=1)
 
 
         word_representations = np.asarray(embedded_words)

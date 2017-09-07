@@ -150,6 +150,22 @@ class LRModel(object):
 
         return loss, acc2
 
+
+    def test_voxelwise(self, x_test, y_test):
+
+        y,loss = self.sess.run([self.y,self.loss_test], feed_dict={self.word_representation: x_test,
+
+                                                                                 self.brain_representation: y_test})
+
+        v_acc_1 = abs(y[0] - y_test[0])
+        v_acc_2 = abs(y[1] - y_test[1])
+
+        v_avg_acc = (v_acc_1 + v_acc_2) / 2
+
+
+        return loss, v_avg_acc
+
+
     @staticmethod
     def make_noisy_data(w=0.1, b=0.3, shape=(100, 2)):
         x = np.random.rand(*shape)
