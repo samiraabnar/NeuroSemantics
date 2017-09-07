@@ -1,5 +1,5 @@
 import argparse
-from tf_LRModel import *
+from tf_LRModel_combined import *
 
 
 class ExpSetup(object):

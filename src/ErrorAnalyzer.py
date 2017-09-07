@@ -156,7 +156,7 @@ def plot_heatmap(mat,model_name, cmap=plt.get_cmap('gray_r', 11)):
     plt.savefig("../plots/" + model_name + ".pdf", format="pdf", transparent=True)
 
 
-def one_subject_diff_plot():
+def one_subject_diff_plot(ccm_deps_limited,ccm_experiential,name):
     subject = 1
     diff_ccm = np.zeros_like(ccm_deps_limited[subject])
     for i in np.arange(diff_ccm.shape[0]):
@@ -167,7 +167,7 @@ def one_subject_diff_plot():
                 diff_ccm[i][j] = 1
             elif (ccm_experiential[subject][i][j] == 1):
                 diff_ccm[i][j] = 2
-    plot_heatmap(diff_ccm, model_name="diff_deps-glove_sub1",
+    plot_heatmap(diff_ccm, model_name=name,
                  cmap=colors.ListedColormap(['white', 'red', 'blue', 'purple']))
 
 
@@ -200,7 +200,7 @@ if __name__ == '__main__':
     #model_name = "res_deps_limited_sub"
     #model_name = "experiential_2_sub"
 
-
+    """
     res, ccm, mean_mat_F25 = get_res_mat(model_name="res_F25_limited_sub",
                                          model_prefix="../results/", words=sorted_words, mode="limited")
 
@@ -236,34 +236,52 @@ if __name__ == '__main__':
 
     plot_heatmap(np.abs(mean_mat_deps - mean_mat_F25),model_name="diff_F25-deps")
 
-
-
     """
-    res, ccm_experiential, mean_mat_experiential = get_res_mat(model_name="res_F25_reversed_sub",
+
+
+    res, ccm_F25, mean_mat_F25 = get_res_mat(model_name="res_F25_limited_sub",
                                                                model_prefix="../results/", words=sorted_words,
-                                                               mode="none")
+                                                               mode="limited")
 
-    res, ccm_experiential, mean_mat_experiential = get_res_mat(model_name="res_deps_reversed_sub",
-                                                  model_prefix="../results/", words=sorted_words, mode="none")
+    res, ccm_experiential, mean_mat_experiential = get_res_mat(model_name="experiential_2_sub",
+                                                  model_prefix="../results/", words=sorted_words, mode="limited")
 
-    res, ccm_deps_limited, mean_mat_deps_limited = get_res_mat(model_name="res_glove_reversed_sub",
-                                                  model_prefix="../results_pc/", words=sorted_words, mode="none")
+    res, ccm_deps_limited, mean_mat_deps_limited = get_res_mat(model_name="res_deps_limited_sub",
+                                                  model_prefix="../results/", words=sorted_words, mode="limited")
 
-    res, ccm_deps_limited, mean_mat_deps_limited = get_res_mat(model_name="res_lexvec_reversed_sub",
-                                                               model_prefix="../results_gpu/", words=sorted_words,
-                                                               mode="none")
+    res, ccm_word2vec_limited, mean_mat_word2vec_limited = get_res_mat(model_name="res_word2vec_gpu_sub",
+                                                               model_prefix="../results/", words=sorted_words,
+                                                               mode="limited")
 
-    res, ccm_deps_limited, mean_mat_deps_limited = get_res_mat(model_name="res_fasttext_reversed_sub",
-                                                               model_prefix="../results_gpu/", words=sorted_words,
-                                                               mode="none")
+    res, ccm_glove_limited, mean_mat_glove_limited = get_res_mat(model_name="res_glove_limited_new_sub",
+                                                                       model_prefix="../results/", words=sorted_words,
+                                                                       mode="limited")
 
-    res, ccm_deps_limited, mean_mat_deps_limited = get_res_mat(model_name="res_word2vec_reversed_sub",
-                                                               model_prefix="../results_gpu/", words=sorted_words,
-                                                               mode="none")
+    res, ccm_fasttext_limited, mean_mat_fasttext_limited = get_res_mat(model_name="res_fasttext_limited_sub",
+                                                                 model_prefix="../results/", words=sorted_words,
+                                                                 mode="limited")
 
-    res, ccm_deps_limited, mean_mat_deps_limited = get_res_mat(model_name="res_nondist_reversed_sub",
-                                                               model_prefix="../results_gpu/", words=sorted_words,
-                                                               mode="none")
-    one_subject_diff_plot()
+    res, ccm_lexvec_limited, mean_mat_lexvec_limited = get_res_mat(model_name="res_lexvec_limited_sub",
+                                                                       model_prefix="../results/", words=sorted_words,
+                                                                       mode="limited")
+
+    res, ccm_nondist_limited, mean_mat_nondist_limited = get_res_mat(model_name="res_nondist_limited_sub",
+                                                                   model_prefix="../results/", words=sorted_words,
+                                                                   mode="limited")
+
+    plot_heatmap(np.sum([mean_mat_F25,mean_mat_experiential, mean_mat_deps_limited,
+                         mean_mat_fasttext_limited,mean_mat_glove_limited, mean_mat_word2vec_limited,
+                         mean_mat_lexvec_limited,mean_mat_nondist_limited
+                         ],axis=0
+                        ),
+                 model_name="sum_all_limited")
 
     """
+    one_subject_diff_plot(ccm_F25, ccm_experiential, name="diff_F25-exp_sub")
+    one_subject_diff_plot(ccm_deps_limited, ccm_experiential, name="diff_deps-exp_sub")
+    one_subject_diff_plot(ccm_deps_limited,ccm_word2vec_limited,name="diff_deps-word2vec_sub")
+    one_subject_diff_plot(ccm_deps_limited, ccm_glove_limited, name="diff_deps-glove_sub")
+    """
+
+
+
