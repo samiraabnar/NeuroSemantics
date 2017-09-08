@@ -27,7 +27,7 @@ class ExpSetup(object):
 
 if __name__ == '__main__':
 
-    expSetup = ExpSetup(learning_rate=0.001,batch_size=29,number_of_epochs=700,mode="train")
+    expSetup = ExpSetup(learning_rate=0.001,batch_size=29,number_of_epochs=700,mode="load")
 
     fMRI_data_path = "../data/"
     fMRI_data_filename = "data_"
@@ -78,11 +78,14 @@ if __name__ == '__main__':
             else:
                 lrm.load_model("../models/model_experiential_"+word_set[test_word_indices[1]]+"-"+word_set[test_word_indices[0]])
 
-        print("pair: %s" % word_set[test_word_indices[0]]+","+word_set[test_word_indices[1]])
-        loss, acc2 = lrm.test(x_test=x_test, y_test=y_test)
+        print("pair: %s" % word_set[test_word_indices[0]] + "," + word_set[test_word_indices[1]])
+        loss, v_acc = lrm.test_voxelwise(x_test=x_test, y_test=y_test)
         lrm.sess.close()
 
-        accuracies.append(acc2)
+        accuracies.append(v_acc)
 
-    print("accuracy: ", np.mean(accuracies))
+    accuracies = np.asarray(accuracies)
+    v_mean_acc = np.mean(accuracies, axis=0)
+    print("v accuracy shape: ", v_mean_acc.shape)
+    np.save("v_acc_exp_limited", v_mean_acc)
     print(str(expSetup))
