@@ -41,7 +41,7 @@ class LRModel(object):
             self.W_0 = tf.Variable(tf.random_uniform([self.input_dim, self.input_dim], minval=-.1, maxval=.1),
                                    name='W_0')
             #self.bias_2 = tf.Variable(tf.zeros([self.output_dim]), name='bias_2')
-            dropped_input = tf.matmul(self.W_0,self.word_representation)
+            dropped_input = tf.matmul(self.word_representation,self.W_0)
 
             # This is the same as y = tf.add(tf.mul(m, x_placeholder), b), but looks nicer
             self.h = tf.matmul(dropped_input, tf.nn.dropout(self.W_1,0.6)) + self.bias_1
