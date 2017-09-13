@@ -61,6 +61,17 @@ ax.scatter(np.asarray(model_2_coord,dtype=int)[:,[0]],
              s=2,c='b',alpha=0.9)
 
 
+common_best = []
+for s in model_1_best:
+    if s in model_2_best:
+        common_best.append(s)
+
+common_coord = np.asarray(coords)[common_best,:]
+ax.scatter(np.asarray(common_coord,dtype=int)[:,[0]],
+           np.asarray(common_coord,dtype=int)[:,[1]],
+           np.asarray(common_coord,dtype=int)[:,[2]],
+             s=2,c='g',alpha=0.9)
+
 ax.set_axis_off()
 angel = 180
 zangle = 0

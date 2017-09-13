@@ -4,6 +4,9 @@ import matplotlib.pyplot as plt
 from prettyplotlib import brewer2mpl
 from matplotlib import colors
 
+from matplotlib import rcParams
+rcParams.update({'figure.autolayout': True})
+
 
 class Result(object):
     def __init__(self,id):
@@ -138,8 +141,9 @@ def plot_heatmap(mat,model_name, cmap=plt.get_cmap('gray_r', 11)):
     ax.set_xticks(np.arange(mat.shape[1]) + 0.5, minor=False)
     # want a more natural, table-like display
     ax.invert_yaxis()
-    ax.set_xticklabels(sorted_words, minor=False, family='sans-serif', size='5')
-    ax.set_yticklabels(sorted_words, minor=False, family='sans-serif', size='5')
+    ax.set_xticklabels(sorted_words, minor=False, family='sans-serif', size='9')
+    ax.set_yticklabels(sorted_words, minor=False, family='sans-serif', size='9')
+
     # rotate
     plt.xticks(rotation=90)
     # remove gridlines
@@ -200,12 +204,12 @@ if __name__ == '__main__':
     #model_name = "res_deps_limited_sub"
     #model_name = "experiential_2_sub"
 
-    """
+
     res, ccm, mean_mat_F25 = get_res_mat(model_name="res_F25_limited_sub",
-                                         model_prefix="../results/", words=sorted_words, mode="limited")
+                                         model_prefix="../backup_results/", words=sorted_words, mode="limited")
 
     res, ccm, mean_mat_experiential = get_res_mat(model_name="experiential_2_sub",
-                                                  model_prefix="../results/", words=sorted_words, mode="limited")
+                                                  model_prefix="../backup_results/", words=sorted_words, mode="limited")
 
     plot_heatmap(np.abs(mean_mat_F25 - mean_mat_experiential), model_name="diff_F25-exp")
     plot_heatmap(mean_mat_F25, model_name="F25-limited")
@@ -213,7 +217,7 @@ if __name__ == '__main__':
 
 
     res, ccm, mean_mat_deps =get_res_mat(model_name = "res_deps_sub",
-                model_prefix="../results/",words=sorted_words,mode="none")
+                model_prefix="../backup_results/",words=sorted_words,mode="none")
 
     res, ccm, mean_mat_glove = get_res_mat(model_name="res_glove_new_sub",
                                      model_prefix="../results_gpu/", words=sorted_words, mode="none")
@@ -224,49 +228,49 @@ if __name__ == '__main__':
     plot_heatmap(mean_mat_glove, model_name="glove")
 
     res, ccm, mean_mat_deps_limited = get_res_mat(model_name="res_deps_limited_sub",
-                                           model_prefix="../results/", words=sorted_words, mode="limited")
+                                           model_prefix="../backup_results/", words=sorted_words, mode="limited")
 
 
     plot_heatmap(mean_mat_deps_limited, model_name="deps-limited")
     plot_heatmap(np.abs(mean_mat_deps_limited - mean_mat_experiential),model_name="diff_exp-deps")
 
     res, ccm, mean_mat_F25 = get_res_mat(model_name="res_F25_sub",
-                                         model_prefix="../results/", words=sorted_words, mode="none")
+                                         model_prefix="../backup_results/", words=sorted_words, mode="none")
     plot_heatmap(mean_mat_F25, model_name="F25")
 
     plot_heatmap(np.abs(mean_mat_deps - mean_mat_F25),model_name="diff_F25-deps")
 
-    """
+
 
 
     res, ccm_F25, mean_mat_F25 = get_res_mat(model_name="res_F25_limited_sub",
-                                                               model_prefix="../results/", words=sorted_words,
+                                                               model_prefix="../backup_results/", words=sorted_words,
                                                                mode="limited")
 
     res, ccm_experiential, mean_mat_experiential = get_res_mat(model_name="experiential_2_sub",
-                                                  model_prefix="../results/", words=sorted_words, mode="limited")
+                                                  model_prefix="../backup_results/", words=sorted_words, mode="limited")
 
     res, ccm_deps_limited, mean_mat_deps_limited = get_res_mat(model_name="res_deps_limited_sub",
-                                                  model_prefix="../results/", words=sorted_words, mode="limited")
+                                                  model_prefix="../backup_results/", words=sorted_words, mode="limited")
 
-    res, ccm_word2vec_limited, mean_mat_word2vec_limited = get_res_mat(model_name="res_word2vec_gpu_sub",
-                                                               model_prefix="../results/", words=sorted_words,
+    res, ccm_word2vec_limited, mean_mat_word2vec_limited = get_res_mat(model_name="res_word2vec_limited_sub",
+                                                               model_prefix="../b_results/", words=sorted_words,
                                                                mode="limited")
 
     res, ccm_glove_limited, mean_mat_glove_limited = get_res_mat(model_name="res_glove_limited_new_sub",
-                                                                       model_prefix="../results/", words=sorted_words,
+                                                                       model_prefix="../results_gpu/", words=sorted_words,
                                                                        mode="limited")
 
     res, ccm_fasttext_limited, mean_mat_fasttext_limited = get_res_mat(model_name="res_fasttext_limited_sub",
-                                                                 model_prefix="../results/", words=sorted_words,
+                                                                 model_prefix="../backup_results/", words=sorted_words,
                                                                  mode="limited")
 
     res, ccm_lexvec_limited, mean_mat_lexvec_limited = get_res_mat(model_name="res_lexvec_limited_sub",
-                                                                       model_prefix="../results/", words=sorted_words,
+                                                                       model_prefix="../backup_results/", words=sorted_words,
                                                                        mode="limited")
 
     res, ccm_nondist_limited, mean_mat_nondist_limited = get_res_mat(model_name="res_nondist_limited_sub",
-                                                                   model_prefix="../results/", words=sorted_words,
+                                                                   model_prefix="../backup_results/", words=sorted_words,
                                                                    mode="limited")
 
     plot_heatmap(np.sum([mean_mat_F25,mean_mat_experiential, mean_mat_deps_limited,
@@ -276,12 +280,12 @@ if __name__ == '__main__':
                         ),
                  model_name="sum_all_limited")
 
-    """
-    one_subject_diff_plot(ccm_F25, ccm_experiential, name="diff_F25-exp_sub")
-    one_subject_diff_plot(ccm_deps_limited, ccm_experiential, name="diff_deps-exp_sub")
-    one_subject_diff_plot(ccm_deps_limited,ccm_word2vec_limited,name="diff_deps-word2vec_sub")
-    one_subject_diff_plot(ccm_deps_limited, ccm_glove_limited, name="diff_deps-glove_sub")
-    """
+
+    one_subject_diff_plot(ccm_F25, ccm_experiential, name="diff_F25-exp_sub1")
+    one_subject_diff_plot(ccm_deps_limited, ccm_experiential, name="diff_deps-exp_sub1")
+    one_subject_diff_plot(ccm_deps_limited,ccm_word2vec_limited,name="diff_deps-word2vec_sub1")
+    one_subject_diff_plot(ccm_deps_limited, ccm_glove_limited, name="diff_deps-glove_sub1")
+
 
 
 
