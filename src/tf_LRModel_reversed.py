@@ -158,7 +158,7 @@ class LRModel(object):
         return x, y
 
     @staticmethod
-    def prepare_data(fMRI_file,subject,type="glove",mode="none"):
+    def prepare_data(fMRI_file,subject,type="glove",mode="none",select=True):
         brain_activations_1 = genfromtxt(fMRI_file, delimiter=',')
         brain_activations = brain_activations_1 - np.mean(brain_activations_1,axis=0)
         brain_activations = np.tanh(brain_activations)
@@ -174,16 +174,16 @@ class LRModel(object):
         word_set = list(set(words))
         print("number of words: %d " % len(word_set))
 
+        selected = np.arange(len(brain_activations_1[0]))
+        if select == True:
+            selected_file_name = "general_selected_500_"+subject+".npy"
 
+            if not os.path.isfile(selected_file_name) :
+                selected = select_stable_voxels(brain_activations_1, word_set, words, number_of_trials=6,
+                                                size_of_selection=500)
+                np.save(selected_file_name,selected)
 
-        selected_file_name = "general_selected_500_"+subject+".npy"
-
-        if not os.path.isfile(selected_file_name) :
-            selected = select_stable_voxels(brain_activations_1, word_set, words, number_of_trials=6,
-                                            size_of_selection=500)
-            np.save(selected_file_name,selected)
-
-        selected = np.load(selected_file_name)
+            selected = np.load(selected_file_name)
 
         mean_Activations = []
 
