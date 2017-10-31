@@ -47,33 +47,16 @@ if __name__ == '__main__':
 
 
     word_set = list(set(words))
-    accuracies = []
-    print(x_all.shape[0], x_all.shape[1])
-    print(len(list(itertools.combinations(range(len(word_set)), 2))))
+
     words = np.asarray(words)
-    for test_word_indices in itertools.combinations(range(len(word_set)), 2):
-        test_indices_1 = np.where(words == word_set[test_word_indices[0]])[0]
-        test_indices_2 = np.where(words == word_set[test_word_indices[1]])[0]
-        mask = np.ones(x_all.shape[0])
-        test_indices = np.append(test_indices_1, test_indices_2)
-        mask[test_indices] = 0
-        train_indices = list(itertools.compress(range(x_all.shape[0]), mask))
-        # print('Train: %s | test: %s' % (train_indices, test_indices))
-        x_train, y_train = x_all[train_indices], y_all[train_indices]
-        x_test, y_test = np.asarray([np.mean(x_all[test_indices_1],axis=0),np.mean(x_all[test_indices_2],axis=0)]), \
-                         np.asarray([y_all[test_indices_1][0],
-                                   y_all[test_indices_2][0]])
 
-        #print("x_train shape: " + str(x_train.shape))
-        #print("y_train shape: " + str(y_train.shape))
-        #print("x_test shape: " + str(x_test.shape))
-        #print("y_test shape: " + str(y_test.shape))
-        lrm = LRModel(x_train.shape[1], y_train.shape[1], learning_rate= expSetup.learning_rate,hidden_dim=y_train.shape[1],training_steps=expSetup.number_of_epochs, batch_size=expSetup.batch_size)
-        lrm.train(x_train=x_train, y_train=y_train, x_test=x_test, y_test=y_test)
-        print("pair: %s" % word_set[test_word_indices[0]]+","+word_set[test_word_indices[1]])
-        loss, acc2 = lrm.test(x_test=x_test, y_test=y_test)
-        lrm.sess.close()
-        accuracies.append(acc2)
+    x_train, y_train = x_all, y_all
 
-    print("accuracy: ", np.mean(accuracies))
+    lrm = LRModel(x_train.shape[1], y_train.shape[1], learning_rate= expSetup.learning_rate,hidden_dim=y_train.shape[1],training_steps=expSetup.number_of_epochs, batch_size=expSetup.batch_size)
+    lrm.train(x_train=x_train, y_train=y_train, x_test=x_train, y_test=y_train)
+    lrm.save_model(
+        "../all_voxels_model")
+
+    lrm.sess.close()
+
     print(str(expSetup))

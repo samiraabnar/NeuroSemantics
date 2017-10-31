@@ -1,12 +1,12 @@
-python3 tf_main_reversed_glove.py --subject 1 > res_glove_reversed_sub1 &
-python3 tf_main_reversed_glove.py --subject 2 > res_glove_reversed_sub2 &
+python3 tf_main_reversed_limited_glove.py --subject 1 > res_glove_limited_reversed_sub1 &
+python3 tf_main_reversed_limited_glove.py --subject 2 > res_glove_limited_reversed_sub2 &
 wait
-python3 tf_main_reversed_glove.py --subject 3 > res_glove_reversed_sub3 &
-python3 tf_main_reversed_glove.py --subject 4 > res_glove_reversed_sub4 &
+python3 tf_main_reversed_limited_glove.py --subject 3 > res_glove_limited_reversed_sub3 &
+python3 tf_main_reversed_limited_glove.py --subject 4 > res_glove_limited_reversed_sub4 &
 wait
-python3 tf_main_reversed_glove.py --subject 5 > res_glove_reversed_sub5 &
-python3 tf_main_reversed_glove.py --subject 6 > res_glove_reversed_sub6 &
+python3 tf_main_reversed_limited_glove.py --subject 5 > res_glove_limited_reversed_sub5 &
+python3 tf_main_reversed_limited_glove.py --subject 6 > res_glove_limited_reversed_sub6 &
 wait
-python3 tf_main_reversed_glove.py --subject 7 > res_glove_reversed_sub7 &
-python3 tf_main_reversed_glove.py --subject 8 > res_glove_reversed_sub8 &
-python3 tf_main_reversed_glove.py --subject 9 > res_glove_reversed_sub9 &
+python3 tf_main_reversed_limited_glove.py --subject 7 > res_glove_limited_reversed_sub7 &
+python3 tf_main_reversed_limited_glove.py --subject 8 > res_glove_limited_reversed_sub8 &
+python3 tf_main_reversed_limited_glove.py --subject 9 > res_glove_limited_reversed_sub9 &
