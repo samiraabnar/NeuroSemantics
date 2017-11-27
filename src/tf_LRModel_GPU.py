@@ -23,9 +23,9 @@ class LRModel(object):
         self.batch_size = batch_size
 
         tf.reset_default_graph()
-        config = tf.ConfigProto(device_count = {'GPU': 1,'CPU':1})
-        config.gpu_options.allow_growth=True
-        self.sess = tf.Session(config=config)
+        #config = tf.ConfigProto(device_count = {'GPU': 1,'CPU':1})
+        #config.gpu_options.allow_growth=True
+        self.sess = tf.Session()#config=config)
 
         #with tf.device('/gpu:0'):
         self.define_model()
