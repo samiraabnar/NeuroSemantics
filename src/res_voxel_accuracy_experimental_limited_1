@@ -1,0 +1,5956 @@
+subject id 1
+number of words: 60 
+35
+595
+0 [17.213146]
+100 [2.648314]
+200 [2.41693]
+300 [2.3106356]
+400 [2.173835]
+500 [2.0117981]
+600 [1.8110143]
+Model saved in file: ../models/model_experiential_dog-carrot
+pair: dog,carrot
+test loss: 1.242233 , test accuracy: 1.000000
+0 [16.772938]
+100 [2.6917114]
+200 [2.5464158]
+300 [2.3503826]
+400 [2.1252096]
+500 [1.9766486]
+600 [1.7376451]
+Model saved in file: ../models/model_experiential_dog-corn
+pair: dog,corn
+test loss: 0.802711 , test accuracy: 1.000000
+0 [16.863659]
+100 [2.7703271]
+200 [2.5026927]
+300 [2.3055956]
+400 [2.1177764]
+500 [2.01003]
+600 [1.8660175]
+Model saved in file: ../models/model_experiential_dog-airplane
+pair: dog,airplane
+test loss: 0.864478 , test accuracy: 1.000000
+0 [17.142843]
+100 [2.6684725]
+200 [2.4803638]
+300 [2.3102949]
+400 [2.2168241]
+500 [2.0602152]
+600 [1.9071362]
+Model saved in file: ../models/model_experiential_dog-door
+pair: dog,door
+test loss: 0.815974 , test accuracy: 1.000000
+0 [16.994068]
+100 [3.9696772]
+200 [2.3403809]
+300 [2.1379836]
+400 [1.9846606]
+500 [1.770668]
+600 [1.5733266]
+Model saved in file: ../models/model_experiential_dog-window
+pair: dog,window
+test loss: 0.552489 , test accuracy: 1.000000
+0 [16.544226]
+100 [2.7091951]
+200 [2.5413389]
+300 [2.3053584]
+400 [2.1856825]
+500 [1.9582309]
+600 [1.7802142]
+Model saved in file: ../models/model_experiential_dog-horse
+pair: dog,horse
+test loss: 1.082738 , test accuracy: 1.000000
+0 [16.951656]
+100 [2.8164761]
+200 [2.5026476]
+300 [2.341289]
+400 [2.2174935]
+500 [2.0009575]
+600 [1.8431245]
+Model saved in file: ../models/model_experiential_dog-ant
+pair: dog,ant
+test loss: 0.837628 , test accuracy: 0.000000
+0 [17.126701]
+100 [2.7366786]
+200 [2.4745643]
+300 [2.284517]
+400 [2.1496575]
+500 [2.021759]
+600 [1.8596972]
+Model saved in file: ../models/model_experiential_dog-saw
+pair: dog,saw
+test loss: 1.062313 , test accuracy: 1.000000
+0 [16.625267]
+100 [2.7519975]
+200 [2.4625912]
+300 [2.2800877]
+400 [2.1101506]
+500 [1.927606]
+600 [1.809782]
+Model saved in file: ../models/model_experiential_dog-leg
+pair: dog,leg
+test loss: 0.966382 , test accuracy: 1.000000
+0 [16.225193]
+100 [2.7284033]
+200 [2.4886329]
+300 [2.3256793]
+400 [2.1454675]
+500 [1.9745148]
+600 [1.7593116]
+Model saved in file: ../models/model_experiential_dog-butterfly
+pair: dog,butterfly
+test loss: 0.818226 , test accuracy: 1.000000
+0 [16.730354]
+100 [2.6659229]
+200 [2.4912205]
+300 [2.3093889]
+400 [2.2094581]
+500 [2.0344789]
+600 [1.8455527]
+Model saved in file: ../models/model_experiential_dog-apartment
+pair: dog,apartment
+test loss: 0.764562 , test accuracy: 1.000000
+0 [16.791548]
+100 [2.7180889]
+200 [2.4605191]
+300 [2.3150494]
+400 [2.1489124]
+500 [1.9586587]
+600 [1.8236247]
+Model saved in file: ../models/model_experiential_dog-train
+pair: dog,train
+test loss: 1.249434 , test accuracy: 1.000000
+0 [17.011864]
+100 [2.685333]
+200 [2.445504]
+300 [2.2962978]
+400 [2.1129398]
+500 [1.9203796]
+600 [1.7391088]
+Model saved in file: ../models/model_experiential_dog-lettuce
+pair: dog,lettuce
+test loss: 0.766763 , test accuracy: 1.000000
+0 [16.74424]
+100 [2.6760931]
+200 [2.4935794]
+300 [2.3970678]
+400 [2.2309704]
+500 [2.0259924]
+600 [1.8320135]
+Model saved in file: ../models/model_experiential_dog-bee
+pair: dog,bee
+test loss: 0.894095 , test accuracy: 0.000000
+0 [16.249847]
+100 [2.6684527]
+200 [2.4674382]
+300 [2.3386171]
+400 [2.1695592]
+500 [2.0855324]
+600 [1.8206365]
+Model saved in file: ../models/model_experiential_dog-house
+pair: dog,house
+test loss: 0.833758 , test accuracy: 1.000000
+0 [16.59177]
+100 [2.6670017]
+200 [2.4062757]
+300 [2.2966948]
+400 [2.1392367]
+500 [2.034128]
+600 [1.7927579]
+Model saved in file: ../models/model_experiential_dog-tomato
+pair: dog,tomato
+test loss: 1.307096 , test accuracy: 1.000000
+0 [16.542639]
+100 [2.7263179]
+200 [2.4417241]
+300 [2.2744312]
+400 [2.1818104]
+500 [2.0090683]
+600 [1.7988241]
+Model saved in file: ../models/model_experiential_dog-truck
+pair: dog,truck
+test loss: 0.917319 , test accuracy: 1.000000
+0 [17.040379]
+100 [2.6543434]
+200 [2.3876071]
+300 [2.301928]
+400 [2.1128738]
+500 [1.9929364]
+600 [1.8039464]
+Model saved in file: ../models/model_experiential_dog-car
+pair: dog,car
+test loss: 1.182243 , test accuracy: 1.000000
+0 [16.91201]
+100 [2.7662864]
+200 [2.3758678]
+300 [2.2405868]
+400 [2.1013017]
+500 [1.965974]
+600 [1.7901824]
+Model saved in file: ../models/model_experiential_dog-key
+pair: dog,key
+test loss: 0.915219 , test accuracy: 1.000000
+0 [16.456169]
+100 [2.7422211]
+200 [2.4661889]
+300 [2.2842195]
+400 [2.1936431]
+500 [2.0475497]
+600 [1.8800703]
+Model saved in file: ../models/model_experiential_dog-bed
+pair: dog,bed
+test loss: 0.825527 , test accuracy: 1.000000
+0 [16.436184]
+100 [2.7014945]
+200 [2.500315]
+300 [2.3094311]
+400 [2.157949]
+500 [1.9949807]
+600 [1.7864593]
+Model saved in file: ../models/model_experiential_dog-telephone
+pair: dog,telephone
+test loss: 1.136559 , test accuracy: 1.000000
+0 [16.96047]
+100 [2.7818503]
+200 [2.4846523]
+300 [2.3929224]
+400 [2.1811903]
+500 [1.9793974]
+600 [1.8403567]
+Model saved in file: ../models/model_experiential_dog-table
+pair: dog,table
+test loss: 0.862601 , test accuracy: 1.000000
+0 [16.697439]
+100 [2.6712716]
+200 [2.4623864]
+300 [2.3493052]
+400 [2.1839175]
+500 [2.0574231]
+600 [1.973747]
+Model saved in file: ../models/model_experiential_dog-church
+pair: dog,church
+test loss: 0.954026 , test accuracy: 1.000000
+0 [17.081276]
+100 [2.7062724]
+200 [2.4588826]
+300 [2.3255327]
+400 [2.2003028]
+500 [2.0333154]
+600 [1.8311526]
+Model saved in file: ../models/model_experiential_dog-hand
+pair: dog,hand
+test loss: 0.927485 , test accuracy: 1.000000
+0 [16.674974]
+100 [2.6476927]
+200 [2.4920077]
+300 [2.3581738]
+400 [2.2198727]
+500 [2.0805209]
+600 [1.9220147]
+Model saved in file: ../models/model_experiential_dog-desk
+pair: dog,desk
+test loss: 0.681859 , test accuracy: 1.000000
+0 [16.109957]
+100 [2.6789398]
+200 [2.4451439]
+300 [2.3697882]
+400 [2.1587903]
+500 [1.9809966]
+600 [1.7544905]
+Model saved in file: ../models/model_experiential_dog-hammer
+pair: dog,hammer
+test loss: 0.884019 , test accuracy: 1.000000
+0 [17.156271]
+100 [2.8091347]
+200 [2.6059351]
+300 [2.434624]
+400 [2.2734628]
+500 [2.0756764]
+600 [1.8742464]
+Model saved in file: ../models/model_experiential_dog-glass
+pair: dog,glass
+test loss: 0.682806 , test accuracy: 1.000000
+0 [17.121086]
+100 [2.7043324]
+200 [2.5083034]
+300 [2.3641388]
+400 [2.1742802]
+500 [1.9390156]
+600 [1.7206923]
+Model saved in file: ../models/model_experiential_dog-bicycle
+pair: dog,bicycle
+test loss: 1.013120 , test accuracy: 1.000000
+0 [17.156973]
+100 [2.6825414]
+200 [2.4721863]
+300 [2.3094583]
+400 [2.2132158]
+500 [2.0229242]
+600 [1.8638608]
+Model saved in file: ../models/model_experiential_dog-eye
+pair: dog,eye
+test loss: 0.920202 , test accuracy: 1.000000
+0 [17.040707]
+100 [2.8000386]
+200 [2.4109988]
+300 [2.2390943]
+400 [2.1260595]
+500 [1.9882873]
+600 [1.8286842]
+Model saved in file: ../models/model_experiential_dog-fly
+pair: dog,fly
+test loss: 1.030320 , test accuracy: 1.000000
+0 [17.053591]
+100 [2.808311]
+200 [2.3927639]
+300 [2.2580233]
+400 [2.0629697]
+500 [1.9080195]
+600 [1.693993]
+Model saved in file: ../models/model_experiential_dog-chair
+pair: dog,chair
+test loss: 0.630943 , test accuracy: 1.000000
+0 [17.042292]
+100 [3.0499861]
+200 [2.2867584]
+300 [2.1151726]
+400 [2.0012293]
+500 [1.7910777]
+600 [1.6518509]
+Model saved in file: ../models/model_experiential_dog-arm
+pair: dog,arm
+test loss: 0.752912 , test accuracy: 1.000000
+0 [16.852173]
+100 [3.0519609]
+200 [2.376828]
+300 [2.2609661]
+400 [2.0478947]
+500 [1.8858974]
+600 [1.7247934]
+Model saved in file: ../models/model_experiential_dog-bell
+pair: dog,bell
+test loss: 1.024034 , test accuracy: 1.000000
+0 [16.721798]
+100 [2.7384183]
+200 [2.443146]
+300 [2.2838547]
+400 [2.1366241]
+500 [1.9607722]
+600 [1.7378038]
+Model saved in file: ../models/model_experiential_dog-foot
+pair: dog,foot
+test loss: 0.872505 , test accuracy: 1.000000
+0 [16.730719]
+100 [2.8514149]
+200 [2.3613081]
+300 [2.2340264]
+400 [1.9993426]
+500 [1.8522382]
+600 [1.6848178]
+Model saved in file: ../models/model_experiential_carrot-corn
+pair: carrot,corn
+test loss: 0.924210 , test accuracy: 0.000000
+0 [16.701712]
+100 [2.8504932]
+200 [2.4178522]
+300 [2.2476535]
+400 [2.1938956]
+500 [1.8985075]
+600 [1.7955748]
+Model saved in file: ../models/model_experiential_carrot-airplane
+pair: carrot,airplane
+test loss: 0.793554 , test accuracy: 1.000000
+0 [16.774471]
+100 [2.7006109]
+200 [2.4659774]
+300 [2.4066367]
+400 [2.1912284]
+500 [2.0906198]
+600 [1.9395694]
+Model saved in file: ../models/model_experiential_carrot-door
+pair: carrot,door
+test loss: 1.037074 , test accuracy: 1.000000
+0 [16.791609]
+100 [2.7866247]
+200 [2.5191836]
+300 [2.4252305]
+400 [2.2379394]
+500 [2.1047232]
+600 [1.9002097]
+Model saved in file: ../models/model_experiential_carrot-window
+pair: carrot,window
+test loss: 0.671411 , test accuracy: 1.000000
+0 [17.035385]
+100 [2.7351496]
+200 [2.47224]
+300 [2.3264241]
+400 [2.1554315]
+500 [1.9875041]
+600 [1.7368767]
+Model saved in file: ../models/model_experiential_carrot-horse
+pair: carrot,horse
+test loss: 0.893948 , test accuracy: 0.000000
+0 [16.247347]
+100 [2.6849601]
+200 [2.4213994]
+300 [2.2792213]
+400 [2.1168172]
+500 [2.0066798]
+600 [1.8134303]
+Model saved in file: ../models/model_experiential_carrot-ant
+pair: carrot,ant
+test loss: 1.213233 , test accuracy: 1.000000
+0 [16.830086]
+100 [2.812974]
+200 [2.5270305]
+300 [2.2994845]
+400 [2.2198935]
+500 [2.0686245]
+600 [1.8749324]
+Model saved in file: ../models/model_experiential_carrot-saw
+pair: carrot,saw
+test loss: 0.804256 , test accuracy: 1.000000
+0 [16.950258]
+100 [2.6563454]
+200 [2.4251926]
+300 [2.201009]
+400 [2.0530262]
+500 [1.882187]
+600 [1.6908078]
+Model saved in file: ../models/model_experiential_carrot-leg
+pair: carrot,leg
+test loss: 0.778669 , test accuracy: 1.000000
+0 [16.889847]
+100 [2.6955168]
+200 [2.3781931]
+300 [2.2993395]
+400 [2.1510487]
+500 [1.928589]
+600 [1.7760894]
+Model saved in file: ../models/model_experiential_carrot-butterfly
+pair: carrot,butterfly
+test loss: 0.640498 , test accuracy: 0.000000
+0 [16.722645]
+100 [2.7005105]
+200 [2.4622121]
+300 [2.3395021]
+400 [2.1899946]
+500 [2.0585809]
+600 [1.840389]
+Model saved in file: ../models/model_experiential_carrot-apartment
+pair: carrot,apartment
+test loss: 0.750516 , test accuracy: 1.000000
+0 [16.46884]
+100 [2.7411213]
+200 [2.5027189]
+300 [2.3604009]
+400 [2.1840849]
+500 [2.030762]
+600 [1.7841334]
+Model saved in file: ../models/model_experiential_carrot-train
+pair: carrot,train
+test loss: 1.100016 , test accuracy: 1.000000
+0 [17.107546]
+100 [2.7263031]
+200 [2.4928529]
+300 [2.3267925]
+400 [2.190547]
+500 [2.0038712]
+600 [1.8813565]
+Model saved in file: ../models/model_experiential_carrot-lettuce
+pair: carrot,lettuce
+test loss: 1.020018 , test accuracy: 0.000000
+0 [16.374952]
+100 [2.7258124]
+200 [2.4945056]
+300 [2.3620918]
+400 [2.1930618]
+500 [2.0895641]
+600 [1.8928828]
+Model saved in file: ../models/model_experiential_carrot-bee
+pair: carrot,bee
+test loss: 1.196055 , test accuracy: 1.000000
+0 [16.779083]
+100 [2.7274923]
+200 [2.3713191]
+300 [2.295042]
+400 [2.1486902]
+500 [1.9765751]
+600 [1.7867186]
+Model saved in file: ../models/model_experiential_carrot-house
+pair: carrot,house
+test loss: 1.052474 , test accuracy: 1.000000
+0 [16.162716]
+100 [2.6875608]
+200 [2.4628906]
+300 [2.353559]
+400 [2.1593785]
+500 [1.9574279]
+600 [1.822644]
+Model saved in file: ../models/model_experiential_carrot-tomato
+pair: carrot,tomato
+test loss: 0.585015 , test accuracy: 0.000000
+0 [16.394258]
+100 [2.6893535]
+200 [2.3780808]
+300 [2.2433918]
+400 [2.1385946]
+500 [1.9833131]
+600 [1.8037517]
+Model saved in file: ../models/model_experiential_carrot-truck
+pair: carrot,truck
+test loss: 1.058515 , test accuracy: 1.000000
+0 [17.434324]
+100 [2.6064713]
+200 [2.4033756]
+300 [2.2601359]
+400 [2.1083257]
+500 [1.9404812]
+600 [1.727051]
+Model saved in file: ../models/model_experiential_carrot-car
+pair: carrot,car
+test loss: 1.300911 , test accuracy: 1.000000
+0 [16.385464]
+100 [2.6570795]
+200 [2.4311388]
+300 [2.264931]
+400 [2.1161649]
+500 [1.9786856]
+600 [1.8107615]
+Model saved in file: ../models/model_experiential_carrot-key
+pair: carrot,key
+test loss: 1.195601 , test accuracy: 0.000000
+0 [17.314051]
+100 [2.7280467]
+200 [2.5162923]
+300 [2.3777721]
+400 [2.1971714]
+500 [2.0701478]
+600 [1.9489259]
+Model saved in file: ../models/model_experiential_carrot-bed
+pair: carrot,bed
+test loss: 1.060663 , test accuracy: 1.000000
+0 [17.226234]
+100 [2.6170688]
+200 [2.436779]
+300 [2.3625615]
+400 [2.0936794]
+500 [1.9207696]
+600 [1.7539316]
+Model saved in file: ../models/model_experiential_carrot-telephone
+pair: carrot,telephone
+test loss: 0.935225 , test accuracy: 0.000000
+0 [17.107269]
+100 [2.6686552]
+200 [2.496366]
+300 [2.255275]
+400 [2.1744778]
+500 [1.961859]
+600 [1.7818834]
+Model saved in file: ../models/model_experiential_carrot-table
+pair: carrot,table
+test loss: 0.684070 , test accuracy: 1.000000
+0 [17.186186]
+100 [2.6945333]
+200 [2.4926445]
+300 [2.3747573]
+400 [2.2084713]
+500 [2.0926347]
+600 [1.8489071]
+Model saved in file: ../models/model_experiential_carrot-church
+pair: carrot,church
+test loss: 0.922232 , test accuracy: 1.000000
+0 [16.782104]
+100 [2.6764171]
+200 [2.3718474]
+300 [2.2617712]
+400 [2.0931332]
+500 [1.9901649]
+600 [1.7102152]
+Model saved in file: ../models/model_experiential_carrot-hand
+pair: carrot,hand
+test loss: 1.080856 , test accuracy: 0.000000
+0 [17.014051]
+100 [2.8563437]
+200 [2.4183066]
+300 [2.2860489]
+400 [2.0660233]
+500 [1.9297532]
+600 [1.7308414]
+Model saved in file: ../models/model_experiential_carrot-desk
+pair: carrot,desk
+test loss: 0.673285 , test accuracy: 1.000000
+0 [16.617281]
+100 [2.6827238]
+200 [2.4759057]
+300 [2.3126786]
+400 [2.2101629]
+500 [2.0314164]
+600 [1.8582336]
+Model saved in file: ../models/model_experiential_carrot-hammer
+pair: carrot,hammer
+test loss: 1.378135 , test accuracy: 0.000000
+0 [17.633514]
+100 [2.7041824]
+200 [2.4681547]
+300 [2.3006718]
+400 [2.2354832]
+500 [2.0761425]
+600 [1.8887002]
+Model saved in file: ../models/model_experiential_carrot-glass
+pair: carrot,glass
+test loss: 1.353382 , test accuracy: 1.000000
+0 [16.206007]
+100 [2.6490302]
+200 [2.4512732]
+300 [2.3375106]
+400 [2.1427169]
+500 [1.99112]
+600 [1.7859027]
+Model saved in file: ../models/model_experiential_carrot-bicycle
+pair: carrot,bicycle
+test loss: 0.872370 , test accuracy: 1.000000
+0 [17.130293]
+100 [2.7738106]
+200 [2.519043]
+300 [2.2419748]
+400 [2.1664076]
+500 [1.974152]
+600 [1.6851245]
+Model saved in file: ../models/model_experiential_carrot-eye
+pair: carrot,eye
+test loss: 0.725706 , test accuracy: 0.000000
+0 [16.573076]
+100 [2.7647476]
+200 [2.521425]
+300 [2.3405635]
+400 [2.2264457]
+500 [2.1430917]
+600 [1.9557528]
+Model saved in file: ../models/model_experiential_carrot-fly
+pair: carrot,fly
+test loss: 1.335700 , test accuracy: 0.000000
+0 [16.720709]
+100 [2.6746566]
+200 [2.4430001]
+300 [2.3232043]
+400 [2.15607]
+500 [1.9611584]
+600 [1.7295566]
+Model saved in file: ../models/model_experiential_carrot-chair
+pair: carrot,chair
+test loss: 0.541282 , test accuracy: 1.000000
+0 [16.80736]
+100 [2.7037048]
+200 [2.3945045]
+300 [2.2923353]
+400 [2.1463506]
+500 [1.9501324]
+600 [1.7588118]
+Model saved in file: ../models/model_experiential_carrot-arm
+pair: carrot,arm
+test loss: 0.860245 , test accuracy: 1.000000
+0 [16.518461]
+100 [2.6637428]
+200 [2.4546008]
+300 [2.3763509]
+400 [2.2714617]
+500 [2.0747888]
+600 [1.922121]
+Model saved in file: ../models/model_experiential_carrot-bell
+pair: carrot,bell
+test loss: 1.423818 , test accuracy: 0.000000
+0 [16.988348]
+100 [2.6675754]
+200 [2.4883368]
+300 [2.2821257]
+400 [2.1816547]
+500 [2.0692203]
+600 [1.850803]
+Model saved in file: ../models/model_experiential_carrot-foot
+pair: carrot,foot
+test loss: 1.176216 , test accuracy: 1.000000
+0 [16.330765]
+100 [2.7111754]
+200 [2.5427716]
+300 [2.3874843]
+400 [2.2149422]
+500 [2.0062118]
+600 [1.845419]
+Model saved in file: ../models/model_experiential_corn-airplane
+pair: corn,airplane
+test loss: 0.907487 , test accuracy: 1.000000
+0 [16.519451]
+100 [2.743917]
+200 [2.5481486]
+300 [2.3870273]
+400 [2.2605476]
+500 [2.0161967]
+600 [1.885639]
+Model saved in file: ../models/model_experiential_corn-door
+pair: corn,door
+test loss: 0.794662 , test accuracy: 1.000000
+0 [17.111134]
+100 [2.7820308]
+200 [2.5252926]
+300 [2.4237003]
+400 [2.1999602]
+500 [1.9793714]
+600 [1.8014529]
+Model saved in file: ../models/model_experiential_corn-window
+pair: corn,window
+test loss: 0.665455 , test accuracy: 1.000000
+0 [16.7612]
+100 [2.7323933]
+200 [2.429785]
+300 [2.2531211]
+400 [2.1434844]
+500 [1.9086345]
+600 [1.6322813]
+Model saved in file: ../models/model_experiential_corn-horse
+pair: corn,horse
+test loss: 0.836364 , test accuracy: 1.000000
+0 [16.563858]
+100 [2.6643798]
+200 [2.4659274]
+300 [2.2834954]
+400 [2.1956255]
+500 [2.0029516]
+600 [1.8347491]
+Model saved in file: ../models/model_experiential_corn-ant
+pair: corn,ant
+test loss: 1.018564 , test accuracy: 1.000000
+0 [17.145456]
+100 [2.8256824]
+200 [2.4324882]
+300 [2.2859638]
+400 [2.1483462]
+500 [1.9565376]
+600 [1.7479285]
+Model saved in file: ../models/model_experiential_corn-saw
+pair: corn,saw
+test loss: 0.783016 , test accuracy: 0.000000
+0 [16.540415]
+100 [2.6459529]
+200 [2.4103184]
+300 [2.2829514]
+400 [2.1933744]
+500 [2.0721464]
+600 [1.8314693]
+Model saved in file: ../models/model_experiential_corn-leg
+pair: corn,leg
+test loss: 1.049205 , test accuracy: 1.000000
+0 [16.852043]
+100 [2.9119771]
+200 [2.4562366]
+300 [2.308552]
+400 [2.1348894]
+500 [1.998613]
+600 [1.7513466]
+Model saved in file: ../models/model_experiential_corn-butterfly
+pair: corn,butterfly
+test loss: 0.683441 , test accuracy: 0.000000
+0 [16.919701]
+100 [2.7300715]
+200 [2.4507368]
+300 [2.3513865]
+400 [2.2250273]
+500 [2.0605414]
+600 [1.8558257]
+Model saved in file: ../models/model_experiential_corn-apartment
+pair: corn,apartment
+test loss: 0.766623 , test accuracy: 1.000000
+0 [16.43293]
+100 [2.9701953]
+200 [2.3716795]
+300 [2.2378824]
+400 [2.0211809]
+500 [1.8754336]
+600 [1.6229682]
+Model saved in file: ../models/model_experiential_corn-train
+pair: corn,train
+test loss: 0.963713 , test accuracy: 1.000000
+0 [16.952053]
+100 [2.8374794]
+200 [2.4724426]
+300 [2.3948691]
+400 [2.1737227]
+500 [1.9451668]
+600 [1.7681669]
+Model saved in file: ../models/model_experiential_corn-lettuce
+pair: corn,lettuce
+test loss: 0.741823 , test accuracy: 0.000000
+0 [16.914154]
+100 [2.8193092]
+200 [2.4488704]
+300 [2.3334646]
+400 [2.1813815]
+500 [1.9870883]
+600 [1.7331328]
+Model saved in file: ../models/model_experiential_corn-bee
+pair: corn,bee
+test loss: 0.747530 , test accuracy: 1.000000
+0 [16.49111]
+100 [2.6555398]
+200 [2.428288]
+300 [2.2751913]
+400 [2.1174026]
+500 [1.9405024]
+600 [1.7166129]
+Model saved in file: ../models/model_experiential_corn-house
+pair: corn,house
+test loss: 0.626319 , test accuracy: 1.000000
+0 [16.663933]
+100 [2.6708636]
+200 [2.4613237]
+300 [2.3371055]
+400 [2.2233098]
+500 [2.0685964]
+600 [1.9217834]
+Model saved in file: ../models/model_experiential_corn-tomato
+pair: corn,tomato
+test loss: 1.247651 , test accuracy: 1.000000
+0 [16.591509]
+100 [2.9695768]
+200 [2.3992426]
+300 [2.2396576]
+400 [2.0685282]
+500 [1.881628]
+600 [1.6693466]
+Model saved in file: ../models/model_experiential_corn-truck
+pair: corn,truck
+test loss: 0.705732 , test accuracy: 1.000000
+0 [16.326025]
+100 [2.632735]
+200 [2.517956]
+300 [2.3262596]
+400 [2.1633372]
+500 [1.9698883]
+600 [1.7229046]
+Model saved in file: ../models/model_experiential_corn-car
+pair: corn,car
+test loss: 0.757985 , test accuracy: 0.000000
+0 [16.647415]
+100 [2.728847]
+200 [2.4660239]
+300 [2.2974603]
+400 [2.1602397]
+500 [2.0676546]
+600 [1.8453777]
+Model saved in file: ../models/model_experiential_corn-key
+pair: corn,key
+test loss: 0.998272 , test accuracy: 0.000000
+0 [17.057695]
+100 [2.8404953]
+200 [2.441884]
+300 [2.3090448]
+400 [2.1107514]
+500 [2.0049083]
+600 [1.7438889]
+Model saved in file: ../models/model_experiential_corn-bed
+pair: corn,bed
+test loss: 0.734744 , test accuracy: 1.000000
+0 [16.643402]
+100 [2.8191986]
+200 [2.3798544]
+300 [2.2756157]
+400 [2.0627263]
+500 [1.9393148]
+600 [1.7581947]
+Model saved in file: ../models/model_experiential_corn-telephone
+pair: corn,telephone
+test loss: 0.937405 , test accuracy: 0.000000
+0 [16.390089]
+100 [2.7058008]
+200 [2.5056009]
+300 [2.3031297]
+400 [2.1339312]
+500 [1.9217802]
+600 [1.8223637]
+Model saved in file: ../models/model_experiential_corn-table
+pair: corn,table
+test loss: 0.726566 , test accuracy: 1.000000
+0 [16.166023]
+100 [2.6549251]
+200 [2.5492129]
+300 [2.3502843]
+400 [2.2660799]
+500 [2.090688]
+600 [1.9325582]
+Model saved in file: ../models/model_experiential_corn-church
+pair: corn,church
+test loss: 0.941002 , test accuracy: 1.000000
+0 [16.538755]
+100 [2.7762508]
+200 [2.5420218]
+300 [2.3281915]
+400 [2.1807537]
+500 [1.9772403]
+600 [1.7430986]
+Model saved in file: ../models/model_experiential_corn-hand
+pair: corn,hand
+test loss: 0.812839 , test accuracy: 1.000000
+0 [17.091663]
+100 [2.7095678]
+200 [2.5500479]
+300 [2.3274364]
+400 [2.2430887]
+500 [2.0806472]
+600 [1.8804446]
+Model saved in file: ../models/model_experiential_corn-desk
+pair: corn,desk
+test loss: 0.817096 , test accuracy: 1.000000
+0 [15.992158]
+100 [2.7795658]
+200 [2.5175478]
+300 [2.3270321]
+400 [2.1804245]
+500 [1.9785165]
+600 [1.8000787]
+Model saved in file: ../models/model_experiential_corn-hammer
+pair: corn,hammer
+test loss: 0.801094 , test accuracy: 0.000000
+0 [16.247551]
+100 [2.8250682]
+200 [2.4971142]
+300 [2.3898933]
+400 [2.2438092]
+500 [1.997281]
+600 [1.8161547]
+Model saved in file: ../models/model_experiential_corn-glass
+pair: corn,glass
+test loss: 0.543900 , test accuracy: 0.000000
+0 [16.702314]
+100 [2.7365348]
+200 [2.4929485]
+300 [2.267318]
+400 [2.1825643]
+500 [1.9412301]
+600 [1.7173494]
+Model saved in file: ../models/model_experiential_corn-bicycle
+pair: corn,bicycle
+test loss: 0.876702 , test accuracy: 1.000000
+0 [16.942844]
+100 [2.9894099]
+200 [2.3885136]
+300 [2.2242336]
+400 [2.0715699]
+500 [1.839618]
+600 [1.6997404]
+Model saved in file: ../models/model_experiential_corn-eye
+pair: corn,eye
+test loss: 0.721839 , test accuracy: 1.000000
+0 [16.800894]
+100 [2.7197692]
+200 [2.5002139]
+300 [2.3504436]
+400 [2.2425604]
+500 [2.0679312]
+600 [1.9579664]
+Model saved in file: ../models/model_experiential_corn-fly
+pair: corn,fly
+test loss: 1.108989 , test accuracy: 1.000000
+0 [16.969423]
+100 [2.7308605]
+200 [2.4577804]
+300 [2.3031178]
+400 [2.1663535]
+500 [2.0519311]
+600 [1.8607812]
+Model saved in file: ../models/model_experiential_corn-chair
+pair: corn,chair
+test loss: 0.715204 , test accuracy: 1.000000
+0 [16.520563]
+100 [2.6353064]
+200 [2.4901154]
+300 [2.3352962]
+400 [2.2138872]
+500 [2.0158441]
+600 [1.8261863]
+Model saved in file: ../models/model_experiential_corn-arm
+pair: corn,arm
+test loss: 0.973948 , test accuracy: 1.000000
+0 [16.755539]
+100 [2.7102203]
+200 [2.530421]
+300 [2.2701905]
+400 [2.207669]
+500 [2.0288055]
+600 [1.7868315]
+Model saved in file: ../models/model_experiential_corn-bell
+pair: corn,bell
+test loss: 1.100390 , test accuracy: 0.000000
+0 [17.172722]
+100 [2.869153]
+200 [2.4345012]
+300 [2.2069478]
+400 [2.0405025]
+500 [1.8525791]
+600 [1.6448708]
+Model saved in file: ../models/model_experiential_corn-foot
+pair: corn,foot
+test loss: 0.686778 , test accuracy: 1.000000
+0 [16.101805]
+100 [2.6924388]
+200 [2.4436171]
+300 [2.3441603]
+400 [2.143523]
+500 [1.9440906]
+600 [1.785995]
+Model saved in file: ../models/model_experiential_airplane-door
+pair: airplane,door
+test loss: 0.980822 , test accuracy: 1.000000
+0 [17.023706]
+100 [2.7197344]
+200 [2.5419405]
+300 [2.3824847]
+400 [2.2426634]
+500 [2.1095655]
+600 [1.9710939]
+Model saved in file: ../models/model_experiential_airplane-window
+pair: airplane,window
+test loss: 0.627922 , test accuracy: 1.000000
+0 [16.891783]
+100 [2.6953645]
+200 [2.5251348]
+300 [2.3664322]
+400 [2.3077424]
+500 [2.115376]
+600 [1.940498]
+Model saved in file: ../models/model_experiential_airplane-horse
+pair: airplane,horse
+test loss: 0.775424 , test accuracy: 1.000000
+0 [16.755274]
+100 [2.7854226]
+200 [2.4630842]
+300 [2.3239229]
+400 [2.2014232]
+500 [1.942644]
+600 [1.7524364]
+Model saved in file: ../models/model_experiential_airplane-ant
+pair: airplane,ant
+test loss: 0.848288 , test accuracy: 1.000000
+0 [16.821461]
+100 [2.6666424]
+200 [2.486491]
+300 [2.3122368]
+400 [2.2301133]
+500 [2.0503409]
+600 [1.8866386]
+Model saved in file: ../models/model_experiential_airplane-saw
+pair: airplane,saw
+test loss: 0.887646 , test accuracy: 1.000000
+0 [16.302313]
+100 [2.7123251]
+200 [2.4327242]
+300 [2.2463024]
+400 [2.1036618]
+500 [1.936617]
+600 [1.7245569]
+Model saved in file: ../models/model_experiential_airplane-leg
+pair: airplane,leg
+test loss: 0.984733 , test accuracy: 1.000000
+0 [16.190426]
+100 [2.6831536]
+200 [2.5485635]
+300 [2.3679416]
+400 [2.1628997]
+500 [2.0308156]
+600 [1.8096396]
+Model saved in file: ../models/model_experiential_airplane-butterfly
+pair: airplane,butterfly
+test loss: 0.895540 , test accuracy: 1.000000
+0 [17.034935]
+100 [2.6729448]
+200 [2.4895158]
+300 [2.3464875]
+400 [2.217756]
+500 [2.1173439]
+600 [1.9275068]
+Model saved in file: ../models/model_experiential_airplane-apartment
+pair: airplane,apartment
+test loss: 1.003458 , test accuracy: 1.000000
+0 [17.262531]
+100 [3.1465778]
+200 [2.3308744]
+300 [2.1902795]
+400 [1.9951289]
+500 [1.8438891]
+600 [1.5848923]
+Model saved in file: ../models/model_experiential_airplane-train
+pair: airplane,train
+test loss: 1.046728 , test accuracy: 1.000000
+0 [16.404638]
+100 [2.7508674]
+200 [2.4392939]
+300 [2.2826505]
+400 [2.1008527]
+500 [1.8665948]
+600 [1.7523558]
+Model saved in file: ../models/model_experiential_airplane-lettuce
+pair: airplane,lettuce
+test loss: 0.763571 , test accuracy: 1.000000
+0 [16.632584]
+100 [2.744509]
+200 [2.4942105]
+300 [2.3628812]
+400 [2.2321899]
+500 [1.9992654]
+600 [1.7911941]
+Model saved in file: ../models/model_experiential_airplane-bee
+pair: airplane,bee
+test loss: 0.900155 , test accuracy: 1.000000
+0 [16.225107]
+100 [2.7813401]
+200 [2.4683669]
+300 [2.3587239]
+400 [2.1836355]
+500 [2.1061311]
+600 [1.9214747]
+Model saved in file: ../models/model_experiential_airplane-house
+pair: airplane,house
+test loss: 0.794891 , test accuracy: 1.000000
+0 [17.009741]
+100 [2.787081]
+200 [2.4214392]
+300 [2.3290451]
+400 [2.1362498]
+500 [1.9819125]
+600 [1.7862865]
+Model saved in file: ../models/model_experiential_airplane-tomato
+pair: airplane,tomato
+test loss: 1.031473 , test accuracy: 1.000000
+0 [16.561329]
+100 [2.7157106]
+200 [2.4094896]
+300 [2.3464077]
+400 [2.1724665]
+500 [2.0141649]
+600 [1.8450311]
+Model saved in file: ../models/model_experiential_airplane-truck
+pair: airplane,truck
+test loss: 0.782252 , test accuracy: 0.000000
+0 [16.492861]
+100 [2.7165887]
+200 [2.3633695]
+300 [2.2024086]
+400 [2.0217013]
+500 [1.8820213]
+600 [1.7313373]
+Model saved in file: ../models/model_experiential_airplane-car
+pair: airplane,car
+test loss: 0.902779 , test accuracy: 0.000000
+0 [17.241467]
+100 [2.7341383]
+200 [2.4101722]
+300 [2.3281813]
+400 [2.131727]
+500 [2.0267971]
+600 [1.8487632]
+Model saved in file: ../models/model_experiential_airplane-key
+pair: airplane,key
+test loss: 0.840816 , test accuracy: 1.000000
+0 [15.653253]
+100 [2.7636681]
+200 [2.4607112]
+300 [2.2948506]
+400 [2.136328]
+500 [1.9389952]
+600 [1.7730497]
+Model saved in file: ../models/model_experiential_airplane-bed
+pair: airplane,bed
+test loss: 0.934122 , test accuracy: 1.000000
+0 [16.490335]
+100 [2.7302446]
+200 [2.5448947]
+300 [2.3452256]
+400 [2.2372701]
+500 [2.1385128]
+600 [1.9265735]
+Model saved in file: ../models/model_experiential_airplane-telephone
+pair: airplane,telephone
+test loss: 0.927434 , test accuracy: 1.000000
+0 [17.085688]
+100 [2.6724882]
+200 [2.4607656]
+300 [2.2384443]
+400 [2.1103799]
+500 [2.0158584]
+600 [1.796657]
+Model saved in file: ../models/model_experiential_airplane-table
+pair: airplane,table
+test loss: 0.507978 , test accuracy: 1.000000
+0 [16.776571]
+100 [2.7502511]
+200 [2.4733863]
+300 [2.3114419]
+400 [2.172369]
+500 [2.0021396]
+600 [1.7541872]
+Model saved in file: ../models/model_experiential_airplane-church
+pair: airplane,church
+test loss: 1.086217 , test accuracy: 1.000000
+0 [16.612417]
+100 [2.6923997]
+200 [2.4651287]
+300 [2.3510406]
+400 [2.2398913]
+500 [2.0489559]
+600 [1.8492132]
+Model saved in file: ../models/model_experiential_airplane-hand
+pair: airplane,hand
+test loss: 0.848628 , test accuracy: 1.000000
+0 [16.887651]
+100 [2.7044261]
+200 [2.4576435]
+300 [2.3628597]
+400 [2.2135105]
+500 [2.0211096]
+600 [1.8880941]
+Model saved in file: ../models/model_experiential_airplane-desk
+pair: airplane,desk
+test loss: 0.974378 , test accuracy: 1.000000
+0 [16.558619]
+100 [2.7717409]
+200 [2.4691346]
+300 [2.2924035]
+400 [2.205071]
+500 [2.0766823]
+600 [1.8873324]
+Model saved in file: ../models/model_experiential_airplane-hammer
+pair: airplane,hammer
+test loss: 1.056355 , test accuracy: 1.000000
+0 [16.965971]
+100 [2.7187321]
+200 [2.4825115]
+300 [2.3056519]
+400 [2.2394426]
+500 [2.0476639]
+600 [1.8744633]
+Model saved in file: ../models/model_experiential_airplane-glass
+pair: airplane,glass
+test loss: 0.977173 , test accuracy: 1.000000
+0 [16.888622]
+100 [2.6868186]
+200 [2.4694839]
+300 [2.3102582]
+400 [2.1922774]
+500 [2.0069654]
+600 [1.7689527]
+Model saved in file: ../models/model_experiential_airplane-bicycle
+pair: airplane,bicycle
+test loss: 1.033381 , test accuracy: 1.000000
+0 [16.817528]
+100 [2.701421]
+200 [2.5205104]
+300 [2.3418727]
+400 [2.1795652]
+500 [2.0484571]
+600 [1.8073432]
+Model saved in file: ../models/model_experiential_airplane-eye
+pair: airplane,eye
+test loss: 0.726806 , test accuracy: 1.000000
+0 [16.520826]
+100 [2.7172918]
+200 [2.5718403]
+300 [2.3576827]
+400 [2.2814817]
+500 [2.0775604]
+600 [1.8489579]
+Model saved in file: ../models/model_experiential_airplane-fly
+pair: airplane,fly
+test loss: 0.907853 , test accuracy: 1.000000
+0 [16.233849]
+100 [2.8138211]
+200 [2.5279973]
+300 [2.4034119]
+400 [2.2519004]
+500 [2.092921]
+600 [1.9688957]
+Model saved in file: ../models/model_experiential_airplane-chair
+pair: airplane,chair
+test loss: 0.636088 , test accuracy: 1.000000
+0 [17.050226]
+100 [2.6849694]
+200 [2.442178]
+300 [2.2398884]
+400 [2.1176591]
+500 [1.9194419]
+600 [1.7249061]
+Model saved in file: ../models/model_experiential_airplane-arm
+pair: airplane,arm
+test loss: 0.707497 , test accuracy: 1.000000
+0 [16.335991]
+100 [2.7404118]
+200 [2.452765]
+300 [2.3271172]
+400 [2.1721756]
+500 [1.9622133]
+600 [1.7510456]
+Model saved in file: ../models/model_experiential_airplane-bell
+pair: airplane,bell
+test loss: 0.794509 , test accuracy: 1.000000
+0 [16.193497]
+100 [2.8391633]
+200 [2.5423224]
+300 [2.4250224]
+400 [2.285763]
+500 [2.0839031]
+600 [1.8667899]
+Model saved in file: ../models/model_experiential_airplane-foot
+pair: airplane,foot
+test loss: 1.022726 , test accuracy: 1.000000
+0 [17.144468]
+100 [2.6429322]
+200 [2.4666028]
+300 [2.2915008]
+400 [2.0611451]
+500 [1.8798409]
+600 [1.7209749]
+Model saved in file: ../models/model_experiential_door-window
+pair: door,window
+test loss: 0.683300 , test accuracy: 1.000000
+0 [16.960136]
+100 [2.7602978]
+200 [2.4580946]
+300 [2.2116177]
+400 [2.1462417]
+500 [1.9053766]
+600 [1.7807597]
+Model saved in file: ../models/model_experiential_door-horse
+pair: door,horse
+test loss: 0.999457 , test accuracy: 1.000000
+0 [16.861298]
+100 [2.6852922]
+200 [2.4746246]
+300 [2.3534069]
+400 [2.1826923]
+500 [2.0145335]
+600 [1.8639568]
+Model saved in file: ../models/model_experiential_door-ant
+pair: door,ant
+test loss: 0.833586 , test accuracy: 1.000000
+0 [17.216259]
+100 [2.823544]
+200 [2.4567702]
+300 [2.3732209]
+400 [2.190223]
+500 [2.0418904]
+600 [1.797523]
+Model saved in file: ../models/model_experiential_door-saw
+pair: door,saw
+test loss: 0.918641 , test accuracy: 0.000000
+0 [16.799181]
+100 [2.6874356]
+200 [2.4211259]
+300 [2.2975881]
+400 [2.1160491]
+500 [1.9630758]
+600 [1.8351866]
+Model saved in file: ../models/model_experiential_door-leg
+pair: door,leg
+test loss: 0.814223 , test accuracy: 1.000000
+0 [16.618782]
+100 [2.692498]
+200 [2.4540458]
+300 [2.3428674]
+400 [2.2204511]
+500 [2.0608597]
+600 [1.8553917]
+Model saved in file: ../models/model_experiential_door-butterfly
+pair: door,butterfly
+test loss: 0.938303 , test accuracy: 1.000000
+0 [17.067108]
+100 [2.7914906]
+200 [2.3490446]
+300 [2.2688718]
+400 [2.0881658]
+500 [1.9913591]
+600 [1.8087906]
+Model saved in file: ../models/model_experiential_door-apartment
+pair: door,apartment
+test loss: 0.835693 , test accuracy: 1.000000
+0 [17.091494]
+100 [5.5623598]
+200 [2.1869147]
+300 [1.9778078]
+400 [1.7464913]
+500 [1.5364525]
+600 [1.4261018]
+Model saved in file: ../models/model_experiential_door-train
+pair: door,train
+test loss: 0.628087 , test accuracy: 1.000000
+0 [16.909166]
+100 [2.7756171]
+200 [2.5260282]
+300 [2.444711]
+400 [2.252934]
+500 [2.0840545]
+600 [1.8908427]
+Model saved in file: ../models/model_experiential_door-lettuce
+pair: door,lettuce
+test loss: 0.848693 , test accuracy: 1.000000
+0 [16.861107]
+100 [2.9982955]
+200 [2.3808634]
+300 [2.2196109]
+400 [2.1303775]
+500 [1.920051]
+600 [1.7475672]
+Model saved in file: ../models/model_experiential_door-bee
+pair: door,bee
+test loss: 0.606826 , test accuracy: 1.000000
+0 [16.838123]
+100 [2.6988287]
+200 [2.4344501]
+300 [2.3229842]
+400 [2.1729107]
+500 [2.0333416]
+600 [1.8830833]
+Model saved in file: ../models/model_experiential_door-house
+pair: door,house
+test loss: 0.706472 , test accuracy: 1.000000
+0 [17.197662]
+100 [2.6165857]
+200 [2.4005919]
+300 [2.3604527]
+400 [2.1268687]
+500 [1.9932648]
+600 [1.8262776]
+Model saved in file: ../models/model_experiential_door-tomato
+pair: door,tomato
+test loss: 0.975450 , test accuracy: 1.000000
+0 [17.174324]
+100 [2.6960356]
+200 [2.4773948]
+300 [2.3530552]
+400 [2.1798558]
+500 [1.9972383]
+600 [1.8041319]
+Model saved in file: ../models/model_experiential_door-truck
+pair: door,truck
+test loss: 0.989090 , test accuracy: 1.000000
+0 [16.878906]
+100 [2.7184312]
+200 [2.4364643]
+300 [2.2920439]
+400 [2.1272528]
+500 [1.9882497]
+600 [1.7751752]
+Model saved in file: ../models/model_experiential_door-car
+pair: door,car
+test loss: 0.889368 , test accuracy: 1.000000
+0 [16.928801]
+100 [2.7821801]
+200 [2.4734154]
+300 [2.3288982]
+400 [2.2492878]
+500 [2.0706365]
+600 [1.942369]
+Model saved in file: ../models/model_experiential_door-key
+pair: door,key
+test loss: 0.879964 , test accuracy: 1.000000
+0 [17.034878]
+100 [2.7647316]
+200 [2.4750416]
+300 [2.315068]
+400 [2.0976086]
+500 [1.9566766]
+600 [1.8446705]
+Model saved in file: ../models/model_experiential_door-bed
+pair: door,bed
+test loss: 0.524915 , test accuracy: 0.000000
+0 [16.342403]
+100 [2.7099807]
+200 [2.4754868]
+300 [2.3211789]
+400 [2.1784573]
+500 [1.988061]
+600 [1.8253703]
+Model saved in file: ../models/model_experiential_door-telephone
+pair: door,telephone
+test loss: 1.149403 , test accuracy: 1.000000
+0 [16.862648]
+100 [2.677845]
+200 [2.4864726]
+300 [2.3154233]
+400 [2.2175801]
+500 [2.0913959]
+600 [1.8788157]
+Model saved in file: ../models/model_experiential_door-table
+pair: door,table
+test loss: 0.480916 , test accuracy: 0.000000
+0 [16.716232]
+100 [2.6893466]
+200 [2.4547791]
+300 [2.3524296]
+400 [2.2318234]
+500 [2.140856]
+600 [1.8908479]
+Model saved in file: ../models/model_experiential_door-church
+pair: door,church
+test loss: 0.678411 , test accuracy: 1.000000
+0 [16.688976]
+100 [2.6953688]
+200 [2.4653256]
+300 [2.3404329]
+400 [2.1359203]
+500 [1.9725244]
+600 [1.772227]
+Model saved in file: ../models/model_experiential_door-hand
+pair: door,hand
+test loss: 0.890607 , test accuracy: 1.000000
+0 [16.696789]
+100 [2.7173243]
+200 [2.4839292]
+300 [2.3108447]
+400 [2.1949446]
+500 [1.9552898]
+600 [1.833438]
+Model saved in file: ../models/model_experiential_door-desk
+pair: door,desk
+test loss: 0.885022 , test accuracy: 1.000000
+0 [16.256361]
+100 [2.683099]
+200 [2.4345391]
+300 [2.3602865]
+400 [2.2041094]
+500 [2.0942943]
+600 [1.9371403]
+Model saved in file: ../models/model_experiential_door-hammer
+pair: door,hammer
+test loss: 0.928347 , test accuracy: 1.000000
+0 [16.57613]
+100 [2.6713996]
+200 [2.4993773]
+300 [2.3505871]
+400 [2.2152243]
+500 [2.092602]
+600 [1.9073178]
+Model saved in file: ../models/model_experiential_door-glass
+pair: door,glass
+test loss: 0.906594 , test accuracy: 1.000000
+0 [16.133221]
+100 [2.691987]
+200 [2.5052283]
+300 [2.336915]
+400 [2.2114475]
+500 [2.0394514]
+600 [1.896063]
+Model saved in file: ../models/model_experiential_door-bicycle
+pair: door,bicycle
+test loss: 0.548281 , test accuracy: 1.000000
+0 [16.97979]
+100 [2.7543893]
+200 [2.4873133]
+300 [2.3461339]
+400 [2.2073038]
+500 [2.0297859]
+600 [1.8756094]
+Model saved in file: ../models/model_experiential_door-eye
+pair: door,eye
+test loss: 0.980461 , test accuracy: 1.000000
+0 [16.554308]
+100 [2.6472392]
+200 [2.4682782]
+300 [2.3248904]
+400 [2.2407622]
+500 [2.065454]
+600 [1.9288794]
+Model saved in file: ../models/model_experiential_door-fly
+pair: door,fly
+test loss: 0.883475 , test accuracy: 1.000000
+0 [16.534168]
+100 [2.7590096]
+200 [2.5050495]
+300 [2.4070566]
+400 [2.2799897]
+500 [2.122427]
+600 [1.8867785]
+Model saved in file: ../models/model_experiential_door-chair
+pair: door,chair
+test loss: 0.808085 , test accuracy: 1.000000
+0 [16.764061]
+100 [2.867835]
+200 [2.3583879]
+300 [2.2570059]
+400 [2.0253806]
+500 [1.811219]
+600 [1.6896454]
+Model saved in file: ../models/model_experiential_door-arm
+pair: door,arm
+test loss: 0.522535 , test accuracy: 1.000000
+0 [16.505564]
+100 [2.7808383]
+200 [2.4566553]
+300 [2.3040414]
+400 [2.1999848]
+500 [2.0586987]
+600 [1.8502874]
+Model saved in file: ../models/model_experiential_door-bell
+pair: door,bell
+test loss: 0.932105 , test accuracy: 0.000000
+0 [16.674257]
+100 [2.7621024]
+200 [2.4325712]
+300 [2.2109811]
+400 [2.066642]
+500 [1.8859527]
+600 [1.6664475]
+Model saved in file: ../models/model_experiential_door-foot
+pair: door,foot
+test loss: 0.780149 , test accuracy: 1.000000
+0 [17.055895]
+100 [3.2851691]
+200 [2.3623192]
+300 [2.2045684]
+400 [2.0295165]
+500 [1.9018694]
+600 [1.6941477]
+Model saved in file: ../models/model_experiential_window-horse
+pair: window,horse
+test loss: 0.417665 , test accuracy: 1.000000
+0 [17.240248]
+100 [2.7871168]
+200 [2.5888169]
+300 [2.3916559]
+400 [2.3231056]
+500 [2.1156037]
+600 [1.9784858]
+Model saved in file: ../models/model_experiential_window-ant
+pair: window,ant
+test loss: 0.750195 , test accuracy: 1.000000
+0 [16.757353]
+100 [2.7305295]
+200 [2.4622986]
+300 [2.357666]
+400 [2.2387552]
+500 [2.1288242]
+600 [1.9399981]
+Model saved in file: ../models/model_experiential_window-saw
+pair: window,saw
+test loss: 0.797907 , test accuracy: 1.000000
+0 [16.790659]
+100 [2.6650715]
+200 [2.4229763]
+300 [2.3038058]
+400 [2.1242826]
+500 [1.8866501]
+600 [1.7229189]
+Model saved in file: ../models/model_experiential_window-leg
+pair: window,leg
+test loss: 0.747466 , test accuracy: 1.000000
+0 [16.803724]
+100 [2.8289037]
+200 [2.5465765]
+300 [2.3828533]
+400 [2.3022316]
+500 [2.0764556]
+600 [1.9121211]
+Model saved in file: ../models/model_experiential_window-butterfly
+pair: window,butterfly
+test loss: 0.712197 , test accuracy: 1.000000
+0 [16.744154]
+100 [2.664228]
+200 [2.4937131]
+300 [2.3384981]
+400 [2.2172959]
+500 [2.0948215]
+600 [1.8911304]
+Model saved in file: ../models/model_experiential_window-apartment
+pair: window,apartment
+test loss: 0.494110 , test accuracy: 1.000000
+0 [16.9867]
+100 [2.913563]
+200 [2.3971925]
+300 [2.2531981]
+400 [2.1504116]
+500 [1.9497733]
+600 [1.7274055]
+Model saved in file: ../models/model_experiential_window-train
+pair: window,train
+test loss: 0.428187 , test accuracy: 1.000000
+0 [16.944017]
+100 [2.7359796]
+200 [2.5685551]
+300 [2.4753497]
+400 [2.2238524]
+500 [2.0720656]
+600 [1.917058]
+Model saved in file: ../models/model_experiential_window-lettuce
+pair: window,lettuce
+test loss: 0.676748 , test accuracy: 1.000000
+0 [16.999598]
+100 [2.756911]
+200 [2.456418]
+300 [2.2616658]
+400 [2.1564798]
+500 [1.9951547]
+600 [1.8181858]
+Model saved in file: ../models/model_experiential_window-bee
+pair: window,bee
+test loss: 0.577694 , test accuracy: 1.000000
+0 [16.630697]
+100 [2.6886735]
+200 [2.4695859]
+300 [2.3343003]
+400 [2.2394698]
+500 [2.0583856]
+600 [1.8633373]
+Model saved in file: ../models/model_experiential_window-house
+pair: window,house
+test loss: 0.629357 , test accuracy: 1.000000
+0 [16.951389]
+100 [2.7187991]
+200 [2.4535294]
+300 [2.2741244]
+400 [2.1453896]
+500 [2.0134921]
+600 [1.7305772]
+Model saved in file: ../models/model_experiential_window-tomato
+pair: window,tomato
+test loss: 0.475080 , test accuracy: 1.000000
+0 [16.522295]
+100 [2.9634404]
+200 [2.4097323]
+300 [2.2413571]
+400 [2.0421724]
+500 [1.8263328]
+600 [1.711235]
+Model saved in file: ../models/model_experiential_window-truck
+pair: window,truck
+test loss: 0.468010 , test accuracy: 1.000000
+0 [16.833179]
+100 [2.6691549]
+200 [2.5020759]
+300 [2.3673203]
+400 [2.2067826]
+500 [1.9862843]
+600 [1.866758]
+Model saved in file: ../models/model_experiential_window-car
+pair: window,car
+test loss: 0.719770 , test accuracy: 1.000000
+0 [17.21553]
+100 [2.7906528]
+200 [2.4923434]
+300 [2.259304]
+400 [2.0967758]
+500 [1.9372818]
+600 [1.7377005]
+Model saved in file: ../models/model_experiential_window-key
+pair: window,key
+test loss: 0.478267 , test accuracy: 1.000000
+0 [16.491201]
+100 [2.6786773]
+200 [2.469456]
+300 [2.3201501]
+400 [2.2085197]
+500 [2.015147]
+600 [1.9045225]
+Model saved in file: ../models/model_experiential_window-bed
+pair: window,bed
+test loss: 0.747140 , test accuracy: 1.000000
+0 [16.365805]
+100 [2.6543419]
+200 [2.5083094]
+300 [2.3321791]
+400 [2.2495615]
+500 [2.0894775]
+600 [1.9398236]
+Model saved in file: ../models/model_experiential_window-telephone
+pair: window,telephone
+test loss: 0.771299 , test accuracy: 1.000000
+0 [17.254587]
+100 [2.6887281]
+200 [2.5288062]
+300 [2.3057168]
+400 [2.2724872]
+500 [2.0233986]
+600 [1.8587829]
+Model saved in file: ../models/model_experiential_window-table
+pair: window,table
+test loss: 0.719913 , test accuracy: 1.000000
+0 [17.243376]
+100 [2.7736766]
+200 [2.4617062]
+300 [2.2826226]
+400 [2.1783383]
+500 [1.9804958]
+600 [1.7943554]
+Model saved in file: ../models/model_experiential_window-church
+pair: window,church
+test loss: 0.836023 , test accuracy: 1.000000
+0 [16.785755]
+100 [2.7992649]
+200 [2.4443045]
+300 [2.2898459]
+400 [2.1218746]
+500 [1.9625406]
+600 [1.783603]
+Model saved in file: ../models/model_experiential_window-hand
+pair: window,hand
+test loss: 0.629322 , test accuracy: 1.000000
+0 [17.308598]
+100 [2.8249559]
+200 [2.3911214]
+300 [2.2313123]
+400 [2.0721526]
+500 [1.9190003]
+600 [1.7435226]
+Model saved in file: ../models/model_experiential_window-desk
+pair: window,desk
+test loss: 0.613219 , test accuracy: 1.000000
+0 [17.280298]
+100 [2.7149336]
+200 [2.4871032]
+300 [2.3641288]
+400 [2.1709459]
+500 [2.0277786]
+600 [1.8175611]
+Model saved in file: ../models/model_experiential_window-hammer
+pair: window,hammer
+test loss: 0.719137 , test accuracy: 1.000000
+0 [17.506264]
+100 [2.7121518]
+200 [2.5170321]
+300 [2.4059]
+400 [2.2786829]
+500 [2.061677]
+600 [1.9118657]
+Model saved in file: ../models/model_experiential_window-glass
+pair: window,glass
+test loss: 0.521097 , test accuracy: 1.000000
+0 [16.868107]
+100 [2.7856767]
+200 [2.4684391]
+300 [2.3563507]
+400 [2.195116]
+500 [2.0611527]
+600 [1.9097654]
+Model saved in file: ../models/model_experiential_window-bicycle
+pair: window,bicycle
+test loss: 0.463660 , test accuracy: 1.000000
+0 [17.007917]
+100 [2.696841]
+200 [2.48525]
+300 [2.4210136]
+400 [2.2228112]
+500 [2.084955]
+600 [1.908693]
+Model saved in file: ../models/model_experiential_window-eye
+pair: window,eye
+test loss: 0.644524 , test accuracy: 1.000000
+0 [16.879679]
+100 [2.7038927]
+200 [2.4771051]
+300 [2.3362629]
+400 [2.1684825]
+500 [2.0244472]
+600 [1.8100462]
+Model saved in file: ../models/model_experiential_window-fly
+pair: window,fly
+test loss: 0.658566 , test accuracy: 1.000000
+0 [16.912949]
+100 [2.7814455]
+200 [2.5176504]
+300 [2.3681302]
+400 [2.2259452]
+500 [2.1190963]
+600 [1.9328363]
+Model saved in file: ../models/model_experiential_window-chair
+pair: window,chair
+test loss: 0.467648 , test accuracy: 1.000000
+0 [16.72616]
+100 [2.7091722]
+200 [2.4739342]
+300 [2.3101609]
+400 [2.2094603]
+500 [2.0672884]
+600 [1.9338219]
+Model saved in file: ../models/model_experiential_window-arm
+pair: window,arm
+test loss: 0.669890 , test accuracy: 1.000000
+0 [17.096895]
+100 [3.9213548]
+200 [2.427386]
+300 [2.1765907]
+400 [2.0127497]
+500 [1.7814797]
+600 [1.6111467]
+Model saved in file: ../models/model_experiential_window-bell
+pair: window,bell
+test loss: 0.454114 , test accuracy: 1.000000
+0 [17.122782]
+100 [2.6701722]
+200 [2.4487846]
+300 [2.3134975]
+400 [2.2094033]
+500 [2.0458617]
+600 [1.9426774]
+Model saved in file: ../models/model_experiential_window-foot
+pair: window,foot
+test loss: 0.648243 , test accuracy: 1.000000
+0 [16.501179]
+100 [2.6800296]
+200 [2.431535]
+300 [2.2692354]
+400 [2.1528888]
+500 [2.0854895]
+600 [1.891282]
+Model saved in file: ../models/model_experiential_horse-ant
+pair: horse,ant
+test loss: 0.881752 , test accuracy: 1.000000
+0 [16.671759]
+100 [2.7495718]
+200 [2.3981864]
+300 [2.2223668]
+400 [2.094866]
+500 [1.9858401]
+600 [1.7395879]
+Model saved in file: ../models/model_experiential_horse-saw
+pair: horse,saw
+test loss: 0.792033 , test accuracy: 1.000000
+0 [16.771662]
+100 [2.6174095]
+200 [2.4553289]
+300 [2.3107123]
+400 [2.1708193]
+500 [2.0244024]
+600 [1.8814205]
+Model saved in file: ../models/model_experiential_horse-leg
+pair: horse,leg
+test loss: 0.920584 , test accuracy: 1.000000
+0 [16.274075]
+100 [2.6752574]
+200 [2.4749012]
+300 [2.3126481]
+400 [2.2097273]
+500 [2.0527492]
+600 [1.8732809]
+Model saved in file: ../models/model_experiential_horse-butterfly
+pair: horse,butterfly
+test loss: 1.026179 , test accuracy: 1.000000
+0 [16.904205]
+100 [2.6644988]
+200 [2.3661499]
+300 [2.2736709]
+400 [2.1089208]
+500 [1.9654688]
+600 [1.820487]
+Model saved in file: ../models/model_experiential_horse-apartment
+pair: horse,apartment
+test loss: 0.941644 , test accuracy: 1.000000
+0 [17.020657]
+100 [2.7194335]
+200 [2.4967582]
+300 [2.3284976]
+400 [2.1779406]
+500 [2.1165805]
+600 [1.9006411]
+Model saved in file: ../models/model_experiential_horse-train
+pair: horse,train
+test loss: 0.678252 , test accuracy: 1.000000
+0 [16.360449]
+100 [2.7084241]
+200 [2.452672]
+300 [2.3552675]
+400 [2.1981828]
+500 [2.0746243]
+600 [1.8932687]
+Model saved in file: ../models/model_experiential_horse-lettuce
+pair: horse,lettuce
+test loss: 0.799155 , test accuracy: 1.000000
+0 [17.198734]
+100 [2.7181847]
+200 [2.4660749]
+300 [2.333667]
+400 [2.1924176]
+500 [2.0531895]
+600 [1.8896923]
+Model saved in file: ../models/model_experiential_horse-bee
+pair: horse,bee
+test loss: 0.826131 , test accuracy: 1.000000
+0 [16.643501]
+100 [2.6955128]
+200 [2.3634231]
+300 [2.284935]
+400 [2.1595469]
+500 [2.0428526]
+600 [1.8670801]
+Model saved in file: ../models/model_experiential_horse-house
+pair: horse,house
+test loss: 0.747364 , test accuracy: 1.000000
+0 [16.543713]
+100 [2.6900668]
+200 [2.4382701]
+300 [2.3549068]
+400 [2.1078897]
+500 [1.951629]
+600 [1.7871634]
+Model saved in file: ../models/model_experiential_horse-tomato
+pair: horse,tomato
+test loss: 0.746633 , test accuracy: 1.000000
+0 [16.363977]
+100 [2.7676051]
+200 [2.4826479]
+300 [2.3574626]
+400 [2.1546228]
+500 [2.0212946]
+600 [1.7891474]
+Model saved in file: ../models/model_experiential_horse-truck
+pair: horse,truck
+test loss: 1.103841 , test accuracy: 1.000000
+0 [16.76996]
+100 [2.7272625]
+200 [2.445487]
+300 [2.324147]
+400 [2.161943]
+500 [2.0463452]
+600 [1.8689321]
+Model saved in file: ../models/model_experiential_horse-car
+pair: horse,car
+test loss: 1.022578 , test accuracy: 1.000000
+0 [16.301413]
+100 [2.72719]
+200 [2.4508986]
+300 [2.3159318]
+400 [2.1965759]
+500 [1.9954628]
+600 [1.8556905]
+Model saved in file: ../models/model_experiential_horse-key
+pair: horse,key
+test loss: 0.836195 , test accuracy: 1.000000
+0 [16.764809]
+100 [2.7267265]
+200 [2.4833839]
+300 [2.3932595]
+400 [2.2703383]
+500 [2.0959346]
+600 [1.8708034]
+Model saved in file: ../models/model_experiential_horse-bed
+pair: horse,bed
+test loss: 1.108790 , test accuracy: 1.000000
+0 [16.459045]
+100 [2.6868312]
+200 [2.4502077]
+300 [2.3165076]
+400 [2.2190537]
+500 [2.0104616]
+600 [1.8552095]
+Model saved in file: ../models/model_experiential_horse-telephone
+pair: horse,telephone
+test loss: 0.885928 , test accuracy: 1.000000
+0 [17.298586]
+100 [3.2367203]
+200 [2.3199482]
+300 [2.1544378]
+400 [1.9951048]
+500 [1.7582099]
+600 [1.5974857]
+Model saved in file: ../models/model_experiential_horse-table
+pair: horse,table
+test loss: 0.720287 , test accuracy: 1.000000
+0 [16.714138]
+100 [2.6582587]
+200 [2.4733875]
+300 [2.3057101]
+400 [2.2035322]
+500 [2.019048]
+600 [1.84025]
+Model saved in file: ../models/model_experiential_horse-church
+pair: horse,church
+test loss: 0.758709 , test accuracy: 1.000000
+0 [16.577715]
+100 [2.7377849]
+200 [2.4601364]
+300 [2.3203447]
+400 [2.1598735]
+500 [1.9474931]
+600 [1.7904537]
+Model saved in file: ../models/model_experiential_horse-hand
+pair: horse,hand
+test loss: 1.010713 , test accuracy: 1.000000
+0 [17.370852]
+100 [2.6710417]
+200 [2.4503472]
+300 [2.3661368]
+400 [2.237596]
+500 [2.0630522]
+600 [1.8886793]
+Model saved in file: ../models/model_experiential_horse-desk
+pair: horse,desk
+test loss: 0.480320 , test accuracy: 1.000000
+0 [16.956085]
+100 [2.6937244]
+200 [2.4681215]
+300 [2.3061407]
+400 [2.170166]
+500 [2.0097616]
+600 [1.8089797]
+Model saved in file: ../models/model_experiential_horse-hammer
+pair: horse,hammer
+test loss: 0.993208 , test accuracy: 0.000000
+0 [16.525917]
+100 [2.6886072]
+200 [2.42013]
+300 [2.2802753]
+400 [2.190151]
+500 [2.0528128]
+600 [1.878328]
+Model saved in file: ../models/model_experiential_horse-glass
+pair: horse,glass
+test loss: 0.899840 , test accuracy: 1.000000
+0 [16.917753]
+100 [2.6605177]
+200 [2.4446998]
+300 [2.3088584]
+400 [2.1773634]
+500 [2.0971379]
+600 [1.9089026]
+Model saved in file: ../models/model_experiential_horse-bicycle
+pair: horse,bicycle
+test loss: 0.618806 , test accuracy: 1.000000
+0 [17.158241]
+100 [3.7069962]
+200 [2.2651882]
+300 [2.0802138]
+400 [1.875626]
+500 [1.7538843]
+600 [1.5345925]
+Model saved in file: ../models/model_experiential_horse-eye
+pair: horse,eye
+test loss: 0.687118 , test accuracy: 0.000000
+0 [16.776335]
+100 [2.6543734]
+200 [2.5188549]
+300 [2.3342674]
+400 [2.1862502]
+500 [2.0525103]
+600 [1.8901825]
+Model saved in file: ../models/model_experiential_horse-fly
+pair: horse,fly
+test loss: 0.932394 , test accuracy: 1.000000
+0 [16.535583]
+100 [2.6492572]
+200 [2.4929197]
+300 [2.4129798]
+400 [2.245827]
+500 [2.0822763]
+600 [1.8938893]
+Model saved in file: ../models/model_experiential_horse-chair
+pair: horse,chair
+test loss: 0.629114 , test accuracy: 1.000000
+0 [16.781864]
+100 [2.7939851]
+200 [2.3404353]
+300 [2.1697557]
+400 [2.0564735]
+500 [1.854183]
+600 [1.6936828]
+Model saved in file: ../models/model_experiential_horse-arm
+pair: horse,arm
+test loss: 1.005855 , test accuracy: 1.000000
+0 [16.857061]
+100 [2.7492244]
+200 [2.5582027]
+300 [2.3882766]
+400 [2.1928256]
+500 [2.0765979]
+600 [1.8944345]
+Model saved in file: ../models/model_experiential_horse-bell
+pair: horse,bell
+test loss: 0.899547 , test accuracy: 1.000000
+0 [16.835962]
+100 [2.6543443]
+200 [2.4431562]
+300 [2.3270185]
+400 [2.1282184]
+500 [2.0293121]
+600 [1.8386909]
+Model saved in file: ../models/model_experiential_horse-foot
+pair: horse,foot
+test loss: 0.789211 , test accuracy: 1.000000
+0 [16.789051]
+100 [2.6413522]
+200 [2.4983687]
+300 [2.3185267]
+400 [2.2184684]
+500 [2.0826712]
+600 [1.9822567]
+Model saved in file: ../models/model_experiential_ant-saw
+pair: ant,saw
+test loss: 1.116480 , test accuracy: 1.000000
+0 [16.619495]
+100 [2.6768429]
+200 [2.4194245]
+300 [2.2563403]
+400 [2.182677]
+500 [1.9468466]
+600 [1.7244385]
+Model saved in file: ../models/model_experiential_ant-leg
+pair: ant,leg
+test loss: 0.843933 , test accuracy: 1.000000
+0 [16.429892]
+100 [2.653697]
+200 [2.4599004]
+300 [2.2858789]
+400 [2.1218817]
+500 [1.9762754]
+600 [1.7635733]
+Model saved in file: ../models/model_experiential_ant-butterfly
+pair: ant,butterfly
+test loss: 0.716665 , test accuracy: 1.000000
+0 [16.98954]
+100 [2.7039735]
+200 [2.4464369]
+300 [2.3071654]
+400 [2.1562021]
+500 [2.1098266]
+600 [1.8007163]
+Model saved in file: ../models/model_experiential_ant-apartment
+pair: ant,apartment
+test loss: 0.727559 , test accuracy: 1.000000
+0 [16.757242]
+100 [2.7995715]
+200 [2.4407506]
+300 [2.2728291]
+400 [2.1046355]
+500 [1.8830281]
+600 [1.7022078]
+Model saved in file: ../models/model_experiential_ant-train
+pair: ant,train
+test loss: 1.061528 , test accuracy: 1.000000
+0 [16.850878]
+100 [2.6816268]
+200 [2.4328799]
+300 [2.3571174]
+400 [2.1676748]
+500 [2.0387719]
+600 [1.844269]
+Model saved in file: ../models/model_experiential_ant-lettuce
+pair: ant,lettuce
+test loss: 0.910557 , test accuracy: 1.000000
+0 [16.457066]
+100 [2.7100854]
+200 [2.4599643]
+300 [2.3289604]
+400 [2.2001047]
+500 [2.06845]
+600 [1.912859]
+Model saved in file: ../models/model_experiential_ant-bee
+pair: ant,bee
+test loss: 0.978880 , test accuracy: 0.000000
+0 [16.642134]
+100 [2.8502979]
+200 [2.4065402]
+300 [2.2597108]
+400 [2.0896783]
+500 [1.9673548]
+600 [1.8389105]
+Model saved in file: ../models/model_experiential_ant-house
+pair: ant,house
+test loss: 0.812226 , test accuracy: 1.000000
+0 [16.57999]
+100 [2.6513636]
+200 [2.4587722]
+300 [2.320215]
+400 [2.1981254]
+500 [2.1420088]
+600 [1.9292064]
+Model saved in file: ../models/model_experiential_ant-tomato
+pair: ant,tomato
+test loss: 1.413176 , test accuracy: 1.000000
+0 [16.452908]
+100 [2.6581726]
+200 [2.466691]
+300 [2.2664902]
+400 [2.1055043]
+500 [1.949965]
+600 [1.7580065]
+Model saved in file: ../models/model_experiential_ant-truck
+pair: ant,truck
+test loss: 0.803403 , test accuracy: 1.000000
+0 [16.647028]
+100 [2.9461589]
+200 [2.357852]
+300 [2.165494]
+400 [1.979414]
+500 [1.8192223]
+600 [1.6561213]
+Model saved in file: ../models/model_experiential_ant-car
+pair: ant,car
+test loss: 0.933885 , test accuracy: 1.000000
+0 [17.25629]
+100 [2.7031415]
+200 [2.4556942]
+300 [2.3250351]
+400 [2.201894]
+500 [2.0419493]
+600 [1.908002]
+Model saved in file: ../models/model_experiential_ant-key
+pair: ant,key
+test loss: 1.096352 , test accuracy: 1.000000
+0 [16.496178]
+100 [2.6736813]
+200 [2.4451556]
+300 [2.3392198]
+400 [2.1584618]
+500 [2.0307081]
+600 [1.8777901]
+Model saved in file: ../models/model_experiential_ant-bed
+pair: ant,bed
+test loss: 0.783413 , test accuracy: 1.000000
+0 [16.535322]
+100 [2.7042074]
+200 [2.4640391]
+300 [2.3232877]
+400 [2.1797945]
+500 [2.0440865]
+600 [1.9373122]
+Model saved in file: ../models/model_experiential_ant-telephone
+pair: ant,telephone
+test loss: 1.094484 , test accuracy: 1.000000
+0 [16.821081]
+100 [2.7414804]
+200 [2.4222295]
+300 [2.2199481]
+400 [2.1305161]
+500 [1.9239877]
+600 [1.7664376]
+Model saved in file: ../models/model_experiential_ant-table
+pair: ant,table
+test loss: 0.659926 , test accuracy: 1.000000
+0 [17.308491]
+100 [2.7412429]
+200 [2.4835424]
+300 [2.3097286]
+400 [2.1695452]
+500 [2.0435238]
+600 [1.8720953]
+Model saved in file: ../models/model_experiential_ant-church
+pair: ant,church
+test loss: 0.894606 , test accuracy: 1.000000
+0 [16.608143]
+100 [2.6978326]
+200 [2.4220099]
+300 [2.2735038]
+400 [2.1355705]
+500 [1.9853171]
+600 [1.8449789]
+Model saved in file: ../models/model_experiential_ant-hand
+pair: ant,hand
+test loss: 0.955451 , test accuracy: 0.000000
+0 [16.546545]
+100 [2.6711836]
+200 [2.4626758]
+300 [2.3107407]
+400 [2.1229198]
+500 [2.006408]
+600 [1.8286082]
+Model saved in file: ../models/model_experiential_ant-desk
+pair: ant,desk
+test loss: 0.757651 , test accuracy: 1.000000
+0 [16.77066]
+100 [2.6887529]
+200 [2.4633758]
+300 [2.2858558]
+400 [2.1460376]
+500 [2.0420566]
+600 [1.8794822]
+Model saved in file: ../models/model_experiential_ant-hammer
+pair: ant,hammer
+test loss: 1.179669 , test accuracy: 1.000000
+0 [16.997515]
+100 [2.746139]
+200 [2.4959278]
+300 [2.3901303]
+400 [2.218616]
+500 [2.0901186]
+600 [1.9378241]
+Model saved in file: ../models/model_experiential_ant-glass
+pair: ant,glass
+test loss: 1.221208 , test accuracy: 1.000000
+0 [16.50593]
+100 [2.6659462]
+200 [2.5352805]
+300 [2.3479993]
+400 [2.2212157]
+500 [2.1084597]
+600 [1.8939366]
+Model saved in file: ../models/model_experiential_ant-bicycle
+pair: ant,bicycle
+test loss: 0.800119 , test accuracy: 1.000000
+0 [16.711685]
+100 [2.7279155]
+200 [2.4608083]
+300 [2.323823]
+400 [2.2150998]
+500 [2.0834148]
+600 [1.9001459]
+Model saved in file: ../models/model_experiential_ant-eye
+pair: ant,eye
+test loss: 0.954748 , test accuracy: 1.000000
+0 [16.715567]
+100 [2.6490235]
+200 [2.4511051]
+300 [2.2916191]
+400 [2.2028759]
+500 [2.0717359]
+600 [1.9324361]
+Model saved in file: ../models/model_experiential_ant-fly
+pair: ant,fly
+test loss: 1.195196 , test accuracy: 0.000000
+0 [16.743879]
+100 [2.7331641]
+200 [2.5152893]
+300 [2.3526762]
+400 [2.2435291]
+500 [2.1262419]
+600 [1.8409561]
+Model saved in file: ../models/model_experiential_ant-chair
+pair: ant,chair
+test loss: 0.646538 , test accuracy: 1.000000
+0 [16.717934]
+100 [2.729831]
+200 [2.4233215]
+300 [2.2464652]
+400 [2.1457016]
+500 [1.9438047]
+600 [1.8025534]
+Model saved in file: ../models/model_experiential_ant-arm
+pair: ant,arm
+test loss: 0.891624 , test accuracy: 1.000000
+0 [16.729435]
+100 [3.073298]
+200 [2.4148812]
+300 [2.2932444]
+400 [2.0121796]
+500 [1.8813528]
+600 [1.7224112]
+Model saved in file: ../models/model_experiential_ant-bell
+pair: ant,bell
+test loss: 0.574538 , test accuracy: 1.000000
+0 [16.285549]
+100 [2.7001901]
+200 [2.4391861]
+300 [2.3286195]
+400 [2.2003784]
+500 [1.9855527]
+600 [1.8097709]
+Model saved in file: ../models/model_experiential_ant-foot
+pair: ant,foot
+test loss: 0.775791 , test accuracy: 1.000000
+0 [16.811804]
+100 [2.8349659]
+200 [2.3787065]
+300 [2.2227497]
+400 [2.030256]
+500 [1.8611069]
+600 [1.7418954]
+Model saved in file: ../models/model_experiential_saw-leg
+pair: saw,leg
+test loss: 0.874695 , test accuracy: 1.000000
+0 [16.664652]
+100 [3.0312123]
+200 [2.388345]
+300 [2.280195]
+400 [2.058816]
+500 [1.8476421]
+600 [1.6856802]
+Model saved in file: ../models/model_experiential_saw-butterfly
+pair: saw,butterfly
+test loss: 0.700631 , test accuracy: 1.000000
+0 [16.956427]
+100 [3.1464472]
+200 [2.3276558]
+300 [2.1785686]
+400 [2.0413496]
+500 [1.8162975]
+600 [1.6153601]
+Model saved in file: ../models/model_experiential_saw-apartment
+pair: saw,apartment
+test loss: 0.728086 , test accuracy: 1.000000
+0 [16.574987]
+100 [2.7620618]
+200 [2.5099559]
+300 [2.3533771]
+400 [2.2328587]
+500 [2.1393473]
+600 [1.9592532]
+Model saved in file: ../models/model_experiential_saw-train
+pair: saw,train
+test loss: 0.860276 , test accuracy: 1.000000
+0 [16.42049]
+100 [2.7079582]
+200 [2.4552886]
+300 [2.3682563]
+400 [2.2139916]
+500 [2.09654]
+600 [1.9133947]
+Model saved in file: ../models/model_experiential_saw-lettuce
+pair: saw,lettuce
+test loss: 0.969770 , test accuracy: 0.000000
+0 [16.812405]
+100 [2.8207295]
+200 [2.4462018]
+300 [2.3328819]
+400 [2.183183]
+500 [2.0237827]
+600 [1.8445898]
+Model saved in file: ../models/model_experiential_saw-bee
+pair: saw,bee
+test loss: 0.957896 , test accuracy: 0.000000
+0 [17.003374]
+100 [2.7228127]
+200 [2.4855299]
+300 [2.4069793]
+400 [2.2625766]
+500 [2.0772154]
+600 [1.8964868]
+Model saved in file: ../models/model_experiential_saw-house
+pair: saw,house
+test loss: 0.853688 , test accuracy: 1.000000
+0 [16.480001]
+100 [2.7182248]
+200 [2.4829767]
+300 [2.334702]
+400 [2.2152326]
+500 [2.069032]
+600 [1.9761686]
+Model saved in file: ../models/model_experiential_saw-tomato
+pair: saw,tomato
+test loss: 1.403239 , test accuracy: 0.000000
+0 [16.737253]
+100 [2.7514191]
+200 [2.5008807]
+300 [2.3834577]
+400 [2.171577]
+500 [2.0433137]
+600 [1.7711895]
+Model saved in file: ../models/model_experiential_saw-truck
+pair: saw,truck
+test loss: 0.951600 , test accuracy: 1.000000
+0 [16.720997]
+100 [2.6973295]
+200 [2.4446626]
+300 [2.3026567]
+400 [2.1952627]
+500 [2.0463946]
+600 [1.8943679]
+Model saved in file: ../models/model_experiential_saw-car
+pair: saw,car
+test loss: 1.222201 , test accuracy: 1.000000
+0 [16.811779]
+100 [2.6915889]
+200 [2.4519334]
+300 [2.2996049]
+400 [2.2022843]
+500 [2.0432925]
+600 [1.8705835]
+Model saved in file: ../models/model_experiential_saw-key
+pair: saw,key
+test loss: 1.111885 , test accuracy: 0.000000
+0 [16.77422]
+100 [2.6776946]
+200 [2.516562]
+300 [2.3719878]
+400 [2.3085163]
+500 [2.1519368]
+600 [1.9833057]
+Model saved in file: ../models/model_experiential_saw-bed
+pair: saw,bed
+test loss: 0.900122 , test accuracy: 1.000000
+0 [16.81904]
+100 [2.7062206]
+200 [2.4825912]
+300 [2.2737751]
+400 [2.1880102]
+500 [1.9955896]
+600 [1.8779162]
+Model saved in file: ../models/model_experiential_saw-telephone
+pair: saw,telephone
+test loss: 1.040840 , test accuracy: 0.000000
+0 [16.927113]
+100 [3.1329167]
+200 [2.4185638]
+300 [2.2310572]
+400 [2.0599959]
+500 [1.9049882]
+600 [1.7080443]
+Model saved in file: ../models/model_experiential_saw-table
+pair: saw,table
+test loss: 0.647860 , test accuracy: 1.000000
+0 [16.94734]
+100 [2.821115]
+200 [2.4752829]
+300 [2.344722]
+400 [2.2223382]
+500 [2.0675282]
+600 [1.8808916]
+Model saved in file: ../models/model_experiential_saw-church
+pair: saw,church
+test loss: 1.064774 , test accuracy: 1.000000
+0 [16.754593]
+100 [2.7351949]
+200 [2.4953682]
+300 [2.3568904]
+400 [2.1802809]
+500 [1.9992559]
+600 [1.7573991]
+Model saved in file: ../models/model_experiential_saw-hand
+pair: saw,hand
+test loss: 0.873394 , test accuracy: 1.000000
+0 [17.298759]
+100 [2.6800263]
+200 [2.5082488]
+300 [2.3821905]
+400 [2.344259]
+500 [2.1748183]
+600 [1.9746709]
+Model saved in file: ../models/model_experiential_saw-desk
+pair: saw,desk
+test loss: 0.708496 , test accuracy: 1.000000
+0 [17.447168]
+100 [2.756557]
+200 [2.5307457]
+300 [2.383286]
+400 [2.2293253]
+500 [2.0457478]
+600 [1.8492286]
+Model saved in file: ../models/model_experiential_saw-hammer
+pair: saw,hammer
+test loss: 0.877102 , test accuracy: 1.000000
+0 [16.877209]
+100 [2.7077842]
+200 [2.4891312]
+300 [2.3372674]
+400 [2.1330578]
+500 [2.0283484]
+600 [1.8988366]
+Model saved in file: ../models/model_experiential_saw-glass
+pair: saw,glass
+test loss: 1.096333 , test accuracy: 0.000000
+0 [16.881119]
+100 [2.7856948]
+200 [2.4567416]
+300 [2.2677462]
+400 [2.0638518]
+500 [1.9496088]
+600 [1.7116914]
+Model saved in file: ../models/model_experiential_saw-bicycle
+pair: saw,bicycle
+test loss: 0.902623 , test accuracy: 0.000000
+0 [16.609888]
+100 [2.8078301]
+200 [2.3593564]
+300 [2.2224753]
+400 [2.1353688]
+500 [1.8723832]
+600 [1.7157896]
+Model saved in file: ../models/model_experiential_saw-eye
+pair: saw,eye
+test loss: 0.829785 , test accuracy: 1.000000
+0 [16.796101]
+100 [2.6812346]
+200 [2.486609]
+300 [2.3400319]
+400 [2.2121162]
+500 [2.1125615]
+600 [1.9373235]
+Model saved in file: ../models/model_experiential_saw-fly
+pair: saw,fly
+test loss: 1.160376 , test accuracy: 0.000000
+0 [17.154896]
+100 [2.7345192]
+200 [2.5314913]
+300 [2.3241835]
+400 [2.2331746]
+500 [2.0607233]
+600 [1.967185]
+Model saved in file: ../models/model_experiential_saw-chair
+pair: saw,chair
+test loss: 0.806151 , test accuracy: 1.000000
+0 [17.235958]
+100 [2.6616807]
+200 [2.4474921]
+300 [2.3173628]
+400 [2.2188778]
+500 [2.0510311]
+600 [1.9149343]
+Model saved in file: ../models/model_experiential_saw-arm
+pair: saw,arm
+test loss: 1.040431 , test accuracy: 1.000000
+0 [16.379168]
+100 [2.8005118]
+200 [2.4899676]
+300 [2.3654275]
+400 [2.2200954]
+500 [2.0321655]
+600 [1.8472506]
+Model saved in file: ../models/model_experiential_saw-bell
+pair: saw,bell
+test loss: 0.766548 , test accuracy: 1.000000
+0 [16.776272]
+100 [2.8148897]
+200 [2.4089143]
+300 [2.3009245]
+400 [2.1673937]
+500 [2.0079167]
+600 [1.8180642]
+Model saved in file: ../models/model_experiential_saw-foot
+pair: saw,foot
+test loss: 0.842109 , test accuracy: 1.000000
+0 [16.697189]
+100 [2.6265204]
+200 [2.4300251]
+300 [2.2409811]
+400 [2.1881776]
+500 [2.0367432]
+600 [1.8460091]
+Model saved in file: ../models/model_experiential_leg-butterfly
+pair: leg,butterfly
+test loss: 1.217888 , test accuracy: 1.000000
+0 [17.058886]
+100 [2.6037626]
+200 [2.4784405]
+300 [2.3429606]
+400 [2.1891792]
+500 [2.0281148]
+600 [1.8464406]
+Model saved in file: ../models/model_experiential_leg-apartment
+pair: leg,apartment
+test loss: 0.974009 , test accuracy: 1.000000
+0 [16.556562]
+100 [2.7357447]
+200 [2.4074035]
+300 [2.211401]
+400 [2.1000781]
+500 [1.9071879]
+600 [1.7115387]
+Model saved in file: ../models/model_experiential_leg-train
+pair: leg,train
+test loss: 1.261601 , test accuracy: 1.000000
+0 [16.825884]
+100 [2.6115417]
+200 [2.3912642]
+300 [2.209435]
+400 [2.0953512]
+500 [1.8952482]
+600 [1.6433809]
+Model saved in file: ../models/model_experiential_leg-lettuce
+pair: leg,lettuce
+test loss: 0.745431 , test accuracy: 1.000000
+0 [17.004848]
+100 [2.7736542]
+200 [2.4391766]
+300 [2.256062]
+400 [1.9994688]
+500 [1.8658613]
+600 [1.6813686]
+Model saved in file: ../models/model_experiential_leg-bee
+pair: leg,bee
+test loss: 0.842752 , test accuracy: 1.000000
+0 [16.480169]
+100 [2.6296384]
+200 [2.3911262]
+300 [2.2918184]
+400 [2.1918566]
+500 [2.0379918]
+600 [1.8722706]
+Model saved in file: ../models/model_experiential_leg-house
+pair: leg,house
+test loss: 0.971064 , test accuracy: 1.000000
+0 [16.784922]
+100 [2.7055819]
+200 [2.3827994]
+300 [2.2917147]
+400 [2.0574915]
+500 [1.9094135]
+600 [1.7150127]
+Model saved in file: ../models/model_experiential_leg-tomato
+pair: leg,tomato
+test loss: 0.673105 , test accuracy: 1.000000
+0 [16.837887]
+100 [2.7100096]
+200 [2.4450092]
+300 [2.2726567]
+400 [2.1111436]
+500 [1.931818]
+600 [1.7791616]
+Model saved in file: ../models/model_experiential_leg-truck
+pair: leg,truck
+test loss: 0.995671 , test accuracy: 1.000000
+0 [16.877146]
+100 [2.7199056]
+200 [2.4437556]
+300 [2.3076024]
+400 [2.0889423]
+500 [1.9145314]
+600 [1.7110492]
+Model saved in file: ../models/model_experiential_leg-car
+pair: leg,car
+test loss: 0.898602 , test accuracy: 1.000000
+0 [16.840435]
+100 [2.6877666]
+200 [2.4549198]
+300 [2.3718219]
+400 [2.0936854]
+500 [1.926816]
+600 [1.7383945]
+Model saved in file: ../models/model_experiential_leg-key
+pair: leg,key
+test loss: 0.769643 , test accuracy: 1.000000
+0 [16.841404]
+100 [2.733026]
+200 [2.3344069]
+300 [2.2221653]
+400 [2.1246235]
+500 [1.9480799]
+600 [1.7677295]
+Model saved in file: ../models/model_experiential_leg-bed
+pair: leg,bed
+test loss: 0.755859 , test accuracy: 1.000000
+0 [16.806847]
+100 [2.6598575]
+200 [2.4441271]
+300 [2.2707288]
+400 [2.1148627]
+500 [2.0359583]
+600 [1.8227801]
+Model saved in file: ../models/model_experiential_leg-telephone
+pair: leg,telephone
+test loss: 1.076506 , test accuracy: 1.000000
+0 [16.495106]
+100 [2.647418]
+200 [2.4332767]
+300 [2.3486252]
+400 [2.199796]
+500 [2.0517182]
+600 [1.8822429]
+Model saved in file: ../models/model_experiential_leg-table
+pair: leg,table
+test loss: 0.804682 , test accuracy: 1.000000
+0 [16.772623]
+100 [2.68575]
+200 [2.4266188]
+300 [2.2759991]
+400 [2.1753473]
+500 [2.0162575]
+600 [1.8545377]
+Model saved in file: ../models/model_experiential_leg-church
+pair: leg,church
+test loss: 0.933516 , test accuracy: 1.000000
+0 [16.563967]
+100 [2.6952679]
+200 [2.4601815]
+300 [2.325377]
+400 [2.1468425]
+500 [1.9921606]
+600 [1.891407]
+Model saved in file: ../models/model_experiential_leg-hand
+pair: leg,hand
+test loss: 0.994962 , test accuracy: 0.000000
+0 [16.649727]
+100 [2.7285919]
+200 [2.4780467]
+300 [2.295742]
+400 [2.1798904]
+500 [1.9995508]
+600 [1.8168412]
+Model saved in file: ../models/model_experiential_leg-desk
+pair: leg,desk
+test loss: 0.660205 , test accuracy: 1.000000
+0 [16.729776]
+100 [2.7048297]
+200 [2.5094862]
+300 [2.2871575]
+400 [2.1413395]
+500 [1.9475962]
+600 [1.7890866]
+Model saved in file: ../models/model_experiential_leg-hammer
+pair: leg,hammer
+test loss: 0.930279 , test accuracy: 0.000000
+0 [16.567801]
+100 [2.748338]
+200 [2.4981163]
+300 [2.3891239]
+400 [2.2228878]
+500 [2.071347]
+600 [1.8674777]
+Model saved in file: ../models/model_experiential_leg-glass
+pair: leg,glass
+test loss: 0.733372 , test accuracy: 1.000000
+0 [16.642811]
+100 [2.7249215]
+200 [2.401094]
+300 [2.2868686]
+400 [2.127634]
+500 [1.9623642]
+600 [1.7992991]
+Model saved in file: ../models/model_experiential_leg-bicycle
+pair: leg,bicycle
+test loss: 0.765059 , test accuracy: 1.000000
+0 [16.678345]
+100 [2.6947544]
+200 [2.4417479]
+300 [2.3430827]
+400 [2.1791565]
+500 [2.0655403]
+600 [1.8318348]
+Model saved in file: ../models/model_experiential_leg-eye
+pair: leg,eye
+test loss: 0.939702 , test accuracy: 1.000000
+0 [16.736979]
+100 [2.7076933]
+200 [2.48332]
+300 [2.2936401]
+400 [2.1392939]
+500 [2.0101924]
+600 [1.7901549]
+Model saved in file: ../models/model_experiential_leg-fly
+pair: leg,fly
+test loss: 0.885331 , test accuracy: 1.000000
+0 [16.940992]
+100 [2.6369462]
+200 [2.4068143]
+300 [2.2730188]
+400 [2.1972728]
+500 [1.991956]
+600 [1.8325599]
+Model saved in file: ../models/model_experiential_leg-chair
+pair: leg,chair
+test loss: 0.785292 , test accuracy: 1.000000
+0 [16.204678]
+100 [2.7594547]
+200 [2.4347444]
+300 [2.1983345]
+400 [2.0958862]
+500 [1.930028]
+600 [1.702148]
+Model saved in file: ../models/model_experiential_leg-arm
+pair: leg,arm
+test loss: 1.019029 , test accuracy: 0.000000
+0 [16.85754]
+100 [2.862642]
+200 [2.3783362]
+300 [2.244396]
+400 [2.092706]
+500 [1.8510149]
+600 [1.708752]
+Model saved in file: ../models/model_experiential_leg-bell
+pair: leg,bell
+test loss: 1.071860 , test accuracy: 1.000000
+0 [16.809048]
+100 [2.5975075]
+200 [2.4192233]
+300 [2.253129]
+400 [2.080029]
+500 [1.9258648]
+600 [1.7784033]
+Model saved in file: ../models/model_experiential_leg-foot
+pair: leg,foot
+test loss: 0.877205 , test accuracy: 0.000000
+0 [16.667294]
+100 [2.7603951]
+200 [2.4697862]
+300 [2.2702861]
+400 [2.1798973]
+500 [1.9751033]
+600 [1.7872499]
+Model saved in file: ../models/model_experiential_butterfly-apartment
+pair: butterfly,apartment
+test loss: 0.719625 , test accuracy: 1.000000
+0 [16.84029]
+100 [2.6822453]
+200 [2.4869785]
+300 [2.3023789]
+400 [2.1908877]
+500 [2.0535874]
+600 [1.9092324]
+Model saved in file: ../models/model_experiential_butterfly-train
+pair: butterfly,train
+test loss: 0.945835 , test accuracy: 1.000000
+0 [16.533703]
+100 [2.8006201]
+200 [2.4550478]
+300 [2.3274918]
+400 [2.1094007]
+500 [1.9159594]
+600 [1.7234528]
+Model saved in file: ../models/model_experiential_butterfly-lettuce
+pair: butterfly,lettuce
+test loss: 0.633694 , test accuracy: 0.000000
+0 [16.937149]
+100 [2.9094026]
+200 [2.4187112]
+300 [2.2832184]
+400 [2.0815506]
+500 [1.9557018]
+600 [1.7126473]
+Model saved in file: ../models/model_experiential_butterfly-bee
+pair: butterfly,bee
+test loss: 0.680770 , test accuracy: 1.000000
+0 [17.148706]
+100 [2.6612647]
+200 [2.4374831]
+300 [2.2831969]
+400 [2.1871846]
+500 [1.9870332]
+600 [1.8623915]
+Model saved in file: ../models/model_experiential_butterfly-house
+pair: butterfly,house
+test loss: 1.016756 , test accuracy: 1.000000
+0 [16.787123]
+100 [2.7583673]
+200 [2.4222584]
+300 [2.3162487]
+400 [2.2518492]
+500 [2.0457442]
+600 [1.921175]
+Model saved in file: ../models/model_experiential_butterfly-tomato
+pair: butterfly,tomato
+test loss: 1.503234 , test accuracy: 1.000000
+0 [17.17551]
+100 [4.1190524]
+200 [2.2984331]
+300 [2.1266875]
+400 [1.9460888]
+500 [1.750376]
+600 [1.5420537]
+Model saved in file: ../models/model_experiential_butterfly-truck
+pair: butterfly,truck
+test loss: 0.678151 , test accuracy: 1.000000
+0 [16.419355]
+100 [2.9258304]
+200 [2.3335695]
+300 [2.2105982]
+400 [2.0069811]
+500 [1.8069751]
+600 [1.6225148]
+Model saved in file: ../models/model_experiential_butterfly-car
+pair: butterfly,car
+test loss: 0.621842 , test accuracy: 1.000000
+0 [16.911121]
+100 [2.700752]
+200 [2.3669848]
+300 [2.3119628]
+400 [2.1413662]
+500 [2.0139663]
+600 [1.8221282]
+Model saved in file: ../models/model_experiential_butterfly-key
+pair: butterfly,key
+test loss: 1.121422 , test accuracy: 1.000000
+0 [16.896309]
+100 [2.6949954]
+200 [2.428133]
+300 [2.2344851]
+400 [2.1194692]
+500 [1.975893]
+600 [1.8553348]
+Model saved in file: ../models/model_experiential_butterfly-bed
+pair: butterfly,bed
+test loss: 0.869644 , test accuracy: 1.000000
+0 [16.419731]
+100 [2.6859071]
+200 [2.4131303]
+300 [2.3171442]
+400 [2.1957073]
+500 [2.0041404]
+600 [1.8948063]
+Model saved in file: ../models/model_experiential_butterfly-telephone
+pair: butterfly,telephone
+test loss: 1.193680 , test accuracy: 0.000000
+0 [16.307247]
+100 [2.7350633]
+200 [2.4234426]
+300 [2.2666044]
+400 [2.1031406]
+500 [1.899622]
+600 [1.7329268]
+Model saved in file: ../models/model_experiential_butterfly-table
+pair: butterfly,table
+test loss: 0.665576 , test accuracy: 1.000000
+0 [16.812145]
+100 [2.7121534]
+200 [2.4402802]
+300 [2.3201756]
+400 [2.1731091]
+500 [2.0466859]
+600 [1.8776579]
+Model saved in file: ../models/model_experiential_butterfly-church
+pair: butterfly,church
+test loss: 1.055674 , test accuracy: 1.000000
+0 [16.559074]
+100 [2.5870984]
+200 [2.4030778]
+300 [2.2219532]
+400 [2.0732856]
+500 [1.9517809]
+600 [1.7797927]
+Model saved in file: ../models/model_experiential_butterfly-hand
+pair: butterfly,hand
+test loss: 1.043192 , test accuracy: 1.000000
+0 [16.761724]
+100 [2.7159045]
+200 [2.5379596]
+300 [2.3537524]
+400 [2.3156536]
+500 [2.1530674]
+600 [1.9695129]
+Model saved in file: ../models/model_experiential_butterfly-desk
+pair: butterfly,desk
+test loss: 0.826724 , test accuracy: 1.000000
+0 [16.321461]
+100 [2.6820846]
+200 [2.5429635]
+300 [2.3135056]
+400 [2.1914587]
+500 [2.0535905]
+600 [1.861781]
+Model saved in file: ../models/model_experiential_butterfly-hammer
+pair: butterfly,hammer
+test loss: 1.349736 , test accuracy: 0.000000
+0 [16.444168]
+100 [2.7057688]
+200 [2.4650335]
+300 [2.2860236]
+400 [2.2535343]
+500 [2.0210636]
+600 [1.8339498]
+Model saved in file: ../models/model_experiential_butterfly-glass
+pair: butterfly,glass
+test loss: 1.192828 , test accuracy: 1.000000
+0 [17.183582]
+100 [3.6471107]
+200 [2.3342333]
+300 [2.1149731]
+400 [2.0202954]
+500 [1.7938303]
+600 [1.6481981]
+Model saved in file: ../models/model_experiential_butterfly-bicycle
+pair: butterfly,bicycle
+test loss: 0.659655 , test accuracy: 1.000000
+0 [17.225336]
+100 [2.806807]
+200 [2.443172]
+300 [2.3257968]
+400 [2.157918]
+500 [1.9485488]
+600 [1.7644614]
+Model saved in file: ../models/model_experiential_butterfly-eye
+pair: butterfly,eye
+test loss: 0.765614 , test accuracy: 1.000000
+0 [17.171791]
+100 [2.761395]
+200 [2.4530699]
+300 [2.4007478]
+400 [2.2060113]
+500 [2.0525539]
+600 [1.7965888]
+Model saved in file: ../models/model_experiential_butterfly-fly
+pair: butterfly,fly
+test loss: 0.735120 , test accuracy: 1.000000
+0 [16.728294]
+100 [2.7688613]
+200 [2.4385614]
+300 [2.3147345]
+400 [2.1066244]
+500 [1.9659379]
+600 [1.7669781]
+Model saved in file: ../models/model_experiential_butterfly-chair
+pair: butterfly,chair
+test loss: 0.587909 , test accuracy: 1.000000
+0 [16.297075]
+100 [2.6946788]
+200 [2.5019701]
+300 [2.4384418]
+400 [2.1673224]
+500 [1.9978577]
+600 [1.8497535]
+Model saved in file: ../models/model_experiential_butterfly-arm
+pair: butterfly,arm
+test loss: 0.923687 , test accuracy: 1.000000
+0 [16.509054]
+100 [2.711653]
+200 [2.5282724]
+300 [2.361104]
+400 [2.2048788]
+500 [2.083456]
+600 [1.8770708]
+Model saved in file: ../models/model_experiential_butterfly-bell
+pair: butterfly,bell
+test loss: 0.691108 , test accuracy: 1.000000
+0 [16.700397]
+100 [2.7419739]
+200 [2.476712]
+300 [2.3348739]
+400 [2.2290237]
+500 [1.9933922]
+600 [1.7914188]
+Model saved in file: ../models/model_experiential_butterfly-foot
+pair: butterfly,foot
+test loss: 0.790125 , test accuracy: 1.000000
+0 [17.283438]
+100 [2.6703668]
+200 [2.4922383]
+300 [2.376636]
+400 [2.2382245]
+500 [2.0887384]
+600 [1.8854946]
+Model saved in file: ../models/model_experiential_apartment-train
+pair: apartment,train
+test loss: 1.277572 , test accuracy: 1.000000
+0 [16.746458]
+100 [2.6783819]
+200 [2.5052316]
+300 [2.3580337]
+400 [2.2299695]
+500 [2.1279039]
+600 [1.9480516]
+Model saved in file: ../models/model_experiential_apartment-lettuce
+pair: apartment,lettuce
+test loss: 0.710566 , test accuracy: 1.000000
+0 [16.924076]
+100 [2.7817264]
+200 [2.4491389]
+300 [2.3005922]
+400 [2.1879301]
+500 [2.0659401]
+600 [1.8076197]
+Model saved in file: ../models/model_experiential_apartment-bee
+pair: apartment,bee
+test loss: 0.815997 , test accuracy: 1.000000
+0 [16.732283]
+100 [2.8005488]
+200 [2.3463094]
+300 [2.3007002]
+400 [2.0968561]
+500 [1.9156163]
+600 [1.7723749]
+Model saved in file: ../models/model_experiential_apartment-house
+pair: apartment,house
+test loss: 0.619895 , test accuracy: 0.000000
+0 [16.462334]
+100 [2.779793]
+200 [2.4655983]
+300 [2.2569635]
+400 [2.074506]
+500 [1.9410127]
+600 [1.7591858]
+Model saved in file: ../models/model_experiential_apartment-tomato
+pair: apartment,tomato
+test loss: 0.882677 , test accuracy: 1.000000
+0 [16.967548]
+100 [2.7093775]
+200 [2.4434218]
+300 [2.3445847]
+400 [2.1436045]
+500 [1.9879305]
+600 [1.7830739]
+Model saved in file: ../models/model_experiential_apartment-truck
+pair: apartment,truck
+test loss: 0.606156 , test accuracy: 1.000000
+0 [16.338539]
+100 [2.7327757]
+200 [2.4412496]
+300 [2.3263125]
+400 [2.1982262]
+500 [2.0185549]
+600 [1.839139]
+Model saved in file: ../models/model_experiential_apartment-car
+pair: apartment,car
+test loss: 0.847052 , test accuracy: 1.000000
+0 [16.603849]
+100 [2.7454929]
+200 [2.4024682]
+300 [2.2508008]
+400 [2.0549774]
+500 [1.9240412]
+600 [1.749162]
+Model saved in file: ../models/model_experiential_apartment-key
+pair: apartment,key
+test loss: 0.584254 , test accuracy: 1.000000
+0 [17.125288]
+100 [2.6736407]
+200 [2.4564366]
+300 [2.3826752]
+400 [2.2040575]
+500 [2.0109665]
+600 [1.87159]
+Model saved in file: ../models/model_experiential_apartment-bed
+pair: apartment,bed
+test loss: 0.917947 , test accuracy: 1.000000
+0 [16.293192]
+100 [2.7124686]
+200 [2.4833951]
+300 [2.372051]
+400 [2.2027521]
+500 [2.0509496]
+600 [1.8416717]
+Model saved in file: ../models/model_experiential_apartment-telephone
+pair: apartment,telephone
+test loss: 1.120106 , test accuracy: 1.000000
+0 [17.099453]
+100 [2.7408385]
+200 [2.454484]
+300 [2.3989182]
+400 [2.2399051]
+500 [2.0532014]
+600 [1.9029691]
+Model saved in file: ../models/model_experiential_apartment-table
+pair: apartment,table
+test loss: 0.450073 , test accuracy: 1.000000
+0 [16.791882]
+100 [2.7044144]
+200 [2.5124781]
+300 [2.389509]
+400 [2.2280765]
+500 [2.1595581]
+600 [1.9645627]
+Model saved in file: ../models/model_experiential_apartment-church
+pair: apartment,church
+test loss: 0.712334 , test accuracy: 1.000000
+0 [17.16054]
+100 [2.7074003]
+200 [2.4935136]
+300 [2.3767812]
+400 [2.2820632]
+500 [2.078661]
+600 [1.8871106]
+Model saved in file: ../models/model_experiential_apartment-hand
+pair: apartment,hand
+test loss: 0.771668 , test accuracy: 1.000000
+0 [17.34269]
+100 [2.7200639]
+200 [2.4758003]
+300 [2.3040917]
+400 [2.1610038]
+500 [2.0369084]
+600 [1.7969282]
+Model saved in file: ../models/model_experiential_apartment-desk
+pair: apartment,desk
+test loss: 0.345612 , test accuracy: 1.000000
+0 [17.154402]
+100 [2.7895229]
+200 [2.3896377]
+300 [2.1690965]
+400 [2.0748317]
+500 [1.8278877]
+600 [1.6494013]
+Model saved in file: ../models/model_experiential_apartment-hammer
+pair: apartment,hammer
+test loss: 0.699806 , test accuracy: 1.000000
+0 [17.209976]
+100 [2.7663987]
+200 [2.478878]
+300 [2.3275313]
+400 [2.220818]
+500 [2.0881705]
+600 [1.8980632]
+Model saved in file: ../models/model_experiential_apartment-glass
+pair: apartment,glass
+test loss: 0.817862 , test accuracy: 1.000000
+0 [16.828627]
+100 [2.7078235]
+200 [2.4736016]
+300 [2.3170009]
+400 [2.2148418]
+500 [2.0921288]
+600 [1.8908514]
+Model saved in file: ../models/model_experiential_apartment-bicycle
+pair: apartment,bicycle
+test loss: 0.489438 , test accuracy: 1.000000
+0 [16.584438]
+100 [3.2423558]
+200 [2.359951]
+300 [2.2090583]
+400 [2.0262432]
+500 [1.7826293]
+600 [1.5655535]
+Model saved in file: ../models/model_experiential_apartment-eye
+pair: apartment,eye
+test loss: 0.650940 , test accuracy: 1.000000
+0 [16.59996]
+100 [2.6795921]
+200 [2.4446495]
+300 [2.366257]
+400 [2.1978173]
+500 [2.1139917]
+600 [1.9255365]
+Model saved in file: ../models/model_experiential_apartment-fly
+pair: apartment,fly
+test loss: 0.804337 , test accuracy: 1.000000
+0 [17.321573]
+100 [2.7280002]
+200 [2.4745338]
+300 [2.358067]
+400 [2.1913176]
+500 [2.1220722]
+600 [1.9307157]
+Model saved in file: ../models/model_experiential_apartment-chair
+pair: apartment,chair
+test loss: 0.744659 , test accuracy: 1.000000
+0 [16.763741]
+100 [2.6488297]
+200 [2.4143538]
+300 [2.3081744]
+400 [2.0947397]
+500 [1.9386151]
+600 [1.7226672]
+Model saved in file: ../models/model_experiential_apartment-arm
+pair: apartment,arm
+test loss: 0.583019 , test accuracy: 1.000000
+0 [16.69499]
+100 [2.6570036]
+200 [2.5577357]
+300 [2.3744907]
+400 [2.2603855]
+500 [2.175009]
+600 [1.8975958]
+Model saved in file: ../models/model_experiential_apartment-bell
+pair: apartment,bell
+test loss: 0.932627 , test accuracy: 1.000000
+0 [17.288532]
+100 [2.6723268]
+200 [2.4193032]
+300 [2.273406]
+400 [2.116122]
+500 [1.945549]
+600 [1.7934228]
+Model saved in file: ../models/model_experiential_apartment-foot
+pair: apartment,foot
+test loss: 0.639920 , test accuracy: 1.000000
+0 [16.628651]
+100 [2.7255473]
+200 [2.4813287]
+300 [2.3308847]
+400 [2.1709957]
+500 [2.014137]
+600 [1.8599281]
+Model saved in file: ../models/model_experiential_train-lettuce
+pair: train,lettuce
+test loss: 0.680103 , test accuracy: 1.000000
+0 [16.680937]
+100 [2.7409651]
+200 [2.5094285]
+300 [2.3741953]
+400 [2.1772418]
+500 [2.1313264]
+600 [1.9273387]
+Model saved in file: ../models/model_experiential_train-bee
+pair: train,bee
+test loss: 0.726131 , test accuracy: 1.000000
+0 [16.781097]
+100 [2.7753854]
+200 [2.3808689]
+300 [2.2678237]
+400 [2.0939071]
+500 [1.9155626]
+600 [1.744029]
+Model saved in file: ../models/model_experiential_train-house
+pair: train,house
+test loss: 1.039000 , test accuracy: 1.000000
+0 [16.432865]
+100 [2.6969523]
+200 [2.4196444]
+300 [2.3160815]
+400 [2.171258]
+500 [1.9714589]
+600 [1.8782295]
+Model saved in file: ../models/model_experiential_train-tomato
+pair: train,tomato
+test loss: 1.026472 , test accuracy: 1.000000
+0 [16.705725]
+100 [2.8555326]
+200 [2.4300559]
+300 [2.2599714]
+400 [2.1455855]
+500 [1.9178972]
+600 [1.7414845]
+Model saved in file: ../models/model_experiential_train-truck
+pair: train,truck
+test loss: 0.668596 , test accuracy: 1.000000
+0 [16.764565]
+100 [2.6949377]
+200 [2.3920224]
+300 [2.2301455]
+400 [2.1119447]
+500 [1.9288124]
+600 [1.7422447]
+Model saved in file: ../models/model_experiential_train-car
+pair: train,car
+test loss: 0.913642 , test accuracy: 0.000000
+0 [16.512146]
+100 [2.713809]
+200 [2.4186532]
+300 [2.2591612]
+400 [2.1245236]
+500 [1.9790379]
+600 [1.7872833]
+Model saved in file: ../models/model_experiential_train-key
+pair: train,key
+test loss: 0.721931 , test accuracy: 1.000000
+0 [16.63311]
+100 [2.7183945]
+200 [2.5023022]
+300 [2.3589287]
+400 [2.1684461]
+500 [2.0234618]
+600 [1.8032562]
+Model saved in file: ../models/model_experiential_train-bed
+pair: train,bed
+test loss: 1.217790 , test accuracy: 1.000000
+0 [15.757353]
+100 [2.8072591]
+200 [2.5253954]
+300 [2.3564253]
+400 [2.176398]
+500 [1.9984958]
+600 [1.7971961]
+Model saved in file: ../models/model_experiential_train-telephone
+pair: train,telephone
+test loss: 1.460885 , test accuracy: 1.000000
+0 [17.091499]
+100 [2.6506207]
+200 [2.4876273]
+300 [2.296247]
+400 [2.2128179]
+500 [1.9754798]
+600 [1.7331564]
+Model saved in file: ../models/model_experiential_train-table
+pair: train,table
+test loss: 1.137622 , test accuracy: 1.000000
+0 [16.675768]
+100 [2.692848]
+200 [2.450393]
+300 [2.3083982]
+400 [2.1935163]
+500 [1.9712574]
+600 [1.8249619]
+Model saved in file: ../models/model_experiential_train-church
+pair: train,church
+test loss: 1.376497 , test accuracy: 1.000000
+0 [16.852903]
+100 [2.72594]
+200 [2.4485497]
+300 [2.3399312]
+400 [2.186511]
+500 [2.0258131]
+600 [1.7667276]
+Model saved in file: ../models/model_experiential_train-hand
+pair: train,hand
+test loss: 1.240685 , test accuracy: 1.000000
+0 [16.45192]
+100 [2.699007]
+200 [2.5282731]
+300 [2.3846092]
+400 [2.2492375]
+500 [2.1029561]
+600 [1.9648004]
+Model saved in file: ../models/model_experiential_train-desk
+pair: train,desk
+test loss: 0.442431 , test accuracy: 1.000000
+0 [16.885244]
+100 [2.6560478]
+200 [2.4905231]
+300 [2.3374312]
+400 [2.1860745]
+500 [2.0176253]
+600 [1.8364345]
+Model saved in file: ../models/model_experiential_train-hammer
+pair: train,hammer
+test loss: 1.215652 , test accuracy: 1.000000
+0 [16.804649]
+100 [2.7094886]
+200 [2.491539]
+300 [2.3379223]
+400 [2.2368209]
+500 [2.0802279]
+600 [1.9088066]
+Model saved in file: ../models/model_experiential_train-glass
+pair: train,glass
+test loss: 0.903062 , test accuracy: 1.000000
+0 [17.178013]
+100 [2.6822379]
+200 [2.4490964]
+300 [2.3559086]
+400 [2.1943247]
+500 [1.9727123]
+600 [1.7872609]
+Model saved in file: ../models/model_experiential_train-bicycle
+pair: train,bicycle
+test loss: 1.292018 , test accuracy: 1.000000
+0 [16.309141]
+100 [3.031507]
+200 [2.4146333]
+300 [2.2517874]
+400 [2.0637174]
+500 [1.8709298]
+600 [1.686121]
+Model saved in file: ../models/model_experiential_train-eye
+pair: train,eye
+test loss: 0.536054 , test accuracy: 1.000000
+0 [16.566475]
+100 [2.6829774]
+200 [2.4720283]
+300 [2.3674152]
+400 [2.2514498]
+500 [2.0934739]
+600 [1.9264027]
+Model saved in file: ../models/model_experiential_train-fly
+pair: train,fly
+test loss: 0.880898 , test accuracy: 1.000000
+0 [16.662268]
+100 [2.7326541]
+200 [2.5135944]
+300 [2.3881295]
+400 [2.2997692]
+500 [2.0402424]
+600 [1.8721203]
+Model saved in file: ../models/model_experiential_train-chair
+pair: train,chair
+test loss: 0.531227 , test accuracy: 1.000000
+0 [17.584997]
+100 [2.730453]
+200 [2.3309233]
+300 [2.2004569]
+400 [2.0858021]
+500 [1.9035066]
+600 [1.7664984]
+Model saved in file: ../models/model_experiential_train-arm
+pair: train,arm
+test loss: 0.619026 , test accuracy: 1.000000
+0 [16.830812]
+100 [2.7023697]
+200 [2.5426142]
+300 [2.343931]
+400 [2.1875761]
+500 [2.0664055]
+600 [1.8313259]
+Model saved in file: ../models/model_experiential_train-bell
+pair: train,bell
+test loss: 1.098699 , test accuracy: 1.000000
+0 [16.872936]
+100 [2.7109222]
+200 [2.4541681]
+300 [2.349041]
+400 [2.2221212]
+500 [2.0604515]
+600 [1.9288555]
+Model saved in file: ../models/model_experiential_train-foot
+pair: train,foot
+test loss: 0.752533 , test accuracy: 1.000000
+0 [16.71484]
+100 [2.7222161]
+200 [2.5261126]
+300 [2.3725727]
+400 [2.2285447]
+500 [2.1040955]
+600 [1.9115045]
+Model saved in file: ../models/model_experiential_lettuce-bee
+pair: lettuce,bee
+test loss: 0.874691 , test accuracy: 1.000000
+0 [17.149752]
+100 [2.7860599]
+200 [2.468977]
+300 [2.3831065]
+400 [2.2619133]
+500 [2.1289449]
+600 [1.849288]
+Model saved in file: ../models/model_experiential_lettuce-house
+pair: lettuce,house
+test loss: 0.691261 , test accuracy: 1.000000
+0 [17.041023]
+100 [2.8812084]
+200 [2.4417696]
+300 [2.1772237]
+400 [2.0201738]
+500 [1.8267465]
+600 [1.7051649]
+Model saved in file: ../models/model_experiential_lettuce-tomato
+pair: lettuce,tomato
+test loss: 0.514269 , test accuracy: 0.000000
+0 [16.94735]
+100 [2.7534811]
+200 [2.5543773]
+300 [2.3475766]
+400 [2.1873422]
+500 [1.9953417]
+600 [1.8442817]
+Model saved in file: ../models/model_experiential_lettuce-truck
+pair: lettuce,truck
+test loss: 0.822901 , test accuracy: 1.000000
+0 [16.956108]
+100 [2.8978362]
+200 [2.3829637]
+300 [2.2503951]
+400 [2.0925949]
+500 [1.9001296]
+600 [1.703872]
+Model saved in file: ../models/model_experiential_lettuce-car
+pair: lettuce,car
+test loss: 0.944809 , test accuracy: 1.000000
+0 [17.398024]
+100 [2.6761103]
+200 [2.4819944]
+300 [2.3457506]
+400 [2.1223173]
+500 [1.9191648]
+600 [1.7489237]
+Model saved in file: ../models/model_experiential_lettuce-key
+pair: lettuce,key
+test loss: 0.538173 , test accuracy: 1.000000
+0 [16.994707]
+100 [2.6620479]
+200 [2.5297847]
+300 [2.3938246]
+400 [2.25649]
+500 [2.0626509]
+600 [1.7789466]
+Model saved in file: ../models/model_experiential_lettuce-bed
+pair: lettuce,bed
+test loss: 0.779939 , test accuracy: 1.000000
+0 [16.527962]
+100 [2.7321315]
+200 [2.5231307]
+300 [2.3539209]
+400 [2.2225864]
+500 [2.0395887]
+600 [1.8165103]
+Model saved in file: ../models/model_experiential_lettuce-telephone
+pair: lettuce,telephone
+test loss: 1.030499 , test accuracy: 0.000000
+0 [17.137161]
+100 [2.8132637]
+200 [2.4964926]
+300 [2.4039135]
+400 [2.2581079]
+500 [2.108521]
+600 [1.9254036]
+Model saved in file: ../models/model_experiential_lettuce-table
+pair: lettuce,table
+test loss: 0.656390 , test accuracy: 1.000000
+0 [16.981146]
+100 [2.7018712]
+200 [2.4217894]
+300 [2.2654998]
+400 [2.1794121]
+500 [1.9817443]
+600 [1.7547877]
+Model saved in file: ../models/model_experiential_lettuce-church
+pair: lettuce,church
+test loss: 0.756422 , test accuracy: 1.000000
+0 [16.826994]
+100 [2.7350316]
+200 [2.491595]
+300 [2.3816059]
+400 [2.186605]
+500 [2.0235929]
+600 [1.8276216]
+Model saved in file: ../models/model_experiential_lettuce-hand
+pair: lettuce,hand
+test loss: 0.795938 , test accuracy: 1.000000
+0 [16.353416]
+100 [2.7160099]
+200 [2.5003047]
+300 [2.3626235]
+400 [2.1948936]
+500 [2.0092664]
+600 [1.8575321]
+Model saved in file: ../models/model_experiential_lettuce-desk
+pair: lettuce,desk
+test loss: 0.746775 , test accuracy: 1.000000
+0 [16.458981]
+100 [2.7155931]
+200 [2.5291903]
+300 [2.3701193]
+400 [2.2225628]
+500 [1.9728918]
+600 [1.7976441]
+Model saved in file: ../models/model_experiential_lettuce-hammer
+pair: lettuce,hammer
+test loss: 0.733945 , test accuracy: 0.000000
+0 [16.823599]
+100 [2.7921185]
+200 [2.4520936]
+300 [2.308466]
+400 [2.2193673]
+500 [1.9757078]
+600 [1.8443726]
+Model saved in file: ../models/model_experiential_lettuce-glass
+pair: lettuce,glass
+test loss: 0.928319 , test accuracy: 1.000000
+0 [17.028667]
+100 [2.7503998]
+200 [2.5796165]
+300 [2.3872068]
+400 [2.2600522]
+500 [2.0993207]
+600 [1.8996292]
+Model saved in file: ../models/model_experiential_lettuce-bicycle
+pair: lettuce,bicycle
+test loss: 0.933028 , test accuracy: 1.000000
+0 [16.338499]
+100 [2.923444]
+200 [2.4530499]
+300 [2.2290807]
+400 [2.0411248]
+500 [1.8099408]
+600 [1.64428]
+Model saved in file: ../models/model_experiential_lettuce-eye
+pair: lettuce,eye
+test loss: 0.641617 , test accuracy: 1.000000
+0 [17.140932]
+100 [2.8778005]
+200 [2.4988878]
+300 [2.3196352]
+400 [2.1676607]
+500 [1.9356081]
+600 [1.7296649]
+Model saved in file: ../models/model_experiential_lettuce-fly
+pair: lettuce,fly
+test loss: 0.656681 , test accuracy: 1.000000
+0 [16.493927]
+100 [2.6685576]
+200 [2.4902606]
+300 [2.3909314]
+400 [2.2430904]
+500 [2.1271515]
+600 [1.9295459]
+Model saved in file: ../models/model_experiential_lettuce-chair
+pair: lettuce,chair
+test loss: 0.687386 , test accuracy: 1.000000
+0 [16.502666]
+100 [2.6776807]
+200 [2.378752]
+300 [2.2673018]
+400 [2.1480567]
+500 [1.9815079]
+600 [1.8287256]
+Model saved in file: ../models/model_experiential_lettuce-arm
+pair: lettuce,arm
+test loss: 0.801165 , test accuracy: 1.000000
+0 [16.986866]
+100 [2.6917779]
+200 [2.5448878]
+300 [2.2827833]
+400 [2.1225817]
+500 [1.8735662]
+600 [1.7453698]
+Model saved in file: ../models/model_experiential_lettuce-bell
+pair: lettuce,bell
+test loss: 0.576897 , test accuracy: 0.000000
+0 [16.757286]
+100 [2.7248454]
+200 [2.4906559]
+300 [2.3331542]
+400 [2.1744461]
+500 [2.0908277]
+600 [1.8655772]
+Model saved in file: ../models/model_experiential_lettuce-foot
+pair: lettuce,foot
+test loss: 0.820506 , test accuracy: 1.000000
+0 [16.531145]
+100 [2.738699]
+200 [2.5769415]
+300 [2.378577]
+400 [2.254796]
+500 [2.0931597]
+600 [1.9142748]
+Model saved in file: ../models/model_experiential_bee-house
+pair: bee,house
+test loss: 0.800226 , test accuracy: 1.000000
+0 [16.435646]
+100 [2.6995955]
+200 [2.4832659]
+300 [2.3692687]
+400 [2.2232161]
+500 [2.0522177]
+600 [1.8414819]
+Model saved in file: ../models/model_experiential_bee-tomato
+pair: bee,tomato
+test loss: 0.638753 , test accuracy: 1.000000
+0 [16.536543]
+100 [2.746573]
+200 [2.4772377]
+300 [2.3449345]
+400 [2.2054751]
+500 [2.0512221]
+600 [1.8351359]
+Model saved in file: ../models/model_experiential_bee-truck
+pair: bee,truck
+test loss: 0.946529 , test accuracy: 1.000000
+0 [17.141491]
+100 [2.7059729]
+200 [2.4396703]
+300 [2.2782879]
+400 [2.1842752]
+500 [2.0338225]
+600 [1.7826023]
+Model saved in file: ../models/model_experiential_bee-car
+pair: bee,car
+test loss: 1.068112 , test accuracy: 1.000000
+0 [16.581903]
+100 [2.8810833]
+200 [2.5100753]
+300 [2.3794641]
+400 [2.1584086]
+500 [1.9690763]
+600 [1.8815427]
+Model saved in file: ../models/model_experiential_bee-key
+pair: bee,key
+test loss: 0.657632 , test accuracy: 1.000000
+0 [17.674109]
+100 [2.7250936]
+200 [2.5247092]
+300 [2.4008286]
+400 [2.2214]
+500 [2.0851977]
+600 [1.9195886]
+Model saved in file: ../models/model_experiential_bee-bed
+pair: bee,bed
+test loss: 0.881792 , test accuracy: 1.000000
+0 [16.818632]
+100 [2.6687098]
+200 [2.4948866]
+300 [2.3011672]
+400 [2.1992857]
+500 [2.0792441]
+600 [1.8536862]
+Model saved in file: ../models/model_experiential_bee-telephone
+pair: bee,telephone
+test loss: 0.982142 , test accuracy: 1.000000
+0 [17.107924]
+100 [2.7355201]
+200 [2.4460106]
+300 [2.2537556]
+400 [2.1354837]
+500 [2.0057905]
+600 [1.7967119]
+Model saved in file: ../models/model_experiential_bee-table
+pair: bee,table
+test loss: 0.598041 , test accuracy: 1.000000
+0 [16.710737]
+100 [2.7077312]
+200 [2.5002863]
+300 [2.4014702]
+400 [2.2629828]
+500 [2.0771589]
+600 [1.9405714]
+Model saved in file: ../models/model_experiential_bee-church
+pair: bee,church
+test loss: 0.881761 , test accuracy: 1.000000
+0 [17.278721]
+100 [2.7103267]
+200 [2.5170894]
+300 [2.3058722]
+400 [2.2406192]
+500 [2.088398]
+600 [1.8948146]
+Model saved in file: ../models/model_experiential_bee-hand
+pair: bee,hand
+test loss: 0.967983 , test accuracy: 1.000000
+0 [16.621447]
+100 [3.6245522]
+200 [2.3610427]
+300 [2.2000508]
+400 [1.9911611]
+500 [1.811718]
+600 [1.6609094]
+Model saved in file: ../models/model_experiential_bee-desk
+pair: bee,desk
+test loss: 0.424710 , test accuracy: 1.000000
+0 [16.995712]
+100 [2.8325195]
+200 [2.3614604]
+300 [2.2643902]
+400 [2.1124804]
+500 [1.9165615]
+600 [1.6863558]
+Model saved in file: ../models/model_experiential_bee-hammer
+pair: bee,hammer
+test loss: 0.760441 , test accuracy: 1.000000
+0 [16.588749]
+100 [2.721648]
+200 [2.5489807]
+300 [2.3574512]
+400 [2.1198077]
+500 [2.0320086]
+600 [1.7748607]
+Model saved in file: ../models/model_experiential_bee-glass
+pair: bee,glass
+test loss: 0.550570 , test accuracy: 1.000000
+0 [16.663294]
+100 [2.9419041]
+200 [2.4136167]
+300 [2.2151191]
+400 [2.1224525]
+500 [1.8698918]
+600 [1.6958426]
+Model saved in file: ../models/model_experiential_bee-bicycle
+pair: bee,bicycle
+test loss: 0.807506 , test accuracy: 1.000000
+0 [16.40089]
+100 [2.8062136]
+200 [2.4971511]
+300 [2.3456883]
+400 [2.1772032]
+500 [2.0192153]
+600 [1.862484]
+Model saved in file: ../models/model_experiential_bee-eye
+pair: bee,eye
+test loss: 0.792929 , test accuracy: 1.000000
+0 [16.191246]
+100 [2.7069237]
+200 [2.4112675]
+300 [2.3164749]
+400 [2.2306969]
+500 [2.0797596]
+600 [1.8753098]
+Model saved in file: ../models/model_experiential_bee-fly
+pair: bee,fly
+test loss: 1.063397 , test accuracy: 1.000000
+0 [16.367584]
+100 [2.7242079]
+200 [2.520215]
+300 [2.3899164]
+400 [2.2661288]
+500 [2.1714354]
+600 [1.982519]
+Model saved in file: ../models/model_experiential_bee-chair
+pair: bee,chair
+test loss: 0.744331 , test accuracy: 1.000000
+0 [16.781851]
+100 [2.6697774]
+200 [2.4658608]
+300 [2.3443794]
+400 [2.2459531]
+500 [2.0965981]
+600 [1.896487]
+Model saved in file: ../models/model_experiential_bee-arm
+pair: bee,arm
+test loss: 0.913805 , test accuracy: 1.000000
+0 [17.081141]
+100 [2.7869177]
+200 [2.4968393]
+300 [2.4355156]
+400 [2.3284266]
+500 [2.1413889]
+600 [1.9455092]
+Model saved in file: ../models/model_experiential_bee-bell
+pair: bee,bell
+test loss: 1.135112 , test accuracy: 1.000000
+0 [16.593546]
+100 [2.6888373]
+200 [2.4631791]
+300 [2.3394547]
+400 [2.1899409]
+500 [1.99427]
+600 [1.8101041]
+Model saved in file: ../models/model_experiential_bee-foot
+pair: bee,foot
+test loss: 0.820514 , test accuracy: 1.000000
+0 [16.26985]
+100 [2.5838883]
+200 [2.4764485]
+300 [2.3057826]
+400 [2.2065485]
+500 [2.077584]
+600 [1.9055506]
+Model saved in file: ../models/model_experiential_house-tomato
+pair: house,tomato
+test loss: 1.290792 , test accuracy: 1.000000
+0 [16.636564]
+100 [2.6831746]
+200 [2.4855609]
+300 [2.3487108]
+400 [2.2268579]
+500 [2.0937541]
+600 [1.950487]
+Model saved in file: ../models/model_experiential_house-truck
+pair: house,truck
+test loss: 0.879925 , test accuracy: 1.000000
+0 [16.370255]
+100 [2.720922]
+200 [2.4891162]
+300 [2.2928607]
+400 [2.1620433]
+500 [1.9553901]
+600 [1.7537347]
+Model saved in file: ../models/model_experiential_house-car
+pair: house,car
+test loss: 0.761995 , test accuracy: 1.000000
+0 [17.014557]
+100 [2.6621196]
+200 [2.4136422]
+300 [2.3410711]
+400 [2.1673245]
+500 [2.0262237]
+600 [1.870137]
+Model saved in file: ../models/model_experiential_house-key
+pair: house,key
+test loss: 0.912059 , test accuracy: 1.000000
+0 [16.476782]
+100 [2.7532461]
+200 [2.4433739]
+300 [2.3634541]
+400 [2.2419083]
+500 [2.0752215]
+600 [1.9371823]
+Model saved in file: ../models/model_experiential_house-bed
+pair: house,bed
+test loss: 0.754672 , test accuracy: 1.000000
+0 [16.222904]
+100 [2.6560295]
+200 [2.4387522]
+300 [2.3811963]
+400 [2.2474291]
+500 [2.11112]
+600 [1.9420364]
+Model saved in file: ../models/model_experiential_house-telephone
+pair: house,telephone
+test loss: 0.978941 , test accuracy: 1.000000
+0 [17.017242]
+100 [2.6496503]
+200 [2.4951687]
+300 [2.3929057]
+400 [2.1485271]
+500 [2.0529113]
+600 [1.9255643]
+Model saved in file: ../models/model_experiential_house-table
+pair: house,table
+test loss: 0.659928 , test accuracy: 1.000000
+0 [16.651539]
+100 [2.6770875]
+200 [2.4837041]
+300 [2.2833874]
+400 [2.2417247]
+500 [2.0366871]
+600 [1.9003012]
+Model saved in file: ../models/model_experiential_house-church
+pair: house,church
+test loss: 0.827789 , test accuracy: 1.000000
+0 [16.409216]
+100 [2.7326741]
+200 [2.4041677]
+300 [2.2853718]
+400 [2.1857374]
+500 [2.0320673]
+600 [1.8493762]
+Model saved in file: ../models/model_experiential_house-hand
+pair: house,hand
+test loss: 0.898138 , test accuracy: 1.000000
+0 [16.558994]
+100 [2.7780282]
+200 [2.5968225]
+300 [2.3454933]
+400 [2.2116988]
+500 [2.0675406]
+600 [1.9577916]
+Model saved in file: ../models/model_experiential_house-desk
+pair: house,desk
+test loss: 0.561720 , test accuracy: 1.000000
+0 [16.687435]
+100 [2.757056]
+200 [2.4566097]
+300 [2.317781]
+400 [2.154855]
+500 [2.0479391]
+600 [1.8137398]
+Model saved in file: ../models/model_experiential_house-hammer
+pair: house,hammer
+test loss: 0.774701 , test accuracy: 1.000000
+0 [17.203491]
+100 [2.6466448]
+200 [2.4358435]
+300 [2.304883]
+400 [2.1933036]
+500 [2.0141487]
+600 [1.9196693]
+Model saved in file: ../models/model_experiential_house-glass
+pair: house,glass
+test loss: 0.999560 , test accuracy: 1.000000
+0 [16.852308]
+100 [2.7389703]
+200 [2.4854004]
+300 [2.2967367]
+400 [2.1997678]
+500 [2.0024164]
+600 [1.8208655]
+Model saved in file: ../models/model_experiential_house-bicycle
+pair: house,bicycle
+test loss: 0.887828 , test accuracy: 1.000000
+0 [16.575888]
+100 [2.7511132]
+200 [2.4812016]
+300 [2.2548311]
+400 [2.1139958]
+500 [1.9594811]
+600 [1.7573881]
+Model saved in file: ../models/model_experiential_house-eye
+pair: house,eye
+test loss: 0.752625 , test accuracy: 1.000000
+0 [16.548822]
+100 [2.710649]
+200 [2.4903078]
+300 [2.3067634]
+400 [2.2352467]
+500 [2.0590696]
+600 [1.8219124]
+Model saved in file: ../models/model_experiential_house-fly
+pair: house,fly
+test loss: 0.725609 , test accuracy: 1.000000
+0 [16.926497]
+100 [2.7183461]
+200 [2.437336]
+300 [2.2435341]
+400 [2.1527719]
+500 [1.9894537]
+600 [1.8608972]
+Model saved in file: ../models/model_experiential_house-chair
+pair: house,chair
+test loss: 0.577874 , test accuracy: 1.000000
+0 [16.364775]
+100 [2.5690079]
+200 [2.4412944]
+300 [2.2992172]
+400 [2.2291727]
+500 [2.0336452]
+600 [1.8653488]
+Model saved in file: ../models/model_experiential_house-arm
+pair: house,arm
+test loss: 0.987608 , test accuracy: 1.000000
+0 [16.597294]
+100 [2.6888287]
+200 [2.4526031]
+300 [2.3665767]
+400 [2.200191]
+500 [1.987986]
+600 [1.8312083]
+Model saved in file: ../models/model_experiential_house-bell
+pair: house,bell
+test loss: 0.620431 , test accuracy: 1.000000
+0 [16.922281]
+100 [2.703753]
+200 [2.3970792]
+300 [2.2318699]
+400 [2.0983264]
+500 [1.962365]
+600 [1.6939501]
+Model saved in file: ../models/model_experiential_house-foot
+pair: house,foot
+test loss: 0.684335 , test accuracy: 1.000000
+0 [16.418257]
+100 [3.1905346]
+200 [2.373893]
+300 [2.2007601]
+400 [2.0337498]
+500 [1.8822742]
+600 [1.6312716]
+Model saved in file: ../models/model_experiential_tomato-truck
+pair: tomato,truck
+test loss: 0.861774 , test accuracy: 1.000000
+0 [16.904377]
+100 [2.7399285]
+200 [2.4198933]
+300 [2.3431721]
+400 [2.1728175]
+500 [1.9241982]
+600 [1.7307345]
+Model saved in file: ../models/model_experiential_tomato-car
+pair: tomato,car
+test loss: 0.607354 , test accuracy: 1.000000
+0 [16.830553]
+100 [2.7240603]
+200 [2.4631515]
+300 [2.2933381]
+400 [2.1838439]
+500 [2.0011714]
+600 [1.7858864]
+Model saved in file: ../models/model_experiential_tomato-key
+pair: tomato,key
+test loss: 0.459934 , test accuracy: 1.000000
+0 [16.937845]
+100 [2.8031635]
+200 [2.5171859]
+300 [2.252398]
+400 [2.0583041]
+500 [1.8994384]
+600 [1.7326484]
+Model saved in file: ../models/model_experiential_tomato-bed
+pair: tomato,bed
+test loss: 0.584526 , test accuracy: 1.000000
+0 [16.492437]
+100 [2.6573448]
+200 [2.452189]
+300 [2.2956202]
+400 [2.1714127]
+500 [2.0147848]
+600 [1.8727037]
+Model saved in file: ../models/model_experiential_tomato-telephone
+pair: tomato,telephone
+test loss: 1.349426 , test accuracy: 0.000000
+0 [16.49564]
+100 [2.8284621]
+200 [2.381937]
+300 [2.2685804]
+400 [2.0969887]
+500 [1.9323286]
+600 [1.7496126]
+Model saved in file: ../models/model_experiential_tomato-table
+pair: tomato,table
+test loss: 0.859461 , test accuracy: 1.000000
+0 [16.611521]
+100 [3.5507965]
+200 [2.3347793]
+300 [2.1701269]
+400 [1.9982419]
+500 [1.8009583]
+600 [1.686726]
+Model saved in file: ../models/model_experiential_tomato-church
+pair: tomato,church
+test loss: 0.675398 , test accuracy: 1.000000
+0 [16.39197]
+100 [2.7566869]
+200 [2.4260957]
+300 [2.29319]
+400 [2.1572909]
+500 [1.9658802]
+600 [1.8188808]
+Model saved in file: ../models/model_experiential_tomato-hand
+pair: tomato,hand
+test loss: 1.246474 , test accuracy: 1.000000
+0 [16.689274]
+100 [2.6504073]
+200 [2.5066307]
+300 [2.4429729]
+400 [2.2697692]
+500 [2.1141717]
+600 [1.9251846]
+Model saved in file: ../models/model_experiential_tomato-desk
+pair: tomato,desk
+test loss: 0.979584 , test accuracy: 1.000000
+0 [16.949104]
+100 [2.7388198]
+200 [2.4242146]
+300 [2.3073199]
+400 [2.1196637]
+500 [1.937897]
+600 [1.7762076]
+Model saved in file: ../models/model_experiential_tomato-hammer
+pair: tomato,hammer
+test loss: 0.586037 , test accuracy: 1.000000
+0 [16.711555]
+100 [2.6925805]
+200 [2.4709468]
+300 [2.3688641]
+400 [2.2052484]
+500 [2.0246606]
+600 [1.850095]
+Model saved in file: ../models/model_experiential_tomato-glass
+pair: tomato,glass
+test loss: 0.393910 , test accuracy: 1.000000
+0 [16.871254]
+100 [2.7833672]
+200 [2.4275022]
+300 [2.3258512]
+400 [2.0908694]
+500 [1.9304646]
+600 [1.6996962]
+Model saved in file: ../models/model_experiential_tomato-bicycle
+pair: tomato,bicycle
+test loss: 0.692936 , test accuracy: 1.000000
+0 [17.012716]
+100 [2.8959057]
+200 [2.4778056]
+300 [2.2932317]
+400 [2.1523323]
+500 [1.9056516]
+600 [1.7153498]
+Model saved in file: ../models/model_experiential_tomato-eye
+pair: tomato,eye
+test loss: 0.636340 , test accuracy: 1.000000
+0 [16.769297]
+100 [2.6345589]
+200 [2.4769652]
+300 [2.2800016]
+400 [2.174459]
+500 [1.9858015]
+600 [1.8828635]
+Model saved in file: ../models/model_experiential_tomato-fly
+pair: tomato,fly
+test loss: 1.343906 , test accuracy: 1.000000
+0 [16.839521]
+100 [2.7395785]
+200 [2.5119739]
+300 [2.387779]
+400 [2.2755661]
+500 [2.1198063]
+600 [1.9092073]
+Model saved in file: ../models/model_experiential_tomato-chair
+pair: tomato,chair
+test loss: 0.505891 , test accuracy: 1.000000
+0 [16.061316]
+100 [2.6845045]
+200 [2.4294305]
+300 [2.3052919]
+400 [2.2000279]
+500 [2.0710564]
+600 [1.9312466]
+Model saved in file: ../models/model_experiential_tomato-arm
+pair: tomato,arm
+test loss: 1.301295 , test accuracy: 1.000000
+0 [16.571821]
+100 [2.849915]
+200 [2.4759521]
+300 [2.2888134]
+400 [2.1479406]
+500 [1.9803362]
+600 [1.7659192]
+Model saved in file: ../models/model_experiential_tomato-bell
+pair: tomato,bell
+test loss: 1.331812 , test accuracy: 1.000000
+0 [17.117125]
+100 [2.6425722]
+200 [2.4533677]
+300 [2.3464231]
+400 [2.2201626]
+500 [1.9891669]
+600 [1.7388636]
+Model saved in file: ../models/model_experiential_tomato-foot
+pair: tomato,foot
+test loss: 0.631799 , test accuracy: 1.000000
+0 [16.381237]
+100 [2.7856264]
+200 [2.4921675]
+300 [2.3733945]
+400 [2.1854877]
+500 [1.9506985]
+600 [1.7500409]
+Model saved in file: ../models/model_experiential_truck-car
+pair: truck,car
+test loss: 0.977579 , test accuracy: 1.000000
+0 [16.465021]
+100 [2.7550595]
+200 [2.5156081]
+300 [2.3612411]
+400 [2.2132783]
+500 [2.1030319]
+600 [1.9306231]
+Model saved in file: ../models/model_experiential_truck-key
+pair: truck,key
+test loss: 1.018016 , test accuracy: 1.000000
+0 [16.890076]
+100 [2.718317]
+200 [2.4452374]
+300 [2.2859619]
+400 [2.129118]
+500 [1.9114043]
+600 [1.7191784]
+Model saved in file: ../models/model_experiential_truck-bed
+pair: truck,bed
+test loss: 0.871534 , test accuracy: 1.000000
+0 [16.470488]
+100 [2.7424095]
+200 [2.4689729]
+300 [2.3444133]
+400 [2.1934533]
+500 [1.9959682]
+600 [1.8369092]
+Model saved in file: ../models/model_experiential_truck-telephone
+pair: truck,telephone
+test loss: 0.934182 , test accuracy: 1.000000
+0 [16.601343]
+100 [2.6931965]
+200 [2.4644742]
+300 [2.3723528]
+400 [2.2047741]
+500 [2.0078187]
+600 [1.7965957]
+Model saved in file: ../models/model_experiential_truck-table
+pair: truck,table
+test loss: 0.876866 , test accuracy: 1.000000
+0 [16.776937]
+100 [2.8734033]
+200 [2.4194183]
+300 [2.1981921]
+400 [2.0675201]
+500 [1.8451424]
+600 [1.6589769]
+Model saved in file: ../models/model_experiential_truck-church
+pair: truck,church
+test loss: 0.889162 , test accuracy: 1.000000
+0 [16.371771]
+100 [2.6644197]
+200 [2.4519849]
+300 [2.3169889]
+400 [2.1666193]
+500 [1.9919997]
+600 [1.8047352]
+Model saved in file: ../models/model_experiential_truck-hand
+pair: truck,hand
+test loss: 0.905743 , test accuracy: 1.000000
+0 [16.862789]
+100 [2.7884562]
+200 [2.51547]
+300 [2.379905]
+400 [2.2525392]
+500 [2.1394887]
+600 [1.9025198]
+Model saved in file: ../models/model_experiential_truck-desk
+pair: truck,desk
+test loss: 0.593959 , test accuracy: 1.000000
+0 [16.683266]
+100 [2.7120559]
+200 [2.4906614]
+300 [2.3646252]
+400 [2.2194443]
+500 [2.1411586]
+600 [1.9269488]
+Model saved in file: ../models/model_experiential_truck-hammer
+pair: truck,hammer
+test loss: 1.097364 , test accuracy: 1.000000
+0 [16.539051]
+100 [2.7896507]
+200 [2.4827671]
+300 [2.3415024]
+400 [2.171592]
+500 [2.041857]
+600 [1.8425465]
+Model saved in file: ../models/model_experiential_truck-glass
+pair: truck,glass
+test loss: 1.002366 , test accuracy: 1.000000
+0 [16.602457]
+100 [2.7470133]
+200 [2.4960339]
+300 [2.3742783]
+400 [2.2039089]
+500 [1.9676912]
+600 [1.8280271]
+Model saved in file: ../models/model_experiential_truck-bicycle
+pair: truck,bicycle
+test loss: 1.064074 , test accuracy: 1.000000
+0 [17.022861]
+100 [2.9217882]
+200 [2.4506207]
+300 [2.2083888]
+400 [2.0696573]
+500 [1.9264365]
+600 [1.6813784]
+Model saved in file: ../models/model_experiential_truck-eye
+pair: truck,eye
+test loss: 0.848449 , test accuracy: 1.000000
+0 [16.359869]
+100 [2.6371205]
+200 [2.4668224]
+300 [2.3026319]
+400 [2.1431518]
+500 [2.050139]
+600 [1.8602124]
+Model saved in file: ../models/model_experiential_truck-fly
+pair: truck,fly
+test loss: 0.980948 , test accuracy: 1.000000
+0 [16.859312]
+100 [3.0693674]
+200 [2.3751595]
+300 [2.2115512]
+400 [2.0957909]
+500 [1.84498]
+600 [1.6145908]
+Model saved in file: ../models/model_experiential_truck-chair
+pair: truck,chair
+test loss: 0.453014 , test accuracy: 1.000000
+0 [16.291782]
+100 [2.6296675]
+200 [2.4284363]
+300 [2.2866542]
+400 [2.1506994]
+500 [2.0524149]
+600 [1.8818216]
+Model saved in file: ../models/model_experiential_truck-arm
+pair: truck,arm
+test loss: 0.848037 , test accuracy: 1.000000
+0 [17.061363]
+100 [2.7552648]
+200 [2.5564756]
+300 [2.4009373]
+400 [2.1918781]
+500 [2.0168049]
+600 [1.776041]
+Model saved in file: ../models/model_experiential_truck-bell
+pair: truck,bell
+test loss: 0.813804 , test accuracy: 1.000000
+0 [16.777254]
+100 [2.6667213]
+200 [2.4869266]
+300 [2.3606188]
+400 [2.1892176]
+500 [1.9983344]
+600 [1.806792]
+Model saved in file: ../models/model_experiential_truck-foot
+pair: truck,foot
+test loss: 0.924875 , test accuracy: 1.000000
+0 [16.546452]
+100 [3.4268229]
+200 [2.2935994]
+300 [2.093487]
+400 [1.9271597]
+500 [1.7017257]
+600 [1.5324676]
+Model saved in file: ../models/model_experiential_car-key
+pair: car,key
+test loss: 0.465581 , test accuracy: 1.000000
+0 [16.730518]
+100 [2.6911411]
+200 [2.448668]
+300 [2.3244877]
+400 [2.2027805]
+500 [1.8800528]
+600 [1.7091557]
+Model saved in file: ../models/model_experiential_car-bed
+pair: car,bed
+test loss: 0.790081 , test accuracy: 1.000000
+0 [17.358509]
+100 [2.7682056]
+200 [2.3513336]
+300 [2.2260969]
+400 [2.091954]
+500 [1.9093083]
+600 [1.6830722]
+Model saved in file: ../models/model_experiential_car-telephone
+pair: car,telephone
+test loss: 1.090301 , test accuracy: 0.000000
+0 [16.849747]
+100 [2.6697702]
+200 [2.4497941]
+300 [2.2878397]
+400 [2.1924081]
+500 [1.9673711]
+600 [1.7968441]
+Model saved in file: ../models/model_experiential_car-table
+pair: car,table
+test loss: 0.785399 , test accuracy: 1.000000
+0 [16.852419]
+100 [2.5873613]
+200 [2.4435353]
+300 [2.3208234]
+400 [2.1693532]
+500 [1.9816475]
+600 [1.8074926]
+Model saved in file: ../models/model_experiential_car-church
+pair: car,church
+test loss: 1.062474 , test accuracy: 0.000000
+0 [16.265471]
+100 [2.7088783]
+200 [2.5110512]
+300 [2.3782697]
+400 [2.313158]
+500 [2.0830631]
+600 [1.8712478]
+Model saved in file: ../models/model_experiential_car-hand
+pair: car,hand
+test loss: 0.909479 , test accuracy: 1.000000
+0 [17.043488]
+100 [2.7476962]
+200 [2.3510008]
+300 [2.2102735]
+400 [2.0760455]
+500 [1.8945401]
+600 [1.7670403]
+Model saved in file: ../models/model_experiential_car-desk
+pair: car,desk
+test loss: 0.725670 , test accuracy: 1.000000
+0 [16.912567]
+100 [2.6686723]
+200 [2.441046]
+300 [2.3245914]
+400 [2.1814535]
+500 [2.0031052]
+600 [1.7925893]
+Model saved in file: ../models/model_experiential_car-hammer
+pair: car,hammer
+test loss: 1.311528 , test accuracy: 1.000000
+0 [16.466286]
+100 [2.6955462]
+200 [2.4825799]
+300 [2.3314302]
+400 [2.2083063]
+500 [2.0833032]
+600 [1.8770057]
+Model saved in file: ../models/model_experiential_car-glass
+pair: car,glass
+test loss: 1.311747 , test accuracy: 1.000000
+0 [16.315804]
+100 [2.6641107]
+200 [2.4925632]
+300 [2.303797]
+400 [2.2098217]
+500 [1.9400698]
+600 [1.760645]
+Model saved in file: ../models/model_experiential_car-bicycle
+pair: car,bicycle
+test loss: 0.879385 , test accuracy: 1.000000
+0 [16.579058]
+100 [2.7954292]
+200 [2.4160388]
+300 [2.2198162]
+400 [2.1027288]
+500 [1.9096066]
+600 [1.7088519]
+Model saved in file: ../models/model_experiential_car-eye
+pair: car,eye
+test loss: 0.954306 , test accuracy: 1.000000
+0 [16.382381]
+100 [2.7386804]
+200 [2.414016]
+300 [2.3043988]
+400 [2.1097248]
+500 [2.029345]
+600 [1.8714801]
+Model saved in file: ../models/model_experiential_car-fly
+pair: car,fly
+test loss: 1.220794 , test accuracy: 1.000000
+0 [17.02071]
+100 [2.7032089]
+200 [2.4923568]
+300 [2.3341339]
+400 [2.1289403]
+500 [1.9805142]
+600 [1.7739576]
+Model saved in file: ../models/model_experiential_car-chair
+pair: car,chair
+test loss: 0.652531 , test accuracy: 1.000000
+0 [16.598545]
+100 [2.8175576]
+200 [2.3532808]
+300 [2.1964786]
+400 [1.9989487]
+500 [1.844821]
+600 [1.6127237]
+Model saved in file: ../models/model_experiential_car-arm
+pair: car,arm
+test loss: 0.803051 , test accuracy: 1.000000
+0 [16.738316]
+100 [2.7111373]
+200 [2.4445753]
+300 [2.262635]
+400 [2.1394789]
+500 [2.0176351]
+600 [1.7879505]
+Model saved in file: ../models/model_experiential_car-bell
+pair: car,bell
+test loss: 1.270579 , test accuracy: 1.000000
+0 [16.479834]
+100 [2.6601434]
+200 [2.4740732]
+300 [2.3564694]
+400 [2.1725085]
+500 [2.0588031]
+600 [1.9070529]
+Model saved in file: ../models/model_experiential_car-foot
+pair: car,foot
+test loss: 1.142136 , test accuracy: 1.000000
+0 [16.882851]
+100 [2.7004526]
+200 [2.4424016]
+300 [2.3064666]
+400 [2.1497047]
+500 [2.0205538]
+600 [1.887284]
+Model saved in file: ../models/model_experiential_key-bed
+pair: key,bed
+test loss: 0.795337 , test accuracy: 1.000000
+0 [16.668932]
+100 [2.6851776]
+200 [2.444824]
+300 [2.3227246]
+400 [2.1496632]
+500 [2.0154793]
+600 [1.8210534]
+Model saved in file: ../models/model_experiential_key-telephone
+pair: key,telephone
+test loss: 1.061006 , test accuracy: 1.000000
+0 [16.106419]
+100 [2.6347806]
+200 [2.4307809]
+300 [2.3005571]
+400 [2.1692994]
+500 [2.0571628]
+600 [1.8085157]
+Model saved in file: ../models/model_experiential_key-table
+pair: key,table
+test loss: 0.699407 , test accuracy: 1.000000
+0 [16.644009]
+100 [2.759172]
+200 [2.4592867]
+300 [2.3090854]
+400 [2.1890972]
+500 [2.0366964]
+600 [1.8512391]
+Model saved in file: ../models/model_experiential_key-church
+pair: key,church
+test loss: 0.907310 , test accuracy: 1.000000
+0 [16.350468]
+100 [2.653919]
+200 [2.5282001]
+300 [2.3235798]
+400 [2.1655087]
+500 [1.9678037]
+600 [1.8482432]
+Model saved in file: ../models/model_experiential_key-hand
+pair: key,hand
+test loss: 0.715729 , test accuracy: 1.000000
+0 [16.807648]
+100 [2.6800308]
+200 [2.4819045]
+300 [2.2850628]
+400 [2.201406]
+500 [2.0207119]
+600 [1.8409368]
+Model saved in file: ../models/model_experiential_key-desk
+pair: key,desk
+test loss: 0.689848 , test accuracy: 1.000000
+0 [17.022211]
+100 [2.8765798]
+200 [2.3384855]
+300 [2.1666214]
+400 [2.0168297]
+500 [1.8361088]
+600 [1.6670383]
+Model saved in file: ../models/model_experiential_key-hammer
+pair: key,hammer
+test loss: 0.568675 , test accuracy: 1.000000
+0 [16.985189]
+100 [2.7456179]
+200 [2.5350463]
+300 [2.379626]
+400 [2.251107]
+500 [2.0971103]
+600 [1.8742185]
+Model saved in file: ../models/model_experiential_key-glass
+pair: key,glass
+test loss: 0.489001 , test accuracy: 0.000000
+0 [16.930859]
+100 [2.7307425]
+200 [2.5789118]
+300 [2.4375165]
+400 [2.2602262]
+500 [2.0281394]
+600 [1.8028955]
+Model saved in file: ../models/model_experiential_key-bicycle
+pair: key,bicycle
+test loss: 0.837497 , test accuracy: 1.000000
+0 [17.415342]
+100 [2.6974492]
+200 [2.5257273]
+300 [2.4213099]
+400 [2.2386754]
+500 [2.0750568]
+600 [1.8439755]
+Model saved in file: ../models/model_experiential_key-eye
+pair: key,eye
+test loss: 0.747433 , test accuracy: 0.000000
+0 [15.9547]
+100 [2.7244294]
+200 [2.3918583]
+300 [2.2514164]
+400 [2.1376879]
+500 [1.9821024]
+600 [1.8507969]
+Model saved in file: ../models/model_experiential_key-fly
+pair: key,fly
+test loss: 1.012981 , test accuracy: 1.000000
+0 [17.299652]
+100 [2.7960217]
+200 [2.5209789]
+300 [2.3907802]
+400 [2.2058043]
+500 [2.0729079]
+600 [1.8471931]
+Model saved in file: ../models/model_experiential_key-chair
+pair: key,chair
+test loss: 0.554470 , test accuracy: 1.000000
+0 [17.061762]
+100 [2.6077888]
+200 [2.4910901]
+300 [2.3385866]
+400 [2.1674533]
+500 [2.0210202]
+600 [1.8600663]
+Model saved in file: ../models/model_experiential_key-arm
+pair: key,arm
+test loss: 0.842639 , test accuracy: 1.000000
+0 [17.83226]
+100 [2.7399435]
+200 [2.4973879]
+300 [2.3475184]
+400 [2.2516022]
+500 [2.05515]
+600 [1.8759822]
+Model saved in file: ../models/model_experiential_key-bell
+pair: key,bell
+test loss: 1.209983 , test accuracy: 1.000000
+0 [16.746948]
+100 [2.6728148]
+200 [2.4764452]
+300 [2.3154316]
+400 [2.118037]
+500 [1.9790937]
+600 [1.8320085]
+Model saved in file: ../models/model_experiential_key-foot
+pair: key,foot
+test loss: 0.671095 , test accuracy: 1.000000
+0 [16.441944]
+100 [2.7151484]
+200 [2.4801171]
+300 [2.3112173]
+400 [2.099488]
+500 [1.9172446]
+600 [1.6800349]
+Model saved in file: ../models/model_experiential_bed-telephone
+pair: bed,telephone
+test loss: 1.027815 , test accuracy: 1.000000
+0 [16.983765]
+100 [2.6718221]
+200 [2.4537275]
+300 [2.3725183]
+400 [2.2107568]
+500 [2.0274029]
+600 [1.8501441]
+Model saved in file: ../models/model_experiential_bed-table
+pair: bed,table
+test loss: 0.549574 , test accuracy: 1.000000
+0 [16.668579]
+100 [2.6955612]
+200 [2.4497223]
+300 [2.3232074]
+400 [2.1274433]
+500 [2.0278573]
+600 [1.8172621]
+Model saved in file: ../models/model_experiential_bed-church
+pair: bed,church
+test loss: 1.006556 , test accuracy: 0.000000
+0 [16.702978]
+100 [2.623924]
+200 [2.4219387]
+300 [2.3239944]
+400 [2.1137688]
+500 [1.9617465]
+600 [1.7737627]
+Model saved in file: ../models/model_experiential_bed-hand
+pair: bed,hand
+test loss: 0.723989 , test accuracy: 1.000000
+0 [16.812384]
+100 [2.6821339]
+200 [2.5001428]
+300 [2.2764778]
+400 [2.1848254]
+500 [1.9781823]
+600 [1.8175207]
+Model saved in file: ../models/model_experiential_bed-desk
+pair: bed,desk
+test loss: 0.850375 , test accuracy: 1.000000
+0 [16.898697]
+100 [2.6371224]
+200 [2.4665396]
+300 [2.2870526]
+400 [2.1780601]
+500 [2.0343215]
+600 [1.8179357]
+Model saved in file: ../models/model_experiential_bed-hammer
+pair: bed,hammer
+test loss: 0.923587 , test accuracy: 1.000000
+0 [16.53475]
+100 [2.733391]
+200 [2.4519691]
+300 [2.318882]
+400 [2.1928582]
+500 [2.0576091]
+600 [1.8836612]
+Model saved in file: ../models/model_experiential_bed-glass
+pair: bed,glass
+test loss: 0.886284 , test accuracy: 1.000000
+0 [17.216169]
+100 [2.7516079]
+200 [2.4916747]
+300 [2.3266385]
+400 [2.1416872]
+500 [2.024039]
+600 [1.7781117]
+Model saved in file: ../models/model_experiential_bed-bicycle
+pair: bed,bicycle
+test loss: 0.991136 , test accuracy: 1.000000
+0 [17.123039]
+100 [2.8529425]
+200 [2.3624189]
+300 [2.2362261]
+400 [2.0802145]
+500 [1.8338438]
+600 [1.643065]
+Model saved in file: ../models/model_experiential_bed-eye
+pair: bed,eye
+test loss: 0.554202 , test accuracy: 1.000000
+0 [16.568716]
+100 [2.7568653]
+200 [2.4351304]
+300 [2.3099756]
+400 [2.1588929]
+500 [1.989332]
+600 [1.7953199]
+Model saved in file: ../models/model_experiential_bed-fly
+pair: bed,fly
+test loss: 0.818557 , test accuracy: 1.000000
+0 [16.652302]
+100 [2.7399616]
+200 [2.5298531]
+300 [2.3704777]
+400 [2.250788]
+500 [2.0611429]
+600 [1.8378175]
+Model saved in file: ../models/model_experiential_bed-chair
+pair: bed,chair
+test loss: 0.741131 , test accuracy: 1.000000
+0 [16.553495]
+100 [2.6493573]
+200 [2.429749]
+300 [2.3017378]
+400 [2.1412408]
+500 [1.9676449]
+600 [1.7805307]
+Model saved in file: ../models/model_experiential_bed-arm
+pair: bed,arm
+test loss: 1.032818 , test accuracy: 1.000000
+0 [16.485435]
+100 [2.8897805]
+200 [2.4354227]
+300 [2.2879431]
+400 [2.099791]
+500 [1.9519137]
+600 [1.7066106]
+Model saved in file: ../models/model_experiential_bed-bell
+pair: bed,bell
+test loss: 0.838241 , test accuracy: 0.000000
+0 [16.621101]
+100 [2.7980993]
+200 [2.4146287]
+300 [2.2614484]
+400 [2.1344407]
+500 [1.907123]
+600 [1.7204219]
+Model saved in file: ../models/model_experiential_bed-foot
+pair: bed,foot
+test loss: 0.795086 , test accuracy: 1.000000
+0 [16.646297]
+100 [2.7354054]
+200 [2.3709211]
+300 [2.2911294]
+400 [2.1164591]
+500 [1.8958036]
+600 [1.7169168]
+Model saved in file: ../models/model_experiential_telephone-table
+pair: telephone,table
+test loss: 0.974691 , test accuracy: 1.000000
+0 [16.440315]
+100 [2.7386661]
+200 [2.4950237]
+300 [2.3377218]
+400 [2.2239745]
+500 [2.0930364]
+600 [1.8891079]
+Model saved in file: ../models/model_experiential_telephone-church
+pair: telephone,church
+test loss: 0.918559 , test accuracy: 1.000000
+0 [16.891916]
+100 [2.7584157]
+200 [2.4017193]
+300 [2.2404821]
+400 [2.0101402]
+500 [1.9276909]
+600 [1.6990511]
+Model saved in file: ../models/model_experiential_telephone-hand
+pair: telephone,hand
+test loss: 0.967166 , test accuracy: 1.000000
+0 [17.106571]
+100 [2.7883005]
+200 [2.3730452]
+300 [2.1831827]
+400 [2.1051989]
+500 [1.8956027]
+600 [1.7104346]
+Model saved in file: ../models/model_experiential_telephone-desk
+pair: telephone,desk
+test loss: 0.995633 , test accuracy: 1.000000
+0 [16.1628]
+100 [2.8044538]
+200 [2.3746166]
+300 [2.252876]
+400 [2.0828722]
+500 [1.9694499]
+600 [1.806379]
+Model saved in file: ../models/model_experiential_telephone-hammer
+pair: telephone,hammer
+test loss: 1.134644 , test accuracy: 0.000000
+0 [16.531137]
+100 [2.7919908]
+200 [2.4173491]
+300 [2.3001125]
+400 [2.2006981]
+500 [2.0065644]
+600 [1.8972654]
+Model saved in file: ../models/model_experiential_telephone-glass
+pair: telephone,glass
+test loss: 1.062961 , test accuracy: 1.000000
+0 [17.074955]
+100 [2.7143011]
+200 [2.4138672]
+300 [2.3090611]
+400 [2.0912836]
+500 [1.99772]
+600 [1.6756886]
+Model saved in file: ../models/model_experiential_telephone-bicycle
+pair: telephone,bicycle
+test loss: 1.160760 , test accuracy: 1.000000
+0 [16.869555]
+100 [2.7423453]
+200 [2.4675713]
+300 [2.311744]
+400 [2.1659138]
+500 [2.0216756]
+600 [1.828264]
+Model saved in file: ../models/model_experiential_telephone-eye
+pair: telephone,eye
+test loss: 0.903109 , test accuracy: 0.000000
+0 [16.596266]
+100 [2.7123146]
+200 [2.4061925]
+300 [2.31178]
+400 [2.0865419]
+500 [1.9819925]
+600 [1.7808309]
+Model saved in file: ../models/model_experiential_telephone-fly
+pair: telephone,fly
+test loss: 1.015197 , test accuracy: 1.000000
+0 [16.335936]
+100 [2.7031608]
+200 [2.4914994]
+300 [2.3673558]
+400 [2.2370493]
+500 [2.0220239]
+600 [1.7871023]
+Model saved in file: ../models/model_experiential_telephone-chair
+pair: telephone,chair
+test loss: 0.939282 , test accuracy: 1.000000
+0 [16.024494]
+100 [2.6305404]
+200 [2.4204741]
+300 [2.2882507]
+400 [2.1528261]
+500 [2.0061429]
+600 [1.8592389]
+Model saved in file: ../models/model_experiential_telephone-arm
+pair: telephone,arm
+test loss: 0.968381 , test accuracy: 1.000000
+0 [16.903982]
+100 [2.8305855]
+200 [2.3978882]
+300 [2.2686737]
+400 [2.1100554]
+500 [1.8628019]
+600 [1.6573532]
+Model saved in file: ../models/model_experiential_telephone-bell
+pair: telephone,bell
+test loss: 0.912769 , test accuracy: 1.000000
+0 [16.149525]
+100 [2.6676977]
+200 [2.3733716]
+300 [2.2226977]
+400 [2.1715987]
+500 [1.9180088]
+600 [1.7553293]
+Model saved in file: ../models/model_experiential_telephone-foot
+pair: telephone,foot
+test loss: 1.044716 , test accuracy: 1.000000
+0 [17.319025]
+100 [2.6890476]
+200 [2.5227327]
+300 [2.3454018]
+400 [2.2473278]
+500 [2.1487052]
+600 [1.9427906]
+Model saved in file: ../models/model_experiential_table-church
+pair: table,church
+test loss: 0.641559 , test accuracy: 0.000000
+0 [16.795759]
+100 [2.6998992]
+200 [2.3799081]
+300 [2.2728159]
+400 [2.1337245]
+500 [1.9631404]
+600 [1.8352416]
+Model saved in file: ../models/model_experiential_table-hand
+pair: table,hand
+test loss: 0.662804 , test accuracy: 1.000000
+0 [16.353655]
+100 [2.7084129]
+200 [2.4913743]
+300 [2.3979146]
+400 [2.2127533]
+500 [2.1186492]
+600 [1.9291174]
+Model saved in file: ../models/model_experiential_table-desk
+pair: table,desk
+test loss: 0.421859 , test accuracy: 1.000000
+0 [16.915194]
+100 [2.6882691]
+200 [2.4825218]
+300 [2.2809172]
+400 [2.1191363]
+500 [1.9580091]
+600 [1.8284599]
+Model saved in file: ../models/model_experiential_table-hammer
+pair: table,hammer
+test loss: 0.784967 , test accuracy: 1.000000
+0 [17.138479]
+100 [2.9031007]
+200 [2.4738648]
+300 [2.2145886]
+400 [2.1258473]
+500 [1.9390492]
+600 [1.7978592]
+Model saved in file: ../models/model_experiential_table-glass
+pair: table,glass
+test loss: 0.650355 , test accuracy: 1.000000
+0 [16.726587]
+100 [2.8410699]
+200 [2.48175]
+300 [2.3247809]
+400 [2.1905408]
+500 [2.0464861]
+600 [1.8562857]
+Model saved in file: ../models/model_experiential_table-bicycle
+pair: table,bicycle
+test loss: 0.443286 , test accuracy: 1.000000
+0 [17.125153]
+100 [2.7003012]
+200 [2.494312]
+300 [2.2751851]
+400 [2.1238115]
+500 [1.930135]
+600 [1.8147879]
+Model saved in file: ../models/model_experiential_table-eye
+pair: table,eye
+test loss: 0.816548 , test accuracy: 1.000000
+0 [17.309166]
+100 [2.8051963]
+200 [2.4843764]
+300 [2.3514066]
+400 [2.2146707]
+500 [2.1022878]
+600 [1.9539779]
+Model saved in file: ../models/model_experiential_table-fly
+pair: table,fly
+test loss: 0.830915 , test accuracy: 1.000000
+0 [16.711241]
+100 [2.6944666]
+200 [2.5119238]
+300 [2.4171088]
+400 [2.217418]
+500 [2.0505471]
+600 [1.8493528]
+Model saved in file: ../models/model_experiential_table-chair
+pair: table,chair
+test loss: 0.700043 , test accuracy: 1.000000
+0 [16.981077]
+100 [3.083509]
+200 [2.37272]
+300 [2.169873]
+400 [1.9915508]
+500 [1.8676797]
+600 [1.730343]
+Model saved in file: ../models/model_experiential_table-arm
+pair: table,arm
+test loss: 0.530011 , test accuracy: 1.000000
+0 [16.653555]
+100 [2.6863234]
+200 [2.4959068]
+300 [2.309418]
+400 [2.166697]
+500 [2.0516002]
+600 [1.838321]
+Model saved in file: ../models/model_experiential_table-bell
+pair: table,bell
+test loss: 0.835993 , test accuracy: 0.000000
+0 [17.20985]
+100 [2.7786548]
+200 [2.3555136]
+300 [2.2523155]
+400 [2.1220975]
+500 [1.9267873]
+600 [1.7544724]
+Model saved in file: ../models/model_experiential_table-foot
+pair: table,foot
+test loss: 0.556086 , test accuracy: 1.000000
+0 [16.361383]
+100 [2.7759416]
+200 [2.3632376]
+300 [2.2550201]
+400 [2.1014614]
+500 [1.9222777]
+600 [1.7194121]
+Model saved in file: ../models/model_experiential_church-hand
+pair: church,hand
+test loss: 0.961219 , test accuracy: 1.000000
+0 [16.988398]
+100 [2.8213468]
+200 [2.4914439]
+300 [2.3636527]
+400 [2.2053838]
+500 [2.0600431]
+600 [1.8481613]
+Model saved in file: ../models/model_experiential_church-desk
+pair: church,desk
+test loss: 1.035215 , test accuracy: 1.000000
+0 [16.620689]
+100 [2.6938694]
+200 [2.3848815]
+300 [2.2693288]
+400 [2.1596534]
+500 [1.9270543]
+600 [1.7699364]
+Model saved in file: ../models/model_experiential_church-hammer
+pair: church,hammer
+test loss: 0.974359 , test accuracy: 1.000000
+0 [16.971313]
+100 [3.3091195]
+200 [2.3235857]
+300 [2.2259758]
+400 [2.082504]
+500 [1.8619589]
+600 [1.6438441]
+Model saved in file: ../models/model_experiential_church-glass
+pair: church,glass
+test loss: 0.632639 , test accuracy: 1.000000
+0 [16.669998]
+100 [2.7129478]
+200 [2.5432863]
+300 [2.4712512]
+400 [2.2428586]
+500 [2.0840995]
+600 [1.8547702]
+Model saved in file: ../models/model_experiential_church-bicycle
+pair: church,bicycle
+test loss: 1.171907 , test accuracy: 1.000000
+0 [16.689388]
+100 [2.7985666]
+200 [2.403017]
+300 [2.3123097]
+400 [2.1952581]
+500 [1.9548103]
+600 [1.796764]
+Model saved in file: ../models/model_experiential_church-eye
+pair: church,eye
+test loss: 1.008491 , test accuracy: 1.000000
+0 [16.452557]
+100 [2.6984167]
+200 [2.5063505]
+300 [2.3150623]
+400 [2.1571629]
+500 [2.0270784]
+600 [1.852982]
+Model saved in file: ../models/model_experiential_church-fly
+pair: church,fly
+test loss: 0.953216 , test accuracy: 1.000000
+0 [16.661245]
+100 [2.7124979]
+200 [2.5285795]
+300 [2.402884]
+400 [2.2029018]
+500 [2.05371]
+600 [1.8292896]
+Model saved in file: ../models/model_experiential_church-chair
+pair: church,chair
+test loss: 0.857754 , test accuracy: 1.000000
+0 [16.995506]
+100 [2.6490605]
+200 [2.412879]
+300 [2.2806432]
+400 [2.1669745]
+500 [1.9961095]
+600 [1.747714]
+Model saved in file: ../models/model_experiential_church-arm
+pair: church,arm
+test loss: 1.126774 , test accuracy: 1.000000
+0 [16.499146]
+100 [2.9930468]
+200 [2.4329481]
+300 [2.3230734]
+400 [2.1260576]
+500 [1.9615655]
+600 [1.741025]
+Model saved in file: ../models/model_experiential_church-bell
+pair: church,bell
+test loss: 0.887511 , test accuracy: 1.000000
+0 [16.241711]
+100 [2.8006058]
+200 [2.4705064]
+300 [2.2859864]
+400 [2.2010612]
+500 [2.0117071]
+600 [1.82626]
+Model saved in file: ../models/model_experiential_church-foot
+pair: church,foot
+test loss: 0.820112 , test accuracy: 1.000000
+0 [16.995428]
+100 [2.644366]
+200 [2.4760334]
+300 [2.3751297]
+400 [2.2590346]
+500 [2.0459702]
+600 [1.9479823]
+Model saved in file: ../models/model_experiential_hand-desk
+pair: hand,desk
+test loss: 0.949142 , test accuracy: 1.000000
+0 [16.938393]
+100 [2.7012217]
+200 [2.5076692]
+300 [2.3806946]
+400 [2.2342801]
+500 [2.0681551]
+600 [1.8844948]
+Model saved in file: ../models/model_experiential_hand-hammer
+pair: hand,hammer
+test loss: 0.906776 , test accuracy: 0.000000
+0 [17.110338]
+100 [2.7455025]
+200 [2.5274694]
+300 [2.4264529]
+400 [2.2498522]
+500 [1.9994777]
+600 [1.8575715]
+Model saved in file: ../models/model_experiential_hand-glass
+pair: hand,glass
+test loss: 0.646637 , test accuracy: 1.000000
+0 [16.234833]
+100 [2.7518959]
+200 [2.4913812]
+300 [2.2777827]
+400 [2.1570861]
+500 [1.9326727]
+600 [1.7561911]
+Model saved in file: ../models/model_experiential_hand-bicycle
+pair: hand,bicycle
+test loss: 0.950652 , test accuracy: 1.000000
+0 [16.435738]
+100 [2.7972922]
+200 [2.3836901]
+300 [2.2421722]
+400 [2.0877037]
+500 [1.9139228]
+600 [1.7394403]
+Model saved in file: ../models/model_experiential_hand-eye
+pair: hand,eye
+test loss: 0.804216 , test accuracy: 1.000000
+0 [17.077837]
+100 [2.7056553]
+200 [2.4960899]
+300 [2.3411381]
+400 [2.2119119]
+500 [2.0563967]
+600 [1.9317296]
+Model saved in file: ../models/model_experiential_hand-fly
+pair: hand,fly
+test loss: 1.127500 , test accuracy: 1.000000
+0 [17.091606]
+100 [2.6537406]
+200 [2.4157505]
+300 [2.3249595]
+400 [2.1648235]
+500 [1.989676]
+600 [1.84535]
+Model saved in file: ../models/model_experiential_hand-chair
+pair: hand,chair
+test loss: 0.691731 , test accuracy: 1.000000
+0 [16.832411]
+100 [2.6491802]
+200 [2.4441719]
+300 [2.282444]
+400 [2.1838529]
+500 [2.069124]
+600 [1.9313053]
+Model saved in file: ../models/model_experiential_hand-arm
+pair: hand,arm
+test loss: 0.959942 , test accuracy: 1.000000
+0 [16.500439]
+100 [2.7126081]
+200 [2.47541]
+300 [2.322614]
+400 [2.153398]
+500 [1.9470444]
+600 [1.7485551]
+Model saved in file: ../models/model_experiential_hand-bell
+pair: hand,bell
+test loss: 0.730752 , test accuracy: 1.000000
+0 [16.642136]
+100 [5.0850291]
+200 [2.237536]
+300 [2.0977981]
+400 [1.8336908]
+500 [1.6513182]
+600 [1.4723766]
+Model saved in file: ../models/model_experiential_hand-foot
+pair: hand,foot
+test loss: 0.515402 , test accuracy: 0.000000
+0 [16.694336]
+100 [2.6824841]
+200 [2.458585]
+300 [2.3078501]
+400 [2.2097526]
+500 [2.057642]
+600 [1.8736672]
+Model saved in file: ../models/model_experiential_desk-hammer
+pair: desk,hammer
+test loss: 0.788222 , test accuracy: 1.000000
+0 [16.827629]
+100 [3.0049086]
+200 [2.3815558]
+300 [2.2112777]
+400 [2.0720236]
+500 [1.8642348]
+600 [1.7214369]
+Model saved in file: ../models/model_experiential_desk-glass
+pair: desk,glass
+test loss: 0.533569 , test accuracy: 1.000000
+0 [16.779015]
+100 [2.8198783]
+200 [2.4893835]
+300 [2.4039047]
+400 [2.2677367]
+500 [2.0582173]
+600 [1.842209]
+Model saved in file: ../models/model_experiential_desk-bicycle
+pair: desk,bicycle
+test loss: 1.014147 , test accuracy: 1.000000
+0 [16.841898]
+100 [2.6942949]
+200 [2.4619672]
+300 [2.4025524]
+400 [2.1826057]
+500 [2.0254886]
+600 [1.8332075]
+Model saved in file: ../models/model_experiential_desk-eye
+pair: desk,eye
+test loss: 0.876544 , test accuracy: 1.000000
+0 [16.781111]
+100 [2.7366164]
+200 [2.4720349]
+300 [2.3134716]
+400 [2.1568179]
+500 [2.0124457]
+600 [1.850193]
+Model saved in file: ../models/model_experiential_desk-fly
+pair: desk,fly
+test loss: 0.780369 , test accuracy: 1.000000
+0 [17.439371]
+100 [2.7179387]
+200 [2.4959848]
+300 [2.3686056]
+400 [2.2503934]
+500 [2.1079075]
+600 [1.9454492]
+Model saved in file: ../models/model_experiential_desk-chair
+pair: desk,chair
+test loss: 0.392288 , test accuracy: 1.000000
+0 [16.698458]
+100 [2.5995655]
+200 [2.4169383]
+300 [2.2884848]
+400 [2.0930605]
+500 [1.9777303]
+600 [1.7651173]
+Model saved in file: ../models/model_experiential_desk-arm
+pair: desk,arm
+test loss: 0.956939 , test accuracy: 1.000000
+0 [16.823856]
+100 [2.8775969]
+200 [2.3900976]
+300 [2.2897911]
+400 [2.0837548]
+500 [1.9354706]
+600 [1.7460933]
+Model saved in file: ../models/model_experiential_desk-bell
+pair: desk,bell
+test loss: 0.647138 , test accuracy: 1.000000
+0 [16.924978]
+100 [2.710804]
+200 [2.4593339]
+300 [2.3356187]
+400 [2.21873]
+500 [2.033428]
+600 [1.9132893]
+Model saved in file: ../models/model_experiential_desk-foot
+pair: desk,foot
+test loss: 0.575509 , test accuracy: 1.000000
+0 [16.895964]
+100 [2.7032642]
+200 [2.4723122]
+300 [2.2531567]
+400 [2.0975215]
+500 [1.9518391]
+600 [1.7155895]
+Model saved in file: ../models/model_experiential_hammer-glass
+pair: hammer,glass
+test loss: 0.526558 , test accuracy: 1.000000
+0 [16.933182]
+100 [2.6839557]
+200 [2.3932567]
+300 [2.2670932]
+400 [2.1465735]
+500 [1.9485838]
+600 [1.826598]
+Model saved in file: ../models/model_experiential_hammer-bicycle
+pair: hammer,bicycle
+test loss: 0.843014 , test accuracy: 0.000000
+0 [17.238947]
+100 [2.7822165]
+200 [2.4584365]
+300 [2.3277011]
+400 [2.179173]
+500 [1.9129597]
+600 [1.7012283]
+Model saved in file: ../models/model_experiential_hammer-eye
+pair: hammer,eye
+test loss: 0.844863 , test accuracy: 0.000000
+0 [17.38666]
+100 [2.6732657]
+200 [2.4622509]
+300 [2.2801042]
+400 [2.1819346]
+500 [2.0699933]
+600 [1.8252279]
+Model saved in file: ../models/model_experiential_hammer-fly
+pair: hammer,fly
+test loss: 1.198187 , test accuracy: 1.000000
+0 [16.752455]
+100 [2.7478096]
+200 [2.512471]
+300 [2.3823569]
+400 [2.2118237]
+500 [2.0193672]
+600 [1.8435947]
+Model saved in file: ../models/model_experiential_hammer-chair
+pair: hammer,chair
+test loss: 0.690013 , test accuracy: 1.000000
+0 [16.519434]
+100 [2.6857817]
+200 [2.4209654]
+300 [2.2715418]
+400 [2.1334035]
+500 [1.9946125]
+600 [1.8667197]
+Model saved in file: ../models/model_experiential_hammer-arm
+pair: hammer,arm
+test loss: 1.126083 , test accuracy: 1.000000
+0 [16.647524]
+100 [2.7688131]
+200 [2.4232485]
+300 [2.2640083]
+400 [2.1299591]
+500 [1.9867392]
+600 [1.7888738]
+Model saved in file: ../models/model_experiential_hammer-bell
+pair: hammer,bell
+test loss: 1.247713 , test accuracy: 1.000000
+0 [16.201427]
+100 [2.7168477]
+200 [2.4166689]
+300 [2.3231275]
+400 [2.1150327]
+500 [1.9400148]
+600 [1.7866498]
+Model saved in file: ../models/model_experiential_hammer-foot
+pair: hammer,foot
+test loss: 0.818758 , test accuracy: 1.000000
+0 [16.221125]
+100 [2.7795136]
+200 [2.4408658]
+300 [2.3585918]
+400 [2.1461818]
+500 [1.9684724]
+600 [1.7714794]
+Model saved in file: ../models/model_experiential_glass-bicycle
+pair: glass,bicycle
+test loss: 0.693892 , test accuracy: 1.000000
+0 [16.22031]
+100 [2.7146971]
+200 [2.4990485]
+300 [2.2972262]
+400 [2.229737]
+500 [1.9865071]
+600 [1.7779851]
+Model saved in file: ../models/model_experiential_glass-eye
+pair: glass,eye
+test loss: 0.615800 , test accuracy: 1.000000
+0 [16.66128]
+100 [3.1075978]
+200 [2.4641054]
+300 [2.2264559]
+400 [2.074718]
+500 [1.8930246]
+600 [1.7051855]
+Model saved in file: ../models/model_experiential_glass-fly
+pair: glass,fly
+test loss: 0.472580 , test accuracy: 1.000000
+0 [16.693928]
+100 [2.7603416]
+200 [2.4274688]
+300 [2.316771]
+400 [2.1455793]
+500 [1.9657716]
+600 [1.8458631]
+Model saved in file: ../models/model_experiential_glass-chair
+pair: glass,chair
+test loss: 0.746515 , test accuracy: 1.000000
+0 [16.989988]
+100 [2.5941076]
+200 [2.4354002]
+300 [2.2846313]
+400 [2.129863]
+500 [2.0609348]
+600 [1.8944014]
+Model saved in file: ../models/model_experiential_glass-arm
+pair: glass,arm
+test loss: 0.999759 , test accuracy: 1.000000
+0 [16.816372]
+100 [2.7866933]
+200 [2.4685771]
+300 [2.3077078]
+400 [2.2607465]
+500 [2.1077015]
+600 [1.9234599]
+Model saved in file: ../models/model_experiential_glass-bell
+pair: glass,bell
+test loss: 1.228984 , test accuracy: 1.000000
+0 [16.770113]
+100 [3.7503939]
+200 [2.3123527]
+300 [2.1335812]
+400 [2.0045919]
+500 [1.8127567]
+600 [1.5476475]
+Model saved in file: ../models/model_experiential_glass-foot
+pair: glass,foot
+test loss: 0.648954 , test accuracy: 1.000000
+0 [16.950222]
+100 [2.7729845]
+200 [2.5166361]
+300 [2.3804314]
+400 [2.222831]
+500 [2.1190493]
+600 [1.9269785]
+Model saved in file: ../models/model_experiential_bicycle-eye
+pair: bicycle,eye
+test loss: 0.675734 , test accuracy: 0.000000
+0 [16.865803]
+100 [2.7497365]
+200 [2.5070388]
+300 [2.3704205]
+400 [2.2575908]
+500 [2.0858886]
+600 [1.8812135]
+Model saved in file: ../models/model_experiential_bicycle-fly
+pair: bicycle,fly
+test loss: 0.831371 , test accuracy: 1.000000
+0 [16.597391]
+100 [2.7374089]
+200 [2.4435086]
+300 [2.360127]
+400 [2.2115855]
+500 [2.0027695]
+600 [1.7645352]
+Model saved in file: ../models/model_experiential_bicycle-chair
+pair: bicycle,chair
+test loss: 0.826947 , test accuracy: 1.000000
+0 [16.550636]
+100 [2.6842716]
+200 [2.4270692]
+300 [2.3267279]
+400 [2.049094]
+500 [1.9322395]
+600 [1.7147429]
+Model saved in file: ../models/model_experiential_bicycle-arm
+pair: bicycle,arm
+test loss: 1.061331 , test accuracy: 1.000000
+0 [17.766964]
+100 [2.7097497]
+200 [2.5436847]
+300 [2.3754711]
+400 [2.1797042]
+500 [2.0423796]
+600 [1.9063897]
+Model saved in file: ../models/model_experiential_bicycle-bell
+pair: bicycle,bell
+test loss: 0.905892 , test accuracy: 1.000000
+0 [16.422388]
+100 [2.7048411]
+200 [2.4716232]
+300 [2.3337433]
+400 [2.1651897]
+500 [1.9834542]
+600 [1.8154037]
+Model saved in file: ../models/model_experiential_bicycle-foot
+pair: bicycle,foot
+test loss: 0.981016 , test accuracy: 1.000000
+0 [16.50515]
+100 [2.8200877]
+200 [2.5132246]
+300 [2.3850563]
+400 [2.2934918]
+500 [2.0592818]
+600 [1.8855273]
+Model saved in file: ../models/model_experiential_eye-fly
+pair: eye,fly
+test loss: 0.982177 , test accuracy: 1.000000
+0 [17.228531]
+100 [2.8434703]
+200 [2.5150599]
+300 [2.3472774]
+400 [2.1286914]
+500 [1.9058371]
+600 [1.7445518]
+Model saved in file: ../models/model_experiential_eye-chair
+pair: eye,chair
+test loss: 0.658270 , test accuracy: 1.000000
+0 [16.478149]
+100 [2.7060518]
+200 [2.4868228]
+300 [2.3026645]
+400 [2.2013121]
+500 [2.0673347]
+600 [1.8770394]
+Model saved in file: ../models/model_experiential_eye-arm
+pair: eye,arm
+test loss: 0.826193 , test accuracy: 1.000000
+0 [16.741817]
+100 [2.7839155]
+200 [2.4898138]
+300 [2.2899592]
+400 [2.2211058]
+500 [2.0678673]
+600 [1.821811]
+Model saved in file: ../models/model_experiential_eye-bell
+pair: eye,bell
+test loss: 1.024879 , test accuracy: 1.000000
+0 [16.600204]
+100 [2.7376037]
+200 [2.4834468]
+300 [2.3214664]
+400 [2.1868243]
+500 [2.0339909]
+600 [1.7972057]
+Model saved in file: ../models/model_experiential_eye-foot
+pair: eye,foot
+test loss: 0.895314 , test accuracy: 1.000000
+0 [17.218676]
+100 [2.7151246]
+200 [2.5156567]
+300 [2.3637338]
+400 [2.196888]
+500 [2.0410645]
+600 [1.8580223]
+Model saved in file: ../models/model_experiential_fly-chair
+pair: fly,chair
+test loss: 0.642951 , test accuracy: 1.000000
+0 [16.662283]
+100 [2.8027537]
+200 [2.391135]
+300 [2.2528203]
+400 [2.0888805]
+500 [1.9004014]
+600 [1.7606691]
+Model saved in file: ../models/model_experiential_fly-arm
+pair: fly,arm
+test loss: 0.891389 , test accuracy: 1.000000
+0 [17.426102]
+100 [2.8834581]
+200 [2.4833968]
+300 [2.2961783]
+400 [2.0905325]
+500 [1.9676943]
+600 [1.7211131]
+Model saved in file: ../models/model_experiential_fly-bell
+pair: fly,bell
+test loss: 0.653300 , test accuracy: 1.000000
+0 [16.970758]
+100 [2.6851516]
+200 [2.4833689]
+300 [2.3269079]
+400 [2.1548758]
+500 [2.0237164]
+600 [1.8177334]
+Model saved in file: ../models/model_experiential_fly-foot
+pair: fly,foot
+test loss: 0.807097 , test accuracy: 1.000000
+0 [16.561897]
+100 [2.6985121]
+200 [2.4973738]
+300 [2.3274899]
+400 [2.151397]
+500 [2.0185592]
+600 [1.8271054]
+Model saved in file: ../models/model_experiential_chair-arm
+pair: chair,arm
+test loss: 0.844164 , test accuracy: 1.000000
+0 [16.702438]
+100 [2.7178667]
+200 [2.5375941]
+300 [2.349478]
+400 [2.2604725]
+500 [2.030118]
+600 [1.825048]
+Model saved in file: ../models/model_experiential_chair-bell
+pair: chair,bell
+test loss: 0.572608 , test accuracy: 1.000000
+0 [17.350496]
+100 [2.8403435]
+200 [2.4232996]
+300 [2.2748246]
+400 [2.1451263]
+500 [2.0147438]
+600 [1.8146869]
+Model saved in file: ../models/model_experiential_chair-foot
+pair: chair,foot
+test loss: 0.598996 , test accuracy: 1.000000
+0 [16.979162]
+100 [2.7819793]
+200 [2.4588234]
+300 [2.3469663]
+400 [2.2247295]
+500 [2.0728731]
+600 [1.9000914]
+Model saved in file: ../models/model_experiential_arm-bell
+pair: arm,bell
+test loss: 1.112336 , test accuracy: 1.000000
+0 [16.358364]
+100 [2.6170437]
+200 [2.4489574]
+300 [2.2813473]
+400 [2.1446948]
+500 [2.066628]
+600 [1.9056138]
+Model saved in file: ../models/model_experiential_arm-foot
+pair: arm,foot
+test loss: 0.969841 , test accuracy: 0.000000
+0 [16.545898]
+100 [2.7748253]
+200 [2.4689124]
+300 [2.3095706]
+400 [2.1740685]
+500 [1.9749361]
+600 [1.8322262]
+Model saved in file: ../models/model_experiential_bell-foot
+pair: bell,foot
+test loss: 0.713246 , test accuracy: 1.000000
+accuracy:  0.878991596639
+learning_rate: 0.001batch_size: 29number_of_epochs: 700
