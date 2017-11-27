@@ -1,0 +1,5956 @@
+subject id 1
+number of words: 60 
+35
+595
+0 [4.6198111]
+100 [0.64433771]
+200 [0.35349071]
+300 [0.25339872]
+400 [0.22297698]
+500 [0.20748408]
+600 [0.20953166]
+Model saved in file: ../models/model_fasttext_limited_truck-corn
+pair: truck,corn
+test loss: 0.315010 , test accuracy: 1.000000
+0 [4.6438255]
+100 [0.65848815]
+200 [0.34686229]
+300 [0.25085449]
+400 [0.21361825]
+500 [0.20028941]
+600 [0.20314756]
+Model saved in file: ../models/model_fasttext_limited_truck-carrot
+pair: truck,carrot
+test loss: 0.378364 , test accuracy: 1.000000
+0 [4.6805367]
+100 [0.6664235]
+200 [0.35675317]
+300 [0.25236583]
+400 [0.21113454]
+500 [0.21119937]
+600 [0.20669976]
+Model saved in file: ../models/model_fasttext_limited_truck-church
+pair: truck,church
+test loss: 0.318168 , test accuracy: 1.000000
+0 [4.6647191]
+100 [0.63881242]
+200 [0.35390285]
+300 [0.25538641]
+400 [0.20993607]
+500 [0.21038446]
+600 [0.20518407]
+Model saved in file: ../models/model_fasttext_limited_truck-glass
+pair: truck,glass
+test loss: 0.341081 , test accuracy: 1.000000
+0 [4.5335827]
+100 [0.64347452]
+200 [0.35379097]
+300 [0.24790274]
+400 [0.21441799]
+500 [0.20728797]
+600 [0.20706263]
+Model saved in file: ../models/model_fasttext_limited_truck-apartment
+pair: truck,apartment
+test loss: 0.349815 , test accuracy: 1.000000
+0 [4.5887604]
+100 [0.64298809]
+200 [0.34953886]
+300 [0.24948573]
+400 [0.21144652]
+500 [0.20553246]
+600 [0.20380205]
+Model saved in file: ../models/model_fasttext_limited_truck-horse
+pair: truck,horse
+test loss: 0.387514 , test accuracy: 1.000000
+0 [4.6282926]
+100 [0.63359952]
+200 [0.36583531]
+300 [0.24454033]
+400 [0.21281132]
+500 [0.20971388]
+600 [0.2058191]
+Model saved in file: ../models/model_fasttext_limited_truck-train
+pair: truck,train
+test loss: 0.368655 , test accuracy: 1.000000
+0 [4.736474]
+100 [0.64588827]
+200 [0.35363469]
+300 [0.25293738]
+400 [0.22051558]
+500 [0.20978011]
+600 [0.20481406]
+Model saved in file: ../models/model_fasttext_limited_truck-door
+pair: truck,door
+test loss: 0.286541 , test accuracy: 1.000000
+0 [4.5536265]
+100 [0.63825256]
+200 [0.35719812]
+300 [0.25641689]
+400 [0.21631686]
+500 [0.21224168]
+600 [0.20829354]
+Model saved in file: ../models/model_fasttext_limited_truck-desk
+pair: truck,desk
+test loss: 0.395639 , test accuracy: 1.000000
+0 [4.5964756]
+100 [0.64747816]
+200 [0.36530253]
+300 [0.2512807]
+400 [0.2214389]
+500 [0.21057907]
+600 [0.20965496]
+Model saved in file: ../models/model_fasttext_limited_truck-eye
+pair: truck,eye
+test loss: 0.297734 , test accuracy: 1.000000
+0 [4.6868763]
+100 [0.64031422]
+200 [0.36146364]
+300 [0.25623572]
+400 [0.22215052]
+500 [0.20855904]
+600 [0.20699325]
+Model saved in file: ../models/model_fasttext_limited_truck-chair
+pair: truck,chair
+test loss: 0.327626 , test accuracy: 1.000000
+0 [4.4819088]
+100 [0.61825079]
+200 [0.34024292]
+300 [0.2430283]
+400 [0.21450771]
+500 [0.20443898]
+600 [0.20488013]
+Model saved in file: ../models/model_fasttext_limited_truck-arm
+pair: truck,arm
+test loss: 0.451577 , test accuracy: 1.000000
+0 [4.6684337]
+100 [0.65569627]
+200 [0.35159206]
+300 [0.24691032]
+400 [0.21843636]
+500 [0.20489059]
+600 [0.20549646]
+Model saved in file: ../models/model_fasttext_limited_truck-lettuce
+pair: truck,lettuce
+test loss: 0.316286 , test accuracy: 1.000000
+0 [4.6303115]
+100 [0.64784783]
+200 [0.36320642]
+300 [0.24993709]
+400 [0.21385935]
+500 [0.20787157]
+600 [0.20841163]
+Model saved in file: ../models/model_fasttext_limited_truck-table
+pair: truck,table
+test loss: 0.384220 , test accuracy: 1.000000
+0 [4.5733309]
+100 [0.6572001]
+200 [0.35741901]
+300 [0.24908686]
+400 [0.21607397]
+500 [0.20699646]
+600 [0.20460261]
+Model saved in file: ../models/model_fasttext_limited_truck-foot
+pair: truck,foot
+test loss: 0.324440 , test accuracy: 1.000000
+0 [4.6798792]
+100 [0.66644716]
+200 [0.35628396]
+300 [0.25066555]
+400 [0.21211393]
+500 [0.20218346]
+600 [0.20535463]
+Model saved in file: ../models/model_fasttext_limited_truck-hammer
+pair: truck,hammer
+test loss: 0.401467 , test accuracy: 1.000000
+0 [4.5428157]
+100 [0.65520942]
+200 [0.34801671]
+300 [0.24812089]
+400 [0.21842176]
+500 [0.20822625]
+600 [0.20115492]
+Model saved in file: ../models/model_fasttext_limited_truck-leg
+pair: truck,leg
+test loss: 0.410848 , test accuracy: 1.000000
+0 [4.5435376]
+100 [0.63287258]
+200 [0.34613693]
+300 [0.24338523]
+400 [0.21604097]
+500 [0.20924264]
+600 [0.19989508]
+Model saved in file: ../models/model_fasttext_limited_truck-tomato
+pair: truck,tomato
+test loss: 0.356457 , test accuracy: 1.000000
+0 [4.669663]
+100 [0.62840998]
+200 [0.35873756]
+300 [0.24631239]
+400 [0.21585286]
+500 [0.20672037]
+600 [0.20532095]
+Model saved in file: ../models/model_fasttext_limited_truck-ant
+pair: truck,ant
+test loss: 0.319893 , test accuracy: 1.000000
+0 [4.5865421]
+100 [0.654549]
+200 [0.35963392]
+300 [0.24670786]
+400 [0.22237544]
+500 [0.21137159]
+600 [0.21118507]
+Model saved in file: ../models/model_fasttext_limited_truck-bee
+pair: truck,bee
+test loss: 0.258033 , test accuracy: 1.000000
+0 [4.641963]
+100 [0.64215165]
+200 [0.36267546]
+300 [0.24695542]
+400 [0.21755306]
+500 [0.21025868]
+600 [0.20576154]
+Model saved in file: ../models/model_fasttext_limited_truck-dog
+pair: truck,dog
+test loss: 0.326059 , test accuracy: 1.000000
+0 [4.6431003]
+100 [0.64400786]
+200 [0.36282361]
+300 [0.24489871]
+400 [0.2192083]
+500 [0.20719466]
+600 [0.20852359]
+Model saved in file: ../models/model_fasttext_limited_truck-airplane
+pair: truck,airplane
+test loss: 0.309337 , test accuracy: 1.000000
+0 [4.6012745]
+100 [0.64171427]
+200 [0.36054233]
+300 [0.25053367]
+400 [0.22013986]
+500 [0.21284184]
+600 [0.21095692]
+Model saved in file: ../models/model_fasttext_limited_truck-bicycle
+pair: truck,bicycle
+test loss: 0.302462 , test accuracy: 1.000000
+0 [4.5673966]
+100 [0.64825273]
+200 [0.36711967]
+300 [0.25383419]
+400 [0.22321209]
+500 [0.21395588]
+600 [0.20801994]
+Model saved in file: ../models/model_fasttext_limited_truck-butterfly
+pair: truck,butterfly
+test loss: 0.336809 , test accuracy: 1.000000
+0 [4.6608129]
+100 [0.63831156]
+200 [0.36862051]
+300 [0.2462686]
+400 [0.21709843]
+500 [0.20984982]
+600 [0.20745473]
+Model saved in file: ../models/model_fasttext_limited_truck-car
+pair: truck,car
+test loss: 0.376125 , test accuracy: 0.000000
+0 [4.5694566]
+100 [0.65052783]
+200 [0.35531038]
+300 [0.25189009]
+400 [0.21219358]
+500 [0.20612615]
+600 [0.20652863]
+Model saved in file: ../models/model_fasttext_limited_truck-house
+pair: truck,house
+test loss: 0.329874 , test accuracy: 1.000000
+0 [4.700552]
+100 [0.65664142]
+200 [0.34816363]
+300 [0.24698341]
+400 [0.21531279]
+500 [0.21621805]
+600 [0.20241785]
+Model saved in file: ../models/model_fasttext_limited_truck-window
+pair: truck,window
+test loss: 0.298965 , test accuracy: 1.000000
+0 [4.6317263]
+100 [0.63851488]
+200 [0.36518162]
+300 [0.25121248]
+400 [0.21277963]
+500 [0.20162445]
+600 [0.2076073]
+Model saved in file: ../models/model_fasttext_limited_truck-bed
+pair: truck,bed
+test loss: 0.325854 , test accuracy: 1.000000
+0 [4.7355318]
+100 [0.66125584]
+200 [0.35960466]
+300 [0.25518695]
+400 [0.22227708]
+500 [0.21069182]
+600 [0.2081061]
+Model saved in file: ../models/model_fasttext_limited_truck-key
+pair: truck,key
+test loss: 0.359029 , test accuracy: 1.000000
+0 [4.6064572]
+100 [0.64856488]
+200 [0.3573679]
+300 [0.25284714]
+400 [0.21944328]
+500 [0.20760821]
+600 [0.20385528]
+Model saved in file: ../models/model_fasttext_limited_truck-fly
+pair: truck,fly
+test loss: 0.314197 , test accuracy: 1.000000
+0 [4.6576414]
+100 [0.63931423]
+200 [0.35956514]
+300 [0.2603499]
+400 [0.21480969]
+500 [0.20501736]
+600 [0.20877963]
+Model saved in file: ../models/model_fasttext_limited_truck-bell
+pair: truck,bell
+test loss: 0.294387 , test accuracy: 1.000000
+0 [4.6057363]
+100 [0.62968433]
+200 [0.35641792]
+300 [0.24566311]
+400 [0.21332519]
+500 [0.20033422]
+600 [0.20432501]
+Model saved in file: ../models/model_fasttext_limited_truck-telephone
+pair: truck,telephone
+test loss: 0.416570 , test accuracy: 1.000000
+0 [4.6721373]
+100 [0.66629261]
+200 [0.36344594]
+300 [0.25155014]
+400 [0.21854497]
+500 [0.20372568]
+600 [0.20341678]
+Model saved in file: ../models/model_fasttext_limited_truck-saw
+pair: truck,saw
+test loss: 0.335660 , test accuracy: 1.000000
+0 [4.6814318]
+100 [0.66673446]
+200 [0.34647384]
+300 [0.24596104]
+400 [0.20887916]
+500 [0.20803712]
+600 [0.19943844]
+Model saved in file: ../models/model_fasttext_limited_truck-hand
+pair: truck,hand
+test loss: 0.354789 , test accuracy: 1.000000
+0 [4.5563869]
+100 [0.63574564]
+200 [0.35437059]
+300 [0.23858771]
+400 [0.22266896]
+500 [0.20547211]
+600 [0.20931143]
+Model saved in file: ../models/model_fasttext_limited_corn-carrot
+pair: corn,carrot
+test loss: 0.381569 , test accuracy: 1.000000
+0 [4.6026759]
+100 [0.65509731]
+200 [0.36392096]
+300 [0.26076561]
+400 [0.21912961]
+500 [0.20906956]
+600 [0.21255034]
+Model saved in file: ../models/model_fasttext_limited_corn-church
+pair: corn,church
+test loss: 0.330503 , test accuracy: 1.000000
+0 [4.6813741]
+100 [0.65334857]
+200 [0.35650998]
+300 [0.25300077]
+400 [0.21958491]
+500 [0.20767331]
+600 [0.20850354]
+Model saved in file: ../models/model_fasttext_limited_corn-glass
+pair: corn,glass
+test loss: 0.382878 , test accuracy: 0.000000
+0 [4.5953145]
+100 [0.6497705]
+200 [0.35124004]
+300 [0.25013715]
+400 [0.21562111]
+500 [0.21091744]
+600 [0.20169327]
+Model saved in file: ../models/model_fasttext_limited_corn-apartment
+pair: corn,apartment
+test loss: 0.386749 , test accuracy: 1.000000
+0 [4.5969992]
+100 [0.63313985]
+200 [0.35696357]
+300 [0.25027961]
+400 [0.22147551]
+500 [0.20235497]
+600 [0.20060256]
+Model saved in file: ../models/model_fasttext_limited_corn-horse
+pair: corn,horse
+test loss: 0.401991 , test accuracy: 1.000000
+0 [4.6604977]
+100 [0.64826065]
+200 [0.35593992]
+300 [0.24320477]
+400 [0.21873422]
+500 [0.208909]
+600 [0.20802787]
+Model saved in file: ../models/model_fasttext_limited_corn-train
+pair: corn,train
+test loss: 0.367870 , test accuracy: 1.000000
+0 [4.6272321]
+100 [0.65450704]
+200 [0.35777116]
+300 [0.25072539]
+400 [0.21798941]
+500 [0.213958]
+600 [0.20618725]
+Model saved in file: ../models/model_fasttext_limited_corn-door
+pair: corn,door
+test loss: 0.314056 , test accuracy: 1.000000
+0 [4.5516725]
+100 [0.66330117]
+200 [0.3614161]
+300 [0.24903801]
+400 [0.21601574]
+500 [0.21157146]
+600 [0.2063477]
+Model saved in file: ../models/model_fasttext_limited_corn-desk
+pair: corn,desk
+test loss: 0.419642 , test accuracy: 1.000000
+0 [4.7174902]
+100 [0.66460484]
+200 [0.36252671]
+300 [0.25797623]
+400 [0.21552417]
+500 [0.20857814]
+600 [0.2127945]
+Model saved in file: ../models/model_fasttext_limited_corn-eye
+pair: corn,eye
+test loss: 0.333410 , test accuracy: 0.000000
+0 [4.6408362]
+100 [0.6439904]
+200 [0.35660714]
+300 [0.25387168]
+400 [0.2241708]
+500 [0.20922503]
+600 [0.20689569]
+Model saved in file: ../models/model_fasttext_limited_corn-chair
+pair: corn,chair
+test loss: 0.347253 , test accuracy: 1.000000
+0 [4.6518502]
+100 [0.63221258]
+200 [0.36532265]
+300 [0.24638669]
+400 [0.20917338]
+500 [0.20823136]
+600 [0.20277584]
+Model saved in file: ../models/model_fasttext_limited_corn-arm
+pair: corn,arm
+test loss: 0.475558 , test accuracy: 1.000000
+0 [4.727242]
+100 [0.65670115]
+200 [0.3425523]
+300 [0.24899881]
+400 [0.22024986]
+500 [0.20943913]
+600 [0.20810288]
+Model saved in file: ../models/model_fasttext_limited_corn-lettuce
+pair: corn,lettuce
+test loss: 0.364980 , test accuracy: 1.000000
+0 [4.639544]
+100 [0.64972121]
+200 [0.35426855]
+300 [0.25268641]
+400 [0.21877375]
+500 [0.20656005]
+600 [0.20134905]
+Model saved in file: ../models/model_fasttext_limited_corn-table
+pair: corn,table
+test loss: 0.423734 , test accuracy: 1.000000
+0 [4.5550003]
+100 [0.65613294]
+200 [0.36436161]
+300 [0.24828598]
+400 [0.21220681]
+500 [0.21436545]
+600 [0.20423523]
+Model saved in file: ../models/model_fasttext_limited_corn-foot
+pair: corn,foot
+test loss: 0.346985 , test accuracy: 1.000000
+0 [4.6047788]
+100 [0.63901544]
+200 [0.35920644]
+300 [0.25348446]
+400 [0.21390718]
+500 [0.20828307]
+600 [0.20939842]
+Model saved in file: ../models/model_fasttext_limited_corn-hammer
+pair: corn,hammer
+test loss: 0.421188 , test accuracy: 0.000000
+0 [4.5097876]
+100 [0.63805366]
+200 [0.34674859]
+300 [0.24542603]
+400 [0.20822312]
+500 [0.2023185]
+600 [0.20156915]
+Model saved in file: ../models/model_fasttext_limited_corn-leg
+pair: corn,leg
+test loss: 0.437454 , test accuracy: 1.000000
+0 [4.5781994]
+100 [0.6511001]
+200 [0.35230285]
+300 [0.24974841]
+400 [0.21733287]
+500 [0.20762107]
+600 [0.20311919]
+Model saved in file: ../models/model_fasttext_limited_corn-tomato
+pair: corn,tomato
+test loss: 0.373981 , test accuracy: 1.000000
+0 [4.5540986]
+100 [0.63388532]
+200 [0.35921127]
+300 [0.25516403]
+400 [0.21840934]
+500 [0.21247923]
+600 [0.20642294]
+Model saved in file: ../models/model_fasttext_limited_corn-ant
+pair: corn,ant
+test loss: 0.338176 , test accuracy: 1.000000
+0 [4.5751896]
+100 [0.65283829]
+200 [0.35381067]
+300 [0.24666792]
+400 [0.21686918]
+500 [0.21314301]
+600 [0.2124784]
+Model saved in file: ../models/model_fasttext_limited_corn-bee
+pair: corn,bee
+test loss: 0.277723 , test accuracy: 1.000000
+0 [4.6020188]
+100 [0.65905666]
+200 [0.35918272]
+300 [0.25225976]
+400 [0.21521033]
+500 [0.20518045]
+600 [0.20943867]
+Model saved in file: ../models/model_fasttext_limited_corn-dog
+pair: corn,dog
+test loss: 0.366052 , test accuracy: 1.000000
+0 [4.797091]
+100 [0.66248548]
+200 [0.35874891]
+300 [0.25904205]
+400 [0.21442233]
+500 [0.21270746]
+600 [0.21060874]
+Model saved in file: ../models/model_fasttext_limited_corn-airplane
+pair: corn,airplane
+test loss: 0.298683 , test accuracy: 1.000000
+0 [4.6570702]
+100 [0.64362282]
+200 [0.36826739]
+300 [0.25177518]
+400 [0.21988538]
+500 [0.20949256]
+600 [0.2119315]
+Model saved in file: ../models/model_fasttext_limited_corn-bicycle
+pair: corn,bicycle
+test loss: 0.307144 , test accuracy: 1.000000
+0 [4.5688787]
+100 [0.64473003]
+200 [0.34542507]
+300 [0.25183651]
+400 [0.22097103]
+500 [0.21271384]
+600 [0.20695885]
+Model saved in file: ../models/model_fasttext_limited_corn-butterfly
+pair: corn,butterfly
+test loss: 0.366773 , test accuracy: 0.000000
+0 [4.5729856]
+100 [0.65466881]
+200 [0.34633729]
+300 [0.24375263]
+400 [0.21519335]
+500 [0.2072591]
+600 [0.20545208]
+Model saved in file: ../models/model_fasttext_limited_corn-car
+pair: corn,car
+test loss: 0.363884 , test accuracy: 1.000000
+0 [4.6897779]
+100 [0.66802096]
+200 [0.37101075]
+300 [0.24945249]
+400 [0.2183466]
+500 [0.20744401]
+600 [0.20583479]
+Model saved in file: ../models/model_fasttext_limited_corn-house
+pair: corn,house
+test loss: 0.324479 , test accuracy: 1.000000
+0 [4.6173635]
+100 [0.63998002]
+200 [0.35599819]
+300 [0.25271362]
+400 [0.21993241]
+500 [0.20755903]
+600 [0.21098065]
+Model saved in file: ../models/model_fasttext_limited_corn-window
+pair: corn,window
+test loss: 0.326226 , test accuracy: 1.000000
+0 [4.557106]
+100 [0.65721262]
+200 [0.35263053]
+300 [0.25304416]
+400 [0.21777523]
+500 [0.20634092]
+600 [0.20513378]
+Model saved in file: ../models/model_fasttext_limited_corn-bed
+pair: corn,bed
+test loss: 0.351833 , test accuracy: 1.000000
+0 [4.6611056]
+100 [0.66000003]
+200 [0.35521603]
+300 [0.25132373]
+400 [0.22563906]
+500 [0.20530814]
+600 [0.20476522]
+Model saved in file: ../models/model_fasttext_limited_corn-key
+pair: corn,key
+test loss: 0.369583 , test accuracy: 0.000000
+0 [4.6824875]
+100 [0.65132296]
+200 [0.35237646]
+300 [0.25174421]
+400 [0.21651754]
+500 [0.21143329]
+600 [0.2080633]
+Model saved in file: ../models/model_fasttext_limited_corn-fly
+pair: corn,fly
+test loss: 0.333169 , test accuracy: 1.000000
+0 [4.6669621]
+100 [0.64599574]
+200 [0.35194498]
+300 [0.25860253]
+400 [0.22147253]
+500 [0.21332283]
+600 [0.21448663]
+Model saved in file: ../models/model_fasttext_limited_corn-bell
+pair: corn,bell
+test loss: 0.313236 , test accuracy: 0.000000
+0 [4.6531892]
+100 [0.64093775]
+200 [0.35793936]
+300 [0.24383503]
+400 [0.21194623]
+500 [0.20809536]
+600 [0.21159495]
+Model saved in file: ../models/model_fasttext_limited_corn-telephone
+pair: corn,telephone
+test loss: 0.442667 , test accuracy: 1.000000
+0 [4.8027558]
+100 [0.65647221]
+200 [0.35943806]
+300 [0.24178931]
+400 [0.21727963]
+500 [0.20609915]
+600 [0.2058908]
+Model saved in file: ../models/model_fasttext_limited_corn-saw
+pair: corn,saw
+test loss: 0.350554 , test accuracy: 1.000000
+0 [4.5697279]
+100 [0.65575087]
+200 [0.35447526]
+300 [0.25158134]
+400 [0.21192649]
+500 [0.19653979]
+600 [0.20062901]
+Model saved in file: ../models/model_fasttext_limited_corn-hand
+pair: corn,hand
+test loss: 0.371019 , test accuracy: 1.000000
+0 [4.5856557]
+100 [0.66408294]
+200 [0.36201218]
+300 [0.24433294]
+400 [0.22230607]
+500 [0.20661026]
+600 [0.20876455]
+Model saved in file: ../models/model_fasttext_limited_carrot-church
+pair: carrot,church
+test loss: 0.404921 , test accuracy: 1.000000
+0 [4.6587772]
+100 [0.63764822]
+200 [0.34782761]
+300 [0.24681306]
+400 [0.22074573]
+500 [0.20837337]
+600 [0.20196103]
+Model saved in file: ../models/model_fasttext_limited_carrot-glass
+pair: carrot,glass
+test loss: 0.435592 , test accuracy: 1.000000
+0 [4.5615964]
+100 [0.64266235]
+200 [0.34511173]
+300 [0.24873558]
+400 [0.21334697]
+500 [0.20639181]
+600 [0.19948542]
+Model saved in file: ../models/model_fasttext_limited_carrot-apartment
+pair: carrot,apartment
+test loss: 0.422926 , test accuracy: 1.000000
+0 [4.6162453]
+100 [0.62700498]
+200 [0.34476569]
+300 [0.25058168]
+400 [0.21209829]
+500 [0.20512606]
+600 [0.20054519]
+Model saved in file: ../models/model_fasttext_limited_carrot-horse
+pair: carrot,horse
+test loss: 0.467441 , test accuracy: 1.000000
+0 [4.7127185]
+100 [0.65212834]
+200 [0.35600215]
+300 [0.24629806]
+400 [0.21154281]
+500 [0.20552687]
+600 [0.20492217]
+Model saved in file: ../models/model_fasttext_limited_carrot-train
+pair: carrot,train
+test loss: 0.433502 , test accuracy: 1.000000
+0 [4.5474906]
+100 [0.64727545]
+200 [0.35522294]
+300 [0.24806586]
+400 [0.21125305]
+500 [0.21170153]
+600 [0.20913544]
+Model saved in file: ../models/model_fasttext_limited_carrot-door
+pair: carrot,door
+test loss: 0.374170 , test accuracy: 1.000000
+0 [4.6135306]
+100 [0.62979329]
+200 [0.34384972]
+300 [0.24526295]
+400 [0.21156469]
+500 [0.20300032]
+600 [0.20194088]
+Model saved in file: ../models/model_fasttext_limited_carrot-desk
+pair: carrot,desk
+test loss: 0.481344 , test accuracy: 1.000000
+0 [4.6720033]
+100 [0.66043365]
+200 [0.36135721]
+300 [0.2472821]
+400 [0.21853486]
+500 [0.21150774]
+600 [0.20218763]
+Model saved in file: ../models/model_fasttext_limited_carrot-eye
+pair: carrot,eye
+test loss: 0.401682 , test accuracy: 1.000000
+0 [4.665792]
+100 [0.65056384]
+200 [0.35281605]
+300 [0.24932377]
+400 [0.21912509]
+500 [0.20282501]
+600 [0.20535859]
+Model saved in file: ../models/model_fasttext_limited_carrot-chair
+pair: carrot,chair
+test loss: 0.396648 , test accuracy: 1.000000
+0 [4.6353908]
+100 [0.64320487]
+200 [0.35406813]
+300 [0.24393049]
+400 [0.21071327]
+500 [0.19707586]
+600 [0.19982897]
+Model saved in file: ../models/model_fasttext_limited_carrot-arm
+pair: carrot,arm
+test loss: 0.528162 , test accuracy: 1.000000
+0 [4.5774426]
+100 [0.620588]
+200 [0.35300058]
+300 [0.24436639]
+400 [0.21370497]
+500 [0.20255682]
+600 [0.20504716]
+Model saved in file: ../models/model_fasttext_limited_carrot-lettuce
+pair: carrot,lettuce
+test loss: 0.379582 , test accuracy: 1.000000
+0 [4.6036248]
+100 [0.63517225]
+200 [0.35198063]
+300 [0.25059015]
+400 [0.21448013]
+500 [0.20338742]
+600 [0.20313917]
+Model saved in file: ../models/model_fasttext_limited_carrot-table
+pair: carrot,table
+test loss: 0.485532 , test accuracy: 1.000000
+0 [4.6342115]
+100 [0.64859337]
+200 [0.34985545]
+300 [0.25051999]
+400 [0.21376619]
+500 [0.20761077]
+600 [0.20746641]
+Model saved in file: ../models/model_fasttext_limited_carrot-foot
+pair: carrot,foot
+test loss: 0.430691 , test accuracy: 1.000000
+0 [4.7059302]
+100 [0.64408755]
+200 [0.35405231]
+300 [0.25085199]
+400 [0.21195246]
+500 [0.20481864]
+600 [0.20057827]
+Model saved in file: ../models/model_fasttext_limited_carrot-hammer
+pair: carrot,hammer
+test loss: 0.493596 , test accuracy: 1.000000
+0 [4.5556135]
+100 [0.6349988]
+200 [0.35359955]
+300 [0.23844981]
+400 [0.20317331]
+500 [0.20207568]
+600 [0.19957796]
+Model saved in file: ../models/model_fasttext_limited_carrot-leg
+pair: carrot,leg
+test loss: 0.552011 , test accuracy: 1.000000
+0 [4.5168924]
+100 [0.63585323]
+200 [0.34231362]
+300 [0.24666619]
+400 [0.20520364]
+500 [0.2005289]
+600 [0.1987377]
+Model saved in file: ../models/model_fasttext_limited_carrot-tomato
+pair: carrot,tomato
+test loss: 0.530510 , test accuracy: 1.000000
+0 [4.5820708]
+100 [0.6435684]
+200 [0.34517986]
+300 [0.24694882]
+400 [0.2130661]
+500 [0.20213354]
+600 [0.20439547]
+Model saved in file: ../models/model_fasttext_limited_carrot-ant
+pair: carrot,ant
+test loss: 0.412306 , test accuracy: 1.000000
+0 [4.6728845]
+100 [0.65296292]
+200 [0.36833763]
+300 [0.25424412]
+400 [0.21777365]
+500 [0.21221131]
+600 [0.20571402]
+Model saved in file: ../models/model_fasttext_limited_carrot-bee
+pair: carrot,bee
+test loss: 0.334652 , test accuracy: 1.000000
+0 [4.6488228]
+100 [0.64372206]
+200 [0.35234052]
+300 [0.24681687]
+400 [0.21525741]
+500 [0.19901633]
+600 [0.20277727]
+Model saved in file: ../models/model_fasttext_limited_carrot-dog
+pair: carrot,dog
+test loss: 0.408430 , test accuracy: 1.000000
+0 [4.5773363]
+100 [0.64995325]
+200 [0.34844896]
+300 [0.24489805]
+400 [0.21950012]
+500 [0.20519681]
+600 [0.20593983]
+Model saved in file: ../models/model_fasttext_limited_carrot-airplane
+pair: carrot,airplane
+test loss: 0.382986 , test accuracy: 1.000000
+0 [4.6511865]
+100 [0.66662925]
+200 [0.35495955]
+300 [0.24733153]
+400 [0.2193087]
+500 [0.20512681]
+600 [0.20337845]
+Model saved in file: ../models/model_fasttext_limited_carrot-bicycle
+pair: carrot,bicycle
+test loss: 0.375100 , test accuracy: 1.000000
+0 [4.6667376]
+100 [0.63236749]
+200 [0.35177749]
+300 [0.24548613]
+400 [0.2166249]
+500 [0.20194665]
+600 [0.20452785]
+Model saved in file: ../models/model_fasttext_limited_carrot-butterfly
+pair: carrot,butterfly
+test loss: 0.425886 , test accuracy: 0.000000
+0 [4.5489297]
+100 [0.62454098]
+200 [0.34776148]
+300 [0.24588233]
+400 [0.20634805]
+500 [0.20062205]
+600 [0.21101969]
+Model saved in file: ../models/model_fasttext_limited_carrot-car
+pair: carrot,car
+test loss: 0.423990 , test accuracy: 1.000000
+0 [4.5657907]
+100 [0.66278321]
+200 [0.3554613]
+300 [0.24850941]
+400 [0.21290147]
+500 [0.20516209]
+600 [0.20134135]
+Model saved in file: ../models/model_fasttext_limited_carrot-house
+pair: carrot,house
+test loss: 0.407553 , test accuracy: 1.000000
+0 [4.6269469]
+100 [0.64838248]
+200 [0.35260844]
+300 [0.2471346]
+400 [0.21382771]
+500 [0.20748055]
+600 [0.20678324]
+Model saved in file: ../models/model_fasttext_limited_carrot-window
+pair: carrot,window
+test loss: 0.383445 , test accuracy: 1.000000
+0 [4.6230917]
+100 [0.66236621]
+200 [0.34879124]
+300 [0.2488431]
+400 [0.2154669]
+500 [0.2035536]
+600 [0.20721975]
+Model saved in file: ../models/model_fasttext_limited_carrot-bed
+pair: carrot,bed
+test loss: 0.420295 , test accuracy: 1.000000
+0 [4.6161427]
+100 [0.65215188]
+200 [0.35719174]
+300 [0.2471517]
+400 [0.22090933]
+500 [0.20272753]
+600 [0.2015444]
+Model saved in file: ../models/model_fasttext_limited_carrot-key
+pair: carrot,key
+test loss: 0.427905 , test accuracy: 0.000000
+0 [4.5949469]
+100 [0.62932962]
+200 [0.36330914]
+300 [0.24911447]
+400 [0.22248596]
+500 [0.20414141]
+600 [0.20536566]
+Model saved in file: ../models/model_fasttext_limited_carrot-fly
+pair: carrot,fly
+test loss: 0.395882 , test accuracy: 0.000000
+0 [4.6053624]
+100 [0.65996212]
+200 [0.35021925]
+300 [0.24578565]
+400 [0.21558836]
+500 [0.20624486]
+600 [0.1988413]
+Model saved in file: ../models/model_fasttext_limited_carrot-bell
+pair: carrot,bell
+test loss: 0.395073 , test accuracy: 1.000000
+0 [4.6646037]
+100 [0.63925004]
+200 [0.35964918]
+300 [0.24600536]
+400 [0.21439543]
+500 [0.19881004]
+600 [0.20433107]
+Model saved in file: ../models/model_fasttext_limited_carrot-telephone
+pair: carrot,telephone
+test loss: 0.515883 , test accuracy: 1.000000
+0 [4.6258478]
+100 [0.66009253]
+200 [0.35283303]
+300 [0.25219753]
+400 [0.21574332]
+500 [0.206827]
+600 [0.2081793]
+Model saved in file: ../models/model_fasttext_limited_carrot-saw
+pair: carrot,saw
+test loss: 0.409879 , test accuracy: 1.000000
+0 [4.6237826]
+100 [0.64236939]
+200 [0.34123135]
+300 [0.24888133]
+400 [0.2138062]
+500 [0.19702829]
+600 [0.19913605]
+Model saved in file: ../models/model_fasttext_limited_carrot-hand
+pair: carrot,hand
+test loss: 0.406146 , test accuracy: 1.000000
+0 [4.6405945]
+100 [0.65289199]
+200 [0.36775866]
+300 [0.2587561]
+400 [0.21773386]
+500 [0.20677488]
+600 [0.20584229]
+Model saved in file: ../models/model_fasttext_limited_church-glass
+pair: church,glass
+test loss: 0.360097 , test accuracy: 1.000000
+0 [4.5987096]
+100 [0.65976131]
+200 [0.36476102]
+300 [0.25368115]
+400 [0.22075349]
+500 [0.20880339]
+600 [0.20840053]
+Model saved in file: ../models/model_fasttext_limited_church-apartment
+pair: church,apartment
+test loss: 0.380328 , test accuracy: 1.000000
+0 [4.6396961]
+100 [0.66380072]
+200 [0.35998872]
+300 [0.25710833]
+400 [0.21605912]
+500 [0.20929769]
+600 [0.20826997]
+Model saved in file: ../models/model_fasttext_limited_church-horse
+pair: church,horse
+test loss: 0.397353 , test accuracy: 1.000000
+0 [4.5017457]
+100 [0.67160976]
+200 [0.36477178]
+300 [0.258515]
+400 [0.21853824]
+500 [0.2122142]
+600 [0.20339982]
+Model saved in file: ../models/model_fasttext_limited_church-train
+pair: church,train
+test loss: 0.384604 , test accuracy: 1.000000
+0 [4.6493468]
+100 [0.64297467]
+200 [0.36495334]
+300 [0.25470346]
+400 [0.21700475]
+500 [0.21209759]
+600 [0.20690745]
+Model saved in file: ../models/model_fasttext_limited_church-door
+pair: church,door
+test loss: 0.304553 , test accuracy: 1.000000
+0 [4.6219773]
+100 [0.64791763]
+200 [0.36088681]
+300 [0.25257531]
+400 [0.21816373]
+500 [0.20839857]
+600 [0.20618419]
+Model saved in file: ../models/model_fasttext_limited_church-desk
+pair: church,desk
+test loss: 0.411472 , test accuracy: 1.000000
+0 [4.6781607]
+100 [0.680269]
+200 [0.36966285]
+300 [0.26248258]
+400 [0.22298236]
+500 [0.20394851]
+600 [0.21024206]
+Model saved in file: ../models/model_fasttext_limited_church-eye
+pair: church,eye
+test loss: 0.333679 , test accuracy: 1.000000
+0 [4.6037388]
+100 [0.66085356]
+200 [0.35271493]
+300 [0.25601596]
+400 [0.22343066]
+500 [0.20887458]
+600 [0.21429442]
+Model saved in file: ../models/model_fasttext_limited_church-chair
+pair: church,chair
+test loss: 0.346153 , test accuracy: 1.000000
+0 [4.4894338]
+100 [0.64867163]
+200 [0.35475546]
+300 [0.24795429]
+400 [0.20972762]
+500 [0.21144751]
+600 [0.20373839]
+Model saved in file: ../models/model_fasttext_limited_church-arm
+pair: church,arm
+test loss: 0.460682 , test accuracy: 1.000000
+0 [4.596415]
+100 [0.65517247]
+200 [0.36199972]
+300 [0.25223041]
+400 [0.21538022]
+500 [0.20913851]
+600 [0.20763639]
+Model saved in file: ../models/model_fasttext_limited_church-lettuce
+pair: church,lettuce
+test loss: 0.332484 , test accuracy: 1.000000
+0 [4.5937767]
+100 [0.67104554]
+200 [0.36344844]
+300 [0.25382352]
+400 [0.21592839]
+500 [0.2039053]
+600 [0.2076734]
+Model saved in file: ../models/model_fasttext_limited_church-table
+pair: church,table
+test loss: 0.424969 , test accuracy: 1.000000
+0 [4.6900582]
+100 [0.64525545]
+200 [0.36007002]
+300 [0.25421295]
+400 [0.21607076]
+500 [0.20871703]
+600 [0.20743196]
+Model saved in file: ../models/model_fasttext_limited_church-foot
+pair: church,foot
+test loss: 0.341762 , test accuracy: 1.000000
+0 [4.5063267]
+100 [0.65304053]
+200 [0.35853267]
+300 [0.24998009]
+400 [0.22261791]
+500 [0.20803314]
+600 [0.20812179]
+Model saved in file: ../models/model_fasttext_limited_church-hammer
+pair: church,hammer
+test loss: 0.420884 , test accuracy: 1.000000
+0 [4.5640526]
+100 [0.64781988]
+200 [0.35810649]
+300 [0.24766733]
+400 [0.2179772]
+500 [0.21241088]
+600 [0.20902121]
+Model saved in file: ../models/model_fasttext_limited_church-leg
+pair: church,leg
+test loss: 0.437997 , test accuracy: 1.000000
+0 [4.5720382]
+100 [0.63365024]
+200 [0.35766014]
+300 [0.25012642]
+400 [0.21455549]
+500 [0.20193891]
+600 [0.20300381]
+Model saved in file: ../models/model_fasttext_limited_church-tomato
+pair: church,tomato
+test loss: 0.373914 , test accuracy: 1.000000
+0 [4.626451]
+100 [0.66493058]
+200 [0.36389053]
+300 [0.25793499]
+400 [0.22042358]
+500 [0.21167155]
+600 [0.21282254]
+Model saved in file: ../models/model_fasttext_limited_church-ant
+pair: church,ant
+test loss: 0.338146 , test accuracy: 1.000000
+0 [4.5934706]
+100 [0.65520382]
+200 [0.35873464]
+300 [0.25683737]
+400 [0.21997906]
+500 [0.21322551]
+600 [0.20869032]
+Model saved in file: ../models/model_fasttext_limited_church-bee
+pair: church,bee
+test loss: 0.271284 , test accuracy: 1.000000
+0 [4.6270576]
+100 [0.65270936]
+200 [0.35129932]
+300 [0.2516408]
+400 [0.21719956]
+500 [0.20458369]
+600 [0.20641142]
+Model saved in file: ../models/model_fasttext_limited_church-dog
+pair: church,dog
+test loss: 0.357274 , test accuracy: 1.000000
+0 [4.5566297]
+100 [0.6439029]
+200 [0.36907685]
+300 [0.25361937]
+400 [0.2190142]
+500 [0.21289928]
+600 [0.20640427]
+Model saved in file: ../models/model_fasttext_limited_church-airplane
+pair: church,airplane
+test loss: 0.302405 , test accuracy: 1.000000
+0 [4.652287]
+100 [0.64776403]
+200 [0.3673203]
+300 [0.2548877]
+400 [0.22345942]
+500 [0.21099442]
+600 [0.2087557]
+Model saved in file: ../models/model_fasttext_limited_church-bicycle
+pair: church,bicycle
+test loss: 0.305754 , test accuracy: 1.000000
+0 [4.6116347]
+100 [0.64800501]
+200 [0.36209539]
+300 [0.25439253]
+400 [0.2256646]
+500 [0.21526241]
+600 [0.20967042]
+Model saved in file: ../models/model_fasttext_limited_church-butterfly
+pair: church,butterfly
+test loss: 0.352451 , test accuracy: 1.000000
+0 [4.5422373]
+100 [0.65601027]
+200 [0.35414216]
+300 [0.24948727]
+400 [0.21960752]
+500 [0.20650585]
+600 [0.20928203]
+Model saved in file: ../models/model_fasttext_limited_church-car
+pair: church,car
+test loss: 0.357054 , test accuracy: 1.000000
+0 [4.5555429]
+100 [0.64924908]
+200 [0.36597681]
+300 [0.24986739]
+400 [0.21731421]
+500 [0.20604439]
+600 [0.2066685]
+Model saved in file: ../models/model_fasttext_limited_church-house
+pair: church,house
+test loss: 0.393270 , test accuracy: 1.000000
+0 [4.6443863]
+100 [0.65563333]
+200 [0.37167832]
+300 [0.25445595]
+400 [0.21967891]
+500 [0.20583907]
+600 [0.20910449]
+Model saved in file: ../models/model_fasttext_limited_church-window
+pair: church,window
+test loss: 0.320484 , test accuracy: 0.000000
+0 [4.6279478]
+100 [0.64933026]
+200 [0.36588866]
+300 [0.25624982]
+400 [0.21947773]
+500 [0.20556065]
+600 [0.20394573]
+Model saved in file: ../models/model_fasttext_limited_church-bed
+pair: church,bed
+test loss: 0.339972 , test accuracy: 1.000000
+0 [4.6253119]
+100 [0.67574346]
+200 [0.3684606]
+300 [0.26028097]
+400 [0.21868253]
+500 [0.20776907]
+600 [0.21176586]
+Model saved in file: ../models/model_fasttext_limited_church-key
+pair: church,key
+test loss: 0.375023 , test accuracy: 1.000000
+0 [4.6014657]
+100 [0.65270126]
+200 [0.36125833]
+300 [0.26212126]
+400 [0.21678652]
+500 [0.21194062]
+600 [0.21456793]
+Model saved in file: ../models/model_fasttext_limited_church-fly
+pair: church,fly
+test loss: 0.332321 , test accuracy: 1.000000
+0 [4.6257572]
+100 [0.67248023]
+200 [0.35987955]
+300 [0.25663435]
+400 [0.21976082]
+500 [0.21518794]
+600 [0.2147475]
+Model saved in file: ../models/model_fasttext_limited_church-bell
+pair: church,bell
+test loss: 0.333110 , test accuracy: 1.000000
+0 [4.5806417]
+100 [0.66157764]
+200 [0.36497298]
+300 [0.25727358]
+400 [0.21755353]
+500 [0.21010923]
+600 [0.20583385]
+Model saved in file: ../models/model_fasttext_limited_church-telephone
+pair: church,telephone
+test loss: 0.442248 , test accuracy: 1.000000
+0 [4.5326104]
+100 [0.66818893]
+200 [0.36439902]
+300 [0.25340804]
+400 [0.22132054]
+500 [0.2121862]
+600 [0.20868826]
+Model saved in file: ../models/model_fasttext_limited_church-saw
+pair: church,saw
+test loss: 0.349708 , test accuracy: 1.000000
+0 [4.6546292]
+100 [0.64960444]
+200 [0.36781874]
+300 [0.24614316]
+400 [0.21718828]
+500 [0.20864896]
+600 [0.20681874]
+Model saved in file: ../models/model_fasttext_limited_church-hand
+pair: church,hand
+test loss: 0.367487 , test accuracy: 1.000000
+0 [4.5437484]
+100 [0.65708399]
+200 [0.35501915]
+300 [0.25429487]
+400 [0.21669672]
+500 [0.2074997]
+600 [0.20750907]
+Model saved in file: ../models/model_fasttext_limited_glass-apartment
+pair: glass,apartment
+test loss: 0.407511 , test accuracy: 1.000000
+0 [4.5791597]
+100 [0.64560241]
+200 [0.36190146]
+300 [0.2492234]
+400 [0.21214381]
+500 [0.20531546]
+600 [0.20082217]
+Model saved in file: ../models/model_fasttext_limited_glass-horse
+pair: glass,horse
+test loss: 0.434298 , test accuracy: 1.000000
+0 [4.6343431]
+100 [0.65966433]
+200 [0.3634004]
+300 [0.24824698]
+400 [0.21461821]
+500 [0.20659843]
+600 [0.2047587]
+Model saved in file: ../models/model_fasttext_limited_glass-train
+pair: glass,train
+test loss: 0.408666 , test accuracy: 1.000000
+0 [4.6019468]
+100 [0.6711756]
+200 [0.35976222]
+300 [0.2478068]
+400 [0.2206129]
+500 [0.20743856]
+600 [0.20844397]
+Model saved in file: ../models/model_fasttext_limited_glass-door
+pair: glass,door
+test loss: 0.333690 , test accuracy: 1.000000
+0 [4.6161208]
+100 [0.65518904]
+200 [0.36450326]
+300 [0.25050035]
+400 [0.22028759]
+500 [0.20480034]
+600 [0.20943931]
+Model saved in file: ../models/model_fasttext_limited_glass-desk
+pair: glass,desk
+test loss: 0.447264 , test accuracy: 1.000000
+0 [4.6285114]
+100 [0.67672217]
+200 [0.37136209]
+300 [0.25601092]
+400 [0.2148051]
+500 [0.21329144]
+600 [0.21216443]
+Model saved in file: ../models/model_fasttext_limited_glass-eye
+pair: glass,eye
+test loss: 0.338577 , test accuracy: 0.000000
+0 [4.5753431]
+100 [0.65229511]
+200 [0.35325152]
+300 [0.25947013]
+400 [0.21918572]
+500 [0.213753]
+600 [0.20656292]
+Model saved in file: ../models/model_fasttext_limited_glass-chair
+pair: glass,chair
+test loss: 0.390114 , test accuracy: 1.000000
+0 [4.4563112]
+100 [0.6517722]
+200 [0.36026257]
+300 [0.25311017]
+400 [0.20795603]
+500 [0.20470531]
+600 [0.2033404]
+Model saved in file: ../models/model_fasttext_limited_glass-arm
+pair: glass,arm
+test loss: 0.503076 , test accuracy: 1.000000
+0 [4.5567856]
+100 [0.65611893]
+200 [0.35576662]
+300 [0.25347516]
+400 [0.21793778]
+500 [0.20089105]
+600 [0.20260507]
+Model saved in file: ../models/model_fasttext_limited_glass-lettuce
+pair: glass,lettuce
+test loss: 0.365095 , test accuracy: 0.000000
+0 [4.5587497]
+100 [0.6517266]
+200 [0.36206111]
+300 [0.25921062]
+400 [0.2129451]
+500 [0.20997241]
+600 [0.20417035]
+Model saved in file: ../models/model_fasttext_limited_glass-table
+pair: glass,table
+test loss: 0.438564 , test accuracy: 0.000000
+0 [4.5695734]
+100 [0.64957809]
+200 [0.35820937]
+300 [0.25199193]
+400 [0.22048166]
+500 [0.20638505]
+600 [0.20546219]
+Model saved in file: ../models/model_fasttext_limited_glass-foot
+pair: glass,foot
+test loss: 0.375155 , test accuracy: 1.000000
+0 [4.6020021]
+100 [0.65320611]
+200 [0.3532173]
+300 [0.25551462]
+400 [0.21683402]
+500 [0.20613095]
+600 [0.21291867]
+Model saved in file: ../models/model_fasttext_limited_glass-hammer
+pair: glass,hammer
+test loss: 0.438670 , test accuracy: 1.000000
+0 [4.5954866]
+100 [0.65301323]
+200 [0.35488927]
+300 [0.25022626]
+400 [0.21347119]
+500 [0.20722649]
+600 [0.20559415]
+Model saved in file: ../models/model_fasttext_limited_glass-leg
+pair: glass,leg
+test loss: 0.453435 , test accuracy: 1.000000
+0 [4.5737743]
+100 [0.65488803]
+200 [0.35283273]
+300 [0.25152603]
+400 [0.21669355]
+500 [0.2056029]
+600 [0.20643587]
+Model saved in file: ../models/model_fasttext_limited_glass-tomato
+pair: glass,tomato
+test loss: 0.425652 , test accuracy: 1.000000
+0 [4.5891371]
+100 [0.65807819]
+200 [0.3553834]
+300 [0.2508117]
+400 [0.21750535]
+500 [0.20712899]
+600 [0.20870595]
+Model saved in file: ../models/model_fasttext_limited_glass-ant
+pair: glass,ant
+test loss: 0.370744 , test accuracy: 1.000000
+0 [4.6450214]
+100 [0.66655797]
+200 [0.35303256]
+300 [0.26032051]
+400 [0.21869026]
+500 [0.21496382]
+600 [0.20928341]
+Model saved in file: ../models/model_fasttext_limited_glass-bee
+pair: glass,bee
+test loss: 0.307049 , test accuracy: 1.000000
+0 [4.6856875]
+100 [0.64977336]
+200 [0.36287409]
+300 [0.24738255]
+400 [0.21651906]
+500 [0.21058059]
+600 [0.20651262]
+Model saved in file: ../models/model_fasttext_limited_glass-dog
+pair: glass,dog
+test loss: 0.373660 , test accuracy: 1.000000
+0 [4.6740694]
+100 [0.63682032]
+200 [0.35662824]
+300 [0.25343257]
+400 [0.21894163]
+500 [0.214224]
+600 [0.20664416]
+Model saved in file: ../models/model_fasttext_limited_glass-airplane
+pair: glass,airplane
+test loss: 0.312829 , test accuracy: 1.000000
+0 [4.6198459]
+100 [0.65276062]
+200 [0.36908722]
+300 [0.2506986]
+400 [0.21425143]
+500 [0.20933889]
+600 [0.21388239]
+Model saved in file: ../models/model_fasttext_limited_glass-bicycle
+pair: glass,bicycle
+test loss: 0.344966 , test accuracy: 1.000000
+0 [4.5403275]
+100 [0.64676017]
+200 [0.35791188]
+300 [0.25321946]
+400 [0.21870011]
+500 [0.20891216]
+600 [0.21554004]
+Model saved in file: ../models/model_fasttext_limited_glass-butterfly
+pair: glass,butterfly
+test loss: 0.395064 , test accuracy: 1.000000
+0 [4.6699796]
+100 [0.65307069]
+200 [0.36343136]
+300 [0.24692808]
+400 [0.21774642]
+500 [0.1991867]
+600 [0.20213756]
+Model saved in file: ../models/model_fasttext_limited_glass-car
+pair: glass,car
+test loss: 0.395676 , test accuracy: 1.000000
+0 [4.6040998]
+100 [0.6428681]
+200 [0.35738111]
+300 [0.25279057]
+400 [0.21966766]
+500 [0.21410893]
+600 [0.21153991]
+Model saved in file: ../models/model_fasttext_limited_glass-house
+pair: glass,house
+test loss: 0.383747 , test accuracy: 1.000000
+0 [4.6740746]
+100 [0.64997756]
+200 [0.36161825]
+300 [0.25315118]
+400 [0.21822724]
+500 [0.20683715]
+600 [0.20411393]
+Model saved in file: ../models/model_fasttext_limited_glass-window
+pair: glass,window
+test loss: 0.354806 , test accuracy: 1.000000
+0 [4.647604]
+100 [0.63665336]
+200 [0.35545549]
+300 [0.24863204]
+400 [0.21494323]
+500 [0.20983312]
+600 [0.20704734]
+Model saved in file: ../models/model_fasttext_limited_glass-bed
+pair: glass,bed
+test loss: 0.378487 , test accuracy: 1.000000
+0 [4.7444386]
+100 [0.66857362]
+200 [0.35929611]
+300 [0.25595695]
+400 [0.21224011]
+500 [0.2109701]
+600 [0.20342255]
+Model saved in file: ../models/model_fasttext_limited_glass-key
+pair: glass,key
+test loss: 0.407385 , test accuracy: 1.000000
+0 [4.5518184]
+100 [0.65812004]
+200 [0.35943758]
+300 [0.25672036]
+400 [0.21821471]
+500 [0.2058644]
+600 [0.20646673]
+Model saved in file: ../models/model_fasttext_limited_glass-fly
+pair: glass,fly
+test loss: 0.359021 , test accuracy: 1.000000
+0 [4.66291]
+100 [0.6546976]
+200 [0.35951266]
+300 [0.25560296]
+400 [0.22163887]
+500 [0.22068372]
+600 [0.20873024]
+Model saved in file: ../models/model_fasttext_limited_glass-bell
+pair: glass,bell
+test loss: 0.358759 , test accuracy: 1.000000
+0 [4.6249452]
+100 [0.64328426]
+200 [0.35617018]
+300 [0.24743728]
+400 [0.21663521]
+500 [0.20563921]
+600 [0.20334509]
+Model saved in file: ../models/model_fasttext_limited_glass-telephone
+pair: glass,telephone
+test loss: 0.474897 , test accuracy: 1.000000
+0 [4.6161952]
+100 [0.65378761]
+200 [0.36109981]
+300 [0.24555328]
+400 [0.21859367]
+500 [0.20520997]
+600 [0.20686726]
+Model saved in file: ../models/model_fasttext_limited_glass-saw
+pair: glass,saw
+test loss: 0.388306 , test accuracy: 1.000000
+0 [4.6162443]
+100 [0.66203743]
+200 [0.35358703]
+300 [0.24722566]
+400 [0.21304551]
+500 [0.20448247]
+600 [0.19744632]
+Model saved in file: ../models/model_fasttext_limited_glass-hand
+pair: glass,hand
+test loss: 0.409827 , test accuracy: 1.000000
+0 [4.4938703]
+100 [0.62638509]
+200 [0.34454811]
+300 [0.25101659]
+400 [0.21637961]
+500 [0.2115044]
+600 [0.20396888]
+Model saved in file: ../models/model_fasttext_limited_apartment-horse
+pair: apartment,horse
+test loss: 0.402292 , test accuracy: 1.000000
+0 [4.6605721]
+100 [0.64987481]
+200 [0.35584694]
+300 [0.25294602]
+400 [0.220195]
+500 [0.21322189]
+600 [0.20636667]
+Model saved in file: ../models/model_fasttext_limited_apartment-train
+pair: apartment,train
+test loss: 0.407679 , test accuracy: 1.000000
+0 [4.6725535]
+100 [0.64265472]
+200 [0.36548299]
+300 [0.25766194]
+400 [0.22297162]
+500 [0.20917289]
+600 [0.2095985]
+Model saved in file: ../models/model_fasttext_limited_apartment-door
+pair: apartment,door
+test loss: 0.350478 , test accuracy: 1.000000
+0 [4.5377002]
+100 [0.64748245]
+200 [0.35704428]
+300 [0.2409469]
+400 [0.21379533]
+500 [0.20960161]
+600 [0.20860204]
+Model saved in file: ../models/model_fasttext_limited_apartment-desk
+pair: apartment,desk
+test loss: 0.462167 , test accuracy: 1.000000
+0 [4.5764976]
+100 [0.64993268]
+200 [0.35830635]
+300 [0.24538329]
+400 [0.21933386]
+500 [0.20481688]
+600 [0.20570844]
+Model saved in file: ../models/model_fasttext_limited_apartment-eye
+pair: apartment,eye
+test loss: 0.369130 , test accuracy: 1.000000
+0 [4.6165195]
+100 [0.65567887]
+200 [0.35613281]
+300 [0.26226458]
+400 [0.216492]
+500 [0.2075083]
+600 [0.21248268]
+Model saved in file: ../models/model_fasttext_limited_apartment-chair
+pair: apartment,chair
+test loss: 0.368805 , test accuracy: 1.000000
+0 [4.4480343]
+100 [0.64124292]
+200 [0.34513512]
+300 [0.24361491]
+400 [0.21132647]
+500 [0.20451319]
+600 [0.20169516]
+Model saved in file: ../models/model_fasttext_limited_apartment-arm
+pair: apartment,arm
+test loss: 0.508543 , test accuracy: 1.000000
+0 [4.4767208]
+100 [0.63166994]
+200 [0.35021597]
+300 [0.24545322]
+400 [0.21843389]
+500 [0.20618281]
+600 [0.20696911]
+Model saved in file: ../models/model_fasttext_limited_apartment-lettuce
+pair: apartment,lettuce
+test loss: 0.363061 , test accuracy: 1.000000
+0 [4.6512818]
+100 [0.65856421]
+200 [0.36456269]
+300 [0.24755746]
+400 [0.21661359]
+500 [0.20532683]
+600 [0.20206662]
+Model saved in file: ../models/model_fasttext_limited_apartment-table
+pair: apartment,table
+test loss: 0.467483 , test accuracy: 1.000000
+0 [4.584065]
+100 [0.65647846]
+200 [0.35409153]
+300 [0.25731045]
+400 [0.21450152]
+500 [0.20750424]
+600 [0.20412274]
+Model saved in file: ../models/model_fasttext_limited_apartment-foot
+pair: apartment,foot
+test loss: 0.381221 , test accuracy: 1.000000
+0 [4.4964094]
+100 [0.64516568]
+200 [0.3554742]
+300 [0.25143749]
+400 [0.21641494]
+500 [0.20386373]
+600 [0.20705065]
+Model saved in file: ../models/model_fasttext_limited_apartment-hammer
+pair: apartment,hammer
+test loss: 0.443245 , test accuracy: 1.000000
+0 [4.4749012]
+100 [0.62802875]
+200 [0.35189974]
+300 [0.24922785]
+400 [0.2120512]
+500 [0.20019546]
+600 [0.20206884]
+Model saved in file: ../models/model_fasttext_limited_apartment-leg
+pair: apartment,leg
+test loss: 0.476658 , test accuracy: 1.000000
+0 [4.4593592]
+100 [0.62052578]
+200 [0.34482113]
+300 [0.24035659]
+400 [0.20796373]
+500 [0.20943448]
+600 [0.20161706]
+Model saved in file: ../models/model_fasttext_limited_apartment-tomato
+pair: apartment,tomato
+test loss: 0.416708 , test accuracy: 1.000000
+0 [4.5214567]
+100 [0.65275979]
+200 [0.35125911]
+300 [0.25510332]
+400 [0.21565814]
+500 [0.21184848]
+600 [0.21139444]
+Model saved in file: ../models/model_fasttext_limited_apartment-ant
+pair: apartment,ant
+test loss: 0.363162 , test accuracy: 1.000000
+0 [4.6003976]
+100 [0.65490013]
+200 [0.35494357]
+300 [0.2493909]
+400 [0.22172621]
+500 [0.20345543]
+600 [0.20961219]
+Model saved in file: ../models/model_fasttext_limited_apartment-bee
+pair: apartment,bee
+test loss: 0.313581 , test accuracy: 1.000000
+0 [4.5752773]
+100 [0.64587206]
+200 [0.35259169]
+300 [0.25350866]
+400 [0.21626624]
+500 [0.2075927]
+600 [0.20607692]
+Model saved in file: ../models/model_fasttext_limited_apartment-dog
+pair: apartment,dog
+test loss: 0.385832 , test accuracy: 1.000000
+0 [4.5714526]
+100 [0.64008397]
+200 [0.36007479]
+300 [0.25070763]
+400 [0.21587729]
+500 [0.20878953]
+600 [0.20888031]
+Model saved in file: ../models/model_fasttext_limited_apartment-airplane
+pair: apartment,airplane
+test loss: 0.340188 , test accuracy: 1.000000
+0 [4.6500039]
+100 [0.65032828]
+200 [0.35763395]
+300 [0.25336048]
+400 [0.21890587]
+500 [0.20803626]
+600 [0.20548809]
+Model saved in file: ../models/model_fasttext_limited_apartment-bicycle
+pair: apartment,bicycle
+test loss: 0.345884 , test accuracy: 1.000000
+0 [4.5116253]
+100 [0.64440954]
+200 [0.37503788]
+300 [0.26008776]
+400 [0.21552199]
+500 [0.20619647]
+600 [0.20757619]
+Model saved in file: ../models/model_fasttext_limited_apartment-butterfly
+pair: apartment,butterfly
+test loss: 0.396567 , test accuracy: 1.000000
+0 [4.5782633]
+100 [0.64249575]
+200 [0.34788099]
+300 [0.25215754]
+400 [0.21287176]
+500 [0.20834155]
+600 [0.20275223]
+Model saved in file: ../models/model_fasttext_limited_apartment-car
+pair: apartment,car
+test loss: 0.380520 , test accuracy: 1.000000
+0 [4.5728931]
+100 [0.65916955]
+200 [0.35321009]
+300 [0.25414315]
+400 [0.21949486]
+500 [0.20751651]
+600 [0.20527612]
+Model saved in file: ../models/model_fasttext_limited_apartment-house
+pair: apartment,house
+test loss: 0.439637 , test accuracy: 0.000000
+0 [4.6604977]
+100 [0.64652133]
+200 [0.36288825]
+300 [0.25280827]
+400 [0.21471052]
+500 [0.20884466]
+600 [0.20642336]
+Model saved in file: ../models/model_fasttext_limited_apartment-window
+pair: apartment,window
+test loss: 0.367494 , test accuracy: 1.000000
+0 [4.5727725]
+100 [0.64371336]
+200 [0.36228344]
+300 [0.25209931]
+400 [0.21824928]
+500 [0.20645183]
+600 [0.20229533]
+Model saved in file: ../models/model_fasttext_limited_apartment-bed
+pair: apartment,bed
+test loss: 0.383461 , test accuracy: 1.000000
+0 [4.597158]
+100 [0.65327835]
+200 [0.35229725]
+300 [0.2576625]
+400 [0.22050682]
+500 [0.20718014]
+600 [0.20867246]
+Model saved in file: ../models/model_fasttext_limited_apartment-key
+pair: apartment,key
+test loss: 0.405449 , test accuracy: 1.000000
+0 [4.5773802]
+100 [0.64297026]
+200 [0.35257369]
+300 [0.25589937]
+400 [0.21769203]
+500 [0.20657891]
+600 [0.20882781]
+Model saved in file: ../models/model_fasttext_limited_apartment-fly
+pair: apartment,fly
+test loss: 0.364002 , test accuracy: 1.000000
+0 [4.4947124]
+100 [0.66236615]
+200 [0.35745108]
+300 [0.25001982]
+400 [0.22005507]
+500 [0.20709175]
+600 [0.20240961]
+Model saved in file: ../models/model_fasttext_limited_apartment-bell
+pair: apartment,bell
+test loss: 0.341846 , test accuracy: 1.000000
+0 [4.5039239]
+100 [0.64379305]
+200 [0.34797356]
+300 [0.24932696]
+400 [0.21407969]
+500 [0.21144974]
+600 [0.21107097]
+Model saved in file: ../models/model_fasttext_limited_apartment-telephone
+pair: apartment,telephone
+test loss: 0.475361 , test accuracy: 1.000000
+0 [4.6170645]
+100 [0.63703281]
+200 [0.36718416]
+300 [0.24583925]
+400 [0.22251415]
+500 [0.20722859]
+600 [0.20822896]
+Model saved in file: ../models/model_fasttext_limited_apartment-saw
+pair: apartment,saw
+test loss: 0.386031 , test accuracy: 1.000000
+0 [4.5648437]
+100 [0.64519334]
+200 [0.35757267]
+300 [0.2540594]
+400 [0.21381013]
+500 [0.20254652]
+600 [0.2026958]
+Model saved in file: ../models/model_fasttext_limited_apartment-hand
+pair: apartment,hand
+test loss: 0.403739 , test accuracy: 1.000000
+0 [4.5815449]
+100 [0.66006029]
+200 [0.35886997]
+300 [0.24766743]
+400 [0.21004078]
+500 [0.20409611]
+600 [0.20781553]
+Model saved in file: ../models/model_fasttext_limited_horse-train
+pair: horse,train
+test loss: 0.436951 , test accuracy: 1.000000
+0 [4.653194]
+100 [0.63339859]
+200 [0.35510281]
+300 [0.25229284]
+400 [0.22434686]
+500 [0.207579]
+600 [0.20972632]
+Model saved in file: ../models/model_fasttext_limited_horse-door
+pair: horse,door
+test loss: 0.380427 , test accuracy: 1.000000
+0 [4.4903212]
+100 [0.64528239]
+200 [0.35353252]
+300 [0.24202503]
+400 [0.21672614]
+500 [0.20136835]
+600 [0.20962766]
+Model saved in file: ../models/model_fasttext_limited_horse-desk
+pair: horse,desk
+test loss: 0.477265 , test accuracy: 1.000000
+0 [4.7296515]
+100 [0.65551227]
+200 [0.35728586]
+300 [0.24646544]
+400 [0.21741998]
+500 [0.20456348]
+600 [0.20596647]
+Model saved in file: ../models/model_fasttext_limited_horse-eye
+pair: horse,eye
+test loss: 0.404876 , test accuracy: 1.000000
+0 [4.5062275]
+100 [0.64217377]
+200 [0.36574683]
+300 [0.24268754]
+400 [0.2181735]
+500 [0.20758741]
+600 [0.2070858]
+Model saved in file: ../models/model_fasttext_limited_horse-chair
+pair: horse,chair
+test loss: 0.403838 , test accuracy: 1.000000
+0 [4.5828052]
+100 [0.6467579]
+200 [0.35232857]
+300 [0.24599922]
+400 [0.21368387]
+500 [0.21079025]
+600 [0.19680724]
+Model saved in file: ../models/model_fasttext_limited_horse-arm
+pair: horse,arm
+test loss: 0.525749 , test accuracy: 1.000000
+0 [4.536499]
+100 [0.64929032]
+200 [0.35444057]
+300 [0.24822737]
+400 [0.21364598]
+500 [0.20875438]
+600 [0.20189536]
+Model saved in file: ../models/model_fasttext_limited_horse-lettuce
+pair: horse,lettuce
+test loss: 0.399775 , test accuracy: 1.000000
+0 [4.6544828]
+100 [0.64509135]
+200 [0.36228696]
+300 [0.24823949]
+400 [0.21513547]
+500 [0.20635109]
+600 [0.20443358]
+Model saved in file: ../models/model_fasttext_limited_horse-table
+pair: horse,table
+test loss: 0.485742 , test accuracy: 1.000000
+0 [4.5163918]
+100 [0.65398854]
+200 [0.35495451]
+300 [0.25148275]
+400 [0.21664894]
+500 [0.20787546]
+600 [0.20212078]
+Model saved in file: ../models/model_fasttext_limited_horse-foot
+pair: horse,foot
+test loss: 0.417870 , test accuracy: 1.000000
+0 [4.6671052]
+100 [0.65786034]
+200 [0.35299462]
+300 [0.25243446]
+400 [0.21437941]
+500 [0.20741552]
+600 [0.20455301]
+Model saved in file: ../models/model_fasttext_limited_horse-hammer
+pair: horse,hammer
+test loss: 0.478024 , test accuracy: 1.000000
+0 [4.6067157]
+100 [0.64518553]
+200 [0.34745845]
+300 [0.23983508]
+400 [0.21283597]
+500 [0.20342833]
+600 [0.2025312]
+Model saved in file: ../models/model_fasttext_limited_horse-leg
+pair: horse,leg
+test loss: 0.497790 , test accuracy: 1.000000
+0 [4.6124134]
+100 [0.64483643]
+200 [0.34159592]
+300 [0.24503246]
+400 [0.2091306]
+500 [0.20411497]
+600 [0.20092264]
+Model saved in file: ../models/model_fasttext_limited_horse-tomato
+pair: horse,tomato
+test loss: 0.439148 , test accuracy: 1.000000
+0 [4.5941253]
+100 [0.64371723]
+200 [0.3648968]
+300 [0.2547684]
+400 [0.21710797]
+500 [0.20539626]
+600 [0.20575115]
+Model saved in file: ../models/model_fasttext_limited_horse-ant
+pair: horse,ant
+test loss: 0.399656 , test accuracy: 1.000000
+0 [4.6145697]
+100 [0.65363121]
+200 [0.35545531]
+300 [0.25143605]
+400 [0.21864149]
+500 [0.20784171]
+600 [0.20896301]
+Model saved in file: ../models/model_fasttext_limited_horse-bee
+pair: horse,bee
+test loss: 0.344691 , test accuracy: 1.000000
+0 [4.6544356]
+100 [0.64987296]
+200 [0.35570273]
+300 [0.24680388]
+400 [0.21073186]
+500 [0.20086364]
+600 [0.20403491]
+Model saved in file: ../models/model_fasttext_limited_horse-dog
+pair: horse,dog
+test loss: 0.441377 , test accuracy: 1.000000
+0 [4.6418843]
+100 [0.65391541]
+200 [0.35377726]
+300 [0.24615112]
+400 [0.21378464]
+500 [0.21125121]
+600 [0.20501238]
+Model saved in file: ../models/model_fasttext_limited_horse-airplane
+pair: horse,airplane
+test loss: 0.369245 , test accuracy: 1.000000
+0 [4.7056332]
+100 [0.65685976]
+200 [0.35543913]
+300 [0.25185519]
+400 [0.21815425]
+500 [0.20831807]
+600 [0.20191959]
+Model saved in file: ../models/model_fasttext_limited_horse-bicycle
+pair: horse,bicycle
+test loss: 0.413759 , test accuracy: 1.000000
+0 [4.6282525]
+100 [0.66399062]
+200 [0.36030212]
+300 [0.25302008]
+400 [0.22230944]
+500 [0.20734382]
+600 [0.20903277]
+Model saved in file: ../models/model_fasttext_limited_horse-butterfly
+pair: horse,butterfly
+test loss: 0.425813 , test accuracy: 1.000000
+0 [4.6534338]
+100 [0.63652641]
+200 [0.35011768]
+300 [0.24238312]
+400 [0.21505684]
+500 [0.1974903]
+600 [0.20646748]
+Model saved in file: ../models/model_fasttext_limited_horse-car
+pair: horse,car
+test loss: 0.416727 , test accuracy: 1.000000
+0 [4.6118851]
+100 [0.65344387]
+200 [0.35871542]
+300 [0.24928699]
+400 [0.21151963]
+500 [0.20511213]
+600 [0.20794457]
+Model saved in file: ../models/model_fasttext_limited_horse-house
+pair: horse,house
+test loss: 0.422951 , test accuracy: 1.000000
+0 [4.6475301]
+100 [0.64946479]
+200 [0.35633579]
+300 [0.24573427]
+400 [0.2147873]
+500 [0.20678161]
+600 [0.20149627]
+Model saved in file: ../models/model_fasttext_limited_horse-window
+pair: horse,window
+test loss: 0.369611 , test accuracy: 1.000000
+0 [4.6972809]
+100 [0.64896989]
+200 [0.35058308]
+300 [0.25334778]
+400 [0.21424998]
+500 [0.20588386]
+600 [0.19886258]
+Model saved in file: ../models/model_fasttext_limited_horse-bed
+pair: horse,bed
+test loss: 0.414474 , test accuracy: 1.000000
+0 [4.5782051]
+100 [0.66321576]
+200 [0.36432475]
+300 [0.25697115]
+400 [0.22210309]
+500 [0.20887947]
+600 [0.20212238]
+Model saved in file: ../models/model_fasttext_limited_horse-key
+pair: horse,key
+test loss: 0.439537 , test accuracy: 1.000000
+0 [4.5841546]
+100 [0.64795005]
+200 [0.36456287]
+300 [0.25492579]
+400 [0.2119714]
+500 [0.20563795]
+600 [0.20361546]
+Model saved in file: ../models/model_fasttext_limited_horse-fly
+pair: horse,fly
+test loss: 0.389232 , test accuracy: 1.000000
+0 [4.6312585]
+100 [0.65753675]
+200 [0.3641822]
+300 [0.25064197]
+400 [0.22159769]
+500 [0.21348962]
+600 [0.20955569]
+Model saved in file: ../models/model_fasttext_limited_horse-bell
+pair: horse,bell
+test loss: 0.380761 , test accuracy: 1.000000
+0 [4.5186753]
+100 [0.64242214]
+200 [0.35469094]
+300 [0.24535148]
+400 [0.21050839]
+500 [0.21248081]
+600 [0.20672606]
+Model saved in file: ../models/model_fasttext_limited_horse-telephone
+pair: horse,telephone
+test loss: 0.518982 , test accuracy: 0.000000
+0 [4.5638385]
+100 [0.64444995]
+200 [0.36461872]
+300 [0.2518771]
+400 [0.22116923]
+500 [0.20553523]
+600 [0.20032707]
+Model saved in file: ../models/model_fasttext_limited_horse-saw
+pair: horse,saw
+test loss: 0.417284 , test accuracy: 1.000000
+0 [4.6813192]
+100 [0.6438669]
+200 [0.36249182]
+300 [0.24740508]
+400 [0.21449152]
+500 [0.20430483]
+600 [0.19865885]
+Model saved in file: ../models/model_fasttext_limited_horse-hand
+pair: horse,hand
+test loss: 0.442387 , test accuracy: 1.000000
+0 [4.6572714]
+100 [0.65708959]
+200 [0.36117348]
+300 [0.24886183]
+400 [0.21790746]
+500 [0.20679054]
+600 [0.20694891]
+Model saved in file: ../models/model_fasttext_limited_train-door
+pair: train,door
+test loss: 0.348473 , test accuracy: 1.000000
+0 [4.5732002]
+100 [0.66267335]
+200 [0.35097083]
+300 [0.25720432]
+400 [0.2198215]
+500 [0.21027879]
+600 [0.20405766]
+Model saved in file: ../models/model_fasttext_limited_train-desk
+pair: train,desk
+test loss: 0.451485 , test accuracy: 1.000000
+0 [4.6669936]
+100 [0.65483558]
+200 [0.36603102]
+300 [0.259518]
+400 [0.22004437]
+500 [0.2065535]
+600 [0.2047517]
+Model saved in file: ../models/model_fasttext_limited_train-eye
+pair: train,eye
+test loss: 0.383135 , test accuracy: 1.000000
+0 [4.6735458]
+100 [0.65658677]
+200 [0.36209002]
+300 [0.25706023]
+400 [0.21621111]
+500 [0.20859107]
+600 [0.20322411]
+Model saved in file: ../models/model_fasttext_limited_train-chair
+pair: train,chair
+test loss: 0.383764 , test accuracy: 1.000000
+0 [4.5225821]
+100 [0.64625525]
+200 [0.35026994]
+300 [0.24591145]
+400 [0.21720149]
+500 [0.205065]
+600 [0.19899102]
+Model saved in file: ../models/model_fasttext_limited_train-arm
+pair: train,arm
+test loss: 0.500217 , test accuracy: 1.000000
+0 [4.6083989]
+100 [0.66405928]
+200 [0.35761628]
+300 [0.24792655]
+400 [0.21088795]
+500 [0.21004046]
+600 [0.20811856]
+Model saved in file: ../models/model_fasttext_limited_train-lettuce
+pair: train,lettuce
+test loss: 0.359303 , test accuracy: 1.000000
+0 [4.6228228]
+100 [0.66208375]
+200 [0.35899606]
+300 [0.24879822]
+400 [0.21470232]
+500 [0.20752461]
+600 [0.20622349]
+Model saved in file: ../models/model_fasttext_limited_train-table
+pair: train,table
+test loss: 0.454851 , test accuracy: 1.000000
+0 [4.6833315]
+100 [0.64964479]
+200 [0.36336657]
+300 [0.24945647]
+400 [0.21878856]
+500 [0.20698966]
+600 [0.21203735]
+Model saved in file: ../models/model_fasttext_limited_train-foot
+pair: train,foot
+test loss: 0.368291 , test accuracy: 1.000000
+0 [4.5989676]
+100 [0.64328229]
+200 [0.35546511]
+300 [0.25025025]
+400 [0.21671234]
+500 [0.20361578]
+600 [0.20601559]
+Model saved in file: ../models/model_fasttext_limited_train-hammer
+pair: train,hammer
+test loss: 0.456503 , test accuracy: 1.000000
+0 [4.5157318]
+100 [0.62730879]
+200 [0.35630068]
+300 [0.24709138]
+400 [0.21697253]
+500 [0.20588967]
+600 [0.20364036]
+Model saved in file: ../models/model_fasttext_limited_train-leg
+pair: train,leg
+test loss: 0.485714 , test accuracy: 1.000000
+0 [4.5792108]
+100 [0.64608538]
+200 [0.35862619]
+300 [0.24600402]
+400 [0.20733981]
+500 [0.20422333]
+600 [0.20358063]
+Model saved in file: ../models/model_fasttext_limited_train-tomato
+pair: train,tomato
+test loss: 0.409582 , test accuracy: 1.000000
+0 [4.6029143]
+100 [0.65227783]
+200 [0.35910052]
+300 [0.25306317]
+400 [0.21833882]
+500 [0.20935532]
+600 [0.20111179]
+Model saved in file: ../models/model_fasttext_limited_train-ant
+pair: train,ant
+test loss: 0.375270 , test accuracy: 1.000000
+0 [4.7148957]
+100 [0.65266508]
+200 [0.3695218]
+300 [0.25420725]
+400 [0.23056719]
+500 [0.21059634]
+600 [0.20851517]
+Model saved in file: ../models/model_fasttext_limited_train-bee
+pair: train,bee
+test loss: 0.311717 , test accuracy: 1.000000
+0 [4.7153378]
+100 [0.63796353]
+200 [0.35154009]
+300 [0.24763221]
+400 [0.21408603]
+500 [0.20639019]
+600 [0.20310397]
+Model saved in file: ../models/model_fasttext_limited_train-dog
+pair: train,dog
+test loss: 0.404792 , test accuracy: 1.000000
+0 [4.690618]
+100 [0.66806328]
+200 [0.359725]
+300 [0.25329557]
+400 [0.21584091]
+500 [0.21168332]
+600 [0.20568646]
+Model saved in file: ../models/model_fasttext_limited_train-airplane
+pair: train,airplane
+test loss: 0.342806 , test accuracy: 1.000000
+0 [4.6345611]
+100 [0.64619523]
+200 [0.35511208]
+300 [0.25400794]
+400 [0.21488239]
+500 [0.20913687]
+600 [0.20686385]
+Model saved in file: ../models/model_fasttext_limited_train-bicycle
+pair: train,bicycle
+test loss: 0.355329 , test accuracy: 1.000000
+0 [4.5462828]
+100 [0.65677249]
+200 [0.36357036]
+300 [0.25138149]
+400 [0.21574861]
+500 [0.20701745]
+600 [0.20751926]
+Model saved in file: ../models/model_fasttext_limited_train-butterfly
+pair: train,butterfly
+test loss: 0.394660 , test accuracy: 1.000000
+0 [4.546628]
+100 [0.63690186]
+200 [0.3555586]
+300 [0.24488446]
+400 [0.21675953]
+500 [0.20457411]
+600 [0.2043785]
+Model saved in file: ../models/model_fasttext_limited_train-car
+pair: train,car
+test loss: 0.400711 , test accuracy: 0.000000
+0 [4.5237398]
+100 [0.64585775]
+200 [0.35680038]
+300 [0.25533405]
+400 [0.21267965]
+500 [0.20807183]
+600 [0.2033869]
+Model saved in file: ../models/model_fasttext_limited_train-house
+pair: train,house
+test loss: 0.385956 , test accuracy: 1.000000
+0 [4.7270451]
+100 [0.65281785]
+200 [0.34823513]
+300 [0.25352982]
+400 [0.21742037]
+500 [0.20552669]
+600 [0.20688035]
+Model saved in file: ../models/model_fasttext_limited_train-window
+pair: train,window
+test loss: 0.356091 , test accuracy: 1.000000
+0 [4.7248983]
+100 [0.67202485]
+200 [0.34776831]
+300 [0.25830817]
+400 [0.21639524]
+500 [0.20634221]
+600 [0.21069482]
+Model saved in file: ../models/model_fasttext_limited_train-bed
+pair: train,bed
+test loss: 0.391088 , test accuracy: 1.000000
+0 [4.594624]
+100 [0.66227925]
+200 [0.35932255]
+300 [0.2482795]
+400 [0.21705133]
+500 [0.20908204]
+600 [0.20212297]
+Model saved in file: ../models/model_fasttext_limited_train-key
+pair: train,key
+test loss: 0.409323 , test accuracy: 1.000000
+0 [4.6039133]
+100 [0.64732361]
+200 [0.3643786]
+300 [0.2481271]
+400 [0.21686667]
+500 [0.21556336]
+600 [0.21151988]
+Model saved in file: ../models/model_fasttext_limited_train-fly
+pair: train,fly
+test loss: 0.351133 , test accuracy: 1.000000
+0 [4.5452156]
+100 [0.64209086]
+200 [0.36545712]
+300 [0.24519654]
+400 [0.21718587]
+500 [0.2157837]
+600 [0.20639728]
+Model saved in file: ../models/model_fasttext_limited_train-bell
+pair: train,bell
+test loss: 0.346818 , test accuracy: 1.000000
+0 [4.5851846]
+100 [0.67196155]
+200 [0.35771367]
+300 [0.25324887]
+400 [0.21457401]
+500 [0.20918068]
+600 [0.20211497]
+Model saved in file: ../models/model_fasttext_limited_train-telephone
+pair: train,telephone
+test loss: 0.458832 , test accuracy: 0.000000
+0 [4.6703238]
+100 [0.64933068]
+200 [0.35511604]
+300 [0.25810686]
+400 [0.22363567]
+500 [0.21193142]
+600 [0.20479646]
+Model saved in file: ../models/model_fasttext_limited_train-saw
+pair: train,saw
+test loss: 0.386816 , test accuracy: 1.000000
+0 [4.6376896]
+100 [0.66199356]
+200 [0.35637942]
+300 [0.24569306]
+400 [0.21154854]
+500 [0.20681481]
+600 [0.20306021]
+Model saved in file: ../models/model_fasttext_limited_train-hand
+pair: train,hand
+test loss: 0.408006 , test accuracy: 1.000000
+0 [4.6096005]
+100 [0.63850677]
+200 [0.36841762]
+300 [0.26358676]
+400 [0.2147176]
+500 [0.21349153]
+600 [0.21256445]
+Model saved in file: ../models/model_fasttext_limited_door-desk
+pair: door,desk
+test loss: 0.399030 , test accuracy: 1.000000
+0 [4.6250196]
+100 [0.66080141]
+200 [0.3690607]
+300 [0.24976386]
+400 [0.22242031]
+500 [0.21263766]
+600 [0.20908058]
+Model saved in file: ../models/model_fasttext_limited_door-eye
+pair: door,eye
+test loss: 0.315730 , test accuracy: 1.000000
+0 [4.5884948]
+100 [0.6437189]
+200 [0.35690659]
+300 [0.25735474]
+400 [0.21920729]
+500 [0.207074]
+600 [0.20962864]
+Model saved in file: ../models/model_fasttext_limited_door-chair
+pair: door,chair
+test loss: 0.319841 , test accuracy: 1.000000
+0 [4.5261188]
+100 [0.63373512]
+200 [0.34622088]
+300 [0.25137314]
+400 [0.21321148]
+500 [0.20222484]
+600 [0.20606773]
+Model saved in file: ../models/model_fasttext_limited_door-arm
+pair: door,arm
+test loss: 0.437285 , test accuracy: 1.000000
+0 [4.5572143]
+100 [0.65371996]
+200 [0.35205811]
+300 [0.24888277]
+400 [0.21908712]
+500 [0.20996425]
+600 [0.20592675]
+Model saved in file: ../models/model_fasttext_limited_door-lettuce
+pair: door,lettuce
+test loss: 0.304932 , test accuracy: 1.000000
+0 [4.6560087]
+100 [0.65327334]
+200 [0.36715966]
+300 [0.25662658]
+400 [0.22222072]
+500 [0.20902568]
+600 [0.20450218]
+Model saved in file: ../models/model_fasttext_limited_door-table
+pair: door,table
+test loss: 0.395408 , test accuracy: 0.000000
+0 [4.6053262]
+100 [0.66052085]
+200 [0.36170578]
+300 [0.24863183]
+400 [0.21913216]
+500 [0.21106175]
+600 [0.20735438]
+Model saved in file: ../models/model_fasttext_limited_door-foot
+pair: door,foot
+test loss: 0.321736 , test accuracy: 1.000000
+0 [4.6211815]
+100 [0.63819385]
+200 [0.34872532]
+300 [0.25583956]
+400 [0.21847039]
+500 [0.20543861]
+600 [0.20560378]
+Model saved in file: ../models/model_fasttext_limited_door-hammer
+pair: door,hammer
+test loss: 0.384493 , test accuracy: 1.000000
+0 [4.5566955]
+100 [0.63785517]
+200 [0.34798968]
+300 [0.24738738]
+400 [0.21471325]
+500 [0.20147711]
+600 [0.20566997]
+Model saved in file: ../models/model_fasttext_limited_door-leg
+pair: door,leg
+test loss: 0.410780 , test accuracy: 1.000000
+0 [4.5578489]
+100 [0.64591461]
+200 [0.34964287]
+300 [0.2494646]
+400 [0.21884067]
+500 [0.21005343]
+600 [0.20321672]
+Model saved in file: ../models/model_fasttext_limited_door-tomato
+pair: door,tomato
+test loss: 0.355917 , test accuracy: 1.000000
+0 [4.545301]
+100 [0.65213799]
+200 [0.36029768]
+300 [0.25201318]
+400 [0.21901302]
+500 [0.21644898]
+600 [0.20903713]
+Model saved in file: ../models/model_fasttext_limited_door-ant
+pair: door,ant
+test loss: 0.314968 , test accuracy: 1.000000
+0 [4.6975102]
+100 [0.64994401]
+200 [0.36298162]
+300 [0.25082317]
+400 [0.22323671]
+500 [0.21124499]
+600 [0.21178335]
+Model saved in file: ../models/model_fasttext_limited_door-bee
+pair: door,bee
+test loss: 0.249067 , test accuracy: 1.000000
+0 [4.6273422]
+100 [0.65332949]
+200 [0.3576791]
+300 [0.24305773]
+400 [0.21661943]
+500 [0.21041265]
+600 [0.20827653]
+Model saved in file: ../models/model_fasttext_limited_door-dog
+pair: door,dog
+test loss: 0.346842 , test accuracy: 1.000000
+0 [4.6332765]
+100 [0.64467025]
+200 [0.34697235]
+300 [0.25213143]
+400 [0.21617128]
+500 [0.20644157]
+600 [0.20799513]
+Model saved in file: ../models/model_fasttext_limited_door-airplane
+pair: door,airplane
+test loss: 0.276355 , test accuracy: 1.000000
+0 [4.6498046]
+100 [0.6511268]
+200 [0.35874951]
+300 [0.25200066]
+400 [0.22021875]
+500 [0.20652352]
+600 [0.21321718]
+Model saved in file: ../models/model_fasttext_limited_door-bicycle
+pair: door,bicycle
+test loss: 0.289381 , test accuracy: 1.000000
+0 [4.5857334]
+100 [0.64736772]
+200 [0.35553116]
+300 [0.24807629]
+400 [0.21676436]
+500 [0.21019247]
+600 [0.21138871]
+Model saved in file: ../models/model_fasttext_limited_door-butterfly
+pair: door,butterfly
+test loss: 0.333130 , test accuracy: 1.000000
+0 [4.5603967]
+100 [0.63949513]
+200 [0.34596503]
+300 [0.25198248]
+400 [0.21772404]
+500 [0.2040195]
+600 [0.20020948]
+Model saved in file: ../models/model_fasttext_limited_door-car
+pair: door,car
+test loss: 0.343599 , test accuracy: 1.000000
+0 [4.5369167]
+100 [0.64076853]
+200 [0.35439438]
+300 [0.24885371]
+400 [0.21450633]
+500 [0.20861018]
+600 [0.20799376]
+Model saved in file: ../models/model_fasttext_limited_door-house
+pair: door,house
+test loss: 0.319927 , test accuracy: 1.000000
+0 [4.5582952]
+100 [0.62864602]
+200 [0.35401541]
+300 [0.25626969]
+400 [0.22005916]
+500 [0.20599306]
+600 [0.20712857]
+Model saved in file: ../models/model_fasttext_limited_door-window
+pair: door,window
+test loss: 0.293136 , test accuracy: 1.000000
+0 [4.655549]
+100 [0.65341944]
+200 [0.36683971]
+300 [0.25162867]
+400 [0.21234882]
+500 [0.21004751]
+600 [0.21036437]
+Model saved in file: ../models/model_fasttext_limited_door-bed
+pair: door,bed
+test loss: 0.329502 , test accuracy: 1.000000
+0 [4.7056274]
+100 [0.65066308]
+200 [0.35592175]
+300 [0.25578684]
+400 [0.2188082]
+500 [0.21100101]
+600 [0.20402215]
+Model saved in file: ../models/model_fasttext_limited_door-key
+pair: door,key
+test loss: 0.354733 , test accuracy: 1.000000
+0 [4.5457926]
+100 [0.65246058]
+200 [0.35711691]
+300 [0.25217396]
+400 [0.21918321]
+500 [0.21430662]
+600 [0.21073848]
+Model saved in file: ../models/model_fasttext_limited_door-fly
+pair: door,fly
+test loss: 0.313592 , test accuracy: 1.000000
+0 [4.6466298]
+100 [0.67672312]
+200 [0.37155131]
+300 [0.25598699]
+400 [0.21690162]
+500 [0.21434015]
+600 [0.2127874]
+Model saved in file: ../models/model_fasttext_limited_door-bell
+pair: door,bell
+test loss: 0.288080 , test accuracy: 1.000000
+0 [4.6384392]
+100 [0.65939426]
+200 [0.35645026]
+300 [0.2495278]
+400 [0.22240931]
+500 [0.2049045]
+600 [0.20929374]
+Model saved in file: ../models/model_fasttext_limited_door-telephone
+pair: door,telephone
+test loss: 0.420015 , test accuracy: 1.000000
+0 [4.5884662]
+100 [0.66728127]
+200 [0.36518088]
+300 [0.25822657]
+400 [0.22103709]
+500 [0.21228635]
+600 [0.20831136]
+Model saved in file: ../models/model_fasttext_limited_door-saw
+pair: door,saw
+test loss: 0.327865 , test accuracy: 1.000000
+0 [4.6353283]
+100 [0.63621581]
+200 [0.34706637]
+300 [0.24732894]
+400 [0.2123113]
+500 [0.19816831]
+600 [0.20250359]
+Model saved in file: ../models/model_fasttext_limited_door-hand
+pair: door,hand
+test loss: 0.346817 , test accuracy: 1.000000
+0 [4.6360469]
+100 [0.64593017]
+200 [0.36144894]
+300 [0.25651044]
+400 [0.21414474]
+500 [0.21071318]
+600 [0.20314649]
+Model saved in file: ../models/model_fasttext_limited_desk-eye
+pair: desk,eye
+test loss: 0.412124 , test accuracy: 1.000000
+0 [4.5873466]
+100 [0.64960015]
+200 [0.37122971]
+300 [0.25252822]
+400 [0.21743329]
+500 [0.20802373]
+600 [0.20741247]
+Model saved in file: ../models/model_fasttext_limited_desk-chair
+pair: desk,chair
+test loss: 0.419541 , test accuracy: 0.000000
+0 [4.5543056]
+100 [0.64955032]
+200 [0.35178503]
+300 [0.25305355]
+400 [0.21610847]
+500 [0.2031109]
+600 [0.20565686]
+Model saved in file: ../models/model_fasttext_limited_desk-arm
+pair: desk,arm
+test loss: 0.523478 , test accuracy: 1.000000
+0 [4.5935917]
+100 [0.62648326]
+200 [0.35289139]
+300 [0.24183075]
+400 [0.22019854]
+500 [0.20629928]
+600 [0.20554802]
+Model saved in file: ../models/model_fasttext_limited_desk-lettuce
+pair: desk,lettuce
+test loss: 0.421825 , test accuracy: 1.000000
+0 [4.5735936]
+100 [0.67056191]
+200 [0.35324445]
+300 [0.25614905]
+400 [0.21153918]
+500 [0.2074876]
+600 [0.20302533]
+Model saved in file: ../models/model_fasttext_limited_desk-table
+pair: desk,table
+test loss: 0.580826 , test accuracy: 1.000000
+0 [4.6009278]
+100 [0.66902214]
+200 [0.35944605]
+300 [0.2510215]
+400 [0.21176636]
+500 [0.20946585]
+600 [0.20158133]
+Model saved in file: ../models/model_fasttext_limited_desk-foot
+pair: desk,foot
+test loss: 0.429036 , test accuracy: 1.000000
+0 [4.575067]
+100 [0.66448802]
+200 [0.35811943]
+300 [0.2527546]
+400 [0.21666107]
+500 [0.20944376]
+600 [0.20783077]
+Model saved in file: ../models/model_fasttext_limited_desk-hammer
+pair: desk,hammer
+test loss: 0.492269 , test accuracy: 1.000000
+0 [4.5524874]
+100 [0.63698059]
+200 [0.35541886]
+300 [0.24614845]
+400 [0.21462737]
+500 [0.19743231]
+600 [0.20951055]
+Model saved in file: ../models/model_fasttext_limited_desk-leg
+pair: desk,leg
+test loss: 0.537951 , test accuracy: 1.000000
+0 [4.4579949]
+100 [0.63548934]
+200 [0.35012648]
+300 [0.24651675]
+400 [0.20869306]
+500 [0.2024454]
+600 [0.20207825]
+Model saved in file: ../models/model_fasttext_limited_desk-tomato
+pair: desk,tomato
+test loss: 0.462869 , test accuracy: 1.000000
+0 [4.5920177]
+100 [0.65853918]
+200 [0.35569459]
+300 [0.25354937]
+400 [0.22215836]
+500 [0.20399491]
+600 [0.21032058]
+Model saved in file: ../models/model_fasttext_limited_desk-ant
+pair: desk,ant
+test loss: 0.422909 , test accuracy: 1.000000
+0 [4.6662903]
+100 [0.63909388]
+200 [0.35912213]
+300 [0.25569376]
+400 [0.21962491]
+500 [0.21062708]
+600 [0.20788783]
+Model saved in file: ../models/model_fasttext_limited_desk-bee
+pair: desk,bee
+test loss: 0.350909 , test accuracy: 1.000000
+0 [4.6471872]
+100 [0.65664566]
+200 [0.35400093]
+300 [0.24519461]
+400 [0.22166595]
+500 [0.20184809]
+600 [0.20480335]
+Model saved in file: ../models/model_fasttext_limited_desk-dog
+pair: desk,dog
+test loss: 0.436602 , test accuracy: 1.000000
+0 [4.5719023]
+100 [0.64892524]
+200 [0.35759181]
+300 [0.24854255]
+400 [0.21553999]
+500 [0.20921481]
+600 [0.21098815]
+Model saved in file: ../models/model_fasttext_limited_desk-airplane
+pair: desk,airplane
+test loss: 0.400315 , test accuracy: 1.000000
+0 [4.6219025]
+100 [0.65685427]
+200 [0.35506624]
+300 [0.24795943]
+400 [0.22415742]
+500 [0.21058176]
+600 [0.20734136]
+Model saved in file: ../models/model_fasttext_limited_desk-bicycle
+pair: desk,bicycle
+test loss: 0.395747 , test accuracy: 1.000000
+0 [4.5348349]
+100 [0.64219999]
+200 [0.36272705]
+300 [0.25438157]
+400 [0.21783395]
+500 [0.20823897]
+600 [0.20604295]
+Model saved in file: ../models/model_fasttext_limited_desk-butterfly
+pair: desk,butterfly
+test loss: 0.441258 , test accuracy: 1.000000
+0 [4.5614586]
+100 [0.63641083]
+200 [0.35082436]
+300 [0.25428346]
+400 [0.20999926]
+500 [0.20800044]
+600 [0.20485136]
+Model saved in file: ../models/model_fasttext_limited_desk-car
+pair: desk,car
+test loss: 0.444438 , test accuracy: 1.000000
+0 [4.5504599]
+100 [0.62698519]
+200 [0.3539643]
+300 [0.24701972]
+400 [0.21515334]
+500 [0.21024452]
+600 [0.20499222]
+Model saved in file: ../models/model_fasttext_limited_desk-house
+pair: desk,house
+test loss: 0.431038 , test accuracy: 1.000000
+0 [4.5341849]
+100 [0.64609158]
+200 [0.3534826]
+300 [0.25349435]
+400 [0.21545212]
+500 [0.20753519]
+600 [0.2045508]
+Model saved in file: ../models/model_fasttext_limited_desk-window
+pair: desk,window
+test loss: 0.406335 , test accuracy: 1.000000
+0 [4.5910187]
+100 [0.64322573]
+200 [0.36497843]
+300 [0.25360537]
+400 [0.2155292]
+500 [0.21004394]
+600 [0.20776293]
+Model saved in file: ../models/model_fasttext_limited_desk-bed
+pair: desk,bed
+test loss: 0.445857 , test accuracy: 0.000000
+0 [4.6022758]
+100 [0.67731708]
+200 [0.35864416]
+300 [0.25290611]
+400 [0.2168896]
+500 [0.20951025]
+600 [0.20596553]
+Model saved in file: ../models/model_fasttext_limited_desk-key
+pair: desk,key
+test loss: 0.451788 , test accuracy: 1.000000
+0 [4.6230536]
+100 [0.6603862]
+200 [0.35031265]
+300 [0.2541908]
+400 [0.21403052]
+500 [0.20314752]
+600 [0.20252243]
+Model saved in file: ../models/model_fasttext_limited_desk-fly
+pair: desk,fly
+test loss: 0.408170 , test accuracy: 1.000000
+0 [4.6470404]
+100 [0.65594226]
+200 [0.36573726]
+300 [0.25096422]
+400 [0.21808983]
+500 [0.21064675]
+600 [0.20085143]
+Model saved in file: ../models/model_fasttext_limited_desk-bell
+pair: desk,bell
+test loss: 0.396196 , test accuracy: 1.000000
+0 [4.6292248]
+100 [0.64241391]
+200 [0.35312563]
+300 [0.24664895]
+400 [0.2154597]
+500 [0.20965663]
+600 [0.20145896]
+Model saved in file: ../models/model_fasttext_limited_desk-telephone
+pair: desk,telephone
+test loss: 0.506578 , test accuracy: 0.000000
+0 [4.6377773]
+100 [0.64482605]
+200 [0.37447298]
+300 [0.24810646]
+400 [0.21524481]
+500 [0.20844698]
+600 [0.20116112]
+Model saved in file: ../models/model_fasttext_limited_desk-saw
+pair: desk,saw
+test loss: 0.436250 , test accuracy: 1.000000
+0 [4.5594983]
+100 [0.65355229]
+200 [0.35580266]
+300 [0.24898019]
+400 [0.21463037]
+500 [0.20750979]
+600 [0.20166403]
+Model saved in file: ../models/model_fasttext_limited_desk-hand
+pair: desk,hand
+test loss: 0.402829 , test accuracy: 1.000000
+0 [4.6235747]
+100 [0.6756919]
+200 [0.36657849]
+300 [0.25535291]
+400 [0.21987411]
+500 [0.21191545]
+600 [0.20952305]
+Model saved in file: ../models/model_fasttext_limited_eye-chair
+pair: eye,chair
+test loss: 0.344144 , test accuracy: 1.000000
+0 [4.5369992]
+100 [0.64594156]
+200 [0.37041533]
+300 [0.25247478]
+400 [0.21722074]
+500 [0.20040108]
+600 [0.2034654]
+Model saved in file: ../models/model_fasttext_limited_eye-arm
+pair: eye,arm
+test loss: 0.483846 , test accuracy: 1.000000
+0 [4.6626258]
+100 [0.65118229]
+200 [0.35112602]
+300 [0.24501573]
+400 [0.21323326]
+500 [0.21575874]
+600 [0.20881699]
+Model saved in file: ../models/model_fasttext_limited_eye-lettuce
+pair: eye,lettuce
+test loss: 0.321379 , test accuracy: 1.000000
+0 [4.6728826]
+100 [0.65893275]
+200 [0.36896324]
+300 [0.25553831]
+400 [0.21978834]
+500 [0.20719844]
+600 [0.21513501]
+Model saved in file: ../models/model_fasttext_limited_eye-table
+pair: eye,table
+test loss: 0.402781 , test accuracy: 1.000000
+0 [4.6602836]
+100 [0.66475004]
+200 [0.36028188]
+300 [0.2510308]
+400 [0.21490873]
+500 [0.21212068]
+600 [0.20253059]
+Model saved in file: ../models/model_fasttext_limited_eye-foot
+pair: eye,foot
+test loss: 0.347603 , test accuracy: 0.000000
+0 [4.7204585]
+100 [0.65357733]
+200 [0.37160501]
+300 [0.2596086]
+400 [0.21672601]
+500 [0.21222976]
+600 [0.20941588]
+Model saved in file: ../models/model_fasttext_limited_eye-hammer
+pair: eye,hammer
+test loss: 0.419778 , test accuracy: 0.000000
+0 [4.6373034]
+100 [0.65286124]
+200 [0.35684967]
+300 [0.24701509]
+400 [0.21509425]
+500 [0.21388212]
+600 [0.20000879]
+Model saved in file: ../models/model_fasttext_limited_eye-leg
+pair: eye,leg
+test loss: 0.427037 , test accuracy: 0.000000
+0 [4.6928759]
+100 [0.64926517]
+200 [0.36622158]
+300 [0.24859402]
+400 [0.21724328]
+500 [0.20628005]
+600 [0.20187069]
+Model saved in file: ../models/model_fasttext_limited_eye-tomato
+pair: eye,tomato
+test loss: 0.364907 , test accuracy: 1.000000
+0 [4.6026373]
+100 [0.66152894]
+200 [0.36705887]
+300 [0.25275561]
+400 [0.22647461]
+500 [0.21436752]
+600 [0.20921403]
+Model saved in file: ../models/model_fasttext_limited_eye-ant
+pair: eye,ant
+test loss: 0.340292 , test accuracy: 1.000000
+0 [4.6101365]
+100 [0.65964788]
+200 [0.3689898]
+300 [0.25403771]
+400 [0.22039673]
+500 [0.21415967]
+600 [0.20938508]
+Model saved in file: ../models/model_fasttext_limited_eye-bee
+pair: eye,bee
+test loss: 0.279365 , test accuracy: 1.000000
+0 [4.721931]
+100 [0.65962243]
+200 [0.36761701]
+300 [0.25980023]
+400 [0.21809021]
+500 [0.20978431]
+600 [0.20315504]
+Model saved in file: ../models/model_fasttext_limited_eye-dog
+pair: eye,dog
+test loss: 0.337224 , test accuracy: 0.000000
+0 [4.5188451]
+100 [0.64866716]
+200 [0.36017829]
+300 [0.25791189]
+400 [0.21947363]
+500 [0.2139454]
+600 [0.21041791]
+Model saved in file: ../models/model_fasttext_limited_eye-airplane
+pair: eye,airplane
+test loss: 0.302212 , test accuracy: 1.000000
+0 [4.6878891]
+100 [0.64342403]
+200 [0.3609556]
+300 [0.25281256]
+400 [0.22321931]
+500 [0.20842564]
+600 [0.20748895]
+Model saved in file: ../models/model_fasttext_limited_eye-bicycle
+pair: eye,bicycle
+test loss: 0.312018 , test accuracy: 0.000000
+0 [4.6410284]
+100 [0.65112531]
+200 [0.36083627]
+300 [0.25485685]
+400 [0.2221806]
+500 [0.20931239]
+600 [0.20698097]
+Model saved in file: ../models/model_fasttext_limited_eye-butterfly
+pair: eye,butterfly
+test loss: 0.354559 , test accuracy: 1.000000
+0 [4.6607261]
+100 [0.6553579]
+200 [0.35733438]
+300 [0.24930191]
+400 [0.21689968]
+500 [0.20271024]
+600 [0.20602533]
+Model saved in file: ../models/model_fasttext_limited_eye-car
+pair: eye,car
+test loss: 0.357141 , test accuracy: 0.000000
+0 [4.6992292]
+100 [0.65354669]
+200 [0.36045516]
+300 [0.2591657]
+400 [0.2142427]
+500 [0.20900075]
+600 [0.20909053]
+Model saved in file: ../models/model_fasttext_limited_eye-house
+pair: eye,house
+test loss: 0.352876 , test accuracy: 1.000000
+0 [4.6314535]
+100 [0.64649534]
+200 [0.36592579]
+300 [0.25181228]
+400 [0.21507385]
+500 [0.20599124]
+600 [0.20979626]
+Model saved in file: ../models/model_fasttext_limited_eye-window
+pair: eye,window
+test loss: 0.334377 , test accuracy: 1.000000
+0 [4.6651239]
+100 [0.66571349]
+200 [0.35689658]
+300 [0.25022849]
+400 [0.22099623]
+500 [0.20835783]
+600 [0.210898]
+Model saved in file: ../models/model_fasttext_limited_eye-bed
+pair: eye,bed
+test loss: 0.356257 , test accuracy: 1.000000
+0 [4.6641469]
+100 [0.66609848]
+200 [0.36189461]
+300 [0.25243667]
+400 [0.22231932]
+500 [0.21181217]
+600 [0.20522553]
+Model saved in file: ../models/model_fasttext_limited_eye-key
+pair: eye,key
+test loss: 0.360344 , test accuracy: 0.000000
+0 [4.6370049]
+100 [0.65879166]
+200 [0.37644637]
+300 [0.253943]
+400 [0.21954948]
+500 [0.2087314]
+600 [0.20748241]
+Model saved in file: ../models/model_fasttext_limited_eye-fly
+pair: eye,fly
+test loss: 0.329199 , test accuracy: 0.000000
+0 [4.6656537]
+100 [0.66847008]
+200 [0.36718667]
+300 [0.25487462]
+400 [0.22253327]
+500 [0.21033555]
+600 [0.21194807]
+Model saved in file: ../models/model_fasttext_limited_eye-bell
+pair: eye,bell
+test loss: 0.308355 , test accuracy: 0.000000
+0 [4.5432792]
+100 [0.64818168]
+200 [0.35655397]
+300 [0.25943205]
+400 [0.2122498]
+500 [0.21448845]
+600 [0.20525126]
+Model saved in file: ../models/model_fasttext_limited_eye-telephone
+pair: eye,telephone
+test loss: 0.442460 , test accuracy: 0.000000
+0 [4.7450733]
+100 [0.64185661]
+200 [0.35872501]
+300 [0.24973734]
+400 [0.22140047]
+500 [0.20482862]
+600 [0.20652737]
+Model saved in file: ../models/model_fasttext_limited_eye-saw
+pair: eye,saw
+test loss: 0.348379 , test accuracy: 0.000000
+0 [4.6870217]
+100 [0.67464262]
+200 [0.37948111]
+300 [0.25252193]
+400 [0.21158274]
+500 [0.2051148]
+600 [0.20302853]
+Model saved in file: ../models/model_fasttext_limited_eye-hand
+pair: eye,hand
+test loss: 0.365369 , test accuracy: 0.000000
+0 [4.5025625]
+100 [0.64981222]
+200 [0.36016116]
+300 [0.24802446]
+400 [0.21745686]
+500 [0.20483589]
+600 [0.20199367]
+Model saved in file: ../models/model_fasttext_limited_chair-arm
+pair: chair,arm
+test loss: 0.438157 , test accuracy: 1.000000
+0 [4.7340484]
+100 [0.64684999]
+200 [0.35871512]
+300 [0.25320956]
+400 [0.21823797]
+500 [0.20600083]
+600 [0.21052231]
+Model saved in file: ../models/model_fasttext_limited_chair-lettuce
+pair: chair,lettuce
+test loss: 0.344477 , test accuracy: 1.000000
+0 [4.6665034]
+100 [0.63838351]
+200 [0.35954645]
+300 [0.25779986]
+400 [0.21744832]
+500 [0.20676893]
+600 [0.2066718]
+Model saved in file: ../models/model_fasttext_limited_chair-table
+pair: chair,table
+test loss: 0.423305 , test accuracy: 0.000000
+0 [4.6774712]
+100 [0.64713031]
+200 [0.3602463]
+300 [0.25760317]
+400 [0.21545154]
+500 [0.21383476]
+600 [0.20736384]
+Model saved in file: ../models/model_fasttext_limited_chair-foot
+pair: chair,foot
+test loss: 0.356770 , test accuracy: 1.000000
+0 [4.6319857]
+100 [0.65760398]
+200 [0.36249277]
+300 [0.25659654]
+400 [0.22283785]
+500 [0.20954013]
+600 [0.20664108]
+Model saved in file: ../models/model_fasttext_limited_chair-hammer
+pair: chair,hammer
+test loss: 0.413313 , test accuracy: 1.000000
+0 [4.5823622]
+100 [0.65794373]
+200 [0.36292028]
+300 [0.2540189]
+400 [0.21553504]
+500 [0.20283823]
+600 [0.2021388]
+Model saved in file: ../models/model_fasttext_limited_chair-leg
+pair: chair,leg
+test loss: 0.477913 , test accuracy: 1.000000
+0 [4.5787525]
+100 [0.63512087]
+200 [0.34931704]
+300 [0.24578062]
+400 [0.21535391]
+500 [0.20516461]
+600 [0.20458704]
+Model saved in file: ../models/model_fasttext_limited_chair-tomato
+pair: chair,tomato
+test loss: 0.390307 , test accuracy: 1.000000
+0 [4.5987606]
+100 [0.66023934]
+200 [0.35402593]
+300 [0.2546792]
+400 [0.21866697]
+500 [0.20495351]
+600 [0.21052396]
+Model saved in file: ../models/model_fasttext_limited_chair-ant
+pair: chair,ant
+test loss: 0.362190 , test accuracy: 1.000000
+0 [4.6163898]
+100 [0.66128445]
+200 [0.36535281]
+300 [0.25082156]
+400 [0.22116399]
+500 [0.21584208]
+600 [0.21316276]
+Model saved in file: ../models/model_fasttext_limited_chair-bee
+pair: chair,bee
+test loss: 0.294137 , test accuracy: 1.000000
+0 [4.5502281]
+100 [0.64838129]
+200 [0.36487925]
+300 [0.2592977]
+400 [0.21840301]
+500 [0.21086495]
+600 [0.2094001]
+Model saved in file: ../models/model_fasttext_limited_chair-dog
+pair: chair,dog
+test loss: 0.374613 , test accuracy: 1.000000
+0 [4.6099639]
+100 [0.64502382]
+200 [0.36364543]
+300 [0.25510892]
+400 [0.22304717]
+500 [0.21467336]
+600 [0.2134614]
+Model saved in file: ../models/model_fasttext_limited_chair-airplane
+pair: chair,airplane
+test loss: 0.308324 , test accuracy: 1.000000
+0 [4.6975536]
+100 [0.64403087]
+200 [0.35587519]
+300 [0.25961107]
+400 [0.21902075]
+500 [0.21332642]
+600 [0.20674096]
+Model saved in file: ../models/model_fasttext_limited_chair-bicycle
+pair: chair,bicycle
+test loss: 0.336904 , test accuracy: 1.000000
+0 [4.5996089]
+100 [0.64752936]
+200 [0.36771584]
+300 [0.257108]
+400 [0.22179192]
+500 [0.21016219]
+600 [0.20896456]
+Model saved in file: ../models/model_fasttext_limited_chair-butterfly
+pair: chair,butterfly
+test loss: 0.364166 , test accuracy: 1.000000
+0 [4.4780569]
+100 [0.64295268]
+200 [0.34896296]
+300 [0.24645329]
+400 [0.21632487]
+500 [0.20595729]
+600 [0.20264666]
+Model saved in file: ../models/model_fasttext_limited_chair-car
+pair: chair,car
+test loss: 0.374019 , test accuracy: 1.000000
+0 [4.5886269]
+100 [0.68681628]
+200 [0.35740197]
+300 [0.25983462]
+400 [0.21877396]
+500 [0.20822707]
+600 [0.21226512]
+Model saved in file: ../models/model_fasttext_limited_chair-house
+pair: chair,house
+test loss: 0.331592 , test accuracy: 1.000000
+0 [4.6349988]
+100 [0.65142077]
+200 [0.35638252]
+300 [0.25275403]
+400 [0.22692391]
+500 [0.21496665]
+600 [0.2058931]
+Model saved in file: ../models/model_fasttext_limited_chair-window
+pair: chair,window
+test loss: 0.326904 , test accuracy: 1.000000
+0 [4.542439]
+100 [0.65399277]
+200 [0.36660182]
+300 [0.25355998]
+400 [0.22311416]
+500 [0.21559551]
+600 [0.20946884]
+Model saved in file: ../models/model_fasttext_limited_chair-bed
+pair: chair,bed
+test loss: 0.354620 , test accuracy: 1.000000
+0 [4.598465]
+100 [0.67770082]
+200 [0.36866724]
+300 [0.25203738]
+400 [0.22205204]
+500 [0.2126978]
+600 [0.201031]
+Model saved in file: ../models/model_fasttext_limited_chair-key
+pair: chair,key
+test loss: 0.397362 , test accuracy: 1.000000
+0 [4.6642466]
+100 [0.65141696]
+200 [0.36302894]
+300 [0.25416529]
+400 [0.22066383]
+500 [0.20981839]
+600 [0.20727685]
+Model saved in file: ../models/model_fasttext_limited_chair-fly
+pair: chair,fly
+test loss: 0.335312 , test accuracy: 1.000000
+0 [4.6048117]
+100 [0.663167]
+200 [0.36661315]
+300 [0.25362718]
+400 [0.21854696]
+500 [0.20989391]
+600 [0.20633981]
+Model saved in file: ../models/model_fasttext_limited_chair-bell
+pair: chair,bell
+test loss: 0.325649 , test accuracy: 1.000000
+0 [4.6883917]
+100 [0.65982366]
+200 [0.35255048]
+300 [0.25444582]
+400 [0.21631105]
+500 [0.20567988]
+600 [0.20449704]
+Model saved in file: ../models/model_fasttext_limited_chair-telephone
+pair: chair,telephone
+test loss: 0.455927 , test accuracy: 1.000000
+0 [4.7039475]
+100 [0.64719093]
+200 [0.36072668]
+300 [0.25463635]
+400 [0.21651737]
+500 [0.20648882]
+600 [0.20955589]
+Model saved in file: ../models/model_fasttext_limited_chair-saw
+pair: chair,saw
+test loss: 0.362653 , test accuracy: 1.000000
+0 [4.7135463]
+100 [0.65084833]
+200 [0.37138203]
+300 [0.25331971]
+400 [0.21339908]
+500 [0.20560665]
+600 [0.20473063]
+Model saved in file: ../models/model_fasttext_limited_chair-hand
+pair: chair,hand
+test loss: 0.369952 , test accuracy: 1.000000
+0 [4.5127521]
+100 [0.64164948]
+200 [0.35367888]
+300 [0.24272901]
+400 [0.21292681]
+500 [0.21064867]
+600 [0.20579922]
+Model saved in file: ../models/model_fasttext_limited_arm-lettuce
+pair: arm,lettuce
+test loss: 0.460111 , test accuracy: 1.000000
+0 [4.5565176]
+100 [0.64536095]
+200 [0.35170934]
+300 [0.24648668]
+400 [0.20973718]
+500 [0.20440179]
+600 [0.19947845]
+Model saved in file: ../models/model_fasttext_limited_arm-table
+pair: arm,table
+test loss: 0.518039 , test accuracy: 1.000000
+0 [4.5714869]
+100 [0.64143574]
+200 [0.35435253]
+300 [0.24319004]
+400 [0.21231738]
+500 [0.20118833]
+600 [0.20657684]
+Model saved in file: ../models/model_fasttext_limited_arm-foot
+pair: arm,foot
+test loss: 0.477943 , test accuracy: 0.000000
+0 [4.6422276]
+100 [0.65654987]
+200 [0.35703963]
+300 [0.25002119]
+400 [0.21995488]
+500 [0.20318499]
+600 [0.19668315]
+Model saved in file: ../models/model_fasttext_limited_arm-hammer
+pair: arm,hammer
+test loss: 0.548298 , test accuracy: 1.000000
+0 [4.4554296]
+100 [0.65474999]
+200 [0.34050459]
+300 [0.24247295]
+400 [0.21290556]
+500 [0.20683688]
+600 [0.20355469]
+Model saved in file: ../models/model_fasttext_limited_arm-leg
+pair: arm,leg
+test loss: 0.523205 , test accuracy: 0.000000
+0 [4.6103864]
+100 [0.62634963]
+200 [0.35458681]
+300 [0.24171963]
+400 [0.20769259]
+500 [0.2074461]
+600 [0.19436334]
+Model saved in file: ../models/model_fasttext_limited_arm-tomato
+pair: arm,tomato
+test loss: 0.501220 , test accuracy: 1.000000
+0 [4.5537534]
+100 [0.63999176]
+200 [0.35666814]
+300 [0.24949357]
+400 [0.21427472]
+500 [0.20697562]
+600 [0.20005211]
+Model saved in file: ../models/model_fasttext_limited_arm-ant
+pair: arm,ant
+test loss: 0.468895 , test accuracy: 1.000000
+0 [4.5874529]
+100 [0.64374471]
+200 [0.35500604]
+300 [0.25045827]
+400 [0.21669357]
+500 [0.20662399]
+600 [0.20937558]
+Model saved in file: ../models/model_fasttext_limited_arm-bee
+pair: arm,bee
+test loss: 0.416956 , test accuracy: 1.000000
+0 [4.5139909]
+100 [0.65461713]
+200 [0.34751078]
+300 [0.24402571]
+400 [0.20906617]
+500 [0.19927454]
+600 [0.20197825]
+Model saved in file: ../models/model_fasttext_limited_arm-dog
+pair: arm,dog
+test loss: 0.494376 , test accuracy: 1.000000
+0 [4.5644984]
+100 [0.62941355]
+200 [0.35402697]
+300 [0.25009304]
+400 [0.21319605]
+500 [0.20411396]
+600 [0.21196032]
+Model saved in file: ../models/model_fasttext_limited_arm-airplane
+pair: arm,airplane
+test loss: 0.418436 , test accuracy: 1.000000
+0 [4.5842566]
+100 [0.64517832]
+200 [0.35617054]
+300 [0.24989574]
+400 [0.21664865]
+500 [0.20330843]
+600 [0.2056493]
+Model saved in file: ../models/model_fasttext_limited_arm-bicycle
+pair: arm,bicycle
+test loss: 0.442201 , test accuracy: 1.000000
+0 [4.40207]
+100 [0.64377177]
+200 [0.34483746]
+300 [0.24392997]
+400 [0.21184126]
+500 [0.20623106]
+600 [0.20623595]
+Model saved in file: ../models/model_fasttext_limited_arm-butterfly
+pair: arm,butterfly
+test loss: 0.503400 , test accuracy: 1.000000
+0 [4.5047178]
+100 [0.63016045]
+200 [0.35489058]
+300 [0.24314478]
+400 [0.20988484]
+500 [0.20059979]
+600 [0.19737232]
+Model saved in file: ../models/model_fasttext_limited_arm-car
+pair: arm,car
+test loss: 0.486736 , test accuracy: 1.000000
+0 [4.5678315]
+100 [0.64346838]
+200 [0.35726941]
+300 [0.2532323]
+400 [0.21666431]
+500 [0.20735133]
+600 [0.20967539]
+Model saved in file: ../models/model_fasttext_limited_arm-house
+pair: arm,house
+test loss: 0.478231 , test accuracy: 1.000000
+0 [4.6540279]
+100 [0.64932996]
+200 [0.35401908]
+300 [0.2482319]
+400 [0.21293867]
+500 [0.2099652]
+600 [0.19971898]
+Model saved in file: ../models/model_fasttext_limited_arm-window
+pair: arm,window
+test loss: 0.443387 , test accuracy: 1.000000
+0 [4.6882839]
+100 [0.64333808]
+200 [0.36548972]
+300 [0.25006202]
+400 [0.21499793]
+500 [0.20742418]
+600 [0.20426942]
+Model saved in file: ../models/model_fasttext_limited_arm-bed
+pair: arm,bed
+test loss: 0.486509 , test accuracy: 1.000000
+0 [4.5247288]
+100 [0.64569592]
+200 [0.36630967]
+300 [0.25157505]
+400 [0.2158879]
+500 [0.20854765]
+600 [0.20318598]
+Model saved in file: ../models/model_fasttext_limited_arm-key
+pair: arm,key
+test loss: 0.484802 , test accuracy: 0.000000
+0 [4.535778]
+100 [0.63731742]
+200 [0.35584646]
+300 [0.24841066]
+400 [0.21564779]
+500 [0.20365071]
+600 [0.20750718]
+Model saved in file: ../models/model_fasttext_limited_arm-fly
+pair: arm,fly
+test loss: 0.446710 , test accuracy: 1.000000
+0 [4.7311296]
+100 [0.66683972]
+200 [0.35268286]
+300 [0.2523503]
+400 [0.22264162]
+500 [0.20156462]
+600 [0.20012221]
+Model saved in file: ../models/model_fasttext_limited_arm-bell
+pair: arm,bell
+test loss: 0.437522 , test accuracy: 1.000000
+0 [4.520256]
+100 [0.64097947]
+200 [0.35499156]
+300 [0.25115323]
+400 [0.21172316]
+500 [0.20002377]
+600 [0.20851235]
+Model saved in file: ../models/model_fasttext_limited_arm-telephone
+pair: arm,telephone
+test loss: 0.570134 , test accuracy: 1.000000
+0 [4.5435748]
+100 [0.65367037]
+200 [0.34891948]
+300 [0.24396147]
+400 [0.20857579]
+500 [0.20303725]
+600 [0.20282197]
+Model saved in file: ../models/model_fasttext_limited_arm-saw
+pair: arm,saw
+test loss: 0.492031 , test accuracy: 1.000000
+0 [4.5750933]
+100 [0.63125485]
+200 [0.34274834]
+300 [0.24323097]
+400 [0.21409947]
+500 [0.20611306]
+600 [0.19502828]
+Model saved in file: ../models/model_fasttext_limited_arm-hand
+pair: arm,hand
+test loss: 0.450057 , test accuracy: 0.000000
+0 [4.6525044]
+100 [0.65006071]
+200 [0.35735464]
+300 [0.25108138]
+400 [0.21508671]
+500 [0.20388754]
+600 [0.20852475]
+Model saved in file: ../models/model_fasttext_limited_lettuce-table
+pair: lettuce,table
+test loss: 0.415892 , test accuracy: 1.000000
+0 [4.5558877]
+100 [0.63914931]
+200 [0.35346344]
+300 [0.24697094]
+400 [0.20994361]
+500 [0.20766425]
+600 [0.20228763]
+Model saved in file: ../models/model_fasttext_limited_lettuce-foot
+pair: lettuce,foot
+test loss: 0.335814 , test accuracy: 1.000000
+0 [4.6034422]
+100 [0.62499583]
+200 [0.35743725]
+300 [0.25369406]
+400 [0.21477501]
+500 [0.2108119]
+600 [0.20630123]
+Model saved in file: ../models/model_fasttext_limited_lettuce-hammer
+pair: lettuce,hammer
+test loss: 0.441011 , test accuracy: 0.000000
+0 [4.5127678]
+100 [0.61876208]
+200 [0.35833859]
+300 [0.24738696]
+400 [0.20967768]
+500 [0.20654425]
+600 [0.1972806]
+Model saved in file: ../models/model_fasttext_limited_lettuce-leg
+pair: lettuce,leg
+test loss: 0.437533 , test accuracy: 1.000000
+0 [4.6427603]
+100 [0.64479816]
+200 [0.34705999]
+300 [0.25213227]
+400 [0.20882317]
+500 [0.20422763]
+600 [0.20580731]
+Model saved in file: ../models/model_fasttext_limited_lettuce-tomato
+pair: lettuce,tomato
+test loss: 0.404537 , test accuracy: 0.000000
+0 [4.524303]
+100 [0.63418746]
+200 [0.35283655]
+300 [0.24534887]
+400 [0.21398368]
+500 [0.20921269]
+600 [0.20371945]
+Model saved in file: ../models/model_fasttext_limited_lettuce-ant
+pair: lettuce,ant
+test loss: 0.337936 , test accuracy: 1.000000
+0 [4.514276]
+100 [0.63667154]
+200 [0.35876572]
+300 [0.25207859]
+400 [0.21832512]
+500 [0.21010645]
+600 [0.20591594]
+Model saved in file: ../models/model_fasttext_limited_lettuce-bee
+pair: lettuce,bee
+test loss: 0.277087 , test accuracy: 1.000000
+0 [4.6700945]
+100 [0.6501832]
+200 [0.34634572]
+300 [0.24378631]
+400 [0.21555677]
+500 [0.20375063]
+600 [0.20535557]
+Model saved in file: ../models/model_fasttext_limited_lettuce-dog
+pair: lettuce,dog
+test loss: 0.360021 , test accuracy: 1.000000
+0 [4.6509399]
+100 [0.63989991]
+200 [0.36582851]
+300 [0.24976787]
+400 [0.21693859]
+500 [0.20730829]
+600 [0.20672025]
+Model saved in file: ../models/model_fasttext_limited_lettuce-airplane
+pair: lettuce,airplane
+test loss: 0.305496 , test accuracy: 1.000000
+0 [4.625124]
+100 [0.63822204]
+200 [0.362461]
+300 [0.25191435]
+400 [0.21913186]
+500 [0.21147257]
+600 [0.20394948]
+Model saved in file: ../models/model_fasttext_limited_lettuce-bicycle
+pair: lettuce,bicycle
+test loss: 0.314549 , test accuracy: 1.000000
+0 [4.6109338]
+100 [0.6356535]
+200 [0.35757637]
+300 [0.24752584]
+400 [0.2145962]
+500 [0.20846078]
+600 [0.20388648]
+Model saved in file: ../models/model_fasttext_limited_lettuce-butterfly
+pair: lettuce,butterfly
+test loss: 0.359790 , test accuracy: 0.000000
+0 [4.5751009]
+100 [0.64227271]
+200 [0.34138566]
+300 [0.24629003]
+400 [0.21136966]
+500 [0.20529397]
+600 [0.20305923]
+Model saved in file: ../models/model_fasttext_limited_lettuce-car
+pair: lettuce,car
+test loss: 0.358266 , test accuracy: 1.000000
+0 [4.6482558]
+100 [0.63417697]
+200 [0.3536225]
+300 [0.24880584]
+400 [0.2234164]
+500 [0.20349424]
+600 [0.20365323]
+Model saved in file: ../models/model_fasttext_limited_lettuce-house
+pair: lettuce,house
+test loss: 0.349736 , test accuracy: 1.000000
+0 [4.6126146]
+100 [0.63585865]
+200 [0.34847811]
+300 [0.24731807]
+400 [0.21822107]
+500 [0.20762788]
+600 [0.2060491]
+Model saved in file: ../models/model_fasttext_limited_lettuce-window
+pair: lettuce,window
+test loss: 0.317692 , test accuracy: 1.000000
+0 [4.6574121]
+100 [0.63146204]
+200 [0.35516876]
+300 [0.24891335]
+400 [0.2130571]
+500 [0.20779085]
+600 [0.20507118]
+Model saved in file: ../models/model_fasttext_limited_lettuce-bed
+pair: lettuce,bed
+test loss: 0.349189 , test accuracy: 1.000000
+0 [4.5651093]
+100 [0.65128165]
+200 [0.37211314]
+300 [0.24842897]
+400 [0.21531938]
+500 [0.20610376]
+600 [0.2075195]
+Model saved in file: ../models/model_fasttext_limited_lettuce-key
+pair: lettuce,key
+test loss: 0.376980 , test accuracy: 1.000000
+0 [4.5186801]
+100 [0.63175052]
+200 [0.34714586]
+300 [0.24658956]
+400 [0.2189393]
+500 [0.21063468]
+600 [0.20588177]
+Model saved in file: ../models/model_fasttext_limited_lettuce-fly
+pair: lettuce,fly
+test loss: 0.334767 , test accuracy: 1.000000
+0 [4.5424838]
+100 [0.62762022]
+200 [0.35717791]
+300 [0.25406116]
+400 [0.2193739]
+500 [0.20714027]
+600 [0.20464751]
+Model saved in file: ../models/model_fasttext_limited_lettuce-bell
+pair: lettuce,bell
+test loss: 0.317018 , test accuracy: 0.000000
+0 [4.6113839]
+100 [0.64037704]
+200 [0.34771132]
+300 [0.24111411]
+400 [0.21865566]
+500 [0.20618436]
+600 [0.20488548]
+Model saved in file: ../models/model_fasttext_limited_lettuce-telephone
+pair: lettuce,telephone
+test loss: 0.445546 , test accuracy: 1.000000
+0 [4.5678649]
+100 [0.6429323]
+200 [0.351367]
+300 [0.25055704]
+400 [0.21324393]
+500 [0.20571192]
+600 [0.20225072]
+Model saved in file: ../models/model_fasttext_limited_lettuce-saw
+pair: lettuce,saw
+test loss: 0.339242 , test accuracy: 1.000000
+0 [4.651269]
+100 [0.6435166]
+200 [0.3432909]
+300 [0.24387689]
+400 [0.20827493]
+500 [0.20218481]
+600 [0.19665802]
+Model saved in file: ../models/model_fasttext_limited_lettuce-hand
+pair: lettuce,hand
+test loss: 0.363085 , test accuracy: 1.000000
+0 [4.6579041]
+100 [0.66289163]
+200 [0.35865939]
+300 [0.25117356]
+400 [0.21892208]
+500 [0.20894286]
+600 [0.20596087]
+Model saved in file: ../models/model_fasttext_limited_table-foot
+pair: table,foot
+test loss: 0.424596 , test accuracy: 1.000000
+0 [4.5184255]
+100 [0.65494782]
+200 [0.36007595]
+300 [0.25296879]
+400 [0.21315746]
+500 [0.20907302]
+600 [0.21050821]
+Model saved in file: ../models/model_fasttext_limited_table-hammer
+pair: table,hammer
+test loss: 0.517718 , test accuracy: 1.000000
+0 [4.5385237]
+100 [0.65047657]
+200 [0.35285094]
+300 [0.24744166]
+400 [0.21285763]
+500 [0.20038886]
+600 [0.20373254]
+Model saved in file: ../models/model_fasttext_limited_table-leg
+pair: table,leg
+test loss: 0.477589 , test accuracy: 1.000000
+0 [4.5824904]
+100 [0.63878208]
+200 [0.34804079]
+300 [0.24837521]
+400 [0.21343099]
+500 [0.20330809]
+600 [0.19918811]
+Model saved in file: ../models/model_fasttext_limited_table-tomato
+pair: table,tomato
+test loss: 0.454241 , test accuracy: 1.000000
+0 [4.6239948]
+100 [0.6683147]
+200 [0.36279637]
+300 [0.25038221]
+400 [0.21598554]
+500 [0.21078205]
+600 [0.20970578]
+Model saved in file: ../models/model_fasttext_limited_table-ant
+pair: table,ant
+test loss: 0.426593 , test accuracy: 1.000000
+0 [4.6756783]
+100 [0.6489563]
+200 [0.3690522]
+300 [0.25391683]
+400 [0.21664554]
+500 [0.20680586]
+600 [0.2093388]
+Model saved in file: ../models/model_fasttext_limited_table-bee
+pair: table,bee
+test loss: 0.365069 , test accuracy: 1.000000
+0 [4.6488843]
+100 [0.63944191]
+200 [0.35678512]
+300 [0.25227937]
+400 [0.21371454]
+500 [0.20579597]
+600 [0.2048564]
+Model saved in file: ../models/model_fasttext_limited_table-dog
+pair: table,dog
+test loss: 0.448837 , test accuracy: 1.000000
+0 [4.713994]
+100 [0.65376204]
+200 [0.36672547]
+300 [0.25947359]
+400 [0.21833661]
+500 [0.21066016]
+600 [0.20687902]
+Model saved in file: ../models/model_fasttext_limited_table-airplane
+pair: table,airplane
+test loss: 0.392164 , test accuracy: 1.000000
+0 [4.7345576]
+100 [0.65324146]
+200 [0.36384177]
+300 [0.2508153]
+400 [0.21549699]
+500 [0.20903113]
+600 [0.20812765]
+Model saved in file: ../models/model_fasttext_limited_table-bicycle
+pair: table,bicycle
+test loss: 0.397584 , test accuracy: 1.000000
+0 [4.4907007]
+100 [0.64125466]
+200 [0.35674092]
+300 [0.24761853]
+400 [0.2184203]
+500 [0.20972517]
+600 [0.20559102]
+Model saved in file: ../models/model_fasttext_limited_table-butterfly
+pair: table,butterfly
+test loss: 0.442474 , test accuracy: 1.000000
+0 [4.633409]
+100 [0.64301717]
+200 [0.35243812]
+300 [0.23920131]
+400 [0.21256758]
+500 [0.19969134]
+600 [0.20423503]
+Model saved in file: ../models/model_fasttext_limited_table-car
+pair: table,car
+test loss: 0.449840 , test accuracy: 0.000000
+0 [4.5645785]
+100 [0.66626692]
+200 [0.35954571]
+300 [0.25576633]
+400 [0.21856359]
+500 [0.20636675]
+600 [0.20177823]
+Model saved in file: ../models/model_fasttext_limited_table-house
+pair: table,house
+test loss: 0.438124 , test accuracy: 1.000000
+0 [4.5761023]
+100 [0.65292656]
+200 [0.35453516]
+300 [0.24911605]
+400 [0.21139832]
+500 [0.2017332]
+600 [0.20825885]
+Model saved in file: ../models/model_fasttext_limited_table-window
+pair: table,window
+test loss: 0.423317 , test accuracy: 1.000000
+0 [4.6360402]
+100 [0.63949239]
+200 [0.36416692]
+300 [0.24977766]
+400 [0.21693598]
+500 [0.20315254]
+600 [0.20002468]
+Model saved in file: ../models/model_fasttext_limited_table-bed
+pair: table,bed
+test loss: 0.462456 , test accuracy: 0.000000
+0 [4.5791526]
+100 [0.6657244]
+200 [0.36678174]
+300 [0.24864969]
+400 [0.21536726]
+500 [0.20927835]
+600 [0.20713365]
+Model saved in file: ../models/model_fasttext_limited_table-key
+pair: table,key
+test loss: 0.402877 , test accuracy: 1.000000
+0 [4.6548548]
+100 [0.64720553]
+200 [0.35400885]
+300 [0.24981557]
+400 [0.21532422]
+500 [0.20752148]
+600 [0.21051472]
+Model saved in file: ../models/model_fasttext_limited_table-fly
+pair: table,fly
+test loss: 0.432150 , test accuracy: 1.000000
+0 [4.6606717]
+100 [0.64714682]
+200 [0.36325109]
+300 [0.25694141]
+400 [0.22076525]
+500 [0.20767696]
+600 [0.2075395]
+Model saved in file: ../models/model_fasttext_limited_table-bell
+pair: table,bell
+test loss: 0.410454 , test accuracy: 1.000000
+0 [4.6499982]
+100 [0.64528561]
+200 [0.35573348]
+300 [0.25673836]
+400 [0.21193571]
+500 [0.20421608]
+600 [0.20562056]
+Model saved in file: ../models/model_fasttext_limited_table-telephone
+pair: table,telephone
+test loss: 0.536367 , test accuracy: 0.000000
+0 [4.6923342]
+100 [0.65703404]
+200 [0.36860287]
+300 [0.25009814]
+400 [0.21606012]
+500 [0.20747715]
+600 [0.20156752]
+Model saved in file: ../models/model_fasttext_limited_table-saw
+pair: table,saw
+test loss: 0.462422 , test accuracy: 0.000000
+0 [4.6748075]
+100 [0.65755308]
+200 [0.35128149]
+300 [0.24432887]
+400 [0.21609321]
+500 [0.2008588]
+600 [0.19981301]
+Model saved in file: ../models/model_fasttext_limited_table-hand
+pair: table,hand
+test loss: 0.424872 , test accuracy: 0.000000
+0 [4.6203041]
+100 [0.66347152]
+200 [0.36530155]
+300 [0.25582802]
+400 [0.21513629]
+500 [0.20591009]
+600 [0.20851697]
+Model saved in file: ../models/model_fasttext_limited_foot-hammer
+pair: foot,hammer
+test loss: 0.431110 , test accuracy: 1.000000
+0 [4.5349874]
+100 [0.64567709]
+200 [0.35405627]
+300 [0.25187036]
+400 [0.211734]
+500 [0.20313962]
+600 [0.19993335]
+Model saved in file: ../models/model_fasttext_limited_foot-leg
+pair: foot,leg
+test loss: 0.424464 , test accuracy: 0.000000
+0 [4.5759435]
+100 [0.6561693]
+200 [0.35768738]
+300 [0.24558979]
+400 [0.21833792]
+500 [0.20418845]
+600 [0.20018859]
+Model saved in file: ../models/model_fasttext_limited_foot-tomato
+pair: foot,tomato
+test loss: 0.394673 , test accuracy: 1.000000
+0 [4.6226387]
+100 [0.64871365]
+200 [0.36329222]
+300 [0.24944848]
+400 [0.21518841]
+500 [0.21232843]
+600 [0.20350745]
+Model saved in file: ../models/model_fasttext_limited_foot-ant
+pair: foot,ant
+test loss: 0.355908 , test accuracy: 1.000000
+0 [4.5829687]
+100 [0.65780473]
+200 [0.3588503]
+300 [0.25265086]
+400 [0.217142]
+500 [0.20559499]
+600 [0.21070391]
+Model saved in file: ../models/model_fasttext_limited_foot-bee
+pair: foot,bee
+test loss: 0.292435 , test accuracy: 1.000000
+0 [4.6249747]
+100 [0.66046059]
+200 [0.34992957]
+300 [0.24776368]
+400 [0.21433525]
+500 [0.20298122]
+600 [0.20962656]
+Model saved in file: ../models/model_fasttext_limited_foot-dog
+pair: foot,dog
+test loss: 0.378398 , test accuracy: 1.000000
+0 [4.5937605]
+100 [0.6502791]
+200 [0.36504325]
+300 [0.2544058]
+400 [0.21895616]
+500 [0.21249717]
+600 [0.20722933]
+Model saved in file: ../models/model_fasttext_limited_foot-airplane
+pair: foot,airplane
+test loss: 0.312192 , test accuracy: 1.000000
+0 [4.5644217]
+100 [0.64077777]
+200 [0.35847825]
+300 [0.24830161]
+400 [0.21896534]
+500 [0.20916672]
+600 [0.20739272]
+Model saved in file: ../models/model_fasttext_limited_foot-bicycle
+pair: foot,bicycle
+test loss: 0.329251 , test accuracy: 1.000000
+0 [4.5877423]
+100 [0.64394385]
+200 [0.35540965]
+300 [0.25786102]
+400 [0.21862562]
+500 [0.21150938]
+600 [0.20805731]
+Model saved in file: ../models/model_fasttext_limited_foot-butterfly
+pair: foot,butterfly
+test loss: 0.368794 , test accuracy: 1.000000
+0 [4.6279802]
+100 [0.64925975]
+200 [0.35458696]
+300 [0.25183359]
+400 [0.21557663]
+500 [0.20575754]
+600 [0.20399381]
+Model saved in file: ../models/model_fasttext_limited_foot-car
+pair: foot,car
+test loss: 0.368662 , test accuracy: 1.000000
+0 [4.576901]
+100 [0.67156476]
+200 [0.35403368]
+300 [0.25425541]
+400 [0.21717249]
+500 [0.20670959]
+600 [0.20896173]
+Model saved in file: ../models/model_fasttext_limited_foot-house
+pair: foot,house
+test loss: 0.369562 , test accuracy: 1.000000
+0 [4.6065559]
+100 [0.65421927]
+200 [0.35116035]
+300 [0.2447042]
+400 [0.21895619]
+500 [0.20636038]
+600 [0.20934269]
+Model saved in file: ../models/model_fasttext_limited_foot-window
+pair: foot,window
+test loss: 0.333389 , test accuracy: 1.000000
+0 [4.5612698]
+100 [0.66622752]
+200 [0.36019489]
+300 [0.24582444]
+400 [0.219304]
+500 [0.21195489]
+600 [0.20965473]
+Model saved in file: ../models/model_fasttext_limited_foot-bed
+pair: foot,bed
+test loss: 0.360233 , test accuracy: 1.000000
+0 [4.7023635]
+100 [0.65187114]
+200 [0.36626613]
+300 [0.25360331]
+400 [0.21612029]
+500 [0.20656426]
+600 [0.20824176]
+Model saved in file: ../models/model_fasttext_limited_foot-key
+pair: foot,key
+test loss: 0.392641 , test accuracy: 0.000000
+0 [4.5838289]
+100 [0.65608078]
+200 [0.35407066]
+300 [0.25792596]
+400 [0.21744077]
+500 [0.20829777]
+600 [0.20947984]
+Model saved in file: ../models/model_fasttext_limited_foot-fly
+pair: foot,fly
+test loss: 0.341332 , test accuracy: 1.000000
+0 [4.5903702]
+100 [0.65119642]
+200 [0.36903441]
+300 [0.25694048]
+400 [0.22135316]
+500 [0.21256731]
+600 [0.21111688]
+Model saved in file: ../models/model_fasttext_limited_foot-bell
+pair: foot,bell
+test loss: 0.318202 , test accuracy: 1.000000
+0 [4.5951376]
+100 [0.64455074]
+200 [0.35976723]
+300 [0.24894783]
+400 [0.2200236]
+500 [0.20763691]
+600 [0.20546773]
+Model saved in file: ../models/model_fasttext_limited_foot-telephone
+pair: foot,telephone
+test loss: 0.439458 , test accuracy: 1.000000
+0 [4.558217]
+100 [0.66184807]
+200 [0.35364154]
+300 [0.25554234]
+400 [0.2152897]
+500 [0.20379069]
+600 [0.20138252]
+Model saved in file: ../models/model_fasttext_limited_foot-saw
+pair: foot,saw
+test loss: 0.364134 , test accuracy: 1.000000
+0 [4.566143]
+100 [0.65962887]
+200 [0.3562156]
+300 [0.2474052]
+400 [0.2102654]
+500 [0.20025519]
+600 [0.20761575]
+Model saved in file: ../models/model_fasttext_limited_foot-hand
+pair: foot,hand
+test loss: 0.402815 , test accuracy: 0.000000
+0 [4.5366392]
+100 [0.64442599]
+200 [0.35574171]
+300 [0.24424912]
+400 [0.21084926]
+500 [0.20125422]
+600 [0.20159224]
+Model saved in file: ../models/model_fasttext_limited_hammer-leg
+pair: hammer,leg
+test loss: 0.520491 , test accuracy: 0.000000
+0 [4.593133]
+100 [0.6364814]
+200 [0.34689081]
+300 [0.24577372]
+400 [0.21594809]
+500 [0.20678382]
+600 [0.20033622]
+Model saved in file: ../models/model_fasttext_limited_hammer-tomato
+pair: hammer,tomato
+test loss: 0.466177 , test accuracy: 1.000000
+0 [4.555069]
+100 [0.63218069]
+200 [0.36527193]
+300 [0.24233128]
+400 [0.21642798]
+500 [0.20904985]
+600 [0.20487563]
+Model saved in file: ../models/model_fasttext_limited_hammer-ant
+pair: hammer,ant
+test loss: 0.431233 , test accuracy: 1.000000
+0 [4.6047702]
+100 [0.65349293]
+200 [0.35774145]
+300 [0.25141782]
+400 [0.21906739]
+500 [0.20772955]
+600 [0.20681436]
+Model saved in file: ../models/model_fasttext_limited_hammer-bee
+pair: hammer,bee
+test loss: 0.372440 , test accuracy: 0.000000
+0 [4.6398611]
+100 [0.65631527]
+200 [0.35394669]
+300 [0.25172243]
+400 [0.21810062]
+500 [0.2052384]
+600 [0.20364907]
+Model saved in file: ../models/model_fasttext_limited_hammer-dog
+pair: hammer,dog
+test loss: 0.439453 , test accuracy: 1.000000
+0 [4.6991677]
+100 [0.66313565]
+200 [0.36407778]
+300 [0.25583643]
+400 [0.22174692]
+500 [0.20947881]
+600 [0.2050485]
+Model saved in file: ../models/model_fasttext_limited_hammer-airplane
+pair: hammer,airplane
+test loss: 0.371714 , test accuracy: 1.000000
+0 [4.5513649]
+100 [0.65943044]
+200 [0.35969821]
+300 [0.25109652]
+400 [0.22081161]
+500 [0.20656988]
+600 [0.20388328]
+Model saved in file: ../models/model_fasttext_limited_hammer-bicycle
+pair: hammer,bicycle
+test loss: 0.388850 , test accuracy: 1.000000
+0 [4.5666738]
+100 [0.6544084]
+200 [0.34403941]
+300 [0.25447583]
+400 [0.21664521]
+500 [0.2077754]
+600 [0.21059704]
+Model saved in file: ../models/model_fasttext_limited_hammer-butterfly
+pair: hammer,butterfly
+test loss: 0.440800 , test accuracy: 1.000000
+0 [4.5243254]
+100 [0.65012962]
+200 [0.35713866]
+300 [0.24627994]
+400 [0.21366711]
+500 [0.20412152]
+600 [0.20477864]
+Model saved in file: ../models/model_fasttext_limited_hammer-car
+pair: hammer,car
+test loss: 0.442785 , test accuracy: 1.000000
+0 [4.5780931]
+100 [0.66657454]
+200 [0.35729349]
+300 [0.2534909]
+400 [0.219832]
+500 [0.20623699]
+600 [0.20660686]
+Model saved in file: ../models/model_fasttext_limited_hammer-house
+pair: hammer,house
+test loss: 0.436089 , test accuracy: 1.000000
+0 [4.610148]
+100 [0.6555568]
+200 [0.36106429]
+300 [0.24894944]
+400 [0.22032467]
+500 [0.21075368]
+600 [0.20799807]
+Model saved in file: ../models/model_fasttext_limited_hammer-window
+pair: hammer,window
+test loss: 0.408528 , test accuracy: 1.000000
+0 [4.5700779]
+100 [0.64713418]
+200 [0.36322278]
+300 [0.24762146]
+400 [0.2167232]
+500 [0.20677754]
+600 [0.20312189]
+Model saved in file: ../models/model_fasttext_limited_hammer-bed
+pair: hammer,bed
+test loss: 0.434678 , test accuracy: 1.000000
+0 [4.6382856]
+100 [0.67363924]
+200 [0.35536844]
+300 [0.25134364]
+400 [0.22092643]
+500 [0.20913558]
+600 [0.20680758]
+Model saved in file: ../models/model_fasttext_limited_hammer-key
+pair: hammer,key
+test loss: 0.450952 , test accuracy: 0.000000
+0 [4.4771748]
+100 [0.64787167]
+200 [0.35562912]
+300 [0.24639349]
+400 [0.21237834]
+500 [0.20575699]
+600 [0.20793992]
+Model saved in file: ../models/model_fasttext_limited_hammer-fly
+pair: hammer,fly
+test loss: 0.386397 , test accuracy: 1.000000
+0 [4.6288986]
+100 [0.64848137]
+200 [0.35122484]
+300 [0.24963143]
+400 [0.21866137]
+500 [0.21278012]
+600 [0.20779604]
+Model saved in file: ../models/model_fasttext_limited_hammer-bell
+pair: hammer,bell
+test loss: 0.396684 , test accuracy: 0.000000
+0 [4.5561504]
+100 [0.66227359]
+200 [0.3627463]
+300 [0.2512373]
+400 [0.21645288]
+500 [0.2062324]
+600 [0.20526263]
+Model saved in file: ../models/model_fasttext_limited_hammer-telephone
+pair: hammer,telephone
+test loss: 0.521005 , test accuracy: 1.000000
+0 [4.5561819]
+100 [0.63864738]
+200 [0.35741103]
+300 [0.25193495]
+400 [0.21386319]
+500 [0.20833814]
+600 [0.20236096]
+Model saved in file: ../models/model_fasttext_limited_hammer-saw
+pair: hammer,saw
+test loss: 0.476023 , test accuracy: 0.000000
+0 [4.5795007]
+100 [0.64125401]
+200 [0.36017036]
+300 [0.24680251]
+400 [0.21721044]
+500 [0.20501277]
+600 [0.20273165]
+Model saved in file: ../models/model_fasttext_limited_hammer-hand
+pair: hammer,hand
+test loss: 0.401289 , test accuracy: 0.000000
+0 [4.5280395]
+100 [0.63238961]
+200 [0.34872597]
+300 [0.24098563]
+400 [0.20745613]
+500 [0.19979499]
+600 [0.20007391]
+Model saved in file: ../models/model_fasttext_limited_leg-tomato
+pair: leg,tomato
+test loss: 0.477831 , test accuracy: 1.000000
+0 [4.5552578]
+100 [0.63462055]
+200 [0.35209787]
+300 [0.25151345]
+400 [0.21294799]
+500 [0.20501001]
+600 [0.19828351]
+Model saved in file: ../models/model_fasttext_limited_leg-ant
+pair: leg,ant
+test loss: 0.452174 , test accuracy: 1.000000
+0 [4.6154423]
+100 [0.65413845]
+200 [0.35151207]
+300 [0.25176188]
+400 [0.21710223]
+500 [0.20672427]
+600 [0.2090466]
+Model saved in file: ../models/model_fasttext_limited_leg-bee
+pair: leg,bee
+test loss: 0.377812 , test accuracy: 1.000000
+0 [4.5998182]
+100 [0.63973922]
+200 [0.34007794]
+300 [0.24403222]
+400 [0.21376851]
+500 [0.20711124]
+600 [0.20064244]
+Model saved in file: ../models/model_fasttext_limited_leg-dog
+pair: leg,dog
+test loss: 0.470652 , test accuracy: 1.000000
+0 [4.6024308]
+100 [0.62138927]
+200 [0.35486332]
+300 [0.24892548]
+400 [0.21856916]
+500 [0.20958763]
+600 [0.20686212]
+Model saved in file: ../models/model_fasttext_limited_leg-airplane
+pair: leg,airplane
+test loss: 0.397270 , test accuracy: 1.000000
+0 [4.5887337]
+100 [0.63633084]
+200 [0.34968767]
+300 [0.24958709]
+400 [0.21147442]
+500 [0.20243806]
+600 [0.20497534]
+Model saved in file: ../models/model_fasttext_limited_leg-bicycle
+pair: leg,bicycle
+test loss: 0.419967 , test accuracy: 1.000000
+0 [4.5559444]
+100 [0.6382401]
+200 [0.35770258]
+300 [0.24663475]
+400 [0.21371806]
+500 [0.20409435]
+600 [0.20793775]
+Model saved in file: ../models/model_fasttext_limited_leg-butterfly
+pair: leg,butterfly
+test loss: 0.461134 , test accuracy: 1.000000
+0 [4.5610266]
+100 [0.64215159]
+200 [0.3431285]
+300 [0.24019478]
+400 [0.20913251]
+500 [0.19891085]
+600 [0.19865161]
+Model saved in file: ../models/model_fasttext_limited_leg-car
+pair: leg,car
+test loss: 0.465123 , test accuracy: 1.000000
+0 [4.4719586]
+100 [0.6347869]
+200 [0.35353532]
+300 [0.25460806]
+400 [0.20504507]
+500 [0.2059067]
+600 [0.20196652]
+Model saved in file: ../models/model_fasttext_limited_leg-house
+pair: leg,house
+test loss: 0.468969 , test accuracy: 1.000000
+0 [4.6071458]
+100 [0.64808452]
+200 [0.35041898]
+300 [0.25073165]
+400 [0.22106089]
+500 [0.20511983]
+600 [0.20232435]
+Model saved in file: ../models/model_fasttext_limited_leg-window
+pair: leg,window
+test loss: 0.421546 , test accuracy: 1.000000
+0 [4.6105709]
+100 [0.64578515]
+200 [0.35330886]
+300 [0.24491498]
+400 [0.21188824]
+500 [0.20418803]
+600 [0.20069069]
+Model saved in file: ../models/model_fasttext_limited_leg-bed
+pair: leg,bed
+test loss: 0.455736 , test accuracy: 1.000000
+0 [4.6481233]
+100 [0.65395504]
+200 [0.36163786]
+300 [0.25480175]
+400 [0.21417513]
+500 [0.2056191]
+600 [0.20625311]
+Model saved in file: ../models/model_fasttext_limited_leg-key
+pair: leg,key
+test loss: 0.453099 , test accuracy: 1.000000
+0 [4.5968094]
+100 [0.66033185]
+200 [0.35635301]
+300 [0.2499654]
+400 [0.21660915]
+500 [0.20469934]
+600 [0.20602843]
+Model saved in file: ../models/model_fasttext_limited_leg-fly
+pair: leg,fly
+test loss: 0.436677 , test accuracy: 1.000000
+0 [4.6543055]
+100 [0.64448303]
+200 [0.36261648]
+300 [0.24956924]
+400 [0.21560708]
+500 [0.20938614]
+600 [0.20061713]
+Model saved in file: ../models/model_fasttext_limited_leg-bell
+pair: leg,bell
+test loss: 0.417456 , test accuracy: 1.000000
+0 [4.5605521]
+100 [0.63550466]
+200 [0.35378364]
+300 [0.2453402]
+400 [0.21481967]
+500 [0.20493484]
+600 [0.20600888]
+Model saved in file: ../models/model_fasttext_limited_leg-telephone
+pair: leg,telephone
+test loss: 0.544040 , test accuracy: 1.000000
+0 [4.608655]
+100 [0.64901078]
+200 [0.35029957]
+300 [0.24987261]
+400 [0.21650615]
+500 [0.2029849]
+600 [0.19745123]
+Model saved in file: ../models/model_fasttext_limited_leg-saw
+pair: leg,saw
+test loss: 0.440870 , test accuracy: 0.000000
+0 [4.5620713]
+100 [0.62952852]
+200 [0.36003071]
+300 [0.24805298]
+400 [0.20534372]
+500 [0.19344704]
+600 [0.19797115]
+Model saved in file: ../models/model_fasttext_limited_leg-hand
+pair: leg,hand
+test loss: 0.484792 , test accuracy: 0.000000
+0 [4.5697393]
+100 [0.63081801]
+200 [0.34419802]
+300 [0.24610972]
+400 [0.21820018]
+500 [0.20775217]
+600 [0.20739374]
+Model saved in file: ../models/model_fasttext_limited_tomato-ant
+pair: tomato,ant
+test loss: 0.374804 , test accuracy: 1.000000
+0 [4.5278339]
+100 [0.64482391]
+200 [0.34694692]
+300 [0.24511677]
+400 [0.2166017]
+500 [0.20356402]
+600 [0.20449221]
+Model saved in file: ../models/model_fasttext_limited_tomato-bee
+pair: tomato,bee
+test loss: 0.320043 , test accuracy: 1.000000
+0 [4.6743503]
+100 [0.64692998]
+200 [0.34318721]
+300 [0.24561936]
+400 [0.21043564]
+500 [0.20919627]
+600 [0.20115247]
+Model saved in file: ../models/model_fasttext_limited_tomato-dog
+pair: tomato,dog
+test loss: 0.415370 , test accuracy: 1.000000
+0 [4.6417451]
+100 [0.6445654]
+200 [0.35230207]
+300 [0.25307843]
+400 [0.21838368]
+500 [0.20718077]
+600 [0.20676333]
+Model saved in file: ../models/model_fasttext_limited_tomato-airplane
+pair: tomato,airplane
+test loss: 0.341694 , test accuracy: 1.000000
+0 [4.605226]
+100 [0.64418238]
+200 [0.35073096]
+300 [0.24304286]
+400 [0.21642919]
+500 [0.20567986]
+600 [0.20335582]
+Model saved in file: ../models/model_fasttext_limited_tomato-bicycle
+pair: tomato,bicycle
+test loss: 0.355571 , test accuracy: 1.000000
+0 [4.5482183]
+100 [0.63352823]
+200 [0.3583765]
+300 [0.24215358]
+400 [0.21718352]
+500 [0.20958349]
+600 [0.19908969]
+Model saved in file: ../models/model_fasttext_limited_tomato-butterfly
+pair: tomato,butterfly
+test loss: 0.427525 , test accuracy: 1.000000
+0 [4.5666065]
+100 [0.64046603]
+200 [0.34740371]
+300 [0.23873293]
+400 [0.2035585]
+500 [0.20413451]
+600 [0.20563883]
+Model saved in file: ../models/model_fasttext_limited_tomato-car
+pair: tomato,car
+test loss: 0.404229 , test accuracy: 1.000000
+0 [4.5755448]
+100 [0.65316665]
+200 [0.35437685]
+300 [0.25018266]
+400 [0.21039917]
+500 [0.20145074]
+600 [0.19886459]
+Model saved in file: ../models/model_fasttext_limited_tomato-house
+pair: tomato,house
+test loss: 0.393196 , test accuracy: 1.000000
+0 [4.5681925]
+100 [0.65157104]
+200 [0.3490065]
+300 [0.24443239]
+400 [0.20770876]
+500 [0.20795017]
+600 [0.20025778]
+Model saved in file: ../models/model_fasttext_limited_tomato-window
+pair: tomato,window
+test loss: 0.365625 , test accuracy: 1.000000
+0 [4.654788]
+100 [0.6511777]
+200 [0.35010445]
+300 [0.24932002]
+400 [0.21427998]
+500 [0.2022924]
+600 [0.20077893]
+Model saved in file: ../models/model_fasttext_limited_tomato-bed
+pair: tomato,bed
+test loss: 0.401915 , test accuracy: 1.000000
+0 [4.6374578]
+100 [0.64801335]
+200 [0.35401806]
+300 [0.2497187]
+400 [0.21681626]
+500 [0.20828031]
+600 [0.20179801]
+Model saved in file: ../models/model_fasttext_limited_tomato-key
+pair: tomato,key
+test loss: 0.416459 , test accuracy: 1.000000
+0 [4.5758204]
+100 [0.61984491]
+200 [0.36022109]
+300 [0.24982664]
+400 [0.21183008]
+500 [0.20124653]
+600 [0.20468524]
+Model saved in file: ../models/model_fasttext_limited_tomato-fly
+pair: tomato,fly
+test loss: 0.374162 , test accuracy: 1.000000
+0 [4.6401396]
+100 [0.64862239]
+200 [0.35029471]
+300 [0.2493982]
+400 [0.21759652]
+500 [0.20708767]
+600 [0.20734018]
+Model saved in file: ../models/model_fasttext_limited_tomato-bell
+pair: tomato,bell
+test loss: 0.365326 , test accuracy: 0.000000
+0 [4.581099]
+100 [0.63369811]
+200 [0.34746778]
+300 [0.24875391]
+400 [0.20991339]
+500 [0.19942451]
+600 [0.19828095]
+Model saved in file: ../models/model_fasttext_limited_tomato-telephone
+pair: tomato,telephone
+test loss: 0.494864 , test accuracy: 1.000000
+0 [4.6117845]
+100 [0.65769511]
+200 [0.34638381]
+300 [0.24897197]
+400 [0.20911947]
+500 [0.20525159]
+600 [0.20983082]
+Model saved in file: ../models/model_fasttext_limited_tomato-saw
+pair: tomato,saw
+test loss: 0.397197 , test accuracy: 1.000000
+0 [4.5983605]
+100 [0.64070845]
+200 [0.34885067]
+300 [0.23642015]
+400 [0.21198294]
+500 [0.20006739]
+600 [0.20039444]
+Model saved in file: ../models/model_fasttext_limited_tomato-hand
+pair: tomato,hand
+test loss: 0.414064 , test accuracy: 1.000000
+0 [4.6183801]
+100 [0.64804763]
+200 [0.36689237]
+300 [0.25061694]
+400 [0.22548199]
+500 [0.21121494]
+600 [0.21133909]
+Model saved in file: ../models/model_fasttext_limited_ant-bee
+pair: ant,bee
+test loss: 0.289462 , test accuracy: 1.000000
+0 [4.6957545]
+100 [0.64689094]
+200 [0.35587057]
+300 [0.25365764]
+400 [0.21966849]
+500 [0.20819074]
+600 [0.20901227]
+Model saved in file: ../models/model_fasttext_limited_ant-dog
+pair: ant,dog
+test loss: 0.378482 , test accuracy: 0.000000
+0 [4.6077323]
+100 [0.64666206]
+200 [0.35944617]
+300 [0.25441548]
+400 [0.21933937]
+500 [0.21210679]
+600 [0.21386768]
+Model saved in file: ../models/model_fasttext_limited_ant-airplane
+pair: ant,airplane
+test loss: 0.309007 , test accuracy: 1.000000
+0 [4.5110812]
+100 [0.64465725]
+200 [0.36673057]
+300 [0.25303975]
+400 [0.22015992]
+500 [0.20956074]
+600 [0.20708059]
+Model saved in file: ../models/model_fasttext_limited_ant-bicycle
+pair: ant,bicycle
+test loss: 0.319066 , test accuracy: 1.000000
+0 [4.4904728]
+100 [0.64388281]
+200 [0.35730451]
+300 [0.25125283]
+400 [0.22260901]
+500 [0.21180514]
+600 [0.21308917]
+Model saved in file: ../models/model_fasttext_limited_ant-butterfly
+pair: ant,butterfly
+test loss: 0.363667 , test accuracy: 1.000000
+0 [4.592133]
+100 [0.64615679]
+200 [0.36096752]
+300 [0.25093746]
+400 [0.21733315]
+500 [0.20755067]
+600 [0.199278]
+Model saved in file: ../models/model_fasttext_limited_ant-car
+pair: ant,car
+test loss: 0.371217 , test accuracy: 1.000000
+0 [4.5233798]
+100 [0.67629337]
+200 [0.36009893]
+300 [0.24883106]
+400 [0.22168846]
+500 [0.21023725]
+600 [0.21023533]
+Model saved in file: ../models/model_fasttext_limited_ant-house
+pair: ant,house
+test loss: 0.351414 , test accuracy: 1.000000
+0 [4.5315132]
+100 [0.64736354]
+200 [0.34720293]
+300 [0.2517978]
+400 [0.21950532]
+500 [0.20904031]
+600 [0.21033208]
+Model saved in file: ../models/model_fasttext_limited_ant-window
+pair: ant,window
+test loss: 0.328486 , test accuracy: 1.000000
+0 [4.5302467]
+100 [0.64606261]
+200 [0.36465418]
+300 [0.25688004]
+400 [0.21548918]
+500 [0.21101382]
+600 [0.2103755]
+Model saved in file: ../models/model_fasttext_limited_ant-bed
+pair: ant,bed
+test loss: 0.358826 , test accuracy: 1.000000
+0 [4.54954]
+100 [0.67113274]
+200 [0.35847735]
+300 [0.25431788]
+400 [0.22038117]
+500 [0.20933729]
+600 [0.20739003]
+Model saved in file: ../models/model_fasttext_limited_ant-key
+pair: ant,key
+test loss: 0.383168 , test accuracy: 1.000000
+0 [4.643743]
+100 [0.64629257]
+200 [0.35490298]
+300 [0.26182759]
+400 [0.21423618]
+500 [0.20435497]
+600 [0.20961523]
+Model saved in file: ../models/model_fasttext_limited_ant-fly
+pair: ant,fly
+test loss: 0.342529 , test accuracy: 0.000000
+0 [4.5664725]
+100 [0.62901694]
+200 [0.36638951]
+300 [0.25313136]
+400 [0.22207952]
+500 [0.2112323]
+600 [0.2061857]
+Model saved in file: ../models/model_fasttext_limited_ant-bell
+pair: ant,bell
+test loss: 0.320621 , test accuracy: 1.000000
+0 [4.5966444]
+100 [0.6535148]
+200 [0.35866404]
+300 [0.24863082]
+400 [0.22487071]
+500 [0.20801252]
+600 [0.2058543]
+Model saved in file: ../models/model_fasttext_limited_ant-telephone
+pair: ant,telephone
+test loss: 0.447956 , test accuracy: 1.000000
+0 [4.5620637]
+100 [0.65694833]
+200 [0.36328509]
+300 [0.24901715]
+400 [0.22232229]
+500 [0.21264438]
+600 [0.20143154]
+Model saved in file: ../models/model_fasttext_limited_ant-saw
+pair: ant,saw
+test loss: 0.364647 , test accuracy: 1.000000
+0 [4.6126218]
+100 [0.63884336]
+200 [0.36252224]
+300 [0.25078678]
+400 [0.21337631]
+500 [0.2005046]
+600 [0.20095183]
+Model saved in file: ../models/model_fasttext_limited_ant-hand
+pair: ant,hand
+test loss: 0.381990 , test accuracy: 1.000000
+0 [4.629034]
+100 [0.65361142]
+200 [0.35200649]
+300 [0.25265014]
+400 [0.22235709]
+500 [0.20828]
+600 [0.20750076]
+Model saved in file: ../models/model_fasttext_limited_bee-dog
+pair: bee,dog
+test loss: 0.307808 , test accuracy: 0.000000
+0 [4.675426]
+100 [0.65395969]
+200 [0.36403114]
+300 [0.25876808]
+400 [0.22357678]
+500 [0.21633689]
+600 [0.21413134]
+Model saved in file: ../models/model_fasttext_limited_bee-airplane
+pair: bee,airplane
+test loss: 0.243252 , test accuracy: 1.000000
+0 [4.6724577]
+100 [0.6477195]
+200 [0.36115071]
+300 [0.25149432]
+400 [0.22005607]
+500 [0.21038739]
+600 [0.2071498]
+Model saved in file: ../models/model_fasttext_limited_bee-bicycle
+pair: bee,bicycle
+test loss: 0.258670 , test accuracy: 1.000000
+0 [4.5202479]
+100 [0.65218055]
+200 [0.36921102]
+300 [0.25780404]
+400 [0.22936013]
+500 [0.21351811]
+600 [0.21064854]
+Model saved in file: ../models/model_fasttext_limited_bee-butterfly
+pair: bee,butterfly
+test loss: 0.310283 , test accuracy: 1.000000
+0 [4.5057688]
+100 [0.63762391]
+200 [0.35582334]
+300 [0.25427592]
+400 [0.21446043]
+500 [0.21092874]
+600 [0.20761846]
+Model saved in file: ../models/model_fasttext_limited_bee-car
+pair: bee,car
+test loss: 0.304237 , test accuracy: 1.000000
+0 [4.6019826]
+100 [0.64543682]
+200 [0.37856978]
+300 [0.25257596]
+400 [0.21782853]
+500 [0.20492287]
+600 [0.20488]
+Model saved in file: ../models/model_fasttext_limited_bee-house
+pair: bee,house
+test loss: 0.300026 , test accuracy: 1.000000
+0 [4.7097058]
+100 [0.65555924]
+200 [0.35616061]
+300 [0.25875297]
+400 [0.21702391]
+500 [0.21088527]
+600 [0.21247223]
+Model saved in file: ../models/model_fasttext_limited_bee-window
+pair: bee,window
+test loss: 0.258516 , test accuracy: 1.000000
+0 [4.6234913]
+100 [0.65011418]
+200 [0.35538581]
+300 [0.2554397]
+400 [0.22184667]
+500 [0.20972273]
+600 [0.20932111]
+Model saved in file: ../models/model_fasttext_limited_bee-bed
+pair: bee,bed
+test loss: 0.296956 , test accuracy: 1.000000
+0 [4.6230927]
+100 [0.66026413]
+200 [0.36551884]
+300 [0.2597068]
+400 [0.2208803]
+500 [0.20988433]
+600 [0.20442352]
+Model saved in file: ../models/model_fasttext_limited_bee-key
+pair: bee,key
+test loss: 0.313780 , test accuracy: 1.000000
+0 [4.6707139]
+100 [0.66709745]
+200 [0.35939088]
+300 [0.25018084]
+400 [0.2240667]
+500 [0.21405675]
+600 [0.20705181]
+Model saved in file: ../models/model_fasttext_limited_bee-fly
+pair: bee,fly
+test loss: 0.302112 , test accuracy: 1.000000
+0 [4.6547894]
+100 [0.67040288]
+200 [0.37561679]
+300 [0.25597864]
+400 [0.22059405]
+500 [0.21276549]
+600 [0.21343003]
+Model saved in file: ../models/model_fasttext_limited_bee-bell
+pair: bee,bell
+test loss: 0.253041 , test accuracy: 1.000000
+0 [4.6465645]
+100 [0.64640182]
+200 [0.35895553]
+300 [0.24998973]
+400 [0.22039564]
+500 [0.21472025]
+600 [0.20315354]
+Model saved in file: ../models/model_fasttext_limited_bee-telephone
+pair: bee,telephone
+test loss: 0.409239 , test accuracy: 1.000000
+0 [4.6084232]
+100 [0.67613918]
+200 [0.35828078]
+300 [0.26189011]
+400 [0.21512693]
+500 [0.21091522]
+600 [0.20986758]
+Model saved in file: ../models/model_fasttext_limited_bee-saw
+pair: bee,saw
+test loss: 0.286131 , test accuracy: 1.000000
+0 [4.7685695]
+100 [0.6408655]
+200 [0.35572663]
+300 [0.24651268]
+400 [0.21336645]
+500 [0.20760912]
+600 [0.20169909]
+Model saved in file: ../models/model_fasttext_limited_bee-hand
+pair: bee,hand
+test loss: 0.309240 , test accuracy: 1.000000
+0 [4.641809]
+100 [0.653606]
+200 [0.35654959]
+300 [0.24925525]
+400 [0.21291865]
+500 [0.20822996]
+600 [0.21264844]
+Model saved in file: ../models/model_fasttext_limited_dog-airplane
+pair: dog,airplane
+test loss: 0.304326 , test accuracy: 1.000000
+0 [4.604732]
+100 [0.6490081]
+200 [0.35740334]
+300 [0.24759297]
+400 [0.21424074]
+500 [0.20429868]
+600 [0.20876357]
+Model saved in file: ../models/model_fasttext_limited_dog-bicycle
+pair: dog,bicycle
+test loss: 0.340572 , test accuracy: 1.000000
+0 [4.5675049]
+100 [0.65969652]
+200 [0.3558082]
+300 [0.24805807]
+400 [0.22071585]
+500 [0.20678559]
+600 [0.20470244]
+Model saved in file: ../models/model_fasttext_limited_dog-butterfly
+pair: dog,butterfly
+test loss: 0.377808 , test accuracy: 1.000000
+0 [4.6510758]
+100 [0.65599245]
+200 [0.35843644]
+300 [0.24326886]
+400 [0.21421807]
+500 [0.20286877]
+600 [0.20614366]
+Model saved in file: ../models/model_fasttext_limited_dog-car
+pair: dog,car
+test loss: 0.382865 , test accuracy: 1.000000
+0 [4.5282192]
+100 [0.65372384]
+200 [0.36159283]
+300 [0.25523967]
+400 [0.21762466]
+500 [0.20157996]
+600 [0.2024892]
+Model saved in file: ../models/model_fasttext_limited_dog-house
+pair: dog,house
+test loss: 0.371850 , test accuracy: 1.000000
+0 [4.6190615]
+100 [0.64586014]
+200 [0.35266745]
+300 [0.25194824]
+400 [0.21427593]
+500 [0.2081843]
+600 [0.20775706]
+Model saved in file: ../models/model_fasttext_limited_dog-window
+pair: dog,window
+test loss: 0.344056 , test accuracy: 1.000000
+0 [4.664186]
+100 [0.65354228]
+200 [0.35345516]
+300 [0.24997066]
+400 [0.22018307]
+500 [0.19944839]
+600 [0.20316283]
+Model saved in file: ../models/model_fasttext_limited_dog-bed
+pair: dog,bed
+test loss: 0.377453 , test accuracy: 1.000000
+0 [4.7056093]
+100 [0.66008669]
+200 [0.36549366]
+300 [0.25104493]
+400 [0.21756721]
+500 [0.2018391]
+600 [0.2072475]
+Model saved in file: ../models/model_fasttext_limited_dog-key
+pair: dog,key
+test loss: 0.383572 , test accuracy: 1.000000
+0 [4.728313]
+100 [0.64386326]
+200 [0.3584536]
+300 [0.24936774]
+400 [0.22163486]
+500 [0.20956311]
+600 [0.20937936]
+Model saved in file: ../models/model_fasttext_limited_dog-fly
+pair: dog,fly
+test loss: 0.354494 , test accuracy: 1.000000
+0 [4.657382]
+100 [0.65479493]
+200 [0.36213282]
+300 [0.25369546]
+400 [0.218438]
+500 [0.21411741]
+600 [0.20383206]
+Model saved in file: ../models/model_fasttext_limited_dog-bell
+pair: dog,bell
+test loss: 0.337471 , test accuracy: 1.000000
+0 [4.647172]
+100 [0.6381709]
+200 [0.35649288]
+300 [0.25048143]
+400 [0.21530174]
+500 [0.20495132]
+600 [0.20241784]
+Model saved in file: ../models/model_fasttext_limited_dog-telephone
+pair: dog,telephone
+test loss: 0.470573 , test accuracy: 1.000000
+0 [4.6543736]
+100 [0.62920177]
+200 [0.35933456]
+300 [0.24633911]
+400 [0.2150774]
+500 [0.20556906]
+600 [0.20393506]
+Model saved in file: ../models/model_fasttext_limited_dog-saw
+pair: dog,saw
+test loss: 0.382395 , test accuracy: 1.000000
+0 [4.658843]
+100 [0.65708268]
+200 [0.35519013]
+300 [0.24522778]
+400 [0.21069098]
+500 [0.20046222]
+600 [0.19933993]
+Model saved in file: ../models/model_fasttext_limited_dog-hand
+pair: dog,hand
+test loss: 0.393801 , test accuracy: 1.000000
+0 [4.6614623]
+100 [0.65232849]
+200 [0.36533254]
+300 [0.26025817]
+400 [0.21997797]
+500 [0.21554032]
+600 [0.20955093]
+Model saved in file: ../models/model_fasttext_limited_airplane-bicycle
+pair: airplane,bicycle
+test loss: 0.284054 , test accuracy: 1.000000
+0 [4.5455055]
+100 [0.64129955]
+200 [0.35892025]
+300 [0.25860971]
+400 [0.22357875]
+500 [0.21544608]
+600 [0.2104008]
+Model saved in file: ../models/model_fasttext_limited_airplane-butterfly
+pair: airplane,butterfly
+test loss: 0.332323 , test accuracy: 1.000000
+0 [4.5219202]
+100 [0.63983691]
+200 [0.35091788]
+300 [0.25546861]
+400 [0.21432471]
+500 [0.20434549]
+600 [0.20743486]
+Model saved in file: ../models/model_fasttext_limited_airplane-car
+pair: airplane,car
+test loss: 0.327304 , test accuracy: 1.000000
+0 [4.6082335]
+100 [0.64592588]
+200 [0.3552393]
+300 [0.26448366]
+400 [0.21889684]
+500 [0.2142154]
+600 [0.20617494]
+Model saved in file: ../models/model_fasttext_limited_airplane-house
+pair: airplane,house
+test loss: 0.311851 , test accuracy: 1.000000
+0 [4.5915947]
+100 [0.6465888]
+200 [0.35276988]
+300 [0.25389424]
+400 [0.219512]
+500 [0.2136835]
+600 [0.20702368]
+Model saved in file: ../models/model_fasttext_limited_airplane-window
+pair: airplane,window
+test loss: 0.285737 , test accuracy: 1.000000
+0 [4.6456175]
+100 [0.65062648]
+200 [0.36225769]
+300 [0.2524201]
+400 [0.2203052]
+500 [0.207801]
+600 [0.21239248]
+Model saved in file: ../models/model_fasttext_limited_airplane-bed
+pair: airplane,bed
+test loss: 0.320698 , test accuracy: 1.000000
+0 [4.6393933]
+100 [0.67102134]
+200 [0.37166458]
+300 [0.2544919]
+400 [0.21957023]
+500 [0.2142172]
+600 [0.21007253]
+Model saved in file: ../models/model_fasttext_limited_airplane-key
+pair: airplane,key
+test loss: 0.335453 , test accuracy: 1.000000
+0 [4.6442037]
+100 [0.64700049]
+200 [0.36790186]
+300 [0.25884566]
+400 [0.21972993]
+500 [0.21129099]
+600 [0.21071799]
+Model saved in file: ../models/model_fasttext_limited_airplane-fly
+pair: airplane,fly
+test loss: 0.331657 , test accuracy: 1.000000
+0 [4.6894407]
+100 [0.65488124]
+200 [0.37213051]
+300 [0.26616889]
+400 [0.22350146]
+500 [0.21193719]
+600 [0.21290284]
+Model saved in file: ../models/model_fasttext_limited_airplane-bell
+pair: airplane,bell
+test loss: 0.280411 , test accuracy: 1.000000
+0 [4.5390315]
+100 [0.65964401]
+200 [0.36249459]
+300 [0.24862978]
+400 [0.22137851]
+500 [0.20418172]
+600 [0.20171332]
+Model saved in file: ../models/model_fasttext_limited_airplane-telephone
+pair: airplane,telephone
+test loss: 0.409058 , test accuracy: 1.000000
+0 [4.6449137]
+100 [0.66449618]
+200 [0.37501431]
+300 [0.25160259]
+400 [0.21402687]
+500 [0.21256356]
+600 [0.2061456]
+Model saved in file: ../models/model_fasttext_limited_airplane-saw
+pair: airplane,saw
+test loss: 0.327110 , test accuracy: 1.000000
+0 [4.7356038]
+100 [0.636078]
+200 [0.35631996]
+300 [0.24414831]
+400 [0.21521288]
+500 [0.20710459]
+600 [0.20237744]
+Model saved in file: ../models/model_fasttext_limited_airplane-hand
+pair: airplane,hand
+test loss: 0.338298 , test accuracy: 1.000000
+0 [4.5496712]
+100 [0.65539753]
+200 [0.36794743]
+300 [0.25456125]
+400 [0.21932976]
+500 [0.21386389]
+600 [0.20849246]
+Model saved in file: ../models/model_fasttext_limited_bicycle-butterfly
+pair: bicycle,butterfly
+test loss: 0.333140 , test accuracy: 1.000000
+0 [4.5485415]
+100 [0.63701224]
+200 [0.35597673]
+300 [0.2514782]
+400 [0.21581689]
+500 [0.20777754]
+600 [0.20833537]
+Model saved in file: ../models/model_fasttext_limited_bicycle-car
+pair: bicycle,car
+test loss: 0.307484 , test accuracy: 1.000000
+0 [4.5876245]
+100 [0.65677023]
+200 [0.36356217]
+300 [0.25784865]
+400 [0.22504812]
+500 [0.20460726]
+600 [0.20817277]
+Model saved in file: ../models/model_fasttext_limited_bicycle-house
+pair: bicycle,house
+test loss: 0.341161 , test accuracy: 1.000000
+0 [4.6844535]
+100 [0.65275645]
+200 [0.36923698]
+300 [0.25206459]
+400 [0.22567227]
+500 [0.21129641]
+600 [0.21097714]
+Model saved in file: ../models/model_fasttext_limited_bicycle-window
+pair: bicycle,window
+test loss: 0.297209 , test accuracy: 1.000000
+0 [4.6290679]
+100 [0.66046941]
+200 [0.35542765]
+300 [0.25650844]
+400 [0.21600991]
+500 [0.20979947]
+600 [0.20436156]
+Model saved in file: ../models/model_fasttext_limited_bicycle-bed
+pair: bicycle,bed
+test loss: 0.330564 , test accuracy: 1.000000
+0 [4.6062112]
+100 [0.65213299]
+200 [0.36134186]
+300 [0.25472742]
+400 [0.21513082]
+500 [0.21031332]
+600 [0.2087931]
+Model saved in file: ../models/model_fasttext_limited_bicycle-key
+pair: bicycle,key
+test loss: 0.349326 , test accuracy: 1.000000
+0 [4.6582217]
+100 [0.63791907]
+200 [0.3685571]
+300 [0.25710234]
+400 [0.21988314]
+500 [0.21023387]
+600 [0.21193625]
+Model saved in file: ../models/model_fasttext_limited_bicycle-fly
+pair: bicycle,fly
+test loss: 0.304613 , test accuracy: 1.000000
+0 [4.6929722]
+100 [0.65100908]
+200 [0.37049684]
+300 [0.25981402]
+400 [0.22258924]
+500 [0.21111868]
+600 [0.21035293]
+Model saved in file: ../models/model_fasttext_limited_bicycle-bell
+pair: bicycle,bell
+test loss: 0.290430 , test accuracy: 1.000000
+0 [4.5686526]
+100 [0.65051156]
+200 [0.36224449]
+300 [0.24799967]
+400 [0.21724334]
+500 [0.21392074]
+600 [0.20545359]
+Model saved in file: ../models/model_fasttext_limited_bicycle-telephone
+pair: bicycle,telephone
+test loss: 0.431935 , test accuracy: 1.000000
+0 [4.6333637]
+100 [0.6784656]
+200 [0.35910353]
+300 [0.25661555]
+400 [0.22097416]
+500 [0.21010265]
+600 [0.20484175]
+Model saved in file: ../models/model_fasttext_limited_bicycle-saw
+pair: bicycle,saw
+test loss: 0.330309 , test accuracy: 1.000000
+0 [4.6395049]
+100 [0.66146481]
+200 [0.35692579]
+300 [0.24044359]
+400 [0.21298452]
+500 [0.20698243]
+600 [0.20552762]
+Model saved in file: ../models/model_fasttext_limited_bicycle-hand
+pair: bicycle,hand
+test loss: 0.348875 , test accuracy: 1.000000
+0 [4.5686831]
+100 [0.63830721]
+200 [0.36024386]
+300 [0.24793559]
+400 [0.22079778]
+500 [0.20049378]
+600 [0.20841941]
+Model saved in file: ../models/model_fasttext_limited_butterfly-car
+pair: butterfly,car
+test loss: 0.371087 , test accuracy: 1.000000
+0 [4.549015]
+100 [0.65674913]
+200 [0.35645944]
+300 [0.2566193]
+400 [0.21592048]
+500 [0.21477672]
+600 [0.20923358]
+Model saved in file: ../models/model_fasttext_limited_butterfly-house
+pair: butterfly,house
+test loss: 0.389186 , test accuracy: 1.000000
+0 [4.5415945]
+100 [0.65848774]
+200 [0.3578524]
+300 [0.25018716]
+400 [0.22088486]
+500 [0.20918393]
+600 [0.20791428]
+Model saved in file: ../models/model_fasttext_limited_butterfly-window
+pair: butterfly,window
+test loss: 0.340751 , test accuracy: 1.000000
+0 [4.4762564]
+100 [0.65446162]
+200 [0.35962993]
+300 [0.25414041]
+400 [0.21229231]
+500 [0.20689884]
+600 [0.21435849]
+Model saved in file: ../models/model_fasttext_limited_butterfly-bed
+pair: butterfly,bed
+test loss: 0.371225 , test accuracy: 1.000000
+0 [4.5238628]
+100 [0.66412175]
+200 [0.36025178]
+300 [0.25046456]
+400 [0.22007342]
+500 [0.20793758]
+600 [0.20705706]
+Model saved in file: ../models/model_fasttext_limited_butterfly-key
+pair: butterfly,key
+test loss: 0.409010 , test accuracy: 1.000000
+0 [4.6192675]
+100 [0.66424024]
+200 [0.35924602]
+300 [0.25322193]
+400 [0.22220024]
+500 [0.20874995]
+600 [0.21001296]
+Model saved in file: ../models/model_fasttext_limited_butterfly-fly
+pair: butterfly,fly
+test loss: 0.367551 , test accuracy: 1.000000
+0 [4.6889639]
+100 [0.64294815]
+200 [0.35910511]
+300 [0.26207402]
+400 [0.22282337]
+500 [0.21321401]
+600 [0.20791525]
+Model saved in file: ../models/model_fasttext_limited_butterfly-bell
+pair: butterfly,bell
+test loss: 0.343346 , test accuracy: 1.000000
+0 [4.4832544]
+100 [0.63119543]
+200 [0.34692931]
+300 [0.24847871]
+400 [0.2174134]
+500 [0.20984598]
+600 [0.21064112]
+Model saved in file: ../models/model_fasttext_limited_butterfly-telephone
+pair: butterfly,telephone
+test loss: 0.478455 , test accuracy: 1.000000
+0 [4.6148462]
+100 [0.64861625]
+200 [0.3503893]
+300 [0.25575939]
+400 [0.21810609]
+500 [0.21022573]
+600 [0.2102955]
+Model saved in file: ../models/model_fasttext_limited_butterfly-saw
+pair: butterfly,saw
+test loss: 0.374005 , test accuracy: 1.000000
+0 [4.6318521]
+100 [0.65072501]
+200 [0.34793228]
+300 [0.24751234]
+400 [0.21480605]
+500 [0.21064258]
+600 [0.20681091]
+Model saved in file: ../models/model_fasttext_limited_butterfly-hand
+pair: butterfly,hand
+test loss: 0.395142 , test accuracy: 1.000000
+0 [4.5577335]
+100 [0.64294118]
+200 [0.35301736]
+300 [0.24415496]
+400 [0.21660173]
+500 [0.20732877]
+600 [0.20396586]
+Model saved in file: ../models/model_fasttext_limited_car-house
+pair: car,house
+test loss: 0.380215 , test accuracy: 1.000000
+0 [4.6239371]
+100 [0.65620208]
+200 [0.35186544]
+300 [0.24782036]
+400 [0.21940053]
+500 [0.20998412]
+600 [0.20616484]
+Model saved in file: ../models/model_fasttext_limited_car-window
+pair: car,window
+test loss: 0.341129 , test accuracy: 1.000000
+0 [4.637949]
+100 [0.63623583]
+200 [0.35849881]
+300 [0.24394883]
+400 [0.21473496]
+500 [0.20364164]
+600 [0.20486851]
+Model saved in file: ../models/model_fasttext_limited_car-bed
+pair: car,bed
+test loss: 0.377326 , test accuracy: 1.000000
+0 [4.7417121]
+100 [0.64994979]
+200 [0.34878695]
+300 [0.25467974]
+400 [0.21179536]
+500 [0.20815374]
+600 [0.20685446]
+Model saved in file: ../models/model_fasttext_limited_car-key
+pair: car,key
+test loss: 0.395550 , test accuracy: 1.000000
+0 [4.6029263]
+100 [0.64163482]
+200 [0.3582471]
+300 [0.2491948]
+400 [0.21047485]
+500 [0.20989208]
+600 [0.20434649]
+Model saved in file: ../models/model_fasttext_limited_car-fly
+pair: car,fly
+test loss: 0.362078 , test accuracy: 1.000000
+0 [4.7704573]
+100 [0.64818645]
+200 [0.35205036]
+300 [0.25308394]
+400 [0.21918994]
+500 [0.20785411]
+600 [0.20503448]
+Model saved in file: ../models/model_fasttext_limited_car-bell
+pair: car,bell
+test loss: 0.339372 , test accuracy: 1.000000
+0 [4.4972491]
+100 [0.64670193]
+200 [0.34701952]
+300 [0.24825852]
+400 [0.21301214]
+500 [0.19714957]
+600 [0.20175198]
+Model saved in file: ../models/model_fasttext_limited_car-telephone
+pair: car,telephone
+test loss: 0.462260 , test accuracy: 0.000000
+0 [4.7061424]
+100 [0.66682363]
+200 [0.35024169]
+300 [0.24933931]
+400 [0.21751736]
+500 [0.20413698]
+600 [0.20848535]
+Model saved in file: ../models/model_fasttext_limited_car-saw
+pair: car,saw
+test loss: 0.383552 , test accuracy: 1.000000
+0 [4.6358628]
+100 [0.63024002]
+200 [0.34997106]
+300 [0.24097785]
+400 [0.2068603]
+500 [0.19870587]
+600 [0.20178312]
+Model saved in file: ../models/model_fasttext_limited_car-hand
+pair: car,hand
+test loss: 0.404434 , test accuracy: 1.000000
+0 [4.5934715]
+100 [0.65773821]
+200 [0.35334337]
+300 [0.248579]
+400 [0.21686263]
+500 [0.20556878]
+600 [0.21177849]
+Model saved in file: ../models/model_fasttext_limited_house-window
+pair: house,window
+test loss: 0.336465 , test accuracy: 1.000000
+0 [4.6506519]
+100 [0.64588326]
+200 [0.36401013]
+300 [0.25617552]
+400 [0.21306646]
+500 [0.20722887]
+600 [0.20361367]
+Model saved in file: ../models/model_fasttext_limited_house-bed
+pair: house,bed
+test loss: 0.373319 , test accuracy: 1.000000
+0 [4.6599555]
+100 [0.66387618]
+200 [0.36174953]
+300 [0.25000364]
+400 [0.2176422]
+500 [0.20824751]
+600 [0.20739822]
+Model saved in file: ../models/model_fasttext_limited_house-key
+pair: house,key
+test loss: 0.381380 , test accuracy: 1.000000
+0 [4.5116916]
+100 [0.66451055]
+200 [0.36051798]
+300 [0.25796714]
+400 [0.22224215]
+500 [0.20763288]
+600 [0.19869135]
+Model saved in file: ../models/model_fasttext_limited_house-fly
+pair: house,fly
+test loss: 0.344372 , test accuracy: 1.000000
+0 [4.6768022]
+100 [0.67291534]
+200 [0.36712992]
+300 [0.26103124]
+400 [0.21894857]
+500 [0.20904553]
+600 [0.2070528]
+Model saved in file: ../models/model_fasttext_limited_house-bell
+pair: house,bell
+test loss: 0.330280 , test accuracy: 1.000000
+0 [4.6180592]
+100 [0.64921641]
+200 [0.36092627]
+300 [0.25231135]
+400 [0.21375164]
+500 [0.20518652]
+600 [0.20456129]
+Model saved in file: ../models/model_fasttext_limited_house-telephone
+pair: house,telephone
+test loss: 0.444012 , test accuracy: 0.000000
+0 [4.64641]
+100 [0.67805761]
+200 [0.36832404]
+300 [0.25094855]
+400 [0.2143124]
+500 [0.21015492]
+600 [0.2043156]
+Model saved in file: ../models/model_fasttext_limited_house-saw
+pair: house,saw
+test loss: 0.365733 , test accuracy: 1.000000
+0 [4.672636]
+100 [0.64249706]
+200 [0.34704879]
+300 [0.24217001]
+400 [0.2099231]
+500 [0.20520316]
+600 [0.20570736]
+Model saved in file: ../models/model_fasttext_limited_house-hand
+pair: house,hand
+test loss: 0.387511 , test accuracy: 1.000000
+0 [4.6573048]
+100 [0.66859877]
+200 [0.36212641]
+300 [0.25299206]
+400 [0.21408859]
+500 [0.21539687]
+600 [0.2126222]
+Model saved in file: ../models/model_fasttext_limited_window-bed
+pair: window,bed
+test loss: 0.338576 , test accuracy: 1.000000
+0 [4.6129484]
+100 [0.64318156]
+200 [0.35877165]
+300 [0.25055087]
+400 [0.21505044]
+500 [0.21081178]
+600 [0.20945561]
+Model saved in file: ../models/model_fasttext_limited_window-key
+pair: window,key
+test loss: 0.354938 , test accuracy: 1.000000
+0 [4.6674256]
+100 [0.65203893]
+200 [0.3575666]
+300 [0.24862105]
+400 [0.22035353]
+500 [0.20646259]
+600 [0.20277151]
+Model saved in file: ../models/model_fasttext_limited_window-fly
+pair: window,fly
+test loss: 0.315073 , test accuracy: 1.000000
+0 [4.7065077]
+100 [0.65521747]
+200 [0.3656961]
+300 [0.2579447]
+400 [0.22738633]
+500 [0.20954801]
+600 [0.2122642]
+Model saved in file: ../models/model_fasttext_limited_window-bell
+pair: window,bell
+test loss: 0.301196 , test accuracy: 1.000000
+0 [4.6023068]
+100 [0.64488864]
+200 [0.35678151]
+300 [0.24230254]
+400 [0.2169227]
+500 [0.20349112]
+600 [0.2055243]
+Model saved in file: ../models/model_fasttext_limited_window-telephone
+pair: window,telephone
+test loss: 0.426296 , test accuracy: 1.000000
+0 [4.6792278]
+100 [0.65578711]
+200 [0.37109652]
+300 [0.25290215]
+400 [0.21230102]
+500 [0.20519543]
+600 [0.20440893]
+Model saved in file: ../models/model_fasttext_limited_window-saw
+pair: window,saw
+test loss: 0.326244 , test accuracy: 1.000000
+0 [4.6656141]
+100 [0.65495884]
+200 [0.36002833]
+300 [0.24765436]
+400 [0.20879413]
+500 [0.19842453]
+600 [0.20350069]
+Model saved in file: ../models/model_fasttext_limited_window-hand
+pair: window,hand
+test loss: 0.354247 , test accuracy: 1.000000
+0 [4.6396832]
+100 [0.67248625]
+200 [0.36633894]
+300 [0.24988434]
+400 [0.21686324]
+500 [0.20876506]
+600 [0.20923118]
+Model saved in file: ../models/model_fasttext_limited_bed-key
+pair: bed,key
+test loss: 0.411598 , test accuracy: 1.000000
+0 [4.6919656]
+100 [0.65666413]
+200 [0.35945991]
+300 [0.2486037]
+400 [0.21534909]
+500 [0.213615]
+600 [0.20368209]
+Model saved in file: ../models/model_fasttext_limited_bed-fly
+pair: bed,fly
+test loss: 0.333110 , test accuracy: 1.000000
+0 [4.6693587]
+100 [0.63543165]
+200 [0.36285123]
+300 [0.25131166]
+400 [0.21718344]
+500 [0.2085468]
+600 [0.21213038]
+Model saved in file: ../models/model_fasttext_limited_bed-bell
+pair: bed,bell
+test loss: 0.342847 , test accuracy: 1.000000
+0 [4.6048002]
+100 [0.6325258]
+200 [0.36413383]
+300 [0.24613033]
+400 [0.21666813]
+500 [0.20916992]
+600 [0.20515853]
+Model saved in file: ../models/model_fasttext_limited_bed-telephone
+pair: bed,telephone
+test loss: 0.462543 , test accuracy: 1.000000
+0 [4.6260676]
+100 [0.66553688]
+200 [0.36490285]
+300 [0.25133294]
+400 [0.21162368]
+500 [0.20936246]
+600 [0.20631287]
+Model saved in file: ../models/model_fasttext_limited_bed-saw
+pair: bed,saw
+test loss: 0.372755 , test accuracy: 1.000000
+0 [4.6492376]
+100 [0.6543299]
+200 [0.35889208]
+300 [0.24311467]
+400 [0.21185473]
+500 [0.20233771]
+600 [0.19949785]
+Model saved in file: ../models/model_fasttext_limited_bed-hand
+pair: bed,hand
+test loss: 0.387201 , test accuracy: 1.000000
+0 [4.5890336]
+100 [0.66914403]
+200 [0.37190527]
+300 [0.25692552]
+400 [0.21770984]
+500 [0.21289743]
+600 [0.21063131]
+Model saved in file: ../models/model_fasttext_limited_key-fly
+pair: key,fly
+test loss: 0.363979 , test accuracy: 1.000000
+0 [4.7064466]
+100 [0.66155219]
+200 [0.36762768]
+300 [0.25885954]
+400 [0.2246308]
+500 [0.21369945]
+600 [0.20783491]
+Model saved in file: ../models/model_fasttext_limited_key-bell
+pair: key,bell
+test loss: 0.354683 , test accuracy: 0.000000
+0 [4.5892482]
+100 [0.65091169]
+200 [0.36497885]
+300 [0.25109738]
+400 [0.22124809]
+500 [0.20484941]
+600 [0.20602039]
+Model saved in file: ../models/model_fasttext_limited_key-telephone
+pair: key,telephone
+test loss: 0.480586 , test accuracy: 1.000000
+0 [4.6737518]
+100 [0.6628387]
+200 [0.36407354]
+300 [0.25445992]
+400 [0.21921824]
+500 [0.20709945]
+600 [0.20811862]
+Model saved in file: ../models/model_fasttext_limited_key-saw
+pair: key,saw
+test loss: 0.386413 , test accuracy: 0.000000
+0 [4.6808472]
+100 [0.64180136]
+200 [0.35452244]
+300 [0.24305388]
+400 [0.20572998]
+500 [0.20469545]
+600 [0.19831473]
+Model saved in file: ../models/model_fasttext_limited_key-hand
+pair: key,hand
+test loss: 0.458532 , test accuracy: 1.000000
+0 [4.6634479]
+100 [0.6639654]
+200 [0.36807457]
+300 [0.25358096]
+400 [0.21752699]
+500 [0.21312071]
+600 [0.2089977]
+Model saved in file: ../models/model_fasttext_limited_fly-bell
+pair: fly,bell
+test loss: 0.312059 , test accuracy: 1.000000
+0 [4.5157266]
+100 [0.64279151]
+200 [0.37146455]
+300 [0.2501815]
+400 [0.2150331]
+500 [0.20772159]
+600 [0.20846672]
+Model saved in file: ../models/model_fasttext_limited_fly-telephone
+pair: fly,telephone
+test loss: 0.432488 , test accuracy: 1.000000
+0 [4.5918531]
+100 [0.64763927]
+200 [0.35962588]
+300 [0.25461668]
+400 [0.22228423]
+500 [0.21065901]
+600 [0.20529771]
+Model saved in file: ../models/model_fasttext_limited_fly-saw
+pair: fly,saw
+test loss: 0.357536 , test accuracy: 1.000000
+0 [4.5247664]
+100 [0.63495564]
+200 [0.35827065]
+300 [0.25189844]
+400 [0.21508527]
+500 [0.20383933]
+600 [0.20507552]
+Model saved in file: ../models/model_fasttext_limited_fly-hand
+pair: fly,hand
+test loss: 0.362867 , test accuracy: 1.000000
+0 [4.6263757]
+100 [0.65060407]
+200 [0.36652458]
+300 [0.25372943]
+400 [0.21496049]
+500 [0.21206783]
+600 [0.20257145]
+Model saved in file: ../models/model_fasttext_limited_bell-telephone
+pair: bell,telephone
+test loss: 0.372131 , test accuracy: 1.000000
+0 [4.7093644]
+100 [0.66187263]
+200 [0.37497026]
+300 [0.25720465]
+400 [0.21750432]
+500 [0.2073044]
+600 [0.20415398]
+Model saved in file: ../models/model_fasttext_limited_bell-saw
+pair: bell,saw
+test loss: 0.332735 , test accuracy: 0.000000
+0 [4.7441845]
+100 [0.6655969]
+200 [0.36100495]
+300 [0.24881008]
+400 [0.21382543]
+500 [0.20409063]
+600 [0.2053121]
+Model saved in file: ../models/model_fasttext_limited_bell-hand
+pair: bell,hand
+test loss: 0.356818 , test accuracy: 1.000000
+0 [4.6814198]
+100 [0.65125489]
+200 [0.34824413]
+300 [0.25223047]
+400 [0.21847123]
+500 [0.20530908]
+600 [0.20765486]
+Model saved in file: ../models/model_fasttext_limited_telephone-saw
+pair: telephone,saw
+test loss: 0.464270 , test accuracy: 1.000000
+0 [4.5827289]
+100 [0.6508972]
+200 [0.35488546]
+300 [0.24422048]
+400 [0.20944335]
+500 [0.20039323]
+600 [0.19681907]
+Model saved in file: ../models/model_fasttext_limited_telephone-hand
+pair: telephone,hand
+test loss: 0.485043 , test accuracy: 1.000000
+0 [4.6493392]
+100 [0.66284537]
+200 [0.35811758]
+300 [0.24705449]
+400 [0.2154039]
+500 [0.20292814]
+600 [0.19885473]
+Model saved in file: ../models/model_fasttext_limited_saw-hand
+pair: saw,hand
+test loss: 0.381416 , test accuracy: 0.000000
+accuracy:  0.884033613445
+learning_rate: 0.001batch_size: 29number_of_epochs: 700

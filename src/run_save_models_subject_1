@@ -1,0 +1,11 @@
+python3 tf_main_deps_limited_voxel_accuracy.py --subject 1 > res_voxel_accuracy_deps_limited_1
+python3 tf_main_experimental_limited_voxel_accuracy.py --subject 1 > res_voxel_accuracy_experimental_limited_1
+python3 tf_main_word2vec_limited_voxel_accuracy.py --subject 1 > res_voxel_accuracy_word2vec_limited_1
+python3 tf_main_F25_voxel_limited_accuracy.py --subject 1 > res_voxel_accuracy_F25_limited_1
+python3 tf_main_fasttext_limited_voxel_accuracy.py --subject 1 > res_voxel_accuracy_fasttext_limited_1
+
+python3 tf_main_deps_voxel_accuracy.py --subject 1 > res_voxel_accuracy_deps_1
+python3 tf_main_word2vec_voxel_accuracy.py --subject 1 > res_voxel_accuracy_word2vec_1
+python3 tf_main_F25_voxel_accuracy.py --subject 1 > res_voxel_accuracy_F25_1
+python3 tf_main_fasttext_voxel_accuracy.py --subject 1 > res_voxel_accuracy_fasttext_1
+
