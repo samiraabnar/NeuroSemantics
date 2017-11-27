@@ -1,0 +1,12 @@
+python3 tf_main_reversed_limited_exp.py --subject 1 > experiential_reversed_2_sub1 &
+python3 tf_main_reversed_limited_exp.py --subject 2 > experiential_reversed_2_sub2 &
+wait
+python3 tf_main_reversed_limited_exp.py --subject 3 > experiential_reversed_2_sub3 &
+python3 tf_main_reversed_limited_exp.py --subject 4 > experiential_reversed_2_sub4 &
+python3 tf_main_reversed_limited_exp.py --subject 5 > experiential_reversed_2_sub5 &
+wait
+python3 tf_main_reversed_limited_exp.py --subject 6 > experiential_reversed_2_sub6 &
+python3 tf_main_reversed_limited_exp.py --subject 7 > experiential_reversed_2_sub7 &
+wait
+python3 tf_main_reversed_limited_exp.py --subject 8 > experiential_reversed_2_sub8 &
+python3 tf_main_reversed_limited_exp.py --subject 9 > experiential_reversed_2_sub9 &

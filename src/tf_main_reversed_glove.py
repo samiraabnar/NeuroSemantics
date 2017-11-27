@@ -1,5 +1,8 @@
 import argparse
 from tf_LRModel_reversed import *
+from scipy import *
+from scipy.spatial import *
+
 
 
 class ExpSetup(object):
@@ -39,9 +42,10 @@ if __name__ == '__main__':
     print("subject id %s" % args.subject)
 
     words, y_all, x_all = LRModel.prepare_data(fMRI_file=fMRI_data_path+fMRI_data_filename+args.subject+fMRI_data_postfix,
-                                               subject=args.subject,type="glove")
+                                               subject=args.subject,type="deps")
 
-
+    word_tree = cKDTree(y_all)
+    results = []
     word_set = list(set(words))
     accuracies = []
     print(x_all.shape[0], x_all.shape[1])
@@ -68,8 +72,17 @@ if __name__ == '__main__':
         lrm.train(x_train=x_train, y_train=y_train, x_test=x_test, y_test=y_test)
         print("pair: %s" % word_set[test_word_indices[0]]+","+word_set[test_word_indices[1]])
         loss, acc2 = lrm.test(x_test=x_test, y_test=y_test)
-        lrm.sess.close()
+
         accuracies.append(acc2)
+
+        dd, ii = word_tree.query(lrm.get_prediction([x_all[test_indices_1[0]]])[0])
+        print(str(ii[0])+" "+str(test_indices_1[0]) + " " + word_set[int(test_indices_1[0])] + " " + word_set[ii[0]])
+        results.append(word_set[ii[0]] == word_set[test_indices_1[0]])
+        dd, ii = word_tree.query(lrm.get_prediction([x_test[1]])[0])
+        print(str(ii[0]) + " " + str(test_word_indices[1]) + " " + word_set[test_word_indices[1]] + " " + word_set[ii[0]])
+        results.append(word_set[ii[0]] == word_set[test_word_indices[1]])
+        print("Accuracy: " + str(sum(results) / len(results)))
+        lrm.sess.close()
 
     print("accuracy: ", np.mean(accuracies))
     print(str(expSetup))

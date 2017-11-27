@@ -28,11 +28,11 @@ class LRModel(object):
         config.gpu_options.allow_growth=True
         self.sess = tf.Session(config=config)
 
-        with tf.device('/gpu:0'):
-            self.define_model()
+        #with tf.device('/gpu:0'):
+        self.define_model()
 
-        with tf.device('/cpu:0'):
-            self.saver = tf.train.Saver()
+        #with tf.device('/cpu:0'):
+        self.saver = tf.train.Saver()
         	
         self.sess.run(tf.global_variables_initializer())
 
@@ -164,7 +164,7 @@ class LRModel(object):
         return x, y
 
     @staticmethod
-    def prepare_data(fMRI_file,subject,type="glove",mode="none"):
+    def prepare_data(fMRI_file,subject,type="glove",mode="none",select=True):
         brain_activations_1 = genfromtxt(fMRI_file, delimiter=',')
         brain_activations = brain_activations_1 - np.mean(brain_activations_1,axis=0)
         brain_activations = np.tanh(brain_activations)
@@ -182,14 +182,16 @@ class LRModel(object):
 
 
 
-        selected_file_name = "general_selected_500_"+subject+".npy"
+        selected = np.arange(len(brain_activations_1[0]))
+        if select == True:
+            selected_file_name = "general_selected_500_"+subject+".npy"
 
-        if not os.path.isfile(selected_file_name) :
-            selected = select_stable_voxels(brain_activations_1, word_set, words, number_of_trials=6,
-                                            size_of_selection=500)
-            np.save(selected_file_name,selected)
+            if not os.path.isfile(selected_file_name) :
+                selected = select_stable_voxels(brain_activations_1, word_set, words, number_of_trials=6,
+                                                size_of_selection=500)
+                np.save(selected_file_name,selected)
 
-        selected = np.load(selected_file_name)
+            selected = np.load(selected_file_name)
 
         mean_Activations = []
 
@@ -233,7 +235,7 @@ class LRModel(object):
             embedded_words = wem.embed_words(words)
 
 
-        word_representations = np.asarray(embedded_words)
+        word_representations = np.asarray(embedded_words,np.float32)
 
         return words, np.asarray(word_representations), np.asarray(mean_Activations)[:, selected]
 

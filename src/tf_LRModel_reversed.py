@@ -133,6 +133,13 @@ class LRModel(object):
                 # close the writer when we're finished using it
                 # self.writer.close()
 
+    def get_prediction(self,x_test):
+        y = self.sess.run([self.y], feed_dict={self.brain_representation: x_test,
+
+                                                                     })
+        return y
+
+
     def test(self, x_test, y_test):
 
         y,loss = self.sess.run([self.y,self.loss_test], feed_dict={self.brain_representation: x_test,
@@ -158,7 +165,7 @@ class LRModel(object):
         return x, y
 
     @staticmethod
-    def prepare_data(fMRI_file,subject,type="glove",mode="none",select=True):
+    def prepare_data(fMRI_file,subject,type="glove",mode="none"):
         brain_activations_1 = genfromtxt(fMRI_file, delimiter=',')
         brain_activations = brain_activations_1 - np.mean(brain_activations_1,axis=0)
         brain_activations = np.tanh(brain_activations)
@@ -174,16 +181,16 @@ class LRModel(object):
         word_set = list(set(words))
         print("number of words: %d " % len(word_set))
 
-        selected = np.arange(len(brain_activations_1[0]))
-        if select == True:
-            selected_file_name = "general_selected_500_"+subject+".npy"
 
-            if not os.path.isfile(selected_file_name) :
-                selected = select_stable_voxels(brain_activations_1, word_set, words, number_of_trials=6,
-                                                size_of_selection=500)
-                np.save(selected_file_name,selected)
 
-            selected = np.load(selected_file_name)
+        selected_file_name = "general_selected_500_"+subject+".npy"
+
+        if not os.path.isfile(selected_file_name) :
+            selected = select_stable_voxels(brain_activations_1, word_set, words, number_of_trials=6,
+                                            size_of_selection=500)
+            np.save(selected_file_name,selected)
+
+        selected = np.load(selected_file_name)
 
         mean_Activations = []
 

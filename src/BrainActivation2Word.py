@@ -34,7 +34,7 @@ number_of_features = len(word_representations[0])
 
 word_tree = cKDTree(word_representations)
 
-all_features = np.load("../models/all_features_simple.npy")
+#all_features = np.load("../models/all_features_simple.npy")
 the_pairs = np.load("../models/the_pairs_simple.npy")
 all_words = np.load("../models/all_words_simple.npy")
 all_selected = select_stable_voxels(brain_activations_1,word_set,words,number_of_trials=6,
