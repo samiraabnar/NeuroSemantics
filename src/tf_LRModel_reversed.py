@@ -245,5 +245,3 @@ class LRModel(object):
     def load_model(self,name):
         self.saver.restore(self.sess, name)
         print("Model restored.")
-
-

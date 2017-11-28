@@ -52,12 +52,12 @@ if __name__ == '__main__':
         words = np.asarray(words)
         lrm = LRModel(x_train.shape[1], y_train.shape[1], learning_rate= expSetup.learning_rate,hidden_dim=y_train.shape[1],training_steps=expSetup.number_of_epochs, batch_size=expSetup.batch_size)
         lrm.train(x_train=x_train, y_train=y_train, x_test=x_train, y_test=y_train)
-        lrm.save("../glove_reversed_all.model")
+        lrm.save_model("../glove_reversed_all.model")
         lrm.sess.close()
 
         print("accuracy: ", np.mean(accuracies))
         print(str(expSetup))
     else:
         lrm = LRModel(x_train.shape[1], y_train.shape[1], learning_rate= expSetup.learning_rate,hidden_dim=y_train.shape[1],training_steps=expSetup.number_of_epochs, batch_size=expSetup.batch_size)
-        lrm.load("../glove_reversed_all.model")
+        lrm.load_model("../glove_reversed_all.model")
         lrm.sess.close()
