@@ -67,11 +67,29 @@ def get_word_representation(type,words):
         feature_words = np.load("../data/filtered_deps_words.npy")
         the_features = np.load("../data/filtered_deps_vecs.npy")
         for i in np.arange(len(words)):
-            index = np.where(feature_words == words[i])[0]
-            word_features[words[i]] = the_features[index]
-            features.append(the_features[index])
+            if words[i] in feature_words:
+                index = np.where(feature_words == words[i])[0]
+                word_features[words[i]] = the_features[index]
+                features.append(the_features[index])
+            else:
+                print(words[i]+" not found!")
+
 
         features = np.asarray(features,dtype="float32").reshape(len(features),the_features[0].shape[0])
+    elif type == 'deps_all':
+        feature_words = np.load("../data/dep_words.npy")
+        print(feature_words)
+        the_features = np.load("../data/dep_vecs.npy")
+        print(feature_words.shape)
+        for i in np.arange(len(words)):
+            if words[i] in feature_words:
+                index = np.where(feature_words == words[i])[0]
+                word_features[words[i]] = the_features[index]
+                features.append(the_features[index])
+            else:
+                print(words[i]+" not found!")
+
+
     elif type == 'non-distributional':
         with open("../data/non-dist.bin") as f:
             content = f.readlines()

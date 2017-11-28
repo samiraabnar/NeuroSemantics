@@ -54,11 +54,10 @@ class WordEmbeddingLayer(object):
                     word += " "+parts[i]
                     i += 1
                 word = word.strip().lower()
-                if (len(filter) == 0) or (word in filter):
-                    vector = [float(p) for p in parts[i:]]
-                    vector = np.asarray(vector)
-                    self.word2vec[word] = vector
-                    self.vec2word[vector.tostring()] = word
+                vector = [float(p) for p in parts[i:]]
+                vector = np.asarray(vector)
+                self.word2vec[word] = vector
+                self.vec2word[vector.tostring()] = word
         print(self.word2vec.keys())
         print(list(self.word2vec.keys())[0])
         self.word2vec['UNK'] = np.zeros(self.word2vec[list(self.word2vec.keys())[0]].shape)
@@ -286,17 +285,11 @@ if __name__ == '__main__':
     wem.save_embedding("../data/neuro_words_lexvec")
     """
 
-
-
-
-
-
     """wem.load_embeddings_from_word2vec_file("../data/GoogleNews-vectors-negative300.txt",filter=[word[0] for word in words])
     wem.save_embedding("../data/neuro_words_word2vec")"""
 
     #2nd glove
-    wem.load_embeddings_from_glove_file(filename="../data/glove.6B/glove.6B.100d.txt", filter=[word[0] for word in words])
-
-    wem.save_embedding("../data/neuro_words_glove_6B_100d")
+    wem.load_embeddings_from_glove_file(filename="../data/glove.6B/glove.6B.300d.txt", filter=[])
+    wem.save_embedding("../data/glove_all_6B_300d")
 
 
