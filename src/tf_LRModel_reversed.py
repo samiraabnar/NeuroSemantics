@@ -165,7 +165,7 @@ class LRModel(object):
         return x, y
 
     @staticmethod
-    def prepare_data(fMRI_file,subject,type="glove",mode="none"):
+    def prepare_data(fMRI_file,subject,type="glove",mode="none",select=True):
         brain_activations_1 = genfromtxt(fMRI_file, delimiter=',')
         brain_activations = brain_activations_1 - np.mean(brain_activations_1,axis=0)
         brain_activations = np.tanh(brain_activations)
