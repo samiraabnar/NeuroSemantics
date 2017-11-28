@@ -23,7 +23,7 @@ class ExpSetup(object):
 
 if __name__ == '__main__':
 
-    expSetup = ExpSetup(learning_rate=0.01,batch_size=29,number_of_epochs=700)
+    expSetup = ExpSetup(learning_rate=0.01,batch_size=29,number_of_epochs=1000)
 
     fMRI_data_path = "../data/"
     fMRI_data_filename = "data_"
@@ -47,7 +47,6 @@ if __name__ == '__main__':
 
     if load == False:
         word_set = list(set(words))
-        accuracies = []
         print(x_all.shape[0], x_all.shape[1])
         words = np.asarray(words)
         lrm = LRModel(x_train.shape[1], y_train.shape[1], learning_rate= expSetup.learning_rate,hidden_dim=y_train.shape[1],training_steps=expSetup.number_of_epochs, batch_size=expSetup.batch_size)
@@ -55,7 +54,6 @@ if __name__ == '__main__':
         lrm.save_model("../glove_reversed_all.model")
         lrm.sess.close()
 
-        print("accuracy: ", np.mean(accuracies))
         print(str(expSetup))
     else:
         lrm = LRModel(x_train.shape[1], y_train.shape[1], learning_rate= expSetup.learning_rate,hidden_dim=y_train.shape[1],training_steps=expSetup.number_of_epochs, batch_size=expSetup.batch_size)
