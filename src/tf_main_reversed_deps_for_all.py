@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
     words, y_all, x_all = LRModel.prepare_data(
         fMRI_file=fMRI_data_path + fMRI_data_filename + args.subject + fMRI_data_postfix,
-        subject=args.subject, type="deps", select=False)
+        subject=args.subject, type="glove", select=False)
     x_train, y_train = x_all, y_all
 
     load = False
@@ -52,12 +52,12 @@ if __name__ == '__main__':
         words = np.asarray(words)
         lrm = LRModel(x_train.shape[1], y_train.shape[1], learning_rate= expSetup.learning_rate,hidden_dim=y_train.shape[1],training_steps=expSetup.number_of_epochs, batch_size=expSetup.batch_size)
         lrm.train(x_train=x_train, y_train=y_train, x_test=x_train, y_test=y_train)
-        lrm.save("../deps_reversed_all.model")
+        lrm.save("../glove_reversed_all.model")
         lrm.sess.close()
 
         print("accuracy: ", np.mean(accuracies))
         print(str(expSetup))
     else:
         lrm = LRModel(x_train.shape[1], y_train.shape[1], learning_rate= expSetup.learning_rate,hidden_dim=y_train.shape[1],training_steps=expSetup.number_of_epochs, batch_size=expSetup.batch_size)
-        lrm.load("../deps_reversed_all.model")
+        lrm.load("../glove_reversed_all.model")
         lrm.sess.close()
