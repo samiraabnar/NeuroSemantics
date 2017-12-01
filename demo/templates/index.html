@@ -1,0 +1,171 @@
+{% extends "layout.html" %}
+{% block content %}
+
+
+<script type=text/javascript>
+    $(function() {
+      $(document).ready(function () {
+        $.ajax({
+          type: "GET",
+          url: $SCRIPT_ROOT + "/reset/",
+          contentType: "application/json; charset=utf-8",
+          data: {
+            word_1: $('input[name="word_1"]').val(),
+            word_2: $('input[name="word_2"]').val()
+          },
+          success: function (data) {
+            $('#loading-image').hide();
+            $('#Brain_1_Fake').html(data[0]);
+            $('#Brain_2_Fake').html(data[1]);
+            $('#Brain_1_Real').html(data[2]);
+            $('#Brain_2_Real').html(data[3]);
+            $('#Fake2Word_1').html();
+            $('#Fake2Word_2').html();
+            $('#Brain2Word_1').html();
+            $('#Brain2Word_2').html();
+          }
+        });
+      });
+    });
+
+    $(function() {
+    $('#loading-image').bind('ajaxStart', function(){
+    $(this).show();
+    }).bind('ajaxStop', function(){
+        $(this).hide();
+    });
+    });
+
+    $(function() {
+      $("#submitBtn").click(function () {
+        $('#loading-image').show();
+        $.ajax({
+          type: "GET",
+          url: $SCRIPT_ROOT + "/reset/",
+          contentType: "application/json; charset=utf-8",
+          data: {
+            word_1: $('input[name="word_1"]').val(),
+            word_2: $('input[name="word_2"]').val()
+          },
+          beforeSend: function () {
+            $('#loading-image').show();
+          },
+          success: function (data) {
+            $('#Brain_1_Fake').html(data[0]);
+            $('#Brain_2_Fake').html(data[1]);
+            $('#Brain_1_Real').html(data[2]);
+            $('#Brain_2_Real').html(data[3]);
+            $('#Fake2Word_1').html("");
+            $('#Fake2Word_2').html("");
+            $('#Brain2Word_1').html("");
+            $('#Brain2Word_2').html("");
+
+            echo()
+          }
+        });
+      });
+    });
+
+  function echo(){
+     $.ajax({
+                  type: "GET",
+                  url: $SCRIPT_ROOT + "/echo/",
+                  contentType: "application/json; charset=utf-8",
+                  data: { word_1: $('input[name="word_1"]').val(),
+                          word_2: $('input[name="word_2"]').val()},
+                  success: function(data) {
+                      $('#Brain_1_Fake').html(data[0]);
+                      $('#Brain_2_Fake').html(data[1]);
+                      $('#Brain_1_Real').html(data[2]);
+                      $('#Brain_2_Real').html(data[3]);
+                      $('#Fake2Word_1').html();
+                      $('#Fake2Word_2').html();
+                      $('#Brain2Word_1').html();
+                      $('#Brain2Word_2').html();
+                 }
+                });
+
+  };
+
+  $(function() {
+     $("#submitBtn_2").click(function() {
+          $.ajax({
+             type: "GET",
+             url: $SCRIPT_ROOT + "/classify/",
+             contentType: "application/json; charset=utf-8",
+             success: function(data) {
+                $('#Fake2Word_1').html(data[0]);
+                $('#Fake2Word_2').html(data[1]);
+                $('#Brain2Word_1').html(data[2]);
+                $('#Brain2Word_2').html(data[3]);
+             }
+         });
+     });
+   });
+
+
+</script>
+
+
+<div class="modal-header modal-header-danger">
+  <div class="row">
+    <div class="col-md-11"><h1>Brain Reader</h1>
+    <blockquote class="blockquote">
+  <p class="mb-0">What I can not create, I do not understand! </p>
+        <footer class="blockquote-footer">Richard Feynman</footer>
+</blockquote>
+    </div>
+   <div class="col-md-1">
+     <img name="logo" id="logo" src="{{url_for('static',filename='illc_no_text_logo.jpg')}}" style="width:2cm">
+   </div>
+    </div>
+</div>
+
+<div class="container well">
+
+<strong>Word #1:</strong>
+<input type='text' size='10' id='word_1' name='word_1'>
+<strong>Word #2:</strong>
+<input type='text' size='10' id='word_2' name='word_2'>
+<button class="btn btn-success" type='button' id='submitBtn' name='submitBtn'>Word2Brain!</button>
+<button class="btn btn-info" type='button' id='submitBtn_2' name='submitBtn_2'>Brain2Word!</button>
+ <img name="loading-image" id="loading-image" src="{{url_for('static',filename='load.gif')}}" style="height:0.5cm;width:0.5cm;">
+  <br /><br />
+<div id="figs" name="figs" class="center-block">
+  <div class="col-md-30 col-centered">
+
+  <div class="row text-center">
+  <div class="col-md-15" ><h3>Predicted Brain Activations</h3></div>
+  </div>
+<div class="row center-block">
+  <div class="col-md-7" style="background-color:transparent;width:14.5cm;height:10cm">
+    <div class="thumbnail" id="Brain_1_Fake" name="Brain_1_Fake" ></div>
+  </div>
+  <div class="col-md-7"  style="background-color:transparent;width:14.5cm;height:10cm">
+    <div class="thumbnail" id="Brain_2_Fake" name="Brain_2_Fake"></div>
+  </div>
+</div>
+  <div class="row text-primary center-block">
+  <div class="col-md-7 text-capitalize lead" id="Fake2Word_1" name="Fake2Word_1" style="height:0.5cm;width:14.5cm"></div>
+  <div class="col-md-7 text-capitalize lead" id="Fake2Word_2" name="Fake2Word_2" style="height:0.5cm;width:14.5cm"></div>
+</div>
+    <div class="row text-center">
+  <div class="col-md-15" ><h3>Real Brain Activations</h3></div>
+  </div>
+<div class="row center-block">
+  <div class="col-md-7" style="background-color:transparent;width:14.5cm;height:10cm">
+    <div class="thumbnail" id="Brain_1_Real" name="Brain_1_Real" ></div>
+  </div>
+  <div class="col-md-7" style="background-color:transparent;width:14.5cm;height:10cm">
+    <div class="thumbnail" id="Brain_2_Real" name="Brain_2_Real" ></div>
+  </div>
+</div>
+  <div class="row text-primary center-block">
+  <div class="col-md-7 text-capitalize lead" id="Brain2Word_1" name="Brain2Word_1" style="height:0.5cm;width:14.5cm"></div>
+  <div class="col-md-7 text-capitalize lead" id="Brain2Word_2" name="Brain2Word_2" style="height:0.5cm;width:14.5cm"></div>
+</div>
+    </div>
+</div>
+
+</div>
+{% endblock %}

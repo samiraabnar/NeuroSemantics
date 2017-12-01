@@ -16,7 +16,7 @@ class WordEmbeddingLayer(object):
         self.vec2word = {}
 
 
-    def load_embeddings_from_glove_file(self,filename,filter):
+    def load_embeddings_from_glove_file(self,filename,filter,dim=None):
         self.word2vec = {}
         self.vec2word = {}
 
@@ -32,10 +32,12 @@ class WordEmbeddingLayer(object):
                 if (len(filter) == 0) or (word in filter):
                     vector = [float(p) for p in parts[i:]]
                     vector = np.asarray(vector)
-                    self.word2vec[word] = vector
-                    self.vec2word[vector.tostring()] = word
-        print(self.word2vec.keys())
-        print(list(self.word2vec.keys())[0])
+                    if dim != None:
+                        if vector.shape[0] == dim:
+                            self.word2vec[word] = vector
+                            self.vec2word[vector.tostring()] = word
+        #print(self.word2vec.keys())
+        #print(list(self.word2vec.keys())[0])
         self.word2vec['UNK'] = np.zeros(self.word2vec[list(self.word2vec.keys())[0]].shape)
         self.vec2word[self.word2vec['UNK'].tostring()] = "UNK"
 

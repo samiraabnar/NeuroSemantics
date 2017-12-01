@@ -58,7 +58,7 @@ if __name__ == '__main__':
     words, x_all, y_all = LRModel.prepare_data(fMRI_file=fMRI_data_path+fMRI_data_filename+args.subject+fMRI_data_postfix,
                                                subject=args.subject,type="glove",select=False)
 
-    load = False
+    load = True
     if load == False:
         word_set = list(set(words))
         accuracies = []
@@ -73,9 +73,6 @@ if __name__ == '__main__':
         print(str(expSetup))
 
     else:
-        accuracies = []
-        print(x_all.shape[0])
-
         x_train, y_train = x_all, y_all
 
         lrm = LRModel(x_train.shape[1], y_train.shape[1], learning_rate=expSetup.learning_rate,
@@ -106,20 +103,33 @@ if __name__ == '__main__':
 
         i = 1;
         for e_word,word in zip(embedded_words,input_words):
-            predicted_brain_activation = lrm.get_prediction([e_word[0]])
+            predicted_brain_activation = lrm.get_prediction([e_word])
             print(word)
             print(predicted_brain_activation[0].shape)
 
 
-            sc = ax[i].scatter(np.asarray(coords, dtype=int)[:, [0]], np.asarray(coords, dtype=int)[:, [1]],
+            ax[i-1].scatter(np.asarray(coords, dtype=int)[:, [0]], np.asarray(coords, dtype=int)[:, [1]],
                        np.asarray(coords, dtype=int)[:, [2]],
                        s=2,c=predicted_brain_activation[0], alpha=0.8)
 
+            if(word in words):
+                real_activation = y_all[np.where(np.asarray(words) == word)]
+                print(word)
+                print(words)
+                print(np.where(np.asarray(words) == word))
+
+                ax.append(fig.add_subplot("22"+str(i+2), projection='3d'))
+                ax[-1].scatter(np.asarray(coords, dtype=int)[:, [0]], np.asarray(coords, dtype=int)[:, [1]],
+                                  np.asarray(coords, dtype=int)[:, [2]],
+                                  s=2, c=real_activation, alpha=0.8)
 
             angel = 0
             zangle = 90
-            ax[i].view_init(zangle, angel)
+            ax[i-1].view_init(zangle, angel)
+            if (word in words):
+                ax[-1].view_init(zangle, angel)
             i += 1
+
 
         plt.show()
         lrm.sess.close()
